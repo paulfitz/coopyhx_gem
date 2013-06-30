@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name               = "coopyhx"
-  s.version            = "0.2.1"
+  s.version            = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Fitzpatrick"]
@@ -10,9 +10,10 @@ Gem::Specification.new do |s|
   s.files = `find ext -iname "*.cpp"`.split
   s.files.concat(`find ext -iname "*.h"`.split)
   s.files << "Rakefile"
+  s.files << "lib/coopyhx.rb"
   s.test_files = ["test/test_coopy.rb"]
   s.homepage = %q{https://github.com/paulfitz/coopyhx}
-  # s.require_paths = ["lib"]
+  s.require_paths = ["lib"]
   s.rubygems_version = %q{1.6.2}
   s.summary = %q{Coopyhx - hx fork of coopy}
 
