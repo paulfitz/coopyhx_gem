@@ -28,8 +28,8 @@ if [ ! -e unpack ]; then
 fi
 
 cd $ORG
-# rm ext/coopyhx/*.c*
-# rm ext/coopyhx/*.h
+rm -f ext/coopyhx/*.c*
+rm -f ext/coopyhx/*.h
 rm -rf ext/include
 rm -rf ext/coopyhx/include
 rm -rf ext/coopyhx/src
