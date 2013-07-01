@@ -3,9 +3,6 @@
 #ifndef INCLUDED_coopy_Bag
 #include <coopy/Bag.h>
 #endif
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_View
 #include <coopy/View.h>
 #endif

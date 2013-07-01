@@ -6,9 +6,6 @@
 #ifndef INCLUDED_coopy_Bag
 #include <coopy/Bag.h>
 #endif
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_SimpleCell
 #include <coopy/SimpleCell.h>
 #endif
@@ -50,7 +47,7 @@ hx::Object *SimpleView_obj::__ToInterface(const type_info &inType) {
 	return super::__ToInterface(inType);
 }
 
-::coopy::Datum SimpleView_obj::toDatum( ::String str){
+Dynamic SimpleView_obj::toDatum( ::String str){
 	HX_STACK_PUSH("SimpleView::toDatum","coopy/SimpleView.hx",35);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(str,"str");
@@ -66,7 +63,7 @@ hx::Object *SimpleView_obj::__ToInterface(const type_info &inType) {
 
 HX_DEFINE_DYNAMIC_FUNC1(SimpleView_obj,toDatum,return )
 
-bool SimpleView_obj::equals( ::coopy::Datum d1,::coopy::Datum d2){
+bool SimpleView_obj::equals( Dynamic d1,Dynamic d2){
 	HX_STACK_PUSH("SimpleView::equals","coopy/SimpleView.hx",27);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(d1,"d1");
@@ -93,7 +90,7 @@ bool SimpleView_obj::equals( ::coopy::Datum d1,::coopy::Datum d2){
 
 HX_DEFINE_DYNAMIC_FUNC2(SimpleView_obj,equals,return )
 
-bool SimpleView_obj::hasStructure( ::coopy::Datum d){
+bool SimpleView_obj::hasStructure( Dynamic d){
 	HX_STACK_PUSH("SimpleView::hasStructure","coopy/SimpleView.hx",23);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(d,"d");
@@ -104,7 +101,7 @@ bool SimpleView_obj::hasStructure( ::coopy::Datum d){
 
 HX_DEFINE_DYNAMIC_FUNC1(SimpleView_obj,hasStructure,return )
 
-::coopy::Table SimpleView_obj::getTable( ::coopy::Datum d){
+::coopy::Table SimpleView_obj::getTable( Dynamic d){
 	HX_STACK_PUSH("SimpleView::getTable","coopy/SimpleView.hx",19);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(d,"d");
@@ -115,7 +112,7 @@ HX_DEFINE_DYNAMIC_FUNC1(SimpleView_obj,hasStructure,return )
 
 HX_DEFINE_DYNAMIC_FUNC1(SimpleView_obj,getTable,return )
 
-::coopy::Bag SimpleView_obj::getBag( ::coopy::Datum d){
+::coopy::Bag SimpleView_obj::getBag( Dynamic d){
 	HX_STACK_PUSH("SimpleView::getBag","coopy/SimpleView.hx",15);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(d,"d");
@@ -126,7 +123,7 @@ HX_DEFINE_DYNAMIC_FUNC1(SimpleView_obj,getTable,return )
 
 HX_DEFINE_DYNAMIC_FUNC1(SimpleView_obj,getBag,return )
 
-::String SimpleView_obj::toString( ::coopy::Datum d){
+::String SimpleView_obj::toString( Dynamic d){
 	HX_STACK_PUSH("SimpleView::toString","coopy/SimpleView.hx",10);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(d,"d");

@@ -6,7 +6,6 @@
 #endif
 
 HX_DECLARE_CLASS1(coopy,Csv)
-HX_DECLARE_CLASS1(coopy,Datum)
 HX_DECLARE_CLASS1(coopy,Table)
 HX_DECLARE_CLASS1(coopy,View)
 namespace coopy{
@@ -41,7 +40,7 @@ class HXCPP_CLASS_ATTRIBUTES  Csv_obj : public hx::Object{
 		virtual Array< Array< ::String > > parseTable( ::String txt);
 		Dynamic parseTable_dyn();
 
-		virtual ::String renderCell( ::coopy::View v,::coopy::Datum d);
+		virtual ::String renderCell( ::coopy::View v,Dynamic d);
 		Dynamic renderCell_dyn();
 
 		virtual ::String renderTable( ::coopy::Table t);

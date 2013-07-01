@@ -5,8 +5,6 @@
 #include <hxcpp.h>
 #endif
 
-#include <coopy/Datum.h>
-HX_DECLARE_CLASS1(coopy,Datum)
 HX_DECLARE_CLASS1(coopy,SimpleCell)
 namespace coopy{
 
@@ -29,14 +27,6 @@ class HXCPP_CLASS_ATTRIBUTES  SimpleCell_obj : public hx::Object{
 		static void __register();
 		void __Mark(HX_MARK_PARAMS);
 		void __Visit(HX_VISIT_PARAMS);
-		// hxcpp output massaged for SWIG //SWIGFIX
-		inline ::hx::ObjectPtr< ::coopy::Datum_obj> asDatum() //SWIGFIX
-			{ return ::hx::ObjectPtr< ::coopy::Datum_obj>(this); } //SWIGFIX
-#ifndef SWIG //SWIGFIX
-		inline operator ::coopy::Datum_obj *()
-			{ return new ::coopy::Datum_delegate_< SimpleCell_obj >(this); }
-#endif //SWIGFIX
-		hx::Object *__ToInterface(const type_info &inType);
 		::String __ToString() const { return HX_CSTRING("SimpleCell"); }
 
 		virtual ::String toString( );

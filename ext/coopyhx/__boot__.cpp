@@ -13,9 +13,9 @@
 #include <coopy/TableComparisonState.h>
 #include <coopy/SparseSheet.h>
 #include <coopy/SimpleView.h>
+#include <coopy/View.h>
 #include <coopy/SimpleTable.h>
 #include <coopy/Table.h>
-#include <coopy/SimpleRow.h>
 #include <coopy/SimpleCell.h>
 #include <coopy/Report.h>
 #include <coopy/Ordering.h>
@@ -34,10 +34,7 @@
 #include <coopy/Compare.h>
 #include <coopy/ChangeType.h>
 #include <coopy/Change.h>
-#include <coopy/BagView.h>
-#include <coopy/View.h>
 #include <coopy/Bag.h>
-#include <coopy/Datum.h>
 #include <coopy/Alignment.h>
 #include <StringBuf.h>
 #include <Std.h>
@@ -61,9 +58,9 @@ hx::RegisterResources( hx::GetResources() );
 ::coopy::TableComparisonState_obj::__register();
 ::coopy::SparseSheet_obj::__register();
 ::coopy::SimpleView_obj::__register();
+::coopy::View_obj::__register();
 ::coopy::SimpleTable_obj::__register();
 ::coopy::Table_obj::__register();
-::coopy::SimpleRow_obj::__register();
 ::coopy::SimpleCell_obj::__register();
 ::coopy::Report_obj::__register();
 ::coopy::Ordering_obj::__register();
@@ -82,10 +79,7 @@ hx::RegisterResources( hx::GetResources() );
 ::coopy::Compare_obj::__register();
 ::coopy::ChangeType_obj::__register();
 ::coopy::Change_obj::__register();
-::coopy::BagView_obj::__register();
-::coopy::View_obj::__register();
 ::coopy::Bag_obj::__register();
-::coopy::Datum_obj::__register();
 ::coopy::Alignment_obj::__register();
 ::StringBuf_obj::__register();
 ::Std_obj::__register();
@@ -99,10 +93,7 @@ hx::RegisterResources( hx::GetResources() );
 ::Std_obj::__boot();
 ::StringBuf_obj::__boot();
 ::coopy::Alignment_obj::__boot();
-::coopy::Datum_obj::__boot();
 ::coopy::Bag_obj::__boot();
-::coopy::View_obj::__boot();
-::coopy::BagView_obj::__boot();
 ::coopy::Change_obj::__boot();
 ::coopy::ChangeType_obj::__boot();
 ::coopy::Compare_obj::__boot();
@@ -121,9 +112,9 @@ hx::RegisterResources( hx::GetResources() );
 ::coopy::Ordering_obj::__boot();
 ::coopy::Report_obj::__boot();
 ::coopy::SimpleCell_obj::__boot();
-::coopy::SimpleRow_obj::__boot();
 ::coopy::Table_obj::__boot();
 ::coopy::SimpleTable_obj::__boot();
+::coopy::View_obj::__boot();
 ::coopy::SimpleView_obj::__boot();
 ::coopy::SparseSheet_obj::__boot();
 ::coopy::TableComparisonState_obj::__boot();

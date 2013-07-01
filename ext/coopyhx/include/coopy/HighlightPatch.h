@@ -8,7 +8,6 @@
 #include <coopy/Row.h>
 HX_DECLARE_CLASS0(IMap)
 HX_DECLARE_CLASS1(coopy,Csv)
-HX_DECLARE_CLASS1(coopy,Datum)
 HX_DECLARE_CLASS1(coopy,HighlightPatch)
 HX_DECLARE_CLASS1(coopy,HighlightPatchUnit)
 HX_DECLARE_CLASS1(coopy,IndexPair)
@@ -90,7 +89,7 @@ class HXCPP_CLASS_ATTRIBUTES  HighlightPatch_obj : public hx::Object{
 		virtual ::String getString( int c);
 		Dynamic getString_dyn();
 
-		virtual ::coopy::Datum getDatum( int c);
+		virtual Dynamic getDatum( int c);
 		Dynamic getDatum_dyn();
 
 		virtual Void applyRow( int r);

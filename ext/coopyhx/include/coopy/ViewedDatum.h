@@ -6,7 +6,6 @@
 #endif
 
 HX_DECLARE_CLASS1(coopy,Bag)
-HX_DECLARE_CLASS1(coopy,Datum)
 HX_DECLARE_CLASS1(coopy,Table)
 HX_DECLARE_CLASS1(coopy,View)
 HX_DECLARE_CLASS1(coopy,ViewedDatum)
@@ -18,10 +17,10 @@ class HXCPP_CLASS_ATTRIBUTES  ViewedDatum_obj : public hx::Object{
 		typedef hx::Object super;
 		typedef ViewedDatum_obj OBJ_;
 		ViewedDatum_obj();
-		Void __construct(::coopy::Datum datum,::coopy::View view);
+		Void __construct(Dynamic datum,::coopy::View view);
 
 	public:
-		static hx::ObjectPtr< ViewedDatum_obj > __new(::coopy::Datum datum,::coopy::View view);
+		static hx::ObjectPtr< ViewedDatum_obj > __new(Dynamic datum,::coopy::View view);
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(hx::DynamicArray inArgs);
 		~ViewedDatum_obj();
@@ -46,8 +45,8 @@ class HXCPP_CLASS_ATTRIBUTES  ViewedDatum_obj : public hx::Object{
 		Dynamic toString_dyn();
 
 		::coopy::View view;
-		::coopy::Datum datum;
-		static ::coopy::ViewedDatum getSimpleView( ::coopy::Datum datum);
+		Dynamic datum;
+		static ::coopy::ViewedDatum getSimpleView( Dynamic datum);
 		static Dynamic getSimpleView_dyn();
 
 };

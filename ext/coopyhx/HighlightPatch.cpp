@@ -15,9 +15,6 @@
 #ifndef INCLUDED_coopy_Csv
 #include <coopy/Csv.h>
 #endif
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_HighlightPatch
 #include <coopy/HighlightPatch.h>
 #endif
@@ -222,7 +219,7 @@ Void HighlightPatch_obj::finishColumns( ){
 								HX_STACK_LINE(374)
 								if (((bool((mod->patchRow != (int)-1)) && bool((mod->sourceRow2 != (int)-1))))){
 									HX_STACK_LINE(375)
-									::coopy::Datum d = this->patch->getCell(cmod->patchRow,mod->patchRow);		HX_STACK_VAR(d,"d");
+									Dynamic d = this->patch->getCell(cmod->patchRow,mod->patchRow);		HX_STACK_VAR(d,"d");
 									HX_STACK_LINE(377)
 									this->source->setCell(cmod->sourceRow2,mod->sourceRow2,d);
 								}
@@ -391,7 +388,7 @@ Void HighlightPatch_obj::finishRows( ){
 									HX_STACK_LINE(316)
 									txt = txt.substr((at + this->actBaseCache.length),null());
 									HX_STACK_LINE(317)
-									::coopy::Datum d = this->view->toDatum(this->csv->parseSingleCell(txt));		HX_STACK_VAR(d,"d");
+									Dynamic d = this->view->toDatum(this->csv->parseSingleCell(txt));		HX_STACK_VAR(d,"d");
 									HX_STACK_LINE(318)
 									this->source->setCell(this->patchInSource->get(c),mod->sourceRow2,d);
 								}
@@ -902,7 +899,7 @@ HX_DEFINE_DYNAMIC_FUNC0(HighlightPatch_obj,applyMeta,(void))
 
 HX_DEFINE_DYNAMIC_FUNC1(HighlightPatch_obj,getString,return )
 
-::coopy::Datum HighlightPatch_obj::getDatum( int c){
+Dynamic HighlightPatch_obj::getDatum( int c){
 	HX_STACK_PUSH("HighlightPatch::getDatum","coopy/HighlightPatch.hx",109);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(c,"c");
@@ -927,7 +924,7 @@ Void HighlightPatch_obj::applyRow( int r){
 		HX_STACK_LINE(91)
 		this->view = this->patch->getCellView();
 		HX_STACK_LINE(92)
-		::coopy::Datum dcode = this->patch->getCell((int)0,r);		HX_STACK_VAR(dcode,"dcode");
+		Dynamic dcode = this->patch->getCell((int)0,r);		HX_STACK_VAR(dcode,"dcode");
 		HX_STACK_LINE(93)
 		::String code = this->view->toString(dcode);		HX_STACK_VAR(code,"code");
 		HX_STACK_LINE(94)

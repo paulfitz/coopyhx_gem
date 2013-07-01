@@ -9,9 +9,6 @@
 #ifndef INCLUDED_coopy_CompareFlags
 #include <coopy/CompareFlags.h>
 #endif
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_Ordering
 #include <coopy/Ordering.h>
 #endif
@@ -242,9 +239,9 @@ bool TableDiff_obj::hilite( ::coopy::Table output){
 				HX_STACK_LINE(117)
 				if (((bool((a->__Field(HX_CSTRING("get_height"),true)() >= ra_header)) && bool((b->__Field(HX_CSTRING("get_height"),true)() >= rb_header))))){
 					HX_STACK_LINE(119)
-					::coopy::Datum aa = a->getCell(cunit->lp(),ra_header);		HX_STACK_VAR(aa,"aa");
+					Dynamic aa = a->getCell(cunit->lp(),ra_header);		HX_STACK_VAR(aa,"aa");
 					HX_STACK_LINE(120)
-					::coopy::Datum bb = b->getCell(cunit->r,rb_header);		HX_STACK_VAR(bb,"bb");
+					Dynamic bb = b->getCell(cunit->r,rb_header);		HX_STACK_VAR(bb,"bb");
 					HX_STACK_LINE(121)
 					if ((!(v->equals(aa,bb)))){
 						HX_STACK_LINE(122)
@@ -533,19 +530,19 @@ bool TableDiff_obj::hilite( ::coopy::Table output){
 							HX_STACK_LINE(247)
 							::coopy::Unit cunit = column_units->__get(j);		HX_STACK_VAR(cunit,"cunit");
 							HX_STACK_LINE(248)
-							::coopy::Datum pp = null();		HX_STACK_VAR(pp,"pp");
+							Dynamic pp = null();		HX_STACK_VAR(pp,"pp");
 							HX_STACK_LINE(249)
-							::coopy::Datum ll = null();		HX_STACK_VAR(ll,"ll");
+							Dynamic ll = null();		HX_STACK_VAR(ll,"ll");
 							HX_STACK_LINE(250)
-							::coopy::Datum rr = null();		HX_STACK_VAR(rr,"rr");
+							Dynamic rr = null();		HX_STACK_VAR(rr,"rr");
 							HX_STACK_LINE(251)
-							::coopy::Datum dd = null();		HX_STACK_VAR(dd,"dd");
+							Dynamic dd = null();		HX_STACK_VAR(dd,"dd");
 							HX_STACK_LINE(252)
-							::coopy::Datum dd_to = null();		HX_STACK_VAR(dd_to,"dd_to");
+							Dynamic dd_to = null();		HX_STACK_VAR(dd_to,"dd_to");
 							HX_STACK_LINE(253)
 							bool have_dd_to = false;		HX_STACK_VAR(have_dd_to,"have_dd_to");
 							HX_STACK_LINE(254)
-							::coopy::Datum dd_to_alt = null();		HX_STACK_VAR(dd_to_alt,"dd_to_alt");
+							Dynamic dd_to_alt = null();		HX_STACK_VAR(dd_to_alt,"dd_to_alt");
 							HX_STACK_LINE(255)
 							bool have_dd_to_alt = false;		HX_STACK_VAR(have_dd_to_alt,"have_dd_to_alt");
 							HX_STACK_LINE(256)
@@ -737,7 +734,7 @@ bool TableDiff_obj::hilite( ::coopy::Table output){
 
 HX_DEFINE_DYNAMIC_FUNC1(TableDiff_obj,hilite,return )
 
-::String TableDiff_obj::quoteForDiff( ::coopy::View v,::coopy::Datum d){
+::String TableDiff_obj::quoteForDiff( ::coopy::View v,Dynamic d){
 	HX_STACK_PUSH("TableDiff::quoteForDiff","coopy/TableDiff.hx",46);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(v,"v");

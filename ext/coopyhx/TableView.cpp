@@ -6,9 +6,6 @@
 #ifndef INCLUDED_coopy_Bag
 #include <coopy/Bag.h>
 #endif
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_SimpleCell
 #include <coopy/SimpleCell.h>
 #endif
@@ -53,7 +50,7 @@ hx::Object *TableView_obj::__ToInterface(const type_info &inType) {
 	return super::__ToInterface(inType);
 }
 
-::coopy::Datum TableView_obj::toDatum( ::String str){
+Dynamic TableView_obj::toDatum( ::String str){
 	HX_STACK_PUSH("TableView::toDatum","coopy/TableView.hx",32);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(str,"str");
@@ -64,7 +61,7 @@ hx::Object *TableView_obj::__ToInterface(const type_info &inType) {
 
 HX_DEFINE_DYNAMIC_FUNC1(TableView_obj,toDatum,return )
 
-bool TableView_obj::equals( ::coopy::Datum d1,::coopy::Datum d2){
+bool TableView_obj::equals( Dynamic d1,Dynamic d2){
 	HX_STACK_PUSH("TableView::equals","coopy/TableView.hx",27);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(d1,"d1");
@@ -78,7 +75,7 @@ bool TableView_obj::equals( ::coopy::Datum d1,::coopy::Datum d2){
 
 HX_DEFINE_DYNAMIC_FUNC2(TableView_obj,equals,return )
 
-bool TableView_obj::hasStructure( ::coopy::Datum d){
+bool TableView_obj::hasStructure( Dynamic d){
 	HX_STACK_PUSH("TableView::hasStructure","coopy/TableView.hx",23);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(d,"d");
@@ -89,7 +86,7 @@ bool TableView_obj::hasStructure( ::coopy::Datum d){
 
 HX_DEFINE_DYNAMIC_FUNC1(TableView_obj,hasStructure,return )
 
-::coopy::Table TableView_obj::getTable( ::coopy::Datum d){
+::coopy::Table TableView_obj::getTable( Dynamic d){
 	HX_STACK_PUSH("TableView::getTable","coopy/TableView.hx",18);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(d,"d");
@@ -102,7 +99,7 @@ HX_DEFINE_DYNAMIC_FUNC1(TableView_obj,hasStructure,return )
 
 HX_DEFINE_DYNAMIC_FUNC1(TableView_obj,getTable,return )
 
-::coopy::Bag TableView_obj::getBag( ::coopy::Datum d){
+::coopy::Bag TableView_obj::getBag( Dynamic d){
 	HX_STACK_PUSH("TableView::getBag","coopy/TableView.hx",14);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(d,"d");
@@ -113,7 +110,7 @@ HX_DEFINE_DYNAMIC_FUNC1(TableView_obj,getTable,return )
 
 HX_DEFINE_DYNAMIC_FUNC1(TableView_obj,getBag,return )
 
-::String TableView_obj::toString( ::coopy::Datum d){
+::String TableView_obj::toString( Dynamic d){
 	HX_STACK_PUSH("TableView::toString","coopy/TableView.hx",10);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(d,"d");

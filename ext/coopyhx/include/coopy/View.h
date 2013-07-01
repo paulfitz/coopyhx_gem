@@ -6,7 +6,6 @@
 #endif
 
 HX_DECLARE_CLASS1(coopy,Bag)
-HX_DECLARE_CLASS1(coopy,Datum)
 HX_DECLARE_CLASS1(coopy,Table)
 HX_DECLARE_CLASS1(coopy,View)
 namespace coopy{
@@ -18,32 +17,32 @@ class HXCPP_CLASS_ATTRIBUTES  View_obj : public hx::Interface{
 		typedef View_obj OBJ_;
 		HX_DO_INTERFACE_RTTI;
 		static void __boot();
-virtual ::coopy::Datum toDatum( ::String str)=0;
+virtual Dynamic toDatum( ::String str)=0;
 		Dynamic toDatum_dyn();
-virtual bool equals( ::coopy::Datum d1,::coopy::Datum d2)=0;
+virtual bool equals( Dynamic d1,Dynamic d2)=0;
 		Dynamic equals_dyn();
-virtual bool hasStructure( ::coopy::Datum d)=0;
+virtual bool hasStructure( Dynamic d)=0;
 		Dynamic hasStructure_dyn();
-virtual ::coopy::Table getTable( ::coopy::Datum d)=0;
+virtual ::coopy::Table getTable( Dynamic d)=0;
 		Dynamic getTable_dyn();
-virtual ::coopy::Bag getBag( ::coopy::Datum d)=0;
+virtual ::coopy::Bag getBag( Dynamic d)=0;
 		Dynamic getBag_dyn();
-virtual ::String toString( ::coopy::Datum d)=0;
+virtual ::String toString( Dynamic d)=0;
 		Dynamic toString_dyn();
 };
 
 #define DELEGATE_coopy_View \
-virtual ::coopy::Datum toDatum( ::String str) { return mDelegate->toDatum(str);}  \
+virtual Dynamic toDatum( ::String str) { return mDelegate->toDatum(str);}  \
 virtual Dynamic toDatum_dyn() { return mDelegate->toDatum_dyn();}  \
-virtual bool equals( ::coopy::Datum d1,::coopy::Datum d2) { return mDelegate->equals(d1,d2);}  \
+virtual bool equals( Dynamic d1,Dynamic d2) { return mDelegate->equals(d1,d2);}  \
 virtual Dynamic equals_dyn() { return mDelegate->equals_dyn();}  \
-virtual bool hasStructure( ::coopy::Datum d) { return mDelegate->hasStructure(d);}  \
+virtual bool hasStructure( Dynamic d) { return mDelegate->hasStructure(d);}  \
 virtual Dynamic hasStructure_dyn() { return mDelegate->hasStructure_dyn();}  \
-virtual ::coopy::Table getTable( ::coopy::Datum d) { return mDelegate->getTable(d);}  \
+virtual ::coopy::Table getTable( Dynamic d) { return mDelegate->getTable(d);}  \
 virtual Dynamic getTable_dyn() { return mDelegate->getTable_dyn();}  \
-virtual ::coopy::Bag getBag( ::coopy::Datum d) { return mDelegate->getBag(d);}  \
+virtual ::coopy::Bag getBag( Dynamic d) { return mDelegate->getBag(d);}  \
 virtual Dynamic getBag_dyn() { return mDelegate->getBag_dyn();}  \
-virtual ::String toString( ::coopy::Datum d) { return mDelegate->toString(d);}  \
+virtual ::String toString( Dynamic d) { return mDelegate->toString(d);}  \
 virtual Dynamic toString_dyn() { return mDelegate->toString_dyn();}  \
 
 

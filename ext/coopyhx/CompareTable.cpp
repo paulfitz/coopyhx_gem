@@ -18,9 +18,6 @@
 #ifndef INCLUDED_coopy_CrossMatch
 #include <coopy/CrossMatch.h>
 #endif
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_IndexItem
 #include <coopy/IndexItem.h>
 #endif

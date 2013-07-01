@@ -3,9 +3,6 @@
 #ifndef INCLUDED_IMap
 #include <IMap.h>
 #endif
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_Index
 #include <coopy/Index.h>
 #endif
@@ -128,7 +125,7 @@ HX_DEFINE_DYNAMIC_FUNC1(Index_obj,toKeyByContent,return )
 			HX_STACK_LINE(52)
 			int k = (_g1)++;		HX_STACK_VAR(k,"k");
 			HX_STACK_LINE(53)
-			::coopy::Datum d = t->getCell(this->cols->__get(k),i);		HX_STACK_VAR(d,"d");
+			Dynamic d = t->getCell(this->cols->__get(k),i);		HX_STACK_VAR(d,"d");
 			HX_STACK_LINE(54)
 			::String txt = this->v->toString(d);		HX_STACK_VAR(txt,"txt");
 			HX_STACK_LINE(55)

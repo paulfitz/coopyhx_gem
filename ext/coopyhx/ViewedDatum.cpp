@@ -3,9 +3,6 @@
 #ifndef INCLUDED_coopy_Bag
 #include <coopy/Bag.h>
 #endif
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_SimpleView
 #include <coopy/SimpleView.h>
 #endif
@@ -20,7 +17,7 @@
 #endif
 namespace coopy{
 
-Void ViewedDatum_obj::__construct(::coopy::Datum datum,::coopy::View view)
+Void ViewedDatum_obj::__construct(Dynamic datum,::coopy::View view)
 {
 HX_STACK_PUSH("ViewedDatum::new","coopy/ViewedDatum.hx",10);
 {
@@ -36,7 +33,7 @@ HX_STACK_PUSH("ViewedDatum::new","coopy/ViewedDatum.hx",10);
 ViewedDatum_obj::~ViewedDatum_obj() { }
 
 Dynamic ViewedDatum_obj::__CreateEmpty() { return  new ViewedDatum_obj; }
-hx::ObjectPtr< ViewedDatum_obj > ViewedDatum_obj::__new(::coopy::Datum datum,::coopy::View view)
+hx::ObjectPtr< ViewedDatum_obj > ViewedDatum_obj::__new(Dynamic datum,::coopy::View view)
 {  hx::ObjectPtr< ViewedDatum_obj > result = new ViewedDatum_obj();
 	result->__construct(datum,view);
 	return result;}
@@ -86,7 +83,7 @@ HX_DEFINE_DYNAMIC_FUNC0(ViewedDatum_obj,getBag,return )
 
 HX_DEFINE_DYNAMIC_FUNC0(ViewedDatum_obj,toString,return )
 
-::coopy::ViewedDatum ViewedDatum_obj::getSimpleView( ::coopy::Datum datum){
+::coopy::ViewedDatum ViewedDatum_obj::getSimpleView( Dynamic datum){
 	HX_STACK_PUSH("ViewedDatum::getSimpleView","coopy/ViewedDatum.hx",15);
 	HX_STACK_ARG(datum,"datum");
 	HX_STACK_LINE(15)
@@ -147,7 +144,7 @@ Dynamic ViewedDatum_obj::__SetField(const ::String &inName,const Dynamic &inValu
 		if (HX_FIELD_EQ(inName,"view") ) { view=inValue.Cast< ::coopy::View >(); return inValue; }
 		break;
 	case 5:
-		if (HX_FIELD_EQ(inName,"datum") ) { datum=inValue.Cast< ::coopy::Datum >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"datum") ) { datum=inValue.Cast< Dynamic >(); return inValue; }
 	}
 	return super::__SetField(inName,inValue,inCallProp);
 }

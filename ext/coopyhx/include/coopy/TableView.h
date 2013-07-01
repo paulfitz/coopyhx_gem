@@ -7,7 +7,6 @@
 
 #include <coopy/View.h>
 HX_DECLARE_CLASS1(coopy,Bag)
-HX_DECLARE_CLASS1(coopy,Datum)
 HX_DECLARE_CLASS1(coopy,Table)
 HX_DECLARE_CLASS1(coopy,TableView)
 HX_DECLARE_CLASS1(coopy,View)
@@ -42,22 +41,22 @@ class HXCPP_CLASS_ATTRIBUTES  TableView_obj : public hx::Object{
 		hx::Object *__ToInterface(const type_info &inType);
 		::String __ToString() const { return HX_CSTRING("TableView"); }
 
-		virtual ::coopy::Datum toDatum( ::String str);
+		virtual Dynamic toDatum( ::String str);
 		Dynamic toDatum_dyn();
 
-		virtual bool equals( ::coopy::Datum d1,::coopy::Datum d2);
+		virtual bool equals( Dynamic d1,Dynamic d2);
 		Dynamic equals_dyn();
 
-		virtual bool hasStructure( ::coopy::Datum d);
+		virtual bool hasStructure( Dynamic d);
 		Dynamic hasStructure_dyn();
 
-		virtual ::coopy::Table getTable( ::coopy::Datum d);
+		virtual ::coopy::Table getTable( Dynamic d);
 		Dynamic getTable_dyn();
 
-		virtual ::coopy::Bag getBag( ::coopy::Datum d);
+		virtual ::coopy::Bag getBag( Dynamic d);
 		Dynamic getBag_dyn();
 
-		virtual ::String toString( ::coopy::Datum d);
+		virtual ::String toString( Dynamic d);
 		Dynamic toString_dyn();
 
 };

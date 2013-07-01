@@ -5,9 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-#include <coopy/Datum.h>
 HX_DECLARE_CLASS1(coopy,Bag)
-HX_DECLARE_CLASS1(coopy,Datum)
 HX_DECLARE_CLASS1(coopy,View)
 namespace coopy{
 
@@ -20,14 +18,14 @@ class HXCPP_CLASS_ATTRIBUTES  Bag_obj : public hx::Interface{
 		static void __boot();
 virtual ::coopy::View getItemView( )=0;
 		Dynamic getItemView_dyn();
-virtual ::coopy::Datum getItem( int x)=0;
+virtual Dynamic getItem( int x)=0;
 		Dynamic getItem_dyn();
 };
 
 #define DELEGATE_coopy_Bag \
 virtual ::coopy::View getItemView( ) { return mDelegate->getItemView();}  \
 virtual Dynamic getItemView_dyn() { return mDelegate->getItemView_dyn();}  \
-virtual ::coopy::Datum getItem( int x) { return mDelegate->getItem(x);}  \
+virtual Dynamic getItem( int x) { return mDelegate->getItem(x);}  \
 virtual Dynamic getItem_dyn() { return mDelegate->getItem_dyn();}  \
 
 

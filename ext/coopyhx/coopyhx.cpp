@@ -1816,67 +1816,54 @@ int SWIG_Ruby_arity( VALUE proc, int minimal )
 #define SWIGTYPE_p_ArrayT_String_t swig_types[0]
 #define SWIGTYPE_p_ArrayT_hx__ObjectPtrT_coopy__IndexPair_obj_t_t swig_types[1]
 #define SWIGTYPE_p_ArrayT_int_t swig_types[2]
-#define SWIGTYPE_p_Class swig_types[3]
-#define SWIGTYPE_p_Coopyhx swig_types[4]
-#define SWIGTYPE_p_Dynamic swig_types[5]
-#define SWIGTYPE_p_OBJ_ swig_types[6]
-#define SWIGTYPE_p_String swig_types[7]
-#define SWIGTYPE_p_Void swig_types[8]
-#define SWIGTYPE_p_char swig_types[9]
-#define SWIGTYPE_p_coopy__Alignment_obj swig_types[10]
-#define SWIGTYPE_p_coopy__Bag_obj swig_types[11]
-#define SWIGTYPE_p_coopy__CompareFlags_obj swig_types[12]
-#define SWIGTYPE_p_coopy__CompareTable_obj swig_types[13]
-#define SWIGTYPE_p_coopy__Coopy_obj swig_types[14]
-#define SWIGTYPE_p_coopy__Datum_obj swig_types[15]
-#define SWIGTYPE_p_coopy__SimpleCell_obj swig_types[16]
+#define SWIGTYPE_p_Coopyhx swig_types[3]
+#define SWIGTYPE_p_Dynamic swig_types[4]
+#define SWIGTYPE_p_OBJ_ swig_types[5]
+#define SWIGTYPE_p_String swig_types[6]
+#define SWIGTYPE_p_Void swig_types[7]
+#define SWIGTYPE_p_char swig_types[8]
+#define SWIGTYPE_p_coopy__Alignment_obj swig_types[9]
+#define SWIGTYPE_p_coopy__CompareFlagsFactory swig_types[10]
+#define SWIGTYPE_p_coopy__CompareFlags_obj swig_types[11]
+#define SWIGTYPE_p_coopy__CompareTable_obj swig_types[12]
+#define SWIGTYPE_p_coopy__Coopy_obj swig_types[13]
+#define SWIGTYPE_p_coopy__SimpleCellFactory swig_types[14]
+#define SWIGTYPE_p_coopy__SimpleCell_obj swig_types[15]
+#define SWIGTYPE_p_coopy__SimpleTableFactory swig_types[16]
 #define SWIGTYPE_p_coopy__SimpleTable_obj swig_types[17]
-#define SWIGTYPE_p_coopy__TableDiff_obj swig_types[18]
-#define SWIGTYPE_p_coopy__View_obj swig_types[19]
-#define SWIGTYPE_p_cpp__CppInt32__ swig_types[20]
-#define SWIGTYPE_p_f___Dynamic swig_types[21]
-#define SWIGTYPE_p_f_p_hx__Object__Dynamic swig_types[22]
-#define SWIGTYPE_p_f_p_hx__Object_r_q_const__Array__Dynamic____Dynamic swig_types[23]
-#define SWIGTYPE_p_f_p_hx__Object_r_q_const__Dynamic__Dynamic swig_types[24]
-#define SWIGTYPE_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic swig_types[25]
-#define SWIGTYPE_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic swig_types[26]
-#define SWIGTYPE_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic swig_types[27]
-#define SWIGTYPE_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic swig_types[28]
-#define SWIGTYPE_p_f_r_q_const__Array__Dynamic____Dynamic swig_types[29]
-#define SWIGTYPE_p_f_r_q_const__Dynamic__Dynamic swig_types[30]
-#define SWIGTYPE_p_f_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic swig_types[31]
-#define SWIGTYPE_p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic swig_types[32]
-#define SWIGTYPE_p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic swig_types[33]
-#define SWIGTYPE_p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic swig_types[34]
-#define SWIGTYPE_p_hx__DynamicArray swig_types[35]
-#define SWIGTYPE_p_hx__MarkContext swig_types[36]
-#define SWIGTYPE_p_hx__NullT_String_t swig_types[37]
-#define SWIGTYPE_p_hx__Object swig_types[38]
-#define SWIGTYPE_p_hx__ObjectPtrT_IMap_obj_t swig_types[39]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t swig_types[40]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t swig_types[41]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t swig_types[42]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareTable_obj_t swig_types[43]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Coopy_obj_t swig_types[44]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t swig_types[45]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__IndexPair_obj_t swig_types[46]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Ordering_obj_t swig_types[47]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Report_obj_t swig_types[48]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleCell_obj_t swig_types[49]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t swig_types[50]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t swig_types[51]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableDiff_obj_t swig_types[52]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t swig_types[53]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t swig_types[54]
-#define SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t swig_types[55]
-#define SWIGTYPE_p_hx__ObjectPtrT_hx__Object_t swig_types[56]
-#define SWIGTYPE_p_hx__VisitContext swig_types[57]
-#define SWIGTYPE_p_null swig_types[58]
-#define SWIGTYPE_p_super swig_types[59]
-#define SWIGTYPE_p_type_info swig_types[60]
-#define SWIGTYPE_p_wchar_t swig_types[61]
-static swig_type_info *swig_types[63];
-static swig_module_info swig_module = {swig_types, 62, 0, 0, 0, 0};
+#define SWIGTYPE_p_coopy__TableDiffFactory swig_types[18]
+#define SWIGTYPE_p_coopy__TableDiff_obj swig_types[19]
+#define SWIGTYPE_p_coopy__Table_obj swig_types[20]
+#define SWIGTYPE_p_coopy__View_obj swig_types[21]
+#define SWIGTYPE_p_cpp__CppInt32__ swig_types[22]
+#define SWIGTYPE_p_hx__DynamicArray swig_types[23]
+#define SWIGTYPE_p_hx__MarkContext swig_types[24]
+#define SWIGTYPE_p_hx__NullT_String_t swig_types[25]
+#define SWIGTYPE_p_hx__Object swig_types[26]
+#define SWIGTYPE_p_hx__ObjectPtrT_IMap_obj_t swig_types[27]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t swig_types[28]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t swig_types[29]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t swig_types[30]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareTable_obj_t swig_types[31]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Coopy_obj_t swig_types[32]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__IndexPair_obj_t swig_types[33]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Ordering_obj_t swig_types[34]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Report_obj_t swig_types[35]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleCell_obj_t swig_types[36]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t swig_types[37]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t swig_types[38]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableDiff_obj_t swig_types[39]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t swig_types[40]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t swig_types[41]
+#define SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t swig_types[42]
+#define SWIGTYPE_p_hx__ObjectPtrT_hx__Object_t swig_types[43]
+#define SWIGTYPE_p_hx__VisitContext swig_types[44]
+#define SWIGTYPE_p_null swig_types[45]
+#define SWIGTYPE_p_super swig_types[46]
+#define SWIGTYPE_p_type_info swig_types[47]
+#define SWIGTYPE_p_wchar_t swig_types[48]
+static swig_type_info *swig_types[50];
+static swig_module_info swig_module = {swig_types, 49, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -1902,8 +1889,6 @@ static VALUE mCoopyhx;
 #include <stdexcept>
 
 
-#include <string>
-
 
   // stop haxe playing silly buggers with limits.h
 #define HX_UNDEFINE_H
@@ -1914,17 +1899,10 @@ static VALUE mCoopyhx;
 #define NULL 0
 #endif
 
-#include <coopy/Datum.h>
-#include <coopy/Bag.h>
-#include <coopy/View.h>
-#include <coopy/SimpleTable.h>
-#include <coopy/SimpleCell.h>
-#include <coopy/Coopy.h>
-#include <coopy/CompareFlags.h>
-#include <coopy/TableDiff.h>
-#include <coopy/CompareTable.h>
-#include <coopy/Alignment.h>
+#include <haxe/ds/IntMap.h>
 #include <coopyhx.h>
+#include <coopy/SimpleView.h>
+
 
 
 #include <limits.h>
@@ -1994,6 +1972,56 @@ SWIG_From_bool  (bool value)
 {
   return value ? Qtrue : Qfalse;
 }
+
+
+SWIGINTERN swig_type_info*
+SWIG_pchar_descriptor(void)
+{
+  static int init = 0;
+  static swig_type_info* info = 0;
+  if (!init) {
+    info = SWIG_TypeQuery("_p_char");
+    init = 1;
+  }
+  return info;
+}
+
+
+SWIGINTERN int
+SWIG_AsCharPtrAndSize(VALUE obj, char** cptr, size_t* psize, int *alloc)
+{
+  if (TYPE(obj) == T_STRING) {
+    char *cstr = StringValuePtr(obj); 
+    size_t size = RSTRING_LEN(obj) + 1;
+    if (cptr)  {
+      if (alloc) {
+	if (*alloc == SWIG_NEWOBJ) {
+	  *cptr = reinterpret_cast< char* >(memcpy((new char[size]), cstr, sizeof(char)*(size)));
+	} else {
+	  *cptr = cstr;
+	  *alloc = SWIG_OLDOBJ;
+	}
+      }
+    }
+    if (psize) *psize = size;
+    return SWIG_OK;
+  } else {
+    swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
+    if (pchar_descriptor) {
+      void* vptr = 0;
+      if (SWIG_ConvertPtr(obj, &vptr, pchar_descriptor, 0) == SWIG_OK) {
+	if (cptr) *cptr = (char *)vptr;
+	if (psize) *psize = vptr ? (strlen((char*)vptr) + 1) : 0;
+	if (alloc) *alloc = SWIG_OLDOBJ;
+	return SWIG_OK;
+      }
+    }
+  }  
+  return SWIG_TypeError;
+}
+
+
+
 
 
   #define SWIG_From_long   LONG2NUM 
@@ -2074,58 +2102,17 @@ SWIG_AsVal_float (VALUE obj, float *val)
 }
 
 
-SWIGINTERN swig_type_info*
-SWIG_pchar_descriptor(void)
-{
-  static int init = 0;
-  static swig_type_info* info = 0;
-  if (!init) {
-    info = SWIG_TypeQuery("_p_char");
-    init = 1;
-  }
-  return info;
-}
-
-
-SWIGINTERN int
-SWIG_AsCharPtrAndSize(VALUE obj, char** cptr, size_t* psize, int *alloc)
-{
-  if (TYPE(obj) == T_STRING) {
-    char *cstr = StringValuePtr(obj); 
-    size_t size = RSTRING_LEN(obj) + 1;
-    if (cptr)  {
-      if (alloc) {
-	if (*alloc == SWIG_NEWOBJ) {
-	  *cptr = reinterpret_cast< char* >(memcpy((new char[size]), cstr, sizeof(char)*(size)));
-	} else {
-	  *cptr = cstr;
-	  *alloc = SWIG_OLDOBJ;
-	}
-      }
-    }
-    if (psize) *psize = size;
-    return SWIG_OK;
-  } else {
-    swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
-    if (pchar_descriptor) {
-      void* vptr = 0;
-      if (SWIG_ConvertPtr(obj, &vptr, pchar_descriptor, 0) == SWIG_OK) {
-	if (cptr) *cptr = (char *)vptr;
-	if (psize) *psize = vptr ? (strlen((char*)vptr) + 1) : 0;
-	if (alloc) *alloc = SWIG_OLDOBJ;
-	return SWIG_OK;
-      }
-    }
-  }  
-  return SWIG_TypeError;
-}
-
-
-
-
-
   #define SWIG_From_double   rb_float_new 
 
+SWIGINTERN String Dynamic___str__(Dynamic *self){ return (*self)->toString(); }
+SWIGINTERN Void coopy_SimpleTable_obj_setCell__SWIG_1(coopy::SimpleTable_obj *self,int x,int y,int v){
+    // for now, let's just dump things in as dynamics
+    self->data->set((x + (y * self->w)),Dynamic(v));
+  }
+SWIGINTERN Void coopy_SimpleTable_obj_setCell__SWIG_2(coopy::SimpleTable_obj *self,int x,int y,char const *v){
+    // for now, let's just dump things in as dynamics
+    self->data->set((x + (y * self->w)),Dynamic(v));
+  }
 
 SWIGINTERNINLINE VALUE 
 SWIG_FromCharPtrAndSize(const char* carray, size_t size)
@@ -2164,16 +2151,23 @@ fail:
 }
 
 
+SWIGINTERN void
+free_Coopyhx(Coopyhx *arg1) {
+    delete arg1;
+}
+
+static swig_class SwigClassSimpleCell;
+
 #ifdef HAVE_RB_DEFINE_ALLOC_FUNC
 SWIGINTERN VALUE
-_wrap_Coopyhx_allocate(VALUE self) {
+_wrap_SimpleCell_allocate(VALUE self) {
 #else
   SWIGINTERN VALUE
-  _wrap_Coopyhx_allocate(int argc, VALUE *argv, VALUE self) {
+  _wrap_SimpleCell_allocate(int argc, VALUE *argv, VALUE self) {
 #endif
     
     
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_Coopyhx);
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__SimpleCellFactory);
 #ifndef HAVE_RB_DEFINE_ALLOC_FUNC
     rb_obj_call_init(vresult, argc, argv);
 #endif
@@ -2182,13 +2176,27 @@ _wrap_Coopyhx_allocate(VALUE self) {
   
 
 SWIGINTERN VALUE
-_wrap_new_Coopyhx(int argc, VALUE *argv, VALUE self) {
-  Coopyhx *result = 0 ;
+_wrap_new_SimpleCell(int argc, VALUE *argv, VALUE self) {
+  Dynamic arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  coopy::SimpleCellFactory *result = 0 ;
   
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
   }
-  result = (Coopyhx *)new Coopyhx();
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic","SimpleCellFactory", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","SimpleCellFactory", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< Dynamic * >(argp1));
+    }
+  }
+  result = (coopy::SimpleCellFactory *)new coopy::SimpleCellFactory(arg1);
   DATA_PTR(self) = result;
   return self;
 fail:
@@ -2196,10 +2204,3842 @@ fail:
 }
 
 
+SWIGINTERN VALUE
+_wrap_SimpleCell___deref__(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::SimpleCell_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  result = (coopy::SimpleCell_obj *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__SimpleCell_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
 SWIGINTERN void
-free_Coopyhx(Coopyhx *arg1) {
+free_coopy_SimpleCellFactory(coopy::SimpleCellFactory *arg1) {
     delete arg1;
 }
+
+SWIGINTERN VALUE
+_wrap_SimpleCell___construct(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  Dynamic arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","__construct", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","__construct", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  result = (*arg1)->__construct(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell___new(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  Dynamic arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  hx::ObjectPtr< coopy::SimpleCell_obj > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","__new", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","__new", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","__new", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  result = (*arg1)->__new(arg2);
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::SimpleCell_obj >(static_cast< const hx::ObjectPtr< coopy::SimpleCell_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleCell_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","__CreateEmpty", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  result = (*arg1)->__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell___Create(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  hx::DynamicArray arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","__Create", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::DynamicArray","__Create", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","__Create", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::DynamicArray * >(argp2));
+    }
+  }
+  result = (*arg1)->__Create(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell___boot(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","__boot", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  (*arg1)->__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell___register(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","__register", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  (*arg1)->__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell___Mark(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (*arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell___Visit(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (*arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell___ToString(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  result = (*arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell_toString(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell_toString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","toString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  result = (*arg1)->toString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell_datum_set(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  Dynamic *arg2 = (Dynamic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","datum", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_Dynamic, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic *","datum", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Dynamic * >(argp2);
+  if (arg1) (*arg1)->datum = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleCell_datum_get(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleCellFactory *arg1 = (coopy::SimpleCellFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCellFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCellFactory *","datum", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleCellFactory * >(argp1);
+  result = (Dynamic *)& ((*arg1)->datum);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Dynamic, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassSimpleTable;
+
+#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
+SWIGINTERN VALUE
+_wrap_SimpleTable_allocate(VALUE self) {
+#else
+  SWIGINTERN VALUE
+  _wrap_SimpleTable_allocate(int argc, VALUE *argv, VALUE self) {
+#endif
+    
+    
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__SimpleTableFactory);
+#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
+    rb_obj_call_init(vresult, argc, argv);
+#endif
+    return vresult;
+  }
+  
+
+SWIGINTERN VALUE
+_wrap_new_SimpleTable(int argc, VALUE *argv, VALUE self) {
+  int arg1 ;
+  int arg2 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  coopy::SimpleTableFactory *result = 0 ;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  ecode1 = SWIG_AsVal_int(argv[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), Ruby_Format_TypeError( "", "int","SimpleTableFactory", 1, argv[0] ));
+  } 
+  arg1 = static_cast< int >(val1);
+  ecode2 = SWIG_AsVal_int(argv[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","SimpleTableFactory", 2, argv[1] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (coopy::SimpleTableFactory *)new coopy::SimpleTableFactory(arg1,arg2);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___deref__(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::SimpleTable_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (coopy::SimpleTable_obj *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_tableToString(int argc, VALUE *argv, VALUE self) {
+  ::coopy::Table arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "::coopy::Table","coopy::SimpleTableFactory::tableToString", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","coopy::SimpleTableFactory::tableToString", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< ::coopy::Table * >(argp1));
+    }
+  }
+  result = coopy::SimpleTableFactory::tableToString(arg1);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_SimpleTableFactory(coopy::SimpleTableFactory *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___construct(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","__construct", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","__construct", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (*arg1)->__construct(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___new(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  hx::ObjectPtr< coopy::SimpleTable_obj > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","__new", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","__new", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","__new", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (*arg1)->__new(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::SimpleTable_obj >(static_cast< const hx::ObjectPtr< coopy::SimpleTable_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","__CreateEmpty", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___Create(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  hx::DynamicArray arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","__Create", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::DynamicArray","__Create", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","__Create", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::DynamicArray * >(argp2));
+    }
+  }
+  result = (*arg1)->__Create(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___boot(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","__boot", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  (*arg1)->__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___register(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","__register", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  (*arg1)->__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___Mark(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (*arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___Visit(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (*arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_asTable(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  SwigValueWrapper< ::hx::ObjectPtr< ::coopy::Table_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","asTable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->asTable();
+  vresult = SWIG_NewPointerObj((new ::hx::ObjectPtr< ::coopy::Table_obj >(static_cast< const ::hx::ObjectPtr< ::coopy::Table_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___ToInterface(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  type_info *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  hx::Object *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","__ToInterface", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_type_info,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "type_info const &","__ToInterface", 2, argv[0] )); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "type_info const &","__ToInterface", 2, argv[0])); 
+  }
+  arg2 = reinterpret_cast< type_info * >(argp2);
+  result = (hx::Object *)(*arg1)->__ToInterface((type_info const &)*arg2);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__Object, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___ToString(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_trimBlank(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","trimBlank", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (bool)(*arg1)->trimBlank();
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_trimBlank_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","trimBlank_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->trimBlank_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_insertOrDeleteColumns(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  Array< int > arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","insertOrDeleteColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","insertOrDeleteColumns", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","insertOrDeleteColumns", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","insertOrDeleteColumns", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (bool)(*arg1)->insertOrDeleteColumns(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_insertOrDeleteColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","insertOrDeleteColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->insertOrDeleteColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_insertOrDeleteRows(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  Array< int > arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","insertOrDeleteRows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","insertOrDeleteRows", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","insertOrDeleteRows", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","insertOrDeleteRows", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (bool)(*arg1)->insertOrDeleteRows(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_insertOrDeleteRows_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","insertOrDeleteRows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->insertOrDeleteRows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_clear(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","clear", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->clear();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_clear_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","clear_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->clear_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_resize(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","resize", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","resize", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","resize", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (bool)(*arg1)->resize(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_resize_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","resize_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->resize_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_isResizable(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","isResizable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (bool)(*arg1)->isResizable();
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_isResizable_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","isResizable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->isResizable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_getCellView(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::View result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","getCellView", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->getCellView();
+  vresult = SWIG_NewPointerObj((new ::coopy::View(static_cast< const ::coopy::View& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_getCellView_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","getCellView_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->getCellView_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable___str__(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_toString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","toString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->toString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_setCell__SWIG_0(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  Dynamic arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","setCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","setCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","setCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "Dynamic","setCell", 4, argv[2] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","setCell", 4, argv[2]));
+    } else {
+      arg4 = *(reinterpret_cast< Dynamic * >(argp4));
+    }
+  }
+  result = (*arg1)->setCell(arg2,arg3,arg4);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_setCell__SWIG_1(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","setCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","setCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","setCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  ecode4 = SWIG_AsVal_int(argv[2], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), Ruby_Format_TypeError( "", "int","setCell", 4, argv[2] ));
+  } 
+  arg4 = static_cast< int >(val4);
+  result = coopy_SimpleTable_obj_setCell__SWIG_1((coopy::SimpleTable_obj*)(arg1)->operator ->(),arg2,arg3,arg4);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_setCell__SWIG_2(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  char *arg4 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int res4 ;
+  char *buf4 = 0 ;
+  int alloc4 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","setCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","setCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","setCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  res4 = SWIG_AsCharPtrAndSize(argv[2], &buf4, NULL, &alloc4);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "char const *","setCell", 4, argv[2] ));
+  }
+  arg4 = reinterpret_cast< char * >(buf4);
+  result = coopy_SimpleTable_obj_setCell__SWIG_2((coopy::SimpleTable_obj*)(arg1)->operator ->(),arg2,arg3,(char const *)arg4);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return vresult;
+fail:
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE _wrap_SimpleTable_setCell(int nargs, VALUE *args, VALUE self) {
+  int argc;
+  VALUE argv[5];
+  int ii;
+  
+  argc = nargs + 1;
+  argv[0] = self;
+  if (argc > 5) SWIG_fail;
+  for (ii = 1; (ii < argc); ++ii) {
+    argv[ii] = args[ii-1];
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_coopy__SimpleTableFactory, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          void *vptr = 0;
+          int res = SWIG_ConvertPtr(argv[3], &vptr, SWIGTYPE_p_Dynamic, 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_SimpleTable_setCell__SWIG_0(nargs, args, self);
+          }
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_coopy__SimpleTableFactory, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          {
+            int res = SWIG_AsVal_int(argv[3], NULL);
+            _v = SWIG_CheckState(res);
+          }
+          if (_v) {
+            return _wrap_SimpleTable_setCell__SWIG_1(nargs, args, self);
+          }
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_coopy__SimpleTableFactory, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_AsCharPtrAndSize(argv[3], 0, NULL, 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_SimpleTable_setCell__SWIG_2(nargs, args, self);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  Ruby_Format_OverloadedError( argc, 5, "SimpleTable_obj.setCell", 
+    "    Void SimpleTable_obj.setCell(int x, int y, Dynamic c)\n"
+    "    Void SimpleTable_obj.setCell(int x, int y, int v)\n"
+    "    Void SimpleTable_obj.setCell(int x, int y, char const *v)\n");
+  
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_setCell_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","setCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->setCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_getCell(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","getCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","getCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (*arg1)->getCell(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_getCell_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","getCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->getCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_get_size(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","get_size", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (int)(*arg1)->get_size();
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_get_size_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","get_size_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->get_size_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_get_height(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","get_height", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (int)(*arg1)->get_height();
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_get_height_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","get_height_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->get_height_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_get_width(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","get_width", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (int)(*arg1)->get_width();
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_get_width_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","get_width_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->get_width_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_getTable(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Table result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","getTable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->getTable();
+  vresult = SWIG_NewPointerObj((new ::coopy::Table(static_cast< const ::coopy::Table& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_getTable_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","getTable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->getTable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_h_set(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","h", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","h", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->h = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_h_get(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","h", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (int) ((*arg1)->h);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_w_set(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","w", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","w", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->w = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_w_get(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","w", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (int) ((*arg1)->w);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_data_set(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","data", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","data", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->data = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_data_get(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","data", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->data);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_tableToString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","tableToString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->tableToString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_toString(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTableFactory *arg1 = (coopy::SimpleTableFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTableFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTableFactory *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTableFactory * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassCompareFlags;
+
+#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
+SWIGINTERN VALUE
+_wrap_CompareFlags_allocate(VALUE self) {
+#else
+  SWIGINTERN VALUE
+  _wrap_CompareFlags_allocate(int argc, VALUE *argv, VALUE self) {
+#endif
+    
+    
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__CompareFlagsFactory);
+#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
+    rb_obj_call_init(vresult, argc, argv);
+#endif
+    return vresult;
+  }
+  
+
+SWIGINTERN VALUE
+_wrap_new_CompareFlags(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *result = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = (coopy::CompareFlagsFactory *)new coopy::CompareFlagsFactory();
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags___deref__(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::CompareFlags_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  result = (coopy::CompareFlags_obj *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_CompareFlagsFactory(coopy::CompareFlagsFactory *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_CompareFlags___construct(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  result = (*arg1)->__construct();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags___new(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CompareFlags_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","__new", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  result = (*arg1)->__new();
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::CompareFlags_obj >(static_cast< const hx::ObjectPtr< coopy::CompareFlags_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","__CreateEmpty", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  result = (*arg1)->__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags___Create(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  hx::DynamicArray arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","__Create", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::DynamicArray","__Create", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","__Create", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::DynamicArray * >(argp2));
+    }
+  }
+  result = (*arg1)->__Create(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags___boot(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","__boot", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  (*arg1)->__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags___register(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","__register", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  (*arg1)->__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags___Mark(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (*arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags___Visit(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (*arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags___ToString(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  result = (*arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_unchanged_context_set(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","unchanged_context", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","unchanged_context", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->unchanged_context = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_unchanged_context_get(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","unchanged_context", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  result = (int) ((*arg1)->unchanged_context);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_show_unchanged_set(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","show_unchanged", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","show_unchanged", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (*arg1)->show_unchanged = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_show_unchanged_get(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","show_unchanged", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  result = (bool) ((*arg1)->show_unchanged);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_always_show_header_set(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","always_show_header", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","always_show_header", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (*arg1)->always_show_header = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_always_show_header_get(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","always_show_header", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  result = (bool) ((*arg1)->always_show_header);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_toString(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlagsFactory *arg1 = (coopy::CompareFlagsFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlagsFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlagsFactory *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlagsFactory * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassTableDiff;
+
+#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
+SWIGINTERN VALUE
+_wrap_TableDiff_allocate(VALUE self) {
+#else
+  SWIGINTERN VALUE
+  _wrap_TableDiff_allocate(int argc, VALUE *argv, VALUE self) {
+#endif
+    
+    
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__TableDiffFactory);
+#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
+    rb_obj_call_init(vresult, argc, argv);
+#endif
+    return vresult;
+  }
+  
+
+SWIGINTERN VALUE
+_wrap_new_TableDiff(int argc, VALUE *argv, VALUE self) {
+  coopy::Alignment arg1 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CompareFlags_obj > > arg2 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  coopy::TableDiffFactory *result = 0 ;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Alignment","TableDiffFactory", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "coopy::Alignment","TableDiffFactory", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< coopy::Alignment * >(argp1));
+    }
+  }
+  {
+    res2 = SWIG_ConvertPtr(argv[1], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "coopy::CompareFlags","TableDiffFactory", 2, argv[1] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "coopy::CompareFlags","TableDiffFactory", 2, argv[1]));
+    } else {
+      arg2 = *(reinterpret_cast< coopy::CompareFlags * >(argp2));
+    }
+  }
+  result = (coopy::TableDiffFactory *)new coopy::TableDiffFactory(arg1,arg2);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff___deref__(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::TableDiff_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (coopy::TableDiff_obj *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_TableDiffFactory(coopy::TableDiffFactory *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_TableDiff___construct(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  ::coopy::Alignment arg2 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CompareFlags_obj > > arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Alignment","__construct", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Alignment","__construct", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Alignment * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::CompareFlags","__construct", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::CompareFlags","__construct", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::CompareFlags * >(argp3));
+    }
+  }
+  result = (*arg1)->__construct(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff___new(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  ::coopy::Alignment arg2 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CompareFlags_obj > > arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  hx::ObjectPtr< coopy::TableDiff_obj > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","__new", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Alignment","__new", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Alignment","__new", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Alignment * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::CompareFlags","__new", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::CompareFlags","__new", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::CompareFlags * >(argp3));
+    }
+  }
+  result = (*arg1)->__new(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::TableDiff_obj >(static_cast< const hx::ObjectPtr< coopy::TableDiff_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__TableDiff_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","__CreateEmpty", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (*arg1)->__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff___Create(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  hx::DynamicArray arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","__Create", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::DynamicArray","__Create", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","__Create", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::DynamicArray * >(argp2));
+    }
+  }
+  result = (*arg1)->__Create(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff___boot(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","__boot", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  (*arg1)->__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff___register(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","__register", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  (*arg1)->__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff___Mark(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (*arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff___Visit(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (*arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff___ToString(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (*arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_test(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::Report_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","test", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (*arg1)->test();
+  vresult = SWIG_NewPointerObj((new ::coopy::Report(static_cast< const ::coopy::Report& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Report_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_test_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","test_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (*arg1)->test_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_hilite(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  ::coopy::Table arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","hilite", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","hilite", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","hilite", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  result = (bool)(*arg1)->hilite(arg2);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_hilite_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","hilite_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (*arg1)->hilite_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_quoteForDiff(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  ::coopy::View arg2 ;
+  Dynamic arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","quoteForDiff", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::View","quoteForDiff", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::View","quoteForDiff", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::View * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Dynamic","quoteForDiff", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","quoteForDiff", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< Dynamic * >(argp3));
+    }
+  }
+  result = (*arg1)->quoteForDiff(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_quoteForDiff_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","quoteForDiff_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (*arg1)->quoteForDiff_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_getSeparator(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
+  ::String arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","getSeparator", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","getSeparator", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","getSeparator", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Table","getSeparator", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","getSeparator", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::Table * >(argp3));
+    }
+  }
+  {
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "::String","getSeparator", 4, argv[2] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","getSeparator", 4, argv[2]));
+    } else {
+      arg4 = *(reinterpret_cast< ::String * >(argp4));
+    }
+  }
+  result = (*arg1)->getSeparator(arg2,arg3,arg4);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_getSeparator_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","getSeparator_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (*arg1)->getSeparator_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_flags_set(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  ::coopy::CompareFlags *arg2 = (::coopy::CompareFlags *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","flags", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CompareFlags *","flags", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::CompareFlags * >(argp2);
+  if (arg1) (*arg1)->flags = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_flags_get(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::CompareFlags *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","flags", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (::coopy::CompareFlags *)& ((*arg1)->flags);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_align_set(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  ::coopy::Alignment *arg2 = (::coopy::Alignment *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","align", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Alignment *","align", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Alignment * >(argp2);
+  if (arg1) (*arg1)->align = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_align_get(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Alignment *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","align", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (::coopy::Alignment *)& ((*arg1)->align);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_toString(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiffFactory *arg1 = (coopy::TableDiffFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiffFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassObject;
+
+SWIGINTERN VALUE
+_wrap_Object_toString(int argc, VALUE *argv, VALUE self) {
+  hx::Object *arg1 = (hx::Object *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__Object, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::Object *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::Object * >(argp1);
+  result = (arg1)->toString();
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_hx_Object(hx::Object *arg1) {
+    delete arg1;
+}
+
+static swig_class SwigClassDynamic;
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_0(int argc, VALUE *argv, VALUE self) {
+  Dynamic *result = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = (Dynamic *)new Dynamic();
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_1(int argc, VALUE *argv, VALUE self) {
+  int arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  Dynamic *result = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  ecode1 = SWIG_AsVal_int(argv[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), Ruby_Format_TypeError( "", "int","Dynamic", 1, argv[0] ));
+  } 
+  arg1 = static_cast< int >(val1);
+  result = (Dynamic *)new Dynamic(arg1);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_2(int argc, VALUE *argv, VALUE self) {
+  cpp::CppInt32__ *arg1 = 0 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  Dynamic *result = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_cpp__CppInt32__,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "cpp::CppInt32__ const &","Dynamic", 1, argv[0] )); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "cpp::CppInt32__ const &","Dynamic", 1, argv[0])); 
+  }
+  arg1 = reinterpret_cast< cpp::CppInt32__ * >(argp1);
+  result = (Dynamic *)new Dynamic((cpp::CppInt32__ const &)*arg1);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_3(int argc, VALUE *argv, VALUE self) {
+  bool arg1 ;
+  bool val1 ;
+  int ecode1 = 0 ;
+  Dynamic *result = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  ecode1 = SWIG_AsVal_bool(argv[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), Ruby_Format_TypeError( "", "bool","Dynamic", 1, argv[0] ));
+  } 
+  arg1 = static_cast< bool >(val1);
+  result = (Dynamic *)new Dynamic(arg1);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_4(int argc, VALUE *argv, VALUE self) {
+  double arg1 ;
+  double val1 ;
+  int ecode1 = 0 ;
+  Dynamic *result = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  ecode1 = SWIG_AsVal_double(argv[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), Ruby_Format_TypeError( "", "double","Dynamic", 1, argv[0] ));
+  } 
+  arg1 = static_cast< double >(val1);
+  result = (Dynamic *)new Dynamic(arg1);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_5(int argc, VALUE *argv, VALUE self) {
+  float arg1 ;
+  float val1 ;
+  int ecode1 = 0 ;
+  Dynamic *result = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  ecode1 = SWIG_AsVal_float(argv[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), Ruby_Format_TypeError( "", "float","Dynamic", 1, argv[0] ));
+  } 
+  arg1 = static_cast< float >(val1);
+  result = (Dynamic *)new Dynamic(arg1);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_6(int argc, VALUE *argv, VALUE self) {
+  hx::Object *arg1 = (hx::Object *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic *result = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(argv[0], &argp1,SWIGTYPE_p_hx__Object, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::Object *","Dynamic", 1, argv[0] )); 
+  }
+  arg1 = reinterpret_cast< hx::Object * >(argp1);
+  result = (Dynamic *)new Dynamic(arg1);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_7(int argc, VALUE *argv, VALUE self) {
+  String *arg1 = 0 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  Dynamic *result = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_String,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "String const &","Dynamic", 1, argv[0] )); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "String const &","Dynamic", 1, argv[0])); 
+  }
+  arg1 = reinterpret_cast< String * >(argp1);
+  result = (Dynamic *)new Dynamic((String const &)*arg1);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_8(int argc, VALUE *argv, VALUE self) {
+  null *arg1 = 0 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  Dynamic *result = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_null,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "null const &","Dynamic", 1, argv[0] )); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "null const &","Dynamic", 1, argv[0])); 
+  }
+  arg1 = reinterpret_cast< null * >(argp1);
+  result = (Dynamic *)new Dynamic((null const &)*arg1);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_9(int argc, VALUE *argv, VALUE self) {
+  Dynamic *arg1 = 0 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  Dynamic *result = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_Dynamic,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const &","Dynamic", 1, argv[0] )); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","Dynamic", 1, argv[0])); 
+  }
+  arg1 = reinterpret_cast< Dynamic * >(argp1);
+  result = (Dynamic *)new Dynamic((Dynamic const &)*arg1);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
+SWIGINTERN VALUE
+_wrap_Dynamic_allocate(VALUE self) {
+#else
+  SWIGINTERN VALUE
+  _wrap_Dynamic_allocate(int argc, VALUE *argv, VALUE self) {
+#endif
+    
+    
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_Dynamic);
+#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
+    rb_obj_call_init(vresult, argc, argv);
+#endif
+    return vresult;
+  }
+  
+
+SWIGINTERN VALUE
+_wrap_new_Dynamic__SWIG_10(int argc, VALUE *argv, VALUE self) {
+  HX_CHAR *arg1 = (HX_CHAR *) 0 ;
+  int res1 ;
+  char *buf1 = 0 ;
+  int alloc1 = 0 ;
+  Dynamic *result = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_AsCharPtrAndSize(argv[0], &buf1, NULL, &alloc1);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "HX_CHAR const *","Dynamic", 1, argv[0] ));
+  }
+  arg1 = reinterpret_cast< HX_CHAR * >(buf1);
+  result = (Dynamic *)new Dynamic((HX_CHAR const *)arg1);
+  DATA_PTR(self) = result;
+  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
+  return self;
+fail:
+  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE _wrap_new_Dynamic(int nargs, VALUE *args, VALUE self) {
+  int argc;
+  VALUE argv[1];
+  int ii;
+  
+  argc = nargs;
+  if (argc > 1) SWIG_fail;
+  for (ii = 0; (ii < argc); ++ii) {
+    argv[ii] = args[ii];
+  }
+  if (argc == 0) {
+    return _wrap_new_Dynamic__SWIG_0(nargs, args, self);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_cpp__CppInt32__, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Dynamic__SWIG_2(nargs, args, self);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_hx__Object, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Dynamic__SWIG_6(nargs, args, self);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_String, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Dynamic__SWIG_7(nargs, args, self);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_null, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Dynamic__SWIG_8(nargs, args, self);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Dynamic__SWIG_9(nargs, args, self);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Dynamic__SWIG_1(nargs, args, self);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_float(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Dynamic__SWIG_5(nargs, args, self);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_double(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Dynamic__SWIG_4(nargs, args, self);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_AsCharPtrAndSize(argv[0], 0, NULL, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Dynamic__SWIG_10(nargs, args, self);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_bool(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Dynamic__SWIG_3(nargs, args, self);
+    }
+  }
+  
+fail:
+  Ruby_Format_OverloadedError( argc, 1, "Dynamic.new", 
+    "    Dynamic.new()\n"
+    "    Dynamic.new(int inVal)\n"
+    "    Dynamic.new(cpp::CppInt32__ const &inVal)\n"
+    "    Dynamic.new(bool inVal)\n"
+    "    Dynamic.new(double inVal)\n"
+    "    Dynamic.new(float inVal)\n"
+    "    Dynamic.new(hx::Object *inObj)\n"
+    "    Dynamic.new(String const &inString)\n"
+    "    Dynamic.new(null const &inNull)\n"
+    "    Dynamic.new(Dynamic const &inRHS)\n"
+    "    Dynamic.new(HX_CHAR const *inStr)\n");
+  
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Dynamic___deref__(int argc, VALUE *argv, VALUE self) {
+  Dynamic *arg1 = (Dynamic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  hx::Object *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< Dynamic * >(argp1);
+  result = (hx::Object *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__Object, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Dynamic_asDouble(int argc, VALUE *argv, VALUE self) {
+  Dynamic *arg1 = (Dynamic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator double", 1, self )); 
+  }
+  arg1 = reinterpret_cast< Dynamic * >(argp1);
+  result = (double)((Dynamic const *)arg1)->operator double();
+  vresult = SWIG_From_double(static_cast< double >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Dynamic_asInt(int argc, VALUE *argv, VALUE self) {
+  Dynamic *arg1 = (Dynamic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator int", 1, self )); 
+  }
+  arg1 = reinterpret_cast< Dynamic * >(argp1);
+  result = (int)((Dynamic const *)arg1)->operator int();
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Dynamic___str__(int argc, VALUE *argv, VALUE self) {
+  Dynamic *arg1 = (Dynamic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic *","__str__", 1, self )); 
+  }
+  arg1 = reinterpret_cast< Dynamic * >(argp1);
+  result = Dynamic___str__(arg1);
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_Dynamic(Dynamic *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_Dynamic_toString(int argc, VALUE *argv, VALUE self) {
+  Dynamic *arg1 = (Dynamic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< Dynamic * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
 
 static swig_class SwigClassObjectPtrSimpleTable_obj;
 
@@ -2246,38 +6086,6 @@ _wrap_ObjectPtrSimpleTable_obj_GetPtr(int argc, VALUE *argv, VALUE self) {
   result = (coopy::SimpleTable_obj *)((hx::ObjectPtr< coopy::SimpleTable_obj > const *)arg1)->GetPtr();
   vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
   return vresult;
-fail:
-  return Qnil;
-}
-
-
-#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
-SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_allocate(VALUE self) {
-#else
-  SWIGINTERN VALUE
-  _wrap_ObjectPtrSimpleTable_obj_allocate(int argc, VALUE *argv, VALUE self) {
-#endif
-    
-    
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t);
-#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
-    rb_obj_call_init(vresult, argc, argv);
-#endif
-    return vresult;
-  }
-  
-
-SWIGINTERN VALUE
-_wrap_new_ObjectPtrSimpleTable_obj(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleTable_obj > *result = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (hx::ObjectPtr< coopy::SimpleTable_obj > *)new hx::ObjectPtr< coopy::SimpleTable_obj >();
-  DATA_PTR(self) = result;
-  return self;
 fail:
   return Qnil;
 }
@@ -2525,54 +6333,6 @@ _wrap_ObjectPtrSimpleTable_obj___Visit(int argc, VALUE *argv, VALUE self) {
   arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
   (*arg1)->__Visit(arg2);
   return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_asDatum(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  SwigValueWrapper< ::hx::ObjectPtr< ::coopy::Datum_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","asDatum", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
-  result = (*arg1)->asDatum();
-  vresult = SWIG_NewPointerObj((new ::hx::ObjectPtr< ::coopy::Datum_obj >(static_cast< const ::hx::ObjectPtr< ::coopy::Datum_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_asBag(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  SwigValueWrapper< ::hx::ObjectPtr< ::coopy::Bag_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","asBag", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
-  result = (*arg1)->asBag();
-  vresult = SWIG_NewPointerObj((new ::hx::ObjectPtr< ::coopy::Bag_obj >(static_cast< const ::hx::ObjectPtr< ::coopy::Bag_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
 fail:
   return Qnil;
 }
@@ -3010,59 +6770,11 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_getItemView(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::View_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","getItemView", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
-  result = (*arg1)->getItemView();
-  vresult = SWIG_NewPointerObj((new ::coopy::View(static_cast< const ::coopy::View& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_getItemView_dyn(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","getItemView_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
-  result = (*arg1)->getItemView_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
 _wrap_ObjectPtrSimpleTable_obj_getCellView(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::View_obj > > result;
+  ::coopy::View result;
   VALUE vresult = Qnil;
   
   if ((argc < 0) || (argc > 0)) {
@@ -3106,7 +6818,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_toString(int argc, VALUE *argv, VALUE self) {
+_wrap_ObjectPtrSimpleTable_obj___str__(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -3154,67 +6866,11 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_getItem(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  ::coopy::Datum result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","getItem", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getItem", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  result = (*arg1)->getItem(arg2);
-  vresult = SWIG_NewPointerObj((new ::coopy::Datum(static_cast< const ::coopy::Datum& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_getItem_dyn(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","getItem_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
-  result = (*arg1)->getItem_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_setCell(int argc, VALUE *argv, VALUE self) {
+_wrap_ObjectPtrSimpleTable_obj_setCell__SWIG_0(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
   int arg2 ;
   int arg3 ;
-  ::coopy::Datum arg4 ;
+  Dynamic arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   int val2 ;
@@ -3245,20 +6901,219 @@ _wrap_ObjectPtrSimpleTable_obj_setCell(int argc, VALUE *argv, VALUE self) {
   } 
   arg3 = static_cast< int >(val3);
   {
-    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t,  0 );
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_Dynamic,  0 );
     if (!SWIG_IsOK(res4)) {
-      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "::coopy::Datum","setCell", 4, argv[2] )); 
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "Dynamic","setCell", 4, argv[2] )); 
     }  
     if (!argp4) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Datum","setCell", 4, argv[2]));
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","setCell", 4, argv[2]));
     } else {
-      arg4 = *(reinterpret_cast< ::coopy::Datum * >(argp4));
+      arg4 = *(reinterpret_cast< Dynamic * >(argp4));
     }
   }
   result = (*arg1)->setCell(arg2,arg3,arg4);
   vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
   return vresult;
 fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrSimpleTable_obj_setCell__SWIG_1(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","setCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","setCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","setCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  ecode4 = SWIG_AsVal_int(argv[2], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), Ruby_Format_TypeError( "", "int","setCell", 4, argv[2] ));
+  } 
+  arg4 = static_cast< int >(val4);
+  result = coopy_SimpleTable_obj_setCell__SWIG_1((coopy::SimpleTable_obj*)(arg1)->operator ->(),arg2,arg3,arg4);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrSimpleTable_obj_setCell__SWIG_2(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  char *arg4 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int res4 ;
+  char *buf4 = 0 ;
+  int alloc4 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","setCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","setCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","setCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  res4 = SWIG_AsCharPtrAndSize(argv[2], &buf4, NULL, &alloc4);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "char const *","setCell", 4, argv[2] ));
+  }
+  arg4 = reinterpret_cast< char * >(buf4);
+  result = coopy_SimpleTable_obj_setCell__SWIG_2((coopy::SimpleTable_obj*)(arg1)->operator ->(),arg2,arg3,(char const *)arg4);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return vresult;
+fail:
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE _wrap_ObjectPtrSimpleTable_obj_setCell(int nargs, VALUE *args, VALUE self) {
+  int argc;
+  VALUE argv[5];
+  int ii;
+  
+  argc = nargs + 1;
+  argv[0] = self;
+  if (argc > 5) SWIG_fail;
+  for (ii = 1; (ii < argc); ++ii) {
+    argv[ii] = args[ii-1];
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          void *vptr = 0;
+          int res = SWIG_ConvertPtr(argv[3], &vptr, SWIGTYPE_p_Dynamic, 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_ObjectPtrSimpleTable_obj_setCell__SWIG_0(nargs, args, self);
+          }
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          {
+            int res = SWIG_AsVal_int(argv[3], NULL);
+            _v = SWIG_CheckState(res);
+          }
+          if (_v) {
+            return _wrap_ObjectPtrSimpleTable_obj_setCell__SWIG_1(nargs, args, self);
+          }
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_AsCharPtrAndSize(argv[3], 0, NULL, 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_ObjectPtrSimpleTable_obj_setCell__SWIG_2(nargs, args, self);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  Ruby_Format_OverloadedError( argc, 5, "SimpleTable_obj.setCell", 
+    "    Void SimpleTable_obj.setCell(int x, int y, Dynamic c)\n"
+    "    Void SimpleTable_obj.setCell(int x, int y, int v)\n"
+    "    Void SimpleTable_obj.setCell(int x, int y, char const *v)\n");
+  
   return Qnil;
 }
 
@@ -3298,7 +7153,7 @@ _wrap_ObjectPtrSimpleTable_obj_getCell(int argc, VALUE *argv, VALUE self) {
   int ecode2 = 0 ;
   int val3 ;
   int ecode3 = 0 ;
-  ::coopy::Datum result;
+  Dynamic result;
   VALUE vresult = Qnil;
   
   if ((argc < 2) || (argc > 2)) {
@@ -3320,7 +7175,7 @@ _wrap_ObjectPtrSimpleTable_obj_getCell(int argc, VALUE *argv, VALUE self) {
   } 
   arg3 = static_cast< int >(val3);
   result = (*arg1)->getCell(arg2,arg3);
-  vresult = SWIG_NewPointerObj((new ::coopy::Datum(static_cast< const ::coopy::Datum& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, SWIG_POINTER_OWN |  0 );
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
   return vresult;
 fail:
   return Qnil;
@@ -3500,7 +7355,7 @@ _wrap_ObjectPtrSimpleTable_obj_getTable(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > result;
+  ::coopy::Table result;
   VALUE vresult = Qnil;
   
   if ((argc < 0) || (argc > 0)) {
@@ -3537,59 +7392,6 @@ _wrap_ObjectPtrSimpleTable_obj_getTable_dyn(int argc, VALUE *argv, VALUE self) {
   arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
   result = (*arg1)->getTable_dyn();
   vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_bag_set(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
-  ::coopy::Bag *arg2 = (::coopy::Bag *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","bag", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Bag *","bag", 2, argv[0] )); 
-  }
-  arg2 = reinterpret_cast< ::coopy::Bag * >(argp2);
-  if (arg1) (*arg1)->bag = *arg2;
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleTable_obj_bag_get(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ::coopy::Bag *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","bag", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
-  result = (::coopy::Bag *)& ((*arg1)->bag);
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t, 0 |  0 );
   return vresult;
 fail:
   return Qnil;
@@ -3758,7 +7560,7 @@ fail:
 SWIGINTERN VALUE
 _wrap_ObjectPtrSimpleTable_obj_tableToString(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
+  ::coopy::Table arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -3817,6 +7619,644 @@ fail:
 }
 
 
+SWIGINTERN VALUE
+_wrap_ObjectPtrSimpleTable_obj_toString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::SimpleTable_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleTable_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleTable_obj > *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleTable_obj > * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassObjectPtrTable_obj;
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj___deref__(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::Table_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (coopy::Table_obj *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_GetPtr(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::Table_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > const *","GetPtr", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (coopy::Table_obj *)((hx::ObjectPtr< coopy::Table_obj > const *)arg1)->GetPtr();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_hx_ObjectPtr_Sl_coopy_Table_obj_Sg_(hx::ObjectPtr< coopy::Table_obj > *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj___boot(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","__boot", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  (*arg1)->__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_trimBlank(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","trimBlank", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (bool)(*arg1)->trimBlank();
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_trimBlank_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","trimBlank_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->trimBlank_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_insertOrDeleteColumns(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  Array< int > arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","insertOrDeleteColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","insertOrDeleteColumns", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","insertOrDeleteColumns", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","insertOrDeleteColumns", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (bool)(*arg1)->insertOrDeleteColumns(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_insertOrDeleteColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","insertOrDeleteColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->insertOrDeleteColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_insertOrDeleteRows(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  Array< int > arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","insertOrDeleteRows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","insertOrDeleteRows", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","insertOrDeleteRows", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","insertOrDeleteRows", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (bool)(*arg1)->insertOrDeleteRows(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_insertOrDeleteRows_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","insertOrDeleteRows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->insertOrDeleteRows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_clear(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","clear", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->clear();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_clear_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","clear_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->clear_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_resize(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","resize", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","resize", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","resize", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (bool)(*arg1)->resize(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_resize_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","resize_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->resize_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_isResizable(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","isResizable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (bool)(*arg1)->isResizable();
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_isResizable_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","isResizable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->isResizable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_getCellView(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::View result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","getCellView", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->getCellView();
+  vresult = SWIG_NewPointerObj((new ::coopy::View(static_cast< const ::coopy::View& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_getCellView_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","getCellView_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->getCellView_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_setCell(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  Dynamic arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","setCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","setCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","setCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "Dynamic","setCell", 4, argv[2] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","setCell", 4, argv[2]));
+    } else {
+      arg4 = *(reinterpret_cast< Dynamic * >(argp4));
+    }
+  }
+  result = (*arg1)->setCell(arg2,arg3,arg4);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_setCell_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","setCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->setCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_getCell(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","getCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","getCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (*arg1)->getCell(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrTable_obj_getCell_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::Table_obj > *arg1 = (hx::ObjectPtr< coopy::Table_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Table_obj > *","getCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Table_obj > * >(argp1);
+  result = (*arg1)->getCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
 static swig_class SwigClassObjectPtrSimpleCell_obj;
 
 SWIGINTERN VALUE
@@ -3862,38 +8302,6 @@ _wrap_ObjectPtrSimpleCell_obj_GetPtr(int argc, VALUE *argv, VALUE self) {
   result = (coopy::SimpleCell_obj *)((hx::ObjectPtr< coopy::SimpleCell_obj > const *)arg1)->GetPtr();
   vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__SimpleCell_obj, 0 |  0 );
   return vresult;
-fail:
-  return Qnil;
-}
-
-
-#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
-SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleCell_obj_allocate(VALUE self) {
-#else
-  SWIGINTERN VALUE
-  _wrap_ObjectPtrSimpleCell_obj_allocate(int argc, VALUE *argv, VALUE self) {
-#endif
-    
-    
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleCell_obj_t);
-#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
-    rb_obj_call_init(vresult, argc, argv);
-#endif
-    return vresult;
-  }
-  
-
-SWIGINTERN VALUE
-_wrap_new_ObjectPtrSimpleCell_obj(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleCell_obj > *result = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (hx::ObjectPtr< coopy::SimpleCell_obj > *)new hx::ObjectPtr< coopy::SimpleCell_obj >();
-  DATA_PTR(self) = result;
-  return self;
 fail:
   return Qnil;
 }
@@ -4143,65 +8551,6 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleCell_obj_asDatum(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleCell_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleCell_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  SwigValueWrapper< ::hx::ObjectPtr< ::coopy::Datum_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleCell_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleCell_obj > *","asDatum", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleCell_obj > * >(argp1);
-  result = (*arg1)->asDatum();
-  vresult = SWIG_NewPointerObj((new ::hx::ObjectPtr< ::coopy::Datum_obj >(static_cast< const ::hx::ObjectPtr< ::coopy::Datum_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrSimpleCell_obj___ToInterface(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::SimpleCell_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleCell_obj > *) 0 ;
-  type_info *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  hx::Object *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleCell_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::SimpleCell_obj > *","__ToInterface", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::SimpleCell_obj > * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_type_info,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "type_info const &","__ToInterface", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "type_info const &","__ToInterface", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< type_info * >(argp2);
-  result = (hx::Object *)(*arg1)->__ToInterface((type_info const &)*arg2);
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__Object, 0 |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
 _wrap_ObjectPtrSimpleCell_obj___ToString(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::SimpleCell_obj > *arg1 = (hx::ObjectPtr< coopy::SimpleCell_obj > *) 0 ;
   void *argp1 = 0 ;
@@ -4326,162 +8675,6 @@ fail:
 }
 
 
-static swig_class SwigClassObjectPtrDatum_obj;
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrDatum_obj___deref__(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::Datum_obj > *arg1 = (hx::ObjectPtr< coopy::Datum_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  coopy::Datum_obj *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Datum_obj > *","operator ->", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Datum_obj > * >(argp1);
-  result = (coopy::Datum_obj *)(arg1)->operator ->();
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__Datum_obj, 0 |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrDatum_obj_GetPtr(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::Datum_obj > *arg1 = (hx::ObjectPtr< coopy::Datum_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  coopy::Datum_obj *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Datum_obj > const *","GetPtr", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Datum_obj > * >(argp1);
-  result = (coopy::Datum_obj *)((hx::ObjectPtr< coopy::Datum_obj > const *)arg1)->GetPtr();
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__Datum_obj, 0 |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
-SWIGINTERN VALUE
-_wrap_ObjectPtrDatum_obj_allocate(VALUE self) {
-#else
-  SWIGINTERN VALUE
-  _wrap_ObjectPtrDatum_obj_allocate(int argc, VALUE *argv, VALUE self) {
-#endif
-    
-    
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t);
-#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
-    rb_obj_call_init(vresult, argc, argv);
-#endif
-    return vresult;
-  }
-  
-
-SWIGINTERN VALUE
-_wrap_new_ObjectPtrDatum_obj(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::Datum_obj > *result = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (hx::ObjectPtr< coopy::Datum_obj > *)new hx::ObjectPtr< coopy::Datum_obj >();
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN void
-free_hx_ObjectPtr_Sl_coopy_Datum_obj_Sg_(hx::ObjectPtr< coopy::Datum_obj > *arg1) {
-    delete arg1;
-}
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrDatum_obj___boot(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::Datum_obj > *arg1 = (hx::ObjectPtr< coopy::Datum_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Datum_obj > *","__boot", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Datum_obj > * >(argp1);
-  (*arg1)->__boot();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrDatum_obj_toString(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::Datum_obj > *arg1 = (hx::ObjectPtr< coopy::Datum_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ::String result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Datum_obj > *","toString", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Datum_obj > * >(argp1);
-  result = (*arg1)->toString();
-  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_ObjectPtrDatum_obj_toString_dyn(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::Datum_obj > *arg1 = (hx::ObjectPtr< coopy::Datum_obj > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::Datum_obj > *","toString_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::Datum_obj > * >(argp1);
-  result = (*arg1)->toString_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
 static swig_class SwigClassObjectPtrCompareTable_obj;
 
 SWIGINTERN VALUE
@@ -4527,38 +8720,6 @@ _wrap_ObjectPtrCompareTable_obj_GetPtr(int argc, VALUE *argv, VALUE self) {
   result = (coopy::CompareTable_obj *)((hx::ObjectPtr< coopy::CompareTable_obj > const *)arg1)->GetPtr();
   vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__CompareTable_obj, 0 |  0 );
   return vresult;
-fail:
-  return Qnil;
-}
-
-
-#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
-SWIGINTERN VALUE
-_wrap_ObjectPtrCompareTable_obj_allocate(VALUE self) {
-#else
-  SWIGINTERN VALUE
-  _wrap_ObjectPtrCompareTable_obj_allocate(int argc, VALUE *argv, VALUE self) {
-#endif
-    
-    
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareTable_obj_t);
-#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
-    rb_obj_call_init(vresult, argc, argv);
-#endif
-    return vresult;
-  }
-  
-
-SWIGINTERN VALUE
-_wrap_new_ObjectPtrCompareTable_obj(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::CompareTable_obj > *result = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (hx::ObjectPtr< coopy::CompareTable_obj > *)new hx::ObjectPtr< coopy::CompareTable_obj >();
-  DATA_PTR(self) = result;
-  return self;
 fail:
   return Qnil;
 }
@@ -4950,8 +9111,8 @@ fail:
 SWIGINTERN VALUE
 _wrap_ObjectPtrCompareTable_obj_isEqual2(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::CompareTable_obj > *arg1 = (hx::ObjectPtr< coopy::CompareTable_obj > *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -5074,8 +9235,8 @@ fail:
 SWIGINTERN VALUE
 _wrap_ObjectPtrCompareTable_obj_hasSameColumns2(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::CompareTable_obj > *arg1 = (hx::ObjectPtr< coopy::CompareTable_obj > *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -5199,8 +9360,8 @@ SWIGINTERN VALUE
 _wrap_ObjectPtrCompareTable_obj_alignColumns(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::CompareTable_obj > *arg1 = (hx::ObjectPtr< coopy::CompareTable_obj > *) 0 ;
   ::coopy::Alignment arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg4 ;
+  ::coopy::Table arg3 ;
+  ::coopy::Table arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -5289,8 +9450,8 @@ SWIGINTERN VALUE
 _wrap_ObjectPtrCompareTable_obj_alignCore2(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::CompareTable_obj > *arg1 = (hx::ObjectPtr< coopy::CompareTable_obj > *) 0 ;
   ::coopy::Alignment arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg4 ;
+  ::coopy::Table arg3 ;
+  ::coopy::Table arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -5701,6 +9862,30 @@ fail:
 }
 
 
+SWIGINTERN VALUE
+_wrap_ObjectPtrCompareTable_obj_toString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::CompareTable_obj > *arg1 = (hx::ObjectPtr< coopy::CompareTable_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareTable_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::CompareTable_obj > *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::CompareTable_obj > * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
 static swig_class SwigClassObjectPtrAlignment_obj;
 
 SWIGINTERN VALUE
@@ -5746,38 +9931,6 @@ _wrap_ObjectPtrAlignment_obj_GetPtr(int argc, VALUE *argv, VALUE self) {
   result = (coopy::Alignment_obj *)((hx::ObjectPtr< coopy::Alignment_obj > const *)arg1)->GetPtr();
   vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__Alignment_obj, 0 |  0 );
   return vresult;
-fail:
-  return Qnil;
-}
-
-
-#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
-SWIGINTERN VALUE
-_wrap_ObjectPtrAlignment_obj_allocate(VALUE self) {
-#else
-  SWIGINTERN VALUE
-  _wrap_ObjectPtrAlignment_obj_allocate(int argc, VALUE *argv, VALUE self) {
-#endif
-    
-    
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t);
-#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
-    rb_obj_call_init(vresult, argc, argv);
-#endif
-    return vresult;
-  }
-  
-
-SWIGINTERN VALUE
-_wrap_new_ObjectPtrAlignment_obj(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::Alignment_obj > *result = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (hx::ObjectPtr< coopy::Alignment_obj > *)new hx::ObjectPtr< coopy::Alignment_obj >();
-  DATA_PTR(self) = result;
-  return self;
 fail:
   return Qnil;
 }
@@ -6219,7 +10372,7 @@ _wrap_ObjectPtrAlignment_obj_getTarget(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::Alignment_obj > *arg1 = (hx::ObjectPtr< coopy::Alignment_obj > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > result;
+  ::coopy::Table result;
   VALUE vresult = Qnil;
   
   if ((argc < 0) || (argc > 0)) {
@@ -6267,7 +10420,7 @@ _wrap_ObjectPtrAlignment_obj_getSource(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::Alignment_obj > *arg1 = (hx::ObjectPtr< coopy::Alignment_obj > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > result;
+  ::coopy::Table result;
   VALUE vresult = Qnil;
   
   if ((argc < 0) || (argc > 0)) {
@@ -6753,8 +10906,8 @@ fail:
 SWIGINTERN VALUE
 _wrap_ObjectPtrAlignment_obj_tables(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::Alignment_obj > *arg1 = (hx::ObjectPtr< coopy::Alignment_obj > *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -7629,38 +11782,6 @@ fail:
 }
 
 
-#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
-SWIGINTERN VALUE
-_wrap_ObjectPtrTableDiff_obj_allocate(VALUE self) {
-#else
-  SWIGINTERN VALUE
-  _wrap_ObjectPtrTableDiff_obj_allocate(int argc, VALUE *argv, VALUE self) {
-#endif
-    
-    
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_hx__ObjectPtrT_coopy__TableDiff_obj_t);
-#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
-    rb_obj_call_init(vresult, argc, argv);
-#endif
-    return vresult;
-  }
-  
-
-SWIGINTERN VALUE
-_wrap_new_ObjectPtrTableDiff_obj(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< coopy::TableDiff_obj > *result = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (hx::ObjectPtr< coopy::TableDiff_obj > *)new hx::ObjectPtr< coopy::TableDiff_obj >();
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
 SWIGINTERN void
 free_hx_ObjectPtr_Sl_coopy_TableDiff_obj_Sg_(hx::ObjectPtr< coopy::TableDiff_obj > *arg1) {
     delete arg1;
@@ -8007,7 +12128,7 @@ fail:
 SWIGINTERN VALUE
 _wrap_ObjectPtrTableDiff_obj_hilite(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::TableDiff_obj > *arg1 = (hx::ObjectPtr< coopy::TableDiff_obj > *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
+  ::coopy::Table arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -8069,8 +12190,8 @@ fail:
 SWIGINTERN VALUE
 _wrap_ObjectPtrTableDiff_obj_quoteForDiff(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::TableDiff_obj > *arg1 = (hx::ObjectPtr< coopy::TableDiff_obj > *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::View_obj > > arg2 ;
-  ::coopy::Datum arg3 ;
+  ::coopy::View arg2 ;
+  Dynamic arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -8100,14 +12221,14 @@ _wrap_ObjectPtrTableDiff_obj_quoteForDiff(int argc, VALUE *argv, VALUE self) {
     }
   }
   {
-    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t,  0 );
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_Dynamic,  0 );
     if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Datum","quoteForDiff", 3, argv[1] )); 
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Dynamic","quoteForDiff", 3, argv[1] )); 
     }  
     if (!argp3) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Datum","quoteForDiff", 3, argv[1]));
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","quoteForDiff", 3, argv[1]));
     } else {
-      arg3 = *(reinterpret_cast< ::coopy::Datum * >(argp3));
+      arg3 = *(reinterpret_cast< Dynamic * >(argp3));
     }
   }
   result = (*arg1)->quoteForDiff(arg2,arg3);
@@ -8145,8 +12266,8 @@ fail:
 SWIGINTERN VALUE
 _wrap_ObjectPtrTableDiff_obj_getSeparator(int argc, VALUE *argv, VALUE self) {
   hx::ObjectPtr< coopy::TableDiff_obj > *arg1 = (hx::ObjectPtr< coopy::TableDiff_obj > *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
   ::String arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -8338,6 +12459,492 @@ fail:
 }
 
 
+SWIGINTERN VALUE
+_wrap_ObjectPtrTableDiff_obj_toString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::TableDiff_obj > *arg1 = (hx::ObjectPtr< coopy::TableDiff_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__TableDiff_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::TableDiff_obj > *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::TableDiff_obj > * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassObjectPtrView_obj;
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj___deref__(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::View_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  result = (coopy::View_obj *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_GetPtr(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::View_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > const *","GetPtr", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  result = (coopy::View_obj *)((hx::ObjectPtr< coopy::View_obj > const *)arg1)->GetPtr();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_hx_ObjectPtr_Sl_coopy_View_obj_Sg_(hx::ObjectPtr< coopy::View_obj > *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj___boot(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","__boot", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  (*arg1)->__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_toDatum(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","toDatum", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","toDatum", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","toDatum", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (*arg1)->toDatum(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_toDatum_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","toDatum_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  result = (*arg1)->toDatum_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_equals(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  Dynamic arg2 ;
+  Dynamic arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","equals", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","equals", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","equals", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Dynamic","equals", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","equals", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< Dynamic * >(argp3));
+    }
+  }
+  result = (bool)(*arg1)->equals(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_equals_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","equals_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  result = (*arg1)->equals_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_hasStructure(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  Dynamic arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","hasStructure", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","hasStructure", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","hasStructure", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  result = (bool)(*arg1)->hasStructure(arg2);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_hasStructure_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","hasStructure_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  result = (*arg1)->hasStructure_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_getTable(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  Dynamic arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  ::coopy::Table result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","getTable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","getTable", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","getTable", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  result = (*arg1)->getTable(arg2);
+  vresult = SWIG_NewPointerObj((new ::coopy::Table(static_cast< const ::coopy::Table& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_getTable_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","getTable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  result = (*arg1)->getTable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_getBag(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  Dynamic arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::Bag_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","getBag", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","getBag", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","getBag", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  result = (*arg1)->getBag(arg2);
+  vresult = SWIG_NewPointerObj((new ::coopy::Bag(static_cast< const ::coopy::Bag& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_getBag_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","getBag_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  result = (*arg1)->getBag_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_toString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  Dynamic arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","toString", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","toString", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  result = (*arg1)->toString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrView_obj_toString_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::View_obj > *arg1 = (hx::ObjectPtr< coopy::View_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::View_obj > *","toString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
+  result = (*arg1)->toString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
 static swig_class SwigClassObjectPtrObject;
 
 SWIGINTERN VALUE
@@ -8388,4585 +12995,34 @@ fail:
 }
 
 
-#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
-SWIGINTERN VALUE
-_wrap_ObjectPtrObject_allocate(VALUE self) {
-#else
-  SWIGINTERN VALUE
-  _wrap_ObjectPtrObject_allocate(int argc, VALUE *argv, VALUE self) {
-#endif
-    
-    
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_hx__ObjectPtrT_hx__Object_t);
-#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
-    rb_obj_call_init(vresult, argc, argv);
-#endif
-    return vresult;
-  }
-  
-
-SWIGINTERN VALUE
-_wrap_new_ObjectPtrObject(int argc, VALUE *argv, VALUE self) {
-  hx::ObjectPtr< hx::Object > *result = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (hx::ObjectPtr< hx::Object > *)new hx::ObjectPtr< hx::Object >();
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
 SWIGINTERN void
 free_hx_ObjectPtr_Sl_hx_Object_Sg_(hx::ObjectPtr< hx::Object > *arg1) {
     delete arg1;
 }
 
-static swig_class SwigClassDynamic;
-
 SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *result = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (Dynamic *)new Dynamic();
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_1(int argc, VALUE *argv, VALUE self) {
-  int arg1 ;
-  int val1 ;
-  int ecode1 = 0 ;
-  Dynamic *result = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  ecode1 = SWIG_AsVal_int(argv[0], &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), Ruby_Format_TypeError( "", "int","Dynamic", 1, argv[0] ));
-  } 
-  arg1 = static_cast< int >(val1);
-  result = (Dynamic *)new Dynamic(arg1);
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_2(int argc, VALUE *argv, VALUE self) {
-  cpp::CppInt32__ *arg1 = 0 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  Dynamic *result = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_cpp__CppInt32__,  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "cpp::CppInt32__ const &","Dynamic", 1, argv[0] )); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "cpp::CppInt32__ const &","Dynamic", 1, argv[0])); 
-  }
-  arg1 = reinterpret_cast< cpp::CppInt32__ * >(argp1);
-  result = (Dynamic *)new Dynamic((cpp::CppInt32__ const &)*arg1);
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_3(int argc, VALUE *argv, VALUE self) {
-  bool arg1 ;
-  bool val1 ;
-  int ecode1 = 0 ;
-  Dynamic *result = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  ecode1 = SWIG_AsVal_bool(argv[0], &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), Ruby_Format_TypeError( "", "bool","Dynamic", 1, argv[0] ));
-  } 
-  arg1 = static_cast< bool >(val1);
-  result = (Dynamic *)new Dynamic(arg1);
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_4(int argc, VALUE *argv, VALUE self) {
-  double arg1 ;
-  double val1 ;
-  int ecode1 = 0 ;
-  Dynamic *result = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  ecode1 = SWIG_AsVal_double(argv[0], &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), Ruby_Format_TypeError( "", "double","Dynamic", 1, argv[0] ));
-  } 
-  arg1 = static_cast< double >(val1);
-  result = (Dynamic *)new Dynamic(arg1);
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_5(int argc, VALUE *argv, VALUE self) {
-  float arg1 ;
-  float val1 ;
-  int ecode1 = 0 ;
-  Dynamic *result = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  ecode1 = SWIG_AsVal_float(argv[0], &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), Ruby_Format_TypeError( "", "float","Dynamic", 1, argv[0] ));
-  } 
-  arg1 = static_cast< float >(val1);
-  result = (Dynamic *)new Dynamic(arg1);
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_6(int argc, VALUE *argv, VALUE self) {
-  hx::Object *arg1 = (hx::Object *) 0 ;
+_wrap_ObjectPtrObject_toString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< hx::Object > *arg1 = (hx::ObjectPtr< hx::Object > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  Dynamic *result = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1,SWIGTYPE_p_hx__Object, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::Object *","Dynamic", 1, argv[0] )); 
-  }
-  arg1 = reinterpret_cast< hx::Object * >(argp1);
-  result = (Dynamic *)new Dynamic(arg1);
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_7(int argc, VALUE *argv, VALUE self) {
-  String *arg1 = 0 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  Dynamic *result = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_String,  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "String const &","Dynamic", 1, argv[0] )); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "String const &","Dynamic", 1, argv[0])); 
-  }
-  arg1 = reinterpret_cast< String * >(argp1);
-  result = (Dynamic *)new Dynamic((String const &)*arg1);
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_8(int argc, VALUE *argv, VALUE self) {
-  null *arg1 = 0 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  Dynamic *result = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_null,  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "null const &","Dynamic", 1, argv[0] )); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "null const &","Dynamic", 1, argv[0])); 
-  }
-  arg1 = reinterpret_cast< null * >(argp1);
-  result = (Dynamic *)new Dynamic((null const &)*arg1);
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_9(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = 0 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  Dynamic *result = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const &","Dynamic", 1, argv[0] )); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","Dynamic", 1, argv[0])); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  result = (Dynamic *)new Dynamic((Dynamic const &)*arg1);
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
-SWIGINTERN VALUE
-_wrap_Dynamic_allocate(VALUE self) {
-#else
-  SWIGINTERN VALUE
-  _wrap_Dynamic_allocate(int argc, VALUE *argv, VALUE self) {
-#endif
-    
-    
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_Dynamic);
-#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
-    rb_obj_call_init(vresult, argc, argv);
-#endif
-    return vresult;
-  }
-  
-
-SWIGINTERN VALUE
-_wrap_new_Dynamic__SWIG_10(int argc, VALUE *argv, VALUE self) {
-  HX_CHAR *arg1 = (HX_CHAR *) 0 ;
-  int res1 ;
-  char *buf1 = 0 ;
-  int alloc1 = 0 ;
-  Dynamic *result = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_AsCharPtrAndSize(argv[0], &buf1, NULL, &alloc1);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "HX_CHAR const *","Dynamic", 1, argv[0] ));
-  }
-  arg1 = reinterpret_cast< HX_CHAR * >(buf1);
-  result = (Dynamic *)new Dynamic((HX_CHAR const *)arg1);
-  DATA_PTR(self) = result;
-  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
-  return self;
-fail:
-  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_new_Dynamic(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[1];
-  int ii;
-  
-  argc = nargs;
-  if (argc > 1) SWIG_fail;
-  for (ii = 0; (ii < argc); ++ii) {
-    argv[ii] = args[ii];
-  }
-  if (argc == 0) {
-    return _wrap_new_Dynamic__SWIG_0(nargs, args, self);
-  }
-  if (argc == 1) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_cpp__CppInt32__, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_new_Dynamic__SWIG_2(nargs, args, self);
-    }
-  }
-  if (argc == 1) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_hx__Object, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_new_Dynamic__SWIG_6(nargs, args, self);
-    }
-  }
-  if (argc == 1) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_String, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_new_Dynamic__SWIG_7(nargs, args, self);
-    }
-  }
-  if (argc == 1) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_null, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_new_Dynamic__SWIG_8(nargs, args, self);
-    }
-  }
-  if (argc == 1) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_new_Dynamic__SWIG_9(nargs, args, self);
-    }
-  }
-  if (argc == 1) {
-    int _v;
-    {
-      int res = SWIG_AsVal_int(argv[0], NULL);
-      _v = SWIG_CheckState(res);
-    }
-    if (_v) {
-      return _wrap_new_Dynamic__SWIG_1(nargs, args, self);
-    }
-  }
-  if (argc == 1) {
-    int _v;
-    {
-      int res = SWIG_AsVal_float(argv[0], NULL);
-      _v = SWIG_CheckState(res);
-    }
-    if (_v) {
-      return _wrap_new_Dynamic__SWIG_5(nargs, args, self);
-    }
-  }
-  if (argc == 1) {
-    int _v;
-    {
-      int res = SWIG_AsVal_double(argv[0], NULL);
-      _v = SWIG_CheckState(res);
-    }
-    if (_v) {
-      return _wrap_new_Dynamic__SWIG_4(nargs, args, self);
-    }
-  }
-  if (argc == 1) {
-    int _v;
-    int res = SWIG_AsCharPtrAndSize(argv[0], 0, NULL, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_new_Dynamic__SWIG_10(nargs, args, self);
-    }
-  }
-  if (argc == 1) {
-    int _v;
-    {
-      int res = SWIG_AsVal_bool(argv[0], NULL);
-      _v = SWIG_CheckState(res);
-    }
-    if (_v) {
-      return _wrap_new_Dynamic__SWIG_3(nargs, args, self);
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 1, "Dynamic.new", 
-    "    Dynamic.new()\n"
-    "    Dynamic.new(int inVal)\n"
-    "    Dynamic.new(cpp::CppInt32__ const &inVal)\n"
-    "    Dynamic.new(bool inVal)\n"
-    "    Dynamic.new(double inVal)\n"
-    "    Dynamic.new(float inVal)\n"
-    "    Dynamic.new(hx::Object *inObj)\n"
-    "    Dynamic.new(String const &inString)\n"
-    "    Dynamic.new(null const &inNull)\n"
-    "    Dynamic.new(Dynamic const &inRHS)\n"
-    "    Dynamic.new(HX_CHAR const *inStr)\n");
-  
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic_Set__SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  bool arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool val2 ;
-  int ecode2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic *","Set", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","Set", 2, argv[0] ));
-  } 
-  arg2 = static_cast< bool >(val2);
-  (arg1)->Set(arg2);
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic_Set__SWIG_1(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic *","Set", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","Set", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  (arg1)->Set(arg2);
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic_Set__SWIG_2(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  double arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic *","Set", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_double(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "double","Set", 2, argv[0] ));
-  } 
-  arg2 = static_cast< double >(val2);
-  (arg1)->Set(arg2);
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic_Set__SWIG_3(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  float arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic *","Set", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_float(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "float","Set", 2, argv[0] ));
-  } 
-  arg2 = static_cast< float >(val2);
-  (arg1)->Set(arg2);
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_Dynamic_Set(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[3];
-  int ii;
-  
-  argc = nargs + 1;
-  argv[0] = self;
-  if (argc > 3) SWIG_fail;
-  for (ii = 1; (ii < argc); ++ii) {
-    argv[ii] = args[ii-1];
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_int(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic_Set__SWIG_1(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_float(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic_Set__SWIG_3(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic_Set__SWIG_2(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_bool(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic_Set__SWIG_0(nargs, args, self);
-      }
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 3, "Dynamic.Set", 
-    "    void Dynamic.Set(bool inVal)\n"
-    "    void Dynamic.Set(int inVal)\n"
-    "    void Dynamic.Set(double inVal)\n"
-    "    void Dynamic.Set(float inVal)\n");
-  
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___get(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","__get", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","__get", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  result = ((Dynamic const *)arg1)->__get(arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic_Default(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic *","Default", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","Default", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","Default", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (arg1)->Default((Dynamic const &)*arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___boot(int argc, VALUE *argv, VALUE self) {
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  Dynamic::__boot();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic_IsNumeric(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","IsNumeric", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  result = (bool)((Dynamic const *)arg1)->IsNumeric();
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic_Compare(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  int result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","Compare", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","Compare", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","Compare", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (int)((Dynamic const *)arg1)->Compare((Dynamic const &)*arg2);
-  vresult = SWIG_From_int(static_cast< int >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-
-/*
-  Document-method: Coopyhx::Dynamic.==
-
-  call-seq:
-    ==(inRHS) -> bool
-    ==(inRHS) -> bool
-    ==(inRHS) -> bool
-    ==(inRHS) -> bool
-    ==(inRHS) -> bool
-    ==(inRHS) -> bool
-    ==(inRHS) -> bool
-
-Equality comparison operator.
-*/
-SWIGINTERN VALUE
-_wrap_Dynamic___eq____SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  null *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator ==", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_null,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "null const &","operator ==", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "null const &","operator ==", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< null * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator ==((null const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___eq____SWIG_1(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator ==", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","operator ==", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","operator ==", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator ==((Dynamic const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___eq____SWIG_2(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator ==", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "String const &","operator ==", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "String const &","operator ==", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< String * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator ==((String const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___eq____SWIG_3(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  double arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator ==", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_double(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "double","operator ==", 2, argv[0] ));
-  } 
-  arg2 = static_cast< double >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator ==(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___eq____SWIG_4(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  float arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator ==", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_float(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "float","operator ==", 2, argv[0] ));
-  } 
-  arg2 = static_cast< float >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator ==(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___eq____SWIG_5(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator ==", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","operator ==", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator ==(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___eq____SWIG_6(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  bool arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator ==", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","operator ==", 2, argv[0] ));
-  } 
-  arg2 = static_cast< bool >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator ==(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_Dynamic___eq__(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[3];
-  int ii;
-  
-  argc = nargs + 1;
-  argv[0] = self;
-  if (argc > 3) SWIG_fail;
-  for (ii = 1; (ii < argc); ++ii) {
-    argv[ii] = args[ii-1];
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_null, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___eq____SWIG_0(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Dynamic, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___eq____SWIG_1(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___eq____SWIG_2(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_int(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___eq____SWIG_5(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_float(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___eq____SWIG_4(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___eq____SWIG_3(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_bool(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___eq____SWIG_6(nargs, args, self);
-      }
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 3, "Dynamic.__eq__", 
-    "    bool Dynamic.__eq__(null const &inRHS)\n"
-    "    bool Dynamic.__eq__(Dynamic const &inRHS)\n"
-    "    bool Dynamic.__eq__(String const &inRHS)\n"
-    "    bool Dynamic.__eq__(double inRHS)\n"
-    "    bool Dynamic.__eq__(float inRHS)\n"
-    "    bool Dynamic.__eq__(int inRHS)\n"
-    "    bool Dynamic.__eq__(bool inRHS)\n");
-  
-  return Qnil;
-}
-
-
-
-/*
-  Document-method: Coopyhx::Dynamic.<
-
-  call-seq:
-    <(inRHS) -> bool
-    <(inRHS) -> bool
-    <(inRHS) -> bool
-    <(inRHS) -> bool
-    <(inRHS) -> bool
-    <(inRHS) -> bool
-
-Lower than comparison operator.
-*/
-SWIGINTERN VALUE
-_wrap_Dynamic___lt____SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","operator <", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","operator <", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator <((Dynamic const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___lt____SWIG_1(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "String const &","operator <", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "String const &","operator <", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< String * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator <((String const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___lt____SWIG_2(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  double arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_double(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "double","operator <", 2, argv[0] ));
-  } 
-  arg2 = static_cast< double >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator <(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___lt____SWIG_3(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  float arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_float(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "float","operator <", 2, argv[0] ));
-  } 
-  arg2 = static_cast< float >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator <(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___lt____SWIG_4(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","operator <", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator <(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___lt____SWIG_5(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  bool arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","operator <", 2, argv[0] ));
-  } 
-  arg2 = static_cast< bool >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator <(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_Dynamic___lt__(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[3];
-  int ii;
-  
-  argc = nargs + 1;
-  argv[0] = self;
-  if (argc > 3) SWIG_fail;
-  for (ii = 1; (ii < argc); ++ii) {
-    argv[ii] = args[ii-1];
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Dynamic, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___lt____SWIG_0(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___lt____SWIG_1(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_int(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___lt____SWIG_4(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_float(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___lt____SWIG_3(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___lt____SWIG_2(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_bool(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___lt____SWIG_5(nargs, args, self);
-      }
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 3, "Dynamic.__lt__", 
-    "    bool Dynamic.__lt__(Dynamic const &inRHS)\n"
-    "    bool Dynamic.__lt__(String const &inRHS)\n"
-    "    bool Dynamic.__lt__(double inRHS)\n"
-    "    bool Dynamic.__lt__(float inRHS)\n"
-    "    bool Dynamic.__lt__(int inRHS)\n"
-    "    bool Dynamic.__lt__(bool inRHS)\n");
-  
-  return Qnil;
-}
-
-
-
-/*
-  Document-method: Coopyhx::Dynamic.<=
-
-  call-seq:
-    <=(inRHS) -> bool
-    <=(inRHS) -> bool
-    <=(inRHS) -> bool
-    <=(inRHS) -> bool
-    <=(inRHS) -> bool
-    <=(inRHS) -> bool
-
-Lower or equal comparison operator.
-*/
-SWIGINTERN VALUE
-_wrap_Dynamic___le____SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","operator <=", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","operator <=", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator <=((Dynamic const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___le____SWIG_1(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "String const &","operator <=", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "String const &","operator <=", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< String * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator <=((String const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___le____SWIG_2(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  double arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_double(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "double","operator <=", 2, argv[0] ));
-  } 
-  arg2 = static_cast< double >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator <=(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___le____SWIG_3(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  float arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_float(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "float","operator <=", 2, argv[0] ));
-  } 
-  arg2 = static_cast< float >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator <=(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___le____SWIG_4(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","operator <=", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator <=(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___le____SWIG_5(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  bool arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator <=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","operator <=", 2, argv[0] ));
-  } 
-  arg2 = static_cast< bool >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator <=(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_Dynamic___le__(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[3];
-  int ii;
-  
-  argc = nargs + 1;
-  argv[0] = self;
-  if (argc > 3) SWIG_fail;
-  for (ii = 1; (ii < argc); ++ii) {
-    argv[ii] = args[ii-1];
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Dynamic, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___le____SWIG_0(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___le____SWIG_1(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_int(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___le____SWIG_4(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_float(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___le____SWIG_3(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___le____SWIG_2(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_bool(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___le____SWIG_5(nargs, args, self);
-      }
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 3, "Dynamic.__le__", 
-    "    bool Dynamic.__le__(Dynamic const &inRHS)\n"
-    "    bool Dynamic.__le__(String const &inRHS)\n"
-    "    bool Dynamic.__le__(double inRHS)\n"
-    "    bool Dynamic.__le__(float inRHS)\n"
-    "    bool Dynamic.__le__(int inRHS)\n"
-    "    bool Dynamic.__le__(bool inRHS)\n");
-  
-  return Qnil;
-}
-
-
-
-/*
-  Document-method: Coopyhx::Dynamic.>=
-
-  call-seq:
-    >=(inRHS) -> bool
-    >=(inRHS) -> bool
-    >=(inRHS) -> bool
-    >=(inRHS) -> bool
-    >=(inRHS) -> bool
-    >=(inRHS) -> bool
-
-Higher or equal comparison operator.
-*/
-SWIGINTERN VALUE
-_wrap_Dynamic___ge____SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","operator >=", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","operator >=", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator >=((Dynamic const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___ge____SWIG_1(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "String const &","operator >=", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "String const &","operator >=", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< String * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator >=((String const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___ge____SWIG_2(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  double arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_double(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "double","operator >=", 2, argv[0] ));
-  } 
-  arg2 = static_cast< double >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator >=(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___ge____SWIG_3(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  float arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_float(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "float","operator >=", 2, argv[0] ));
-  } 
-  arg2 = static_cast< float >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator >=(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___ge____SWIG_4(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","operator >=", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator >=(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___ge____SWIG_5(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  bool arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >=", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","operator >=", 2, argv[0] ));
-  } 
-  arg2 = static_cast< bool >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator >=(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_Dynamic___ge__(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[3];
-  int ii;
-  
-  argc = nargs + 1;
-  argv[0] = self;
-  if (argc > 3) SWIG_fail;
-  for (ii = 1; (ii < argc); ++ii) {
-    argv[ii] = args[ii-1];
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Dynamic, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___ge____SWIG_0(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___ge____SWIG_1(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_int(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___ge____SWIG_4(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_float(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___ge____SWIG_3(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___ge____SWIG_2(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_bool(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___ge____SWIG_5(nargs, args, self);
-      }
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 3, "Dynamic.__ge__", 
-    "    bool Dynamic.__ge__(Dynamic const &inRHS)\n"
-    "    bool Dynamic.__ge__(String const &inRHS)\n"
-    "    bool Dynamic.__ge__(double inRHS)\n"
-    "    bool Dynamic.__ge__(float inRHS)\n"
-    "    bool Dynamic.__ge__(int inRHS)\n"
-    "    bool Dynamic.__ge__(bool inRHS)\n");
-  
-  return Qnil;
-}
-
-
-
-/*
-  Document-method: Coopyhx::Dynamic.>
-
-  call-seq:
-    >(inRHS) -> bool
-    >(inRHS) -> bool
-    >(inRHS) -> bool
-    >(inRHS) -> bool
-    >(inRHS) -> bool
-    >(inRHS) -> bool
-
-Higher than comparison operator.
-*/
-SWIGINTERN VALUE
-_wrap_Dynamic___gt____SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","operator >", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","operator >", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator >((Dynamic const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___gt____SWIG_1(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "String const &","operator >", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "String const &","operator >", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< String * >(argp2);
-  result = (bool)((Dynamic const *)arg1)->operator >((String const &)*arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___gt____SWIG_2(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  double arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_double(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "double","operator >", 2, argv[0] ));
-  } 
-  arg2 = static_cast< double >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator >(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___gt____SWIG_3(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  float arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_float(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "float","operator >", 2, argv[0] ));
-  } 
-  arg2 = static_cast< float >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator >(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___gt____SWIG_4(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","operator >", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator >(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___gt____SWIG_5(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  bool arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool val2 ;
-  int ecode2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator >", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","operator >", 2, argv[0] ));
-  } 
-  arg2 = static_cast< bool >(val2);
-  result = (bool)((Dynamic const *)arg1)->operator >(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_Dynamic___gt__(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[3];
-  int ii;
-  
-  argc = nargs + 1;
-  argv[0] = self;
-  if (argc > 3) SWIG_fail;
-  for (ii = 1; (ii < argc); ++ii) {
-    argv[ii] = args[ii-1];
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Dynamic, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___gt____SWIG_0(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___gt____SWIG_1(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_int(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___gt____SWIG_4(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_float(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___gt____SWIG_3(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___gt____SWIG_2(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_bool(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___gt____SWIG_5(nargs, args, self);
-      }
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 3, "Dynamic.__gt__", 
-    "    bool Dynamic.__gt__(Dynamic const &inRHS)\n"
-    "    bool Dynamic.__gt__(String const &inRHS)\n"
-    "    bool Dynamic.__gt__(double inRHS)\n"
-    "    bool Dynamic.__gt__(float inRHS)\n"
-    "    bool Dynamic.__gt__(int inRHS)\n"
-    "    bool Dynamic.__gt__(bool inRHS)\n");
-  
-  return Qnil;
-}
-
-
-
-/*
-  Document-method: Coopyhx::Dynamic.+
-
-  call-seq:
-    +(inRHS) -> Dynamic
-    +(s) -> String
-    +(i) -> Dynamic
-    +(d) -> Dynamic
-    +(d) -> Dynamic
-
-Add operator.
-*/
-SWIGINTERN VALUE
-_wrap_Dynamic___add____SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator +", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","operator +", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","operator +", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = ((Dynamic const *)arg1)->operator +((Dynamic const &)*arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___add____SWIG_1(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
   String result;
   VALUE vresult = Qnil;
   
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
   }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_hx__Object_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator +", 1, self )); 
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< hx::Object > *","toString", 1, self )); 
   }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "String const &","operator +", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "String const &","operator +", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< String * >(argp2);
-  result = ((Dynamic const *)arg1)->operator +((String const &)*arg2);
+  arg1 = reinterpret_cast< hx::ObjectPtr< hx::Object > * >(argp1);
+  result = (*arg1)->toString();
   vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
   return vresult;
 fail:
   return Qnil;
 }
 
-
-SWIGINTERN VALUE
-_wrap_Dynamic___add____SWIG_2(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int temp2 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator +", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","operator +", 2, argv[0] ));
-  } 
-  temp2 = static_cast< int >(val2);
-  arg2 = &temp2;
-  result = ((Dynamic const *)arg1)->operator +((int const &)*arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___add____SWIG_3(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  double *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double temp2 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator +", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_double(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "double","operator +", 2, argv[0] ));
-  } 
-  temp2 = static_cast< double >(val2);
-  arg2 = &temp2;
-  result = ((Dynamic const *)arg1)->operator +((double const &)*arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___add____SWIG_4(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  float *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float temp2 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator +", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_float(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "float","operator +", 2, argv[0] ));
-  } 
-  temp2 = static_cast< float >(val2);
-  arg2 = &temp2;
-  result = ((Dynamic const *)arg1)->operator +((float const &)*arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_Dynamic___add__(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[3];
-  int ii;
-  
-  argc = nargs + 1;
-  argv[0] = self;
-  if (argc > 3) SWIG_fail;
-  for (ii = 1; (ii < argc); ++ii) {
-    argv[ii] = args[ii-1];
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Dynamic, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___add____SWIG_0(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___add____SWIG_1(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_int(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___add____SWIG_2(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_float(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___add____SWIG_4(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___add____SWIG_3(nargs, args, self);
-      }
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 3, "Dynamic.__add__", 
-    "    Dynamic Dynamic.__add__(Dynamic const &inRHS)\n"
-    "    Dynamic Dynamic.__add__(String const &s)\n"
-    "    Dynamic Dynamic.__add__(int const &i)\n"
-    "    Dynamic Dynamic.__add__(double const &d)\n"
-    "    Dynamic Dynamic.__add__(float const &d)\n");
-  
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___mod__(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator %", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","operator %", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","operator %", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (double)((Dynamic const *)arg1)->operator %((Dynamic const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-
-/*
-  Document-method: Coopyhx::Dynamic.-@
-
-  call-seq:
-    -@ -> double
-
-Substraction operator.
-*/
-SWIGINTERN VALUE
-_wrap_Dynamic___neg__(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator -", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  result = (double)((Dynamic const *)arg1)->operator -();
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-
-/*
-  Document-method: Coopyhx::Dynamic.-
-
-  call-seq:
-    -(inRHS) -> double
-    -(inRHS) -> double
-    -(inRHS) -> double
-    -(inRHS) -> double
-
-Substraction operator.
-*/
-SWIGINTERN VALUE
-_wrap_Dynamic___sub____SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator -", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","operator -", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","operator -", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (double)((Dynamic const *)arg1)->operator -((Dynamic const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___sub____SWIG_1(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  double *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double temp2 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator -", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_double(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "double","operator -", 2, argv[0] ));
-  } 
-  temp2 = static_cast< double >(val2);
-  arg2 = &temp2;
-  result = (double)((Dynamic const *)arg1)->operator -((double const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___sub____SWIG_2(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  float *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float temp2 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator -", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_float(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "float","operator -", 2, argv[0] ));
-  } 
-  temp2 = static_cast< float >(val2);
-  arg2 = &temp2;
-  result = (double)((Dynamic const *)arg1)->operator -((float const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___sub____SWIG_3(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int temp2 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator -", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","operator -", 2, argv[0] ));
-  } 
-  temp2 = static_cast< int >(val2);
-  arg2 = &temp2;
-  result = (double)((Dynamic const *)arg1)->operator -((int const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_Dynamic___sub__(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[3];
-  int ii;
-  
-  argc = nargs + 1;
-  argv[0] = self;
-  if (argc > 3) SWIG_fail;
-  for (ii = 1; (ii < argc); ++ii) {
-    argv[ii] = args[ii-1];
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Dynamic, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___sub____SWIG_0(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_int(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___sub____SWIG_3(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_float(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___sub____SWIG_2(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___sub____SWIG_1(nargs, args, self);
-      }
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 3, "Dynamic.__sub__", 
-    "    double Dynamic.__sub__(Dynamic const &inRHS)\n"
-    "    double Dynamic.__sub__(double const &inRHS)\n"
-    "    double Dynamic.__sub__(float const &inRHS)\n"
-    "    double Dynamic.__sub__(int const &inRHS)\n");
-  
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___mul____SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator *", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","operator *", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","operator *", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (double)((Dynamic const *)arg1)->operator *((Dynamic const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___mul____SWIG_1(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  double *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double temp2 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator *", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_double(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "double","operator *", 2, argv[0] ));
-  } 
-  temp2 = static_cast< double >(val2);
-  arg2 = &temp2;
-  result = (double)((Dynamic const *)arg1)->operator *((double const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___mul____SWIG_2(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  float *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float temp2 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator *", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_float(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "float","operator *", 2, argv[0] ));
-  } 
-  temp2 = static_cast< float >(val2);
-  arg2 = &temp2;
-  result = (double)((Dynamic const *)arg1)->operator *((float const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___mul____SWIG_3(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int temp2 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator *", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","operator *", 2, argv[0] ));
-  } 
-  temp2 = static_cast< int >(val2);
-  arg2 = &temp2;
-  result = (double)((Dynamic const *)arg1)->operator *((int const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_Dynamic___mul__(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[3];
-  int ii;
-  
-  argc = nargs + 1;
-  argv[0] = self;
-  if (argc > 3) SWIG_fail;
-  for (ii = 1; (ii < argc); ++ii) {
-    argv[ii] = args[ii-1];
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Dynamic, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___mul____SWIG_0(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_int(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___mul____SWIG_3(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_float(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___mul____SWIG_2(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___mul____SWIG_1(nargs, args, self);
-      }
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 3, "Dynamic.__mul__", 
-    "    double Dynamic.__mul__(Dynamic const &inRHS)\n"
-    "    double Dynamic.__mul__(double const &inRHS)\n"
-    "    double Dynamic.__mul__(float const &inRHS)\n"
-    "    double Dynamic.__mul__(int const &inRHS)\n");
-  
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___div____SWIG_0(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  Dynamic *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator /", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic const &","operator /", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic const &","operator /", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< Dynamic * >(argp2);
-  result = (double)((Dynamic const *)arg1)->operator /((Dynamic const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___div____SWIG_1(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  double *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double temp2 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator /", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_double(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "double","operator /", 2, argv[0] ));
-  } 
-  temp2 = static_cast< double >(val2);
-  arg2 = &temp2;
-  result = (double)((Dynamic const *)arg1)->operator /((double const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___div____SWIG_2(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  float *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float temp2 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator /", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_float(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "float","operator /", 2, argv[0] ));
-  } 
-  temp2 = static_cast< float >(val2);
-  arg2 = &temp2;
-  result = (double)((Dynamic const *)arg1)->operator /((float const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic___div____SWIG_3(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  int *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int temp2 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  double result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic const *","operator /", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","operator /", 2, argv[0] ));
-  } 
-  temp2 = static_cast< int >(val2);
-  arg2 = &temp2;
-  result = (double)((Dynamic const *)arg1)->operator /((int const &)*arg2);
-  vresult = SWIG_From_double(static_cast< double >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE _wrap_Dynamic___div__(int nargs, VALUE *args, VALUE self) {
-  int argc;
-  VALUE argv[3];
-  int ii;
-  
-  argc = nargs + 1;
-  argv[0] = self;
-  if (argc > 3) SWIG_fail;
-  for (ii = 1; (ii < argc); ++ii) {
-    argv[ii] = args[ii-1];
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Dynamic, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_Dynamic___div____SWIG_0(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_int(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___div____SWIG_3(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_float(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___div____SWIG_2(nargs, args, self);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Dynamic, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_Dynamic___div____SWIG_1(nargs, args, self);
-      }
-    }
-  }
-  
-fail:
-  Ruby_Format_OverloadedError( argc, 3, "Dynamic.__div__", 
-    "    double Dynamic.__div__(Dynamic const &inRHS)\n"
-    "    double Dynamic.__div__(double const &inRHS)\n"
-    "    double Dynamic.__div__(float const &inRHS)\n"
-    "    double Dynamic.__div__(int const &inRHS)\n");
-  
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic_ThrowBadFunctionError(int argc, VALUE *argv, VALUE self) {
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  Dynamic::ThrowBadFunctionError();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Dynamic_CheckFPtr(int argc, VALUE *argv, VALUE self) {
-  Dynamic *arg1 = (Dynamic *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Dynamic, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "Dynamic *","CheckFPtr", 1, self )); 
-  }
-  arg1 = reinterpret_cast< Dynamic * >(argp1);
-  (arg1)->CheckFPtr();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN void
-free_Dynamic(Dynamic *arg1) {
-    delete arg1;
-}
-
-SWIGINTERN VALUE
-_wrap_CreateMemberFunction0(int argc, VALUE *argv, VALUE self) {
-  hx::Object *arg1 = (hx::Object *) 0 ;
-  hx::MemberFunction0 arg2 = (hx::MemberFunction0) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1,SWIGTYPE_p_hx__Object, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::Object *","hx::CreateMemberFunction0", 1, argv[0] )); 
-  }
-  arg1 = reinterpret_cast< hx::Object * >(argp1);
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[1], (void**)(&arg2), SWIGTYPE_p_f_p_hx__Object__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::MemberFunction0","hx::CreateMemberFunction0", 2, argv[1] )); 
-    }
-  }
-  result = hx::CreateMemberFunction0(arg1,arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateMemberFunction1(int argc, VALUE *argv, VALUE self) {
-  hx::Object *arg1 = (hx::Object *) 0 ;
-  hx::MemberFunction1 arg2 = (hx::MemberFunction1) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1,SWIGTYPE_p_hx__Object, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::Object *","hx::CreateMemberFunction1", 1, argv[0] )); 
-  }
-  arg1 = reinterpret_cast< hx::Object * >(argp1);
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[1], (void**)(&arg2), SWIGTYPE_p_f_p_hx__Object_r_q_const__Dynamic__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::MemberFunction1","hx::CreateMemberFunction1", 2, argv[1] )); 
-    }
-  }
-  result = hx::CreateMemberFunction1(arg1,arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateMemberFunction2(int argc, VALUE *argv, VALUE self) {
-  hx::Object *arg1 = (hx::Object *) 0 ;
-  hx::MemberFunction2 arg2 = (hx::MemberFunction2) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1,SWIGTYPE_p_hx__Object, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::Object *","hx::CreateMemberFunction2", 1, argv[0] )); 
-  }
-  arg1 = reinterpret_cast< hx::Object * >(argp1);
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[1], (void**)(&arg2), SWIGTYPE_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::MemberFunction2","hx::CreateMemberFunction2", 2, argv[1] )); 
-    }
-  }
-  result = hx::CreateMemberFunction2(arg1,arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateMemberFunction3(int argc, VALUE *argv, VALUE self) {
-  hx::Object *arg1 = (hx::Object *) 0 ;
-  hx::MemberFunction3 arg2 = (hx::MemberFunction3) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1,SWIGTYPE_p_hx__Object, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::Object *","hx::CreateMemberFunction3", 1, argv[0] )); 
-  }
-  arg1 = reinterpret_cast< hx::Object * >(argp1);
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[1], (void**)(&arg2), SWIGTYPE_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::MemberFunction3","hx::CreateMemberFunction3", 2, argv[1] )); 
-    }
-  }
-  result = hx::CreateMemberFunction3(arg1,arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateMemberFunction4(int argc, VALUE *argv, VALUE self) {
-  hx::Object *arg1 = (hx::Object *) 0 ;
-  hx::MemberFunction4 arg2 = (hx::MemberFunction4) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1,SWIGTYPE_p_hx__Object, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::Object *","hx::CreateMemberFunction4", 1, argv[0] )); 
-  }
-  arg1 = reinterpret_cast< hx::Object * >(argp1);
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[1], (void**)(&arg2), SWIGTYPE_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::MemberFunction4","hx::CreateMemberFunction4", 2, argv[1] )); 
-    }
-  }
-  result = hx::CreateMemberFunction4(arg1,arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateMemberFunction5(int argc, VALUE *argv, VALUE self) {
-  hx::Object *arg1 = (hx::Object *) 0 ;
-  hx::MemberFunction5 arg2 = (hx::MemberFunction5) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1,SWIGTYPE_p_hx__Object, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::Object *","hx::CreateMemberFunction5", 1, argv[0] )); 
-  }
-  arg1 = reinterpret_cast< hx::Object * >(argp1);
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[1], (void**)(&arg2), SWIGTYPE_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::MemberFunction5","hx::CreateMemberFunction5", 2, argv[1] )); 
-    }
-  }
-  result = hx::CreateMemberFunction5(arg1,arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateMemberFunctionVar(int argc, VALUE *argv, VALUE self) {
-  hx::Object *arg1 = (hx::Object *) 0 ;
-  hx::MemberFunctionVar arg2 = (hx::MemberFunctionVar) 0 ;
-  int arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val3 ;
-  int ecode3 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 3) || (argc > 3)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(argv[0], &argp1,SWIGTYPE_p_hx__Object, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::Object *","hx::CreateMemberFunctionVar", 1, argv[0] )); 
-  }
-  arg1 = reinterpret_cast< hx::Object * >(argp1);
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[1], (void**)(&arg2), SWIGTYPE_p_f_p_hx__Object_r_q_const__Array__Dynamic____Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::MemberFunctionVar","hx::CreateMemberFunctionVar", 2, argv[1] )); 
-    }
-  }
-  ecode3 = SWIG_AsVal_int(argv[2], &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","hx::CreateMemberFunctionVar", 3, argv[2] ));
-  } 
-  arg3 = static_cast< int >(val3);
-  result = hx::CreateMemberFunctionVar(arg1,arg2,arg3);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateStaticFunction0(int argc, VALUE *argv, VALUE self) {
-  hx::StaticFunction0 arg1 = (hx::StaticFunction0) 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[0], (void**)(&arg1), SWIGTYPE_p_f___Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::StaticFunction0","hx::CreateStaticFunction0", 1, argv[0] )); 
-    }
-  }
-  result = hx::CreateStaticFunction0(arg1);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateStaticFunction1(int argc, VALUE *argv, VALUE self) {
-  hx::StaticFunction1 arg1 = (hx::StaticFunction1) 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[0], (void**)(&arg1), SWIGTYPE_p_f_r_q_const__Dynamic__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::StaticFunction1","hx::CreateStaticFunction1", 1, argv[0] )); 
-    }
-  }
-  result = hx::CreateStaticFunction1(arg1);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateStaticFunction2(int argc, VALUE *argv, VALUE self) {
-  hx::StaticFunction2 arg1 = (hx::StaticFunction2) 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[0], (void**)(&arg1), SWIGTYPE_p_f_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::StaticFunction2","hx::CreateStaticFunction2", 1, argv[0] )); 
-    }
-  }
-  result = hx::CreateStaticFunction2(arg1);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateStaticFunction3(int argc, VALUE *argv, VALUE self) {
-  hx::StaticFunction3 arg1 = (hx::StaticFunction3) 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[0], (void**)(&arg1), SWIGTYPE_p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::StaticFunction3","hx::CreateStaticFunction3", 1, argv[0] )); 
-    }
-  }
-  result = hx::CreateStaticFunction3(arg1);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateStaticFunction4(int argc, VALUE *argv, VALUE self) {
-  hx::StaticFunction4 arg1 = (hx::StaticFunction4) 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[0], (void**)(&arg1), SWIGTYPE_p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::StaticFunction4","hx::CreateStaticFunction4", 1, argv[0] )); 
-    }
-  }
-  result = hx::CreateStaticFunction4(arg1);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateStaticFunction5(int argc, VALUE *argv, VALUE self) {
-  hx::StaticFunction5 arg1 = (hx::StaticFunction5) 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[0], (void**)(&arg1), SWIGTYPE_p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::StaticFunction5","hx::CreateStaticFunction5", 1, argv[0] )); 
-    }
-  }
-  result = hx::CreateStaticFunction5(arg1);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CreateStaticFunctionVar(int argc, VALUE *argv, VALUE self) {
-  hx::StaticFunctionVar arg1 = (hx::StaticFunctionVar) 0 ;
-  int arg2 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  {
-    int res = SWIG_ConvertFunctionPtr(argv[0], (void**)(&arg1), SWIGTYPE_p_f_r_q_const__Array__Dynamic____Dynamic);
-    if (!SWIG_IsOK(res)) {
-      SWIG_exception_fail(SWIG_ArgError(res), Ruby_Format_TypeError( "", "hx::StaticFunctionVar","hx::CreateStaticFunctionVar", 1, argv[0] )); 
-    }
-  }
-  ecode2 = SWIG_AsVal_int(argv[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","hx::CreateStaticFunctionVar", 2, argv[1] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  result = hx::CreateStaticFunctionVar(arg1,arg2);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_GetIntClass(int argc, VALUE *argv, VALUE self) {
-  Class *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (Class *) &hx::GetIntClass();
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Class, 0 |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_GetFloatClass(int argc, VALUE *argv, VALUE self) {
-  Class *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (Class *) &hx::GetFloatClass();
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Class, 0 |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_GetBoolClass(int argc, VALUE *argv, VALUE self) {
-  Class *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (Class *) &hx::GetBoolClass();
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Class, 0 |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_GetVoidClass(int argc, VALUE *argv, VALUE self) {
-  Class *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (Class *) &hx::GetVoidClass();
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Class, 0 |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_GetStringClass(int argc, VALUE *argv, VALUE self) {
-  Class *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (Class *) &hx::GetStringClass();
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Class, 0 |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-static swig_class SwigClassDatum_obj;
-
-SWIGINTERN VALUE
-_wrap_Datum_obj___boot(int argc, VALUE *argv, VALUE self) {
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  coopy::Datum_obj::__boot();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Datum_obj_toString(int argc, VALUE *argv, VALUE self) {
-  coopy::Datum_obj *arg1 = (coopy::Datum_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ::String result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Datum_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Datum_obj *","toString", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::Datum_obj * >(argp1);
-  result = (arg1)->toString();
-  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Datum_obj_toString_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::Datum_obj *arg1 = (coopy::Datum_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Datum_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Datum_obj *","toString_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::Datum_obj * >(argp1);
-  result = (arg1)->toString_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN void
-free_coopy_Datum_obj(coopy::Datum_obj *arg1) {
-    delete arg1;
-}
-
-static swig_class SwigClassBag_obj;
-
-SWIGINTERN VALUE
-_wrap_Bag_obj___boot(int argc, VALUE *argv, VALUE self) {
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  coopy::Bag_obj::__boot();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Bag_obj_getItemView(int argc, VALUE *argv, VALUE self) {
-  coopy::Bag_obj *arg1 = (coopy::Bag_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::View_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Bag_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Bag_obj *","getItemView", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::Bag_obj * >(argp1);
-  result = (arg1)->getItemView();
-  vresult = SWIG_NewPointerObj((new ::coopy::View(static_cast< const ::coopy::View& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Bag_obj_getItemView_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::Bag_obj *arg1 = (coopy::Bag_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Bag_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Bag_obj *","getItemView_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::Bag_obj * >(argp1);
-  result = (arg1)->getItemView_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Bag_obj_getItem(int argc, VALUE *argv, VALUE self) {
-  coopy::Bag_obj *arg1 = (coopy::Bag_obj *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  ::coopy::Datum result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Bag_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Bag_obj *","getItem", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::Bag_obj * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getItem", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  result = (arg1)->getItem(arg2);
-  vresult = SWIG_NewPointerObj((new ::coopy::Datum(static_cast< const ::coopy::Datum& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_Bag_obj_getItem_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::Bag_obj *arg1 = (coopy::Bag_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Bag_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Bag_obj *","getItem_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::Bag_obj * >(argp1);
-  result = (arg1)->getItem_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN void
-free_coopy_Bag_obj(coopy::Bag_obj *arg1) {
-    delete arg1;
-}
-
-static swig_class SwigClassView_obj;
-
-SWIGINTERN VALUE
-_wrap_View_obj___boot(int argc, VALUE *argv, VALUE self) {
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  coopy::View_obj::__boot();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_toDatum(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  ::String arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  ::coopy::Datum result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","toDatum", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","toDatum", 2, argv[0] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","toDatum", 2, argv[0]));
-    } else {
-      arg2 = *(reinterpret_cast< ::String * >(argp2));
-    }
-  }
-  result = (arg1)->toDatum(arg2);
-  vresult = SWIG_NewPointerObj((new ::coopy::Datum(static_cast< const ::coopy::Datum& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_toDatum_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","toDatum_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  result = (arg1)->toDatum_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_equals(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  ::coopy::Datum arg2 ;
-  ::coopy::Datum arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  void *argp3 ;
-  int res3 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","equals", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Datum","equals", 2, argv[0] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Datum","equals", 2, argv[0]));
-    } else {
-      arg2 = *(reinterpret_cast< ::coopy::Datum * >(argp2));
-    }
-  }
-  {
-    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t,  0 );
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Datum","equals", 3, argv[1] )); 
-    }  
-    if (!argp3) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Datum","equals", 3, argv[1]));
-    } else {
-      arg3 = *(reinterpret_cast< ::coopy::Datum * >(argp3));
-    }
-  }
-  result = (bool)(arg1)->equals(arg2,arg3);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_equals_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","equals_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  result = (arg1)->equals_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_hasStructure(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  ::coopy::Datum arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","hasStructure", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Datum","hasStructure", 2, argv[0] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Datum","hasStructure", 2, argv[0]));
-    } else {
-      arg2 = *(reinterpret_cast< ::coopy::Datum * >(argp2));
-    }
-  }
-  result = (bool)(arg1)->hasStructure(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_hasStructure_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","hasStructure_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  result = (arg1)->hasStructure_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_getTable(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  ::coopy::Datum arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","getTable", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Datum","getTable", 2, argv[0] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Datum","getTable", 2, argv[0]));
-    } else {
-      arg2 = *(reinterpret_cast< ::coopy::Datum * >(argp2));
-    }
-  }
-  result = (arg1)->getTable(arg2);
-  vresult = SWIG_NewPointerObj((new ::coopy::Table(static_cast< const ::coopy::Table& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_getTable_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","getTable_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  result = (arg1)->getTable_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_getBag(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  ::coopy::Datum arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Bag_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","getBag", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Datum","getBag", 2, argv[0] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Datum","getBag", 2, argv[0]));
-    } else {
-      arg2 = *(reinterpret_cast< ::coopy::Datum * >(argp2));
-    }
-  }
-  result = (arg1)->getBag(arg2);
-  vresult = SWIG_NewPointerObj((new ::coopy::Bag(static_cast< const ::coopy::Bag& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_getBag_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","getBag_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  result = (arg1)->getBag_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_toString(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  ::coopy::Datum arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  ::String result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","toString", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Datum","toString", 2, argv[0] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Datum","toString", 2, argv[0]));
-    } else {
-      arg2 = *(reinterpret_cast< ::coopy::Datum * >(argp2));
-    }
-  }
-  result = (arg1)->toString(arg2);
-  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_View_obj_toString_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","toString_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
-  result = (arg1)->toString_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN void
-free_coopy_View_obj(coopy::View_obj *arg1) {
-    delete arg1;
-}
 
 static swig_class SwigClassSimpleCell_obj;
 
@@ -13198,65 +13254,6 @@ _wrap_SimpleCell_obj___Visit(int argc, VALUE *argv, VALUE self) {
   arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
   (arg1)->__Visit(arg2);
   return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_SimpleCell_obj_asDatum(int argc, VALUE *argv, VALUE self) {
-  coopy::SimpleCell_obj *arg1 = (coopy::SimpleCell_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  SwigValueWrapper< ::hx::ObjectPtr< ::coopy::Datum_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCell_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCell_obj *","asDatum", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::SimpleCell_obj * >(argp1);
-  result = (arg1)->asDatum();
-  vresult = SWIG_NewPointerObj((new ::hx::ObjectPtr< ::coopy::Datum_obj >(static_cast< const ::hx::ObjectPtr< ::coopy::Datum_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_SimpleCell_obj___ToInterface(int argc, VALUE *argv, VALUE self) {
-  coopy::SimpleCell_obj *arg1 = (coopy::SimpleCell_obj *) 0 ;
-  type_info *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  hx::Object *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleCell_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleCell_obj *","__ToInterface", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::SimpleCell_obj * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_type_info,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "type_info const &","__ToInterface", 2, argv[0] )); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "type_info const &","__ToInterface", 2, argv[0])); 
-  }
-  arg2 = reinterpret_cast< type_info * >(argp2);
-  result = (hx::Object *)(arg1)->__ToInterface((type_info const &)*arg2);
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__Object, 0 |  0 );
-  return vresult;
 fail:
   return Qnil;
 }
@@ -13621,54 +13618,6 @@ _wrap_SimpleTable_obj___Visit(int argc, VALUE *argv, VALUE self) {
   arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
   (arg1)->__Visit(arg2);
   return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_SimpleTable_obj_asDatum(int argc, VALUE *argv, VALUE self) {
-  coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  SwigValueWrapper< ::hx::ObjectPtr< ::coopy::Datum_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTable_obj *","asDatum", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
-  result = (arg1)->asDatum();
-  vresult = SWIG_NewPointerObj((new ::hx::ObjectPtr< ::coopy::Datum_obj >(static_cast< const ::hx::ObjectPtr< ::coopy::Datum_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_SimpleTable_obj_asBag(int argc, VALUE *argv, VALUE self) {
-  coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  SwigValueWrapper< ::hx::ObjectPtr< ::coopy::Bag_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTable_obj *","asBag", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
-  result = (arg1)->asBag();
-  vresult = SWIG_NewPointerObj((new ::hx::ObjectPtr< ::coopy::Bag_obj >(static_cast< const ::hx::ObjectPtr< ::coopy::Bag_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
 fail:
   return Qnil;
 }
@@ -14106,59 +14055,11 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_SimpleTable_obj_getItemView(int argc, VALUE *argv, VALUE self) {
-  coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::View_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTable_obj *","getItemView", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
-  result = (arg1)->getItemView();
-  vresult = SWIG_NewPointerObj((new ::coopy::View(static_cast< const ::coopy::View& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_SimpleTable_obj_getItemView_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTable_obj *","getItemView_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
-  result = (arg1)->getItemView_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
 _wrap_SimpleTable_obj_getCellView(int argc, VALUE *argv, VALUE self) {
   coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::View_obj > > result;
+  ::coopy::View result;
   VALUE vresult = Qnil;
   
   if ((argc < 0) || (argc > 0)) {
@@ -14202,7 +14103,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_SimpleTable_obj_toString(int argc, VALUE *argv, VALUE self) {
+_wrap_SimpleTable_obj___str__(int argc, VALUE *argv, VALUE self) {
   coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -14250,67 +14151,11 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_SimpleTable_obj_getItem(int argc, VALUE *argv, VALUE self) {
-  coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  ::coopy::Datum result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTable_obj *","getItem", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getItem", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  result = (arg1)->getItem(arg2);
-  vresult = SWIG_NewPointerObj((new ::coopy::Datum(static_cast< const ::coopy::Datum& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_SimpleTable_obj_getItem_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTable_obj *","getItem_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
-  result = (arg1)->getItem_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_SimpleTable_obj_setCell(int argc, VALUE *argv, VALUE self) {
+_wrap_SimpleTable_obj_setCell__SWIG_0(int argc, VALUE *argv, VALUE self) {
   coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
   int arg2 ;
   int arg3 ;
-  ::coopy::Datum arg4 ;
+  Dynamic arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   int val2 ;
@@ -14341,14 +14186,14 @@ _wrap_SimpleTable_obj_setCell(int argc, VALUE *argv, VALUE self) {
   } 
   arg3 = static_cast< int >(val3);
   {
-    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t,  0 );
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_Dynamic,  0 );
     if (!SWIG_IsOK(res4)) {
-      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "::coopy::Datum","setCell", 4, argv[2] )); 
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "Dynamic","setCell", 4, argv[2] )); 
     }  
     if (!argp4) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Datum","setCell", 4, argv[2]));
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","setCell", 4, argv[2]));
     } else {
-      arg4 = *(reinterpret_cast< ::coopy::Datum * >(argp4));
+      arg4 = *(reinterpret_cast< Dynamic * >(argp4));
     }
   }
   result = (arg1)->setCell(arg2,arg3,arg4);
@@ -14394,7 +14239,7 @@ _wrap_SimpleTable_obj_getCell(int argc, VALUE *argv, VALUE self) {
   int ecode2 = 0 ;
   int val3 ;
   int ecode3 = 0 ;
-  ::coopy::Datum result;
+  Dynamic result;
   VALUE vresult = Qnil;
   
   if ((argc < 2) || (argc > 2)) {
@@ -14416,7 +14261,7 @@ _wrap_SimpleTable_obj_getCell(int argc, VALUE *argv, VALUE self) {
   } 
   arg3 = static_cast< int >(val3);
   result = (arg1)->getCell(arg2,arg3);
-  vresult = SWIG_NewPointerObj((new ::coopy::Datum(static_cast< const ::coopy::Datum& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, SWIG_POINTER_OWN |  0 );
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
   return vresult;
 fail:
   return Qnil;
@@ -14596,7 +14441,7 @@ _wrap_SimpleTable_obj_getTable(int argc, VALUE *argv, VALUE self) {
   coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > result;
+  ::coopy::Table result;
   VALUE vresult = Qnil;
   
   if ((argc < 0) || (argc > 0)) {
@@ -14633,59 +14478,6 @@ _wrap_SimpleTable_obj_getTable_dyn(int argc, VALUE *argv, VALUE self) {
   arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
   result = (arg1)->getTable_dyn();
   vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_SimpleTable_obj_bag_set(int argc, VALUE *argv, VALUE self) {
-  coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
-  ::coopy::Bag *arg2 = (::coopy::Bag *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTable_obj *","bag", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Bag *","bag", 2, argv[0] )); 
-  }
-  arg2 = reinterpret_cast< ::coopy::Bag * >(argp2);
-  if (arg1) (arg1)->bag = *arg2;
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_SimpleTable_obj_bag_get(int argc, VALUE *argv, VALUE self) {
-  coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ::coopy::Bag *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTable_obj *","bag", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
-  result = (::coopy::Bag *)& ((arg1)->bag);
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t, 0 |  0 );
   return vresult;
 fail:
   return Qnil;
@@ -14853,7 +14645,7 @@ fail:
 
 SWIGINTERN VALUE
 _wrap_SimpleTable_obj_tableToString(int argc, VALUE *argv, VALUE self) {
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg1 ;
+  ::coopy::Table arg1 ;
   void *argp1 ;
   int res1 = 0 ;
   ::String result;
@@ -14897,14 +14689,213 @@ fail:
 }
 
 
-static swig_class SwigClassCoopy_obj;
+SWIGINTERN VALUE
+_wrap_SimpleTable_obj_setCell__SWIG_1(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTable_obj *","setCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","setCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","setCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  ecode4 = SWIG_AsVal_int(argv[2], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), Ruby_Format_TypeError( "", "int","setCell", 4, argv[2] ));
+  } 
+  arg4 = static_cast< int >(val4);
+  result = coopy_SimpleTable_obj_setCell__SWIG_1(arg1,arg2,arg3,arg4);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_SimpleTable_obj_setCell__SWIG_2(int argc, VALUE *argv, VALUE self) {
+  coopy::SimpleTable_obj *arg1 = (coopy::SimpleTable_obj *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  char *arg4 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int res4 ;
+  char *buf4 = 0 ;
+  int alloc4 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__SimpleTable_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::SimpleTable_obj *","setCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::SimpleTable_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","setCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","setCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  res4 = SWIG_AsCharPtrAndSize(argv[2], &buf4, NULL, &alloc4);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "char const *","setCell", 4, argv[2] ));
+  }
+  arg4 = reinterpret_cast< char * >(buf4);
+  result = coopy_SimpleTable_obj_setCell__SWIG_2(arg1,arg2,arg3,(char const *)arg4);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return vresult;
+fail:
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE _wrap_SimpleTable_obj_setCell(int nargs, VALUE *args, VALUE self) {
+  int argc;
+  VALUE argv[5];
+  int ii;
+  
+  argc = nargs + 1;
+  argv[0] = self;
+  if (argc > 5) SWIG_fail;
+  for (ii = 1; (ii < argc); ++ii) {
+    argv[ii] = args[ii-1];
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_coopy__SimpleTable_obj, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          void *vptr = 0;
+          int res = SWIG_ConvertPtr(argv[3], &vptr, SWIGTYPE_p_Dynamic, 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_SimpleTable_obj_setCell__SWIG_0(nargs, args, self);
+          }
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_coopy__SimpleTable_obj, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          {
+            int res = SWIG_AsVal_int(argv[3], NULL);
+            _v = SWIG_CheckState(res);
+          }
+          if (_v) {
+            return _wrap_SimpleTable_obj_setCell__SWIG_1(nargs, args, self);
+          }
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_coopy__SimpleTable_obj, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_AsCharPtrAndSize(argv[3], 0, NULL, 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_SimpleTable_obj_setCell__SWIG_2(nargs, args, self);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  Ruby_Format_OverloadedError( argc, 5, "SimpleTable_obj.setCell", 
+    "    Void SimpleTable_obj.setCell(int x, int y, Dynamic c)\n"
+    "    Void SimpleTable_obj.setCell(int x, int y, int v)\n"
+    "    Void SimpleTable_obj.setCell(int x, int y, char const *v)\n");
+  
+  return Qnil;
+}
+
+
+static swig_class SwigClassCoopy;
 
 #ifdef HAVE_RB_DEFINE_ALLOC_FUNC
 SWIGINTERN VALUE
-_wrap_Coopy_obj_allocate(VALUE self) {
+_wrap_Coopy_allocate(VALUE self) {
 #else
   SWIGINTERN VALUE
-  _wrap_Coopy_obj_allocate(int argc, VALUE *argv, VALUE self) {
+  _wrap_Coopy_allocate(int argc, VALUE *argv, VALUE self) {
 #endif
     
     
@@ -14917,7 +14908,7 @@ _wrap_Coopy_obj_allocate(VALUE self) {
   
 
 SWIGINTERN VALUE
-_wrap_new_Coopy_obj(int argc, VALUE *argv, VALUE self) {
+_wrap_new_Coopy(int argc, VALUE *argv, VALUE self) {
   coopy::Coopy_obj *result = 0 ;
   
   if ((argc < 0) || (argc > 0)) {
@@ -14932,7 +14923,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj___construct(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy___construct(int argc, VALUE *argv, VALUE self) {
   coopy::Coopy_obj *arg1 = (coopy::Coopy_obj *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -14956,7 +14947,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj___new(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy___new(int argc, VALUE *argv, VALUE self) {
   SwigValueWrapper< hx::ObjectPtr< coopy::Coopy_obj > > result;
   VALUE vresult = Qnil;
   
@@ -14972,7 +14963,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy___CreateEmpty(int argc, VALUE *argv, VALUE self) {
   Dynamic result;
   VALUE vresult = Qnil;
   
@@ -14988,7 +14979,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj___Create(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy___Create(int argc, VALUE *argv, VALUE self) {
   hx::DynamicArray arg1 ;
   void *argp1 ;
   int res1 = 0 ;
@@ -15023,7 +15014,7 @@ free_coopy_Coopy_obj(coopy::Coopy_obj *arg1) {
 }
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj___boot(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy___boot(int argc, VALUE *argv, VALUE self) {
   if ((argc < 0) || (argc > 0)) {
     rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
   }
@@ -15035,7 +15026,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj___register(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy___register(int argc, VALUE *argv, VALUE self) {
   if ((argc < 0) || (argc > 0)) {
     rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
   }
@@ -15047,7 +15038,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj___Mark(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy___Mark(int argc, VALUE *argv, VALUE self) {
   coopy::Coopy_obj *arg1 = (coopy::Coopy_obj *) 0 ;
   hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
   void *argp1 = 0 ;
@@ -15076,7 +15067,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj___Visit(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy___Visit(int argc, VALUE *argv, VALUE self) {
   coopy::Coopy_obj *arg1 = (coopy::Coopy_obj *) 0 ;
   hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
   void *argp1 = 0 ;
@@ -15105,7 +15096,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj___ToString(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy___ToString(int argc, VALUE *argv, VALUE self) {
   coopy::Coopy_obj *arg1 = (coopy::Coopy_obj *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -15129,7 +15120,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_format_preference_set(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy_format_preference_set(int argc, VALUE *argv, VALUE self) {
   coopy::Coopy_obj *arg1 = (coopy::Coopy_obj *) 0 ;
   ::String *arg2 = (::String *) 0 ;
   void *argp1 = 0 ;
@@ -15158,7 +15149,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_format_preference_get(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy_format_preference_get(int argc, VALUE *argv, VALUE self) {
   coopy::Coopy_obj *arg1 = (coopy::Coopy_obj *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -15182,9 +15173,9 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_compareTables(int argc, VALUE *argv, VALUE self) {
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg1 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
+_wrap_Coopy_compareTables(int argc, VALUE *argv, VALUE self) {
+  ::coopy::Table arg1 ;
+  ::coopy::Table arg2 ;
   void *argp1 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -15226,7 +15217,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_compareTables_dyn(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy_compareTables_dyn(int argc, VALUE *argv, VALUE self) {
   Dynamic result;
   VALUE vresult = Qnil;
   
@@ -15242,10 +15233,10 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_compareTables3(int argc, VALUE *argv, VALUE self) {
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg1 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
+_wrap_Coopy_compareTables3(int argc, VALUE *argv, VALUE self) {
+  ::coopy::Table arg1 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
   void *argp1 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -15300,7 +15291,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_compareTables3_dyn(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy_compareTables3_dyn(int argc, VALUE *argv, VALUE self) {
   Dynamic result;
   VALUE vresult = Qnil;
   
@@ -15316,7 +15307,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_randomTests(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy_randomTests(int argc, VALUE *argv, VALUE self) {
   int result;
   VALUE vresult = Qnil;
   
@@ -15332,7 +15323,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_randomTests_dyn(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy_randomTests_dyn(int argc, VALUE *argv, VALUE self) {
   Dynamic result;
   VALUE vresult = Qnil;
   
@@ -15348,7 +15339,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_main(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy_main(int argc, VALUE *argv, VALUE self) {
   int result;
   VALUE vresult = Qnil;
   
@@ -15364,7 +15355,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_main_dyn(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy_main_dyn(int argc, VALUE *argv, VALUE self) {
   Dynamic result;
   VALUE vresult = Qnil;
   
@@ -15380,8 +15371,8 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_show(int argc, VALUE *argv, VALUE self) {
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg1 ;
+_wrap_Coopy_show(int argc, VALUE *argv, VALUE self) {
+  ::coopy::Table arg1 ;
   void *argp1 ;
   int res1 = 0 ;
   Void result;
@@ -15410,7 +15401,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_show_dyn(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy_show_dyn(int argc, VALUE *argv, VALUE self) {
   Dynamic result;
   VALUE vresult = Qnil;
   
@@ -15426,8 +15417,8 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_jsonify(int argc, VALUE *argv, VALUE self) {
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg1 ;
+_wrap_Coopy_jsonify(int argc, VALUE *argv, VALUE self) {
+  ::coopy::Table arg1 ;
   void *argp1 ;
   int res1 = 0 ;
   Dynamic result;
@@ -15456,7 +15447,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_Coopy_obj_jsonify_dyn(int argc, VALUE *argv, VALUE self) {
+_wrap_Coopy_jsonify_dyn(int argc, VALUE *argv, VALUE self) {
   Dynamic result;
   VALUE vresult = Qnil;
   
@@ -15465,396 +15456,6 @@ _wrap_Coopy_obj_jsonify_dyn(int argc, VALUE *argv, VALUE self) {
   }
   result = coopy::Coopy_obj::jsonify_dyn();
   vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-static swig_class SwigClassCompareFlags_obj;
-
-#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj_allocate(VALUE self) {
-#else
-  SWIGINTERN VALUE
-  _wrap_CompareFlags_obj_allocate(int argc, VALUE *argv, VALUE self) {
-#endif
-    
-    
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__CompareFlags_obj);
-#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
-    rb_obj_call_init(vresult, argc, argv);
-#endif
-    return vresult;
-  }
-  
-
-SWIGINTERN VALUE
-_wrap_new_CompareFlags_obj(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *result = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (coopy::CompareFlags_obj *)new coopy::CompareFlags_obj();
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj___construct(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Void result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","__construct", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
-  result = (arg1)->__construct();
-  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj___new(int argc, VALUE *argv, VALUE self) {
-  SwigValueWrapper< hx::ObjectPtr< coopy::CompareFlags_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = coopy::CompareFlags_obj::__new();
-  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::CompareFlags_obj >(static_cast< const hx::ObjectPtr< coopy::CompareFlags_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj___CreateEmpty(int argc, VALUE *argv, VALUE self) {
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = coopy::CompareFlags_obj::__CreateEmpty();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj___Create(int argc, VALUE *argv, VALUE self) {
-  hx::DynamicArray arg1 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  {
-    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__DynamicArray,  0 );
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::DynamicArray","coopy::CompareFlags_obj::__Create", 1, argv[0] )); 
-    }  
-    if (!argp1) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","coopy::CompareFlags_obj::__Create", 1, argv[0]));
-    } else {
-      arg1 = *(reinterpret_cast< hx::DynamicArray * >(argp1));
-    }
-  }
-  result = coopy::CompareFlags_obj::__Create(arg1);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN void
-free_coopy_CompareFlags_obj(coopy::CompareFlags_obj *arg1) {
-    delete arg1;
-}
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj___boot(int argc, VALUE *argv, VALUE self) {
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  coopy::CompareFlags_obj::__boot();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj___register(int argc, VALUE *argv, VALUE self) {
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  coopy::CompareFlags_obj::__register();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj___Mark(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
-  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","__Mark", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
-  }
-  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
-  (arg1)->__Mark(arg2);
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj___Visit(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
-  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","__Visit", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
-  }
-  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
-  (arg1)->__Visit(arg2);
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj___ToString(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ::String result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj const *","__ToString", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
-  result = ((coopy::CompareFlags_obj const *)arg1)->__ToString();
-  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj_unchanged_context_set(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
-  int arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","unchanged_context", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
-  ecode2 = SWIG_AsVal_int(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","unchanged_context", 2, argv[0] ));
-  } 
-  arg2 = static_cast< int >(val2);
-  if (arg1) (arg1)->unchanged_context = arg2;
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj_unchanged_context_get(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","unchanged_context", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
-  result = (int) ((arg1)->unchanged_context);
-  vresult = SWIG_From_int(static_cast< int >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj_show_unchanged_set(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
-  bool arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool val2 ;
-  int ecode2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","show_unchanged", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
-  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","show_unchanged", 2, argv[0] ));
-  } 
-  arg2 = static_cast< bool >(val2);
-  if (arg1) (arg1)->show_unchanged = arg2;
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj_show_unchanged_get(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","show_unchanged", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
-  result = (bool) ((arg1)->show_unchanged);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj_always_show_header_set(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
-  bool arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool val2 ;
-  int ecode2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","always_show_header", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
-  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","always_show_header", 2, argv[0] ));
-  } 
-  arg2 = static_cast< bool >(val2);
-  if (arg1) (arg1)->always_show_header = arg2;
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_CompareFlags_obj_always_show_header_get(int argc, VALUE *argv, VALUE self) {
-  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","always_show_header", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
-  result = (bool) ((arg1)->always_show_header);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
   return vresult;
 fail:
   return Qnil;
@@ -16239,8 +15840,8 @@ fail:
 SWIGINTERN VALUE
 _wrap_CompareTable_obj_isEqual2(int argc, VALUE *argv, VALUE self) {
   coopy::CompareTable_obj *arg1 = (coopy::CompareTable_obj *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -16363,8 +15964,8 @@ fail:
 SWIGINTERN VALUE
 _wrap_CompareTable_obj_hasSameColumns2(int argc, VALUE *argv, VALUE self) {
   coopy::CompareTable_obj *arg1 = (coopy::CompareTable_obj *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -16488,8 +16089,8 @@ SWIGINTERN VALUE
 _wrap_CompareTable_obj_alignColumns(int argc, VALUE *argv, VALUE self) {
   coopy::CompareTable_obj *arg1 = (coopy::CompareTable_obj *) 0 ;
   ::coopy::Alignment arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg4 ;
+  ::coopy::Table arg3 ;
+  ::coopy::Table arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -16578,8 +16179,8 @@ SWIGINTERN VALUE
 _wrap_CompareTable_obj_alignCore2(int argc, VALUE *argv, VALUE self) {
   coopy::CompareTable_obj *arg1 = (coopy::CompareTable_obj *) 0 ;
   ::coopy::Alignment arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg4 ;
+  ::coopy::Table arg3 ;
+  ::coopy::Table arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -16984,675 +16585,6 @@ _wrap_CompareTable_obj_comp_get(int argc, VALUE *argv, VALUE self) {
   arg1 = reinterpret_cast< coopy::CompareTable_obj * >(argp1);
   result = (::coopy::TableComparisonState *)& ((arg1)->comp);
   vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t, 0 |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-static swig_class SwigClassTableDiff_obj;
-
-#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_allocate(VALUE self) {
-#else
-  SWIGINTERN VALUE
-  _wrap_TableDiff_obj_allocate(int argc, VALUE *argv, VALUE self) {
-#endif
-    
-    
-    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__TableDiff_obj);
-#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
-    rb_obj_call_init(vresult, argc, argv);
-#endif
-    return vresult;
-  }
-  
-
-SWIGINTERN VALUE
-_wrap_new_TableDiff_obj(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *result = 0 ;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = (coopy::TableDiff_obj *)new coopy::TableDiff_obj();
-  DATA_PTR(self) = result;
-  return self;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj___construct(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  ::coopy::Alignment arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::CompareFlags_obj > > arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  void *argp3 ;
-  int res3 = 0 ;
-  Void result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","__construct", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Alignment","__construct", 2, argv[0] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Alignment","__construct", 2, argv[0]));
-    } else {
-      arg2 = *(reinterpret_cast< ::coopy::Alignment * >(argp2));
-    }
-  }
-  {
-    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,  0 );
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::CompareFlags","__construct", 3, argv[1] )); 
-    }  
-    if (!argp3) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::CompareFlags","__construct", 3, argv[1]));
-    } else {
-      arg3 = *(reinterpret_cast< ::coopy::CompareFlags * >(argp3));
-    }
-  }
-  result = (arg1)->__construct(arg2,arg3);
-  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj___new(int argc, VALUE *argv, VALUE self) {
-  ::coopy::Alignment arg1 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::CompareFlags_obj > > arg2 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  hx::ObjectPtr< coopy::TableDiff_obj > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  {
-    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t,  0 );
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "::coopy::Alignment","coopy::TableDiff_obj::__new", 1, argv[0] )); 
-    }  
-    if (!argp1) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Alignment","coopy::TableDiff_obj::__new", 1, argv[0]));
-    } else {
-      arg1 = *(reinterpret_cast< ::coopy::Alignment * >(argp1));
-    }
-  }
-  {
-    res2 = SWIG_ConvertPtr(argv[1], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CompareFlags","coopy::TableDiff_obj::__new", 2, argv[1] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::CompareFlags","coopy::TableDiff_obj::__new", 2, argv[1]));
-    } else {
-      arg2 = *(reinterpret_cast< ::coopy::CompareFlags * >(argp2));
-    }
-  }
-  result = coopy::TableDiff_obj::__new(arg1,arg2);
-  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::TableDiff_obj >(static_cast< const hx::ObjectPtr< coopy::TableDiff_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__TableDiff_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj___CreateEmpty(int argc, VALUE *argv, VALUE self) {
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  result = coopy::TableDiff_obj::__CreateEmpty();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj___Create(int argc, VALUE *argv, VALUE self) {
-  hx::DynamicArray arg1 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  {
-    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__DynamicArray,  0 );
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::DynamicArray","coopy::TableDiff_obj::__Create", 1, argv[0] )); 
-    }  
-    if (!argp1) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","coopy::TableDiff_obj::__Create", 1, argv[0]));
-    } else {
-      arg1 = *(reinterpret_cast< hx::DynamicArray * >(argp1));
-    }
-  }
-  result = coopy::TableDiff_obj::__Create(arg1);
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN void
-free_coopy_TableDiff_obj(coopy::TableDiff_obj *arg1) {
-    delete arg1;
-}
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj___boot(int argc, VALUE *argv, VALUE self) {
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  coopy::TableDiff_obj::__boot();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj___register(int argc, VALUE *argv, VALUE self) {
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  coopy::TableDiff_obj::__register();
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj___Mark(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","__Mark", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
-  }
-  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
-  (arg1)->__Mark(arg2);
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj___Visit(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","__Visit", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
-  }
-  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
-  (arg1)->__Visit(arg2);
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj___ToString(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ::String result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj const *","__ToString", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  result = ((coopy::TableDiff_obj const *)arg1)->__ToString();
-  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_test(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Report_obj > > result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","test", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  result = (arg1)->test();
-  vresult = SWIG_NewPointerObj((new ::coopy::Report(static_cast< const ::coopy::Report& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Report_obj_t, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_test_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","test_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  result = (arg1)->test_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_hilite(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  bool result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","hilite", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","hilite", 2, argv[0] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","hilite", 2, argv[0]));
-    } else {
-      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
-    }
-  }
-  result = (bool)(arg1)->hilite(arg2);
-  vresult = SWIG_From_bool(static_cast< bool >(result));
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_hilite_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","hilite_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  result = (arg1)->hilite_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_quoteForDiff(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::View_obj > > arg2 ;
-  ::coopy::Datum arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  void *argp3 ;
-  int res3 = 0 ;
-  ::String result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 2) || (argc > 2)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","quoteForDiff", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::View","quoteForDiff", 2, argv[0] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::View","quoteForDiff", 2, argv[0]));
-    } else {
-      arg2 = *(reinterpret_cast< ::coopy::View * >(argp2));
-    }
-  }
-  {
-    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t,  0 );
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Datum","quoteForDiff", 3, argv[1] )); 
-    }  
-    if (!argp3) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Datum","quoteForDiff", 3, argv[1]));
-    } else {
-      arg3 = *(reinterpret_cast< ::coopy::Datum * >(argp3));
-    }
-  }
-  result = (arg1)->quoteForDiff(arg2,arg3);
-  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_quoteForDiff_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","quoteForDiff_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  result = (arg1)->quoteForDiff_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_getSeparator(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
-  ::String arg4 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  void *argp3 ;
-  int res3 = 0 ;
-  void *argp4 ;
-  int res4 = 0 ;
-  ::String result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 3) || (argc > 3)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","getSeparator", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","getSeparator", 2, argv[0] )); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","getSeparator", 2, argv[0]));
-    } else {
-      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
-    }
-  }
-  {
-    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Table","getSeparator", 3, argv[1] )); 
-    }  
-    if (!argp3) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","getSeparator", 3, argv[1]));
-    } else {
-      arg3 = *(reinterpret_cast< ::coopy::Table * >(argp3));
-    }
-  }
-  {
-    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_String,  0 );
-    if (!SWIG_IsOK(res4)) {
-      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "::String","getSeparator", 4, argv[2] )); 
-    }  
-    if (!argp4) {
-      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","getSeparator", 4, argv[2]));
-    } else {
-      arg4 = *(reinterpret_cast< ::String * >(argp4));
-    }
-  }
-  result = (arg1)->getSeparator(arg2,arg3,arg4);
-  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_getSeparator_dyn(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  Dynamic result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","getSeparator_dyn", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  result = (arg1)->getSeparator_dyn();
-  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_flags_set(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  ::coopy::CompareFlags *arg2 = (::coopy::CompareFlags *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","flags", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CompareFlags *","flags", 2, argv[0] )); 
-  }
-  arg2 = reinterpret_cast< ::coopy::CompareFlags * >(argp2);
-  if (arg1) (arg1)->flags = *arg2;
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_flags_get(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ::coopy::CompareFlags *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","flags", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  result = (::coopy::CompareFlags *)& ((arg1)->flags);
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0 |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_align_set(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  ::coopy::Alignment *arg2 = (::coopy::Alignment *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  
-  if ((argc < 1) || (argc > 1)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","align", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t, 0 |  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Alignment *","align", 2, argv[0] )); 
-  }
-  arg2 = reinterpret_cast< ::coopy::Alignment * >(argp2);
-  if (arg1) (arg1)->align = *arg2;
-  return Qnil;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
-_wrap_TableDiff_obj_align_get(int argc, VALUE *argv, VALUE self) {
-  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ::coopy::Alignment *result = 0 ;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","align", 1, self )); 
-  }
-  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
-  result = (::coopy::Alignment *)& ((arg1)->align);
-  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t, 0 |  0 );
   return vresult;
 fail:
   return Qnil;
@@ -18087,7 +17019,7 @@ _wrap_Alignment_obj_getTarget(int argc, VALUE *argv, VALUE self) {
   coopy::Alignment_obj *arg1 = (coopy::Alignment_obj *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > result;
+  ::coopy::Table result;
   VALUE vresult = Qnil;
   
   if ((argc < 0) || (argc > 0)) {
@@ -18135,7 +17067,7 @@ _wrap_Alignment_obj_getSource(int argc, VALUE *argv, VALUE self) {
   coopy::Alignment_obj *arg1 = (coopy::Alignment_obj *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > result;
+  ::coopy::Table result;
   VALUE vresult = Qnil;
   
   if ((argc < 0) || (argc > 0)) {
@@ -18621,8 +17553,8 @@ fail:
 SWIGINTERN VALUE
 _wrap_Alignment_obj_tables(int argc, VALUE *argv, VALUE self) {
   coopy::Alignment_obj *arg1 = (coopy::Alignment_obj *) 0 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg2 ;
-  SwigValueWrapper< hx::ObjectPtr< coopy::Table_obj > > arg3 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -19447,6 +18379,2027 @@ fail:
 }
 
 
+static swig_class SwigClassCompareFlags_obj;
+
+#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj_allocate(VALUE self) {
+#else
+  SWIGINTERN VALUE
+  _wrap_CompareFlags_obj_allocate(int argc, VALUE *argv, VALUE self) {
+#endif
+    
+    
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__CompareFlags_obj);
+#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
+    rb_obj_call_init(vresult, argc, argv);
+#endif
+    return vresult;
+  }
+  
+
+SWIGINTERN VALUE
+_wrap_new_CompareFlags_obj(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *result = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = (coopy::CompareFlags_obj *)new coopy::CompareFlags_obj();
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj___construct(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
+  result = (arg1)->__construct();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj___new(int argc, VALUE *argv, VALUE self) {
+  SwigValueWrapper< hx::ObjectPtr< coopy::CompareFlags_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = coopy::CompareFlags_obj::__new();
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::CompareFlags_obj >(static_cast< const hx::ObjectPtr< coopy::CompareFlags_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = coopy::CompareFlags_obj::__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj___Create(int argc, VALUE *argv, VALUE self) {
+  hx::DynamicArray arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::DynamicArray","coopy::CompareFlags_obj::__Create", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","coopy::CompareFlags_obj::__Create", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< hx::DynamicArray * >(argp1));
+    }
+  }
+  result = coopy::CompareFlags_obj::__Create(arg1);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_CompareFlags_obj(coopy::CompareFlags_obj *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj___boot(int argc, VALUE *argv, VALUE self) {
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  coopy::CompareFlags_obj::__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj___register(int argc, VALUE *argv, VALUE self) {
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  coopy::CompareFlags_obj::__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj___Mark(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj___Visit(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj___ToString(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
+  result = ((coopy::CompareFlags_obj const *)arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj_unchanged_context_set(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","unchanged_context", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","unchanged_context", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (arg1)->unchanged_context = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj_unchanged_context_get(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","unchanged_context", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
+  result = (int) ((arg1)->unchanged_context);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj_show_unchanged_set(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","show_unchanged", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","show_unchanged", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (arg1)->show_unchanged = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj_show_unchanged_get(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","show_unchanged", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
+  result = (bool) ((arg1)->show_unchanged);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj_always_show_header_set(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","always_show_header", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","always_show_header", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (arg1)->always_show_header = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_CompareFlags_obj_always_show_header_get(int argc, VALUE *argv, VALUE self) {
+  coopy::CompareFlags_obj *arg1 = (coopy::CompareFlags_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__CompareFlags_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::CompareFlags_obj *","always_show_header", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::CompareFlags_obj * >(argp1);
+  result = (bool) ((arg1)->always_show_header);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassTableDiff_obj;
+
+#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_allocate(VALUE self) {
+#else
+  SWIGINTERN VALUE
+  _wrap_TableDiff_obj_allocate(int argc, VALUE *argv, VALUE self) {
+#endif
+    
+    
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__TableDiff_obj);
+#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
+    rb_obj_call_init(vresult, argc, argv);
+#endif
+    return vresult;
+  }
+  
+
+SWIGINTERN VALUE
+_wrap_new_TableDiff_obj(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *result = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = (coopy::TableDiff_obj *)new coopy::TableDiff_obj();
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj___construct(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  ::coopy::Alignment arg2 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CompareFlags_obj > > arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Alignment","__construct", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Alignment","__construct", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Alignment * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::CompareFlags","__construct", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::CompareFlags","__construct", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::CompareFlags * >(argp3));
+    }
+  }
+  result = (arg1)->__construct(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj___new(int argc, VALUE *argv, VALUE self) {
+  ::coopy::Alignment arg1 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CompareFlags_obj > > arg2 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  hx::ObjectPtr< coopy::TableDiff_obj > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "::coopy::Alignment","coopy::TableDiff_obj::__new", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Alignment","coopy::TableDiff_obj::__new", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< ::coopy::Alignment * >(argp1));
+    }
+  }
+  {
+    res2 = SWIG_ConvertPtr(argv[1], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CompareFlags","coopy::TableDiff_obj::__new", 2, argv[1] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::CompareFlags","coopy::TableDiff_obj::__new", 2, argv[1]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::CompareFlags * >(argp2));
+    }
+  }
+  result = coopy::TableDiff_obj::__new(arg1,arg2);
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::TableDiff_obj >(static_cast< const hx::ObjectPtr< coopy::TableDiff_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__TableDiff_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = coopy::TableDiff_obj::__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj___Create(int argc, VALUE *argv, VALUE self) {
+  hx::DynamicArray arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::DynamicArray","coopy::TableDiff_obj::__Create", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","coopy::TableDiff_obj::__Create", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< hx::DynamicArray * >(argp1));
+    }
+  }
+  result = coopy::TableDiff_obj::__Create(arg1);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_TableDiff_obj(coopy::TableDiff_obj *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj___boot(int argc, VALUE *argv, VALUE self) {
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  coopy::TableDiff_obj::__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj___register(int argc, VALUE *argv, VALUE self) {
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  coopy::TableDiff_obj::__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj___Mark(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj___Visit(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj___ToString(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  result = ((coopy::TableDiff_obj const *)arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_test(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::Report_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","test", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  result = (arg1)->test();
+  vresult = SWIG_NewPointerObj((new ::coopy::Report(static_cast< const ::coopy::Report& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Report_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_test_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","test_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  result = (arg1)->test_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_hilite(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  ::coopy::Table arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","hilite", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","hilite", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","hilite", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  result = (bool)(arg1)->hilite(arg2);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_hilite_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","hilite_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  result = (arg1)->hilite_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_quoteForDiff(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  ::coopy::View arg2 ;
+  Dynamic arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","quoteForDiff", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::View","quoteForDiff", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::View","quoteForDiff", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::View * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Dynamic","quoteForDiff", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","quoteForDiff", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< Dynamic * >(argp3));
+    }
+  }
+  result = (arg1)->quoteForDiff(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_quoteForDiff_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","quoteForDiff_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  result = (arg1)->quoteForDiff_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_getSeparator(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
+  ::String arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","getSeparator", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","getSeparator", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","getSeparator", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Table","getSeparator", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","getSeparator", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::Table * >(argp3));
+    }
+  }
+  {
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "::String","getSeparator", 4, argv[2] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","getSeparator", 4, argv[2]));
+    } else {
+      arg4 = *(reinterpret_cast< ::String * >(argp4));
+    }
+  }
+  result = (arg1)->getSeparator(arg2,arg3,arg4);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_getSeparator_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","getSeparator_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  result = (arg1)->getSeparator_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_flags_set(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  ::coopy::CompareFlags *arg2 = (::coopy::CompareFlags *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","flags", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CompareFlags *","flags", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::CompareFlags * >(argp2);
+  if (arg1) (arg1)->flags = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_flags_get(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::CompareFlags *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","flags", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  result = (::coopy::CompareFlags *)& ((arg1)->flags);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_align_set(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  ::coopy::Alignment *arg2 = (::coopy::Alignment *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","align", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Alignment *","align", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Alignment * >(argp2);
+  if (arg1) (arg1)->align = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_TableDiff_obj_align_get(int argc, VALUE *argv, VALUE self) {
+  coopy::TableDiff_obj *arg1 = (coopy::TableDiff_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Alignment *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__TableDiff_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiff_obj *","align", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::TableDiff_obj * >(argp1);
+  result = (::coopy::Alignment *)& ((arg1)->align);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassTable_obj;
+
+SWIGINTERN VALUE
+_wrap_Table_obj___boot(int argc, VALUE *argv, VALUE self) {
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  coopy::Table_obj::__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_trimBlank(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","trimBlank", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (bool)(arg1)->trimBlank();
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_trimBlank_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","trimBlank_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->trimBlank_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_insertOrDeleteColumns(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  Array< int > arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","insertOrDeleteColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","insertOrDeleteColumns", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","insertOrDeleteColumns", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","insertOrDeleteColumns", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (bool)(arg1)->insertOrDeleteColumns(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_insertOrDeleteColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","insertOrDeleteColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->insertOrDeleteColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_insertOrDeleteRows(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  Array< int > arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","insertOrDeleteRows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","insertOrDeleteRows", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","insertOrDeleteRows", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","insertOrDeleteRows", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (bool)(arg1)->insertOrDeleteRows(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_insertOrDeleteRows_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","insertOrDeleteRows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->insertOrDeleteRows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_clear(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","clear", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->clear();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_clear_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","clear_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->clear_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_resize(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","resize", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","resize", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","resize", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (bool)(arg1)->resize(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_resize_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","resize_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->resize_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_isResizable(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","isResizable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (bool)(arg1)->isResizable();
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_isResizable_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","isResizable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->isResizable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_getCellView(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::View result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","getCellView", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->getCellView();
+  vresult = SWIG_NewPointerObj((new ::coopy::View(static_cast< const ::coopy::View& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_getCellView_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","getCellView_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->getCellView_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_setCell(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  Dynamic arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","setCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","setCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","setCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "Dynamic","setCell", 4, argv[2] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","setCell", 4, argv[2]));
+    } else {
+      arg4 = *(reinterpret_cast< Dynamic * >(argp4));
+    }
+  }
+  result = (arg1)->setCell(arg2,arg3,arg4);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_setCell_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","setCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->setCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_getCell(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","getCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","getCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = (arg1)->getCell(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_Table_obj_getCell_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::Table_obj *arg1 = (coopy::Table_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__Table_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table_obj *","getCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::Table_obj * >(argp1);
+  result = (arg1)->getCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_Table_obj(coopy::Table_obj *arg1) {
+    delete arg1;
+}
+
+static swig_class SwigClassView_obj;
+
+SWIGINTERN VALUE
+_wrap_View_obj___boot(int argc, VALUE *argv, VALUE self) {
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  coopy::View_obj::__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_toDatum(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","toDatum", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","toDatum", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","toDatum", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (arg1)->toDatum(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_toDatum_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","toDatum_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  result = (arg1)->toDatum_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_equals(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  Dynamic arg2 ;
+  Dynamic arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","equals", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","equals", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","equals", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Dynamic","equals", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","equals", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< Dynamic * >(argp3));
+    }
+  }
+  result = (bool)(arg1)->equals(arg2,arg3);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_equals_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","equals_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  result = (arg1)->equals_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_hasStructure(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  Dynamic arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","hasStructure", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","hasStructure", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","hasStructure", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  result = (bool)(arg1)->hasStructure(arg2);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_hasStructure_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","hasStructure_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  result = (arg1)->hasStructure_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_getTable(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  Dynamic arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  ::coopy::Table result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","getTable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","getTable", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","getTable", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  result = (arg1)->getTable(arg2);
+  vresult = SWIG_NewPointerObj((new ::coopy::Table(static_cast< const ::coopy::Table& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_getTable_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","getTable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  result = (arg1)->getTable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_getBag(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  Dynamic arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::Bag_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","getBag", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","getBag", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","getBag", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  result = (arg1)->getBag(arg2);
+  vresult = SWIG_NewPointerObj((new ::coopy::Bag(static_cast< const ::coopy::Bag& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_getBag_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","getBag_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  result = (arg1)->getBag_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_toString(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  Dynamic arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_Dynamic,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Dynamic","toString", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Dynamic","toString", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Dynamic * >(argp2));
+    }
+  }
+  result = (arg1)->toString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_View_obj_toString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::View_obj *arg1 = (coopy::View_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__View_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::View_obj *","toString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::View_obj * >(argp1);
+  result = (arg1)->toString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_View_obj(coopy::View_obj *arg1) {
+    delete arg1;
+}
+
 static swig_class SwigClassString;
 
 SWIGINTERN VALUE
@@ -20035,30 +20988,6 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_String_toString(int argc, VALUE *argv, VALUE self) {
-  String *arg1 = (String *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ::String result;
-  VALUE vresult = Qnil;
-  
-  if ((argc < 0) || (argc > 0)) {
-    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
-  }
-  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_String, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "String *","toString", 1, self )); 
-  }
-  arg1 = reinterpret_cast< String * >(argp1);
-  result = (arg1)->toString();
-  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
-  return vresult;
-fail:
-  return Qnil;
-}
-
-
-SWIGINTERN VALUE
 _wrap_String___URLEncode(int argc, VALUE *argv, VALUE self) {
   String *arg1 = (String *) 0 ;
   void *argp1 = 0 ;
@@ -20384,15 +21313,6 @@ fail:
 }
 
 
-
-/*
-  Document-method: Coopyhx::String.substr
-
-  call-seq:
-    substr(inPos, inLen) -> String
-
-Return a portion of the String.
-*/
 SWIGINTERN VALUE
 _wrap_String_substr(int argc, VALUE *argv, VALUE self) {
   String *arg1 = (String *) 0 ;
@@ -20510,7 +21430,7 @@ fail:
 
 
 SWIGINTERN VALUE
-_wrap_String___CStr(int argc, VALUE *argv, VALUE self) {
+_wrap_String___str__(int argc, VALUE *argv, VALUE self) {
   String *arg1 = (String *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -21779,6 +22699,9 @@ free_String(String *arg1) {
 
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
+static void *_p_coopy__CompareFlagsFactoryTo_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((hx::ObjectPtr< coopy::CompareFlags_obj > *)  ((coopy::CompareFlagsFactory *) x));
+}
 static void *_p_coopy__Coopy_objTo_p_hx__Object(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((hx::Object *)  ((coopy::Coopy_obj *) x));
 }
@@ -21800,13 +22723,9 @@ static void *_p_coopy__CompareTable_objTo_p_hx__Object(void *x, int *SWIGUNUSEDP
 static void *_p_coopy__Alignment_objTo_p_hx__Object(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((hx::Object *)  ((coopy::Alignment_obj *) x));
 }
-static void *_p_DynamicTo_p_hx__ObjectPtrT_hx__Object_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((hx::ObjectPtr< hx::Object > *)  ((Dynamic *) x));
-}
 static swig_type_info _swigt__p_ArrayT_String_t = {"_p_ArrayT_String_t", "Array< String > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ArrayT_hx__ObjectPtrT_coopy__IndexPair_obj_t_t = {"_p_ArrayT_hx__ObjectPtrT_coopy__IndexPair_obj_t_t", "Array< hx::ObjectPtr< coopy::IndexPair_obj > > *|Array< ::coopy::IndexPair > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ArrayT_int_t = {"_p_ArrayT_int_t", "Array< int > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_Class = {"_p_Class", "Class *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Coopyhx = {"_p_Coopyhx", "Coopyhx *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Dynamic = {"_p_Dynamic", "Dynamic *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_OBJ_ = {"_p_OBJ_", "OBJ_ *", 0, 0, (void*)0, 0};
@@ -21814,41 +22733,29 @@ static swig_type_info _swigt__p_String = {"_p_String", "::String *|String *", 0,
 static swig_type_info _swigt__p_Void = {"_p_Void", "Void *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *|HX_CHAR *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__Alignment_obj = {"_p_coopy__Alignment_obj", "coopy::Alignment_obj *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_coopy__Bag_obj = {"_p_coopy__Bag_obj", "coopy::Bag_obj *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_coopy__CompareFlagsFactory = {"_p_coopy__CompareFlagsFactory", "coopy::CompareFlagsFactory *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__CompareFlags_obj = {"_p_coopy__CompareFlags_obj", "coopy::CompareFlags_obj *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__CompareTable_obj = {"_p_coopy__CompareTable_obj", "coopy::CompareTable_obj *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__Coopy_obj = {"_p_coopy__Coopy_obj", "coopy::Coopy_obj *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_coopy__Datum_obj = {"_p_coopy__Datum_obj", "coopy::Datum_obj *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_coopy__SimpleCellFactory = {"_p_coopy__SimpleCellFactory", "coopy::SimpleCellFactory *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__SimpleCell_obj = {"_p_coopy__SimpleCell_obj", "coopy::SimpleCell_obj *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_coopy__SimpleTableFactory = {"_p_coopy__SimpleTableFactory", "coopy::SimpleTableFactory *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__SimpleTable_obj = {"_p_coopy__SimpleTable_obj", "coopy::SimpleTable_obj *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_coopy__TableDiffFactory = {"_p_coopy__TableDiffFactory", "coopy::TableDiffFactory *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__TableDiff_obj = {"_p_coopy__TableDiff_obj", "coopy::TableDiff_obj *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_coopy__Table_obj = {"_p_coopy__Table_obj", "coopy::Table_obj *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__View_obj = {"_p_coopy__View_obj", "coopy::View_obj *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_cpp__CppInt32__ = {"_p_cpp__CppInt32__", "cpp::CppInt32__ *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f___Dynamic = {"_p_f___Dynamic", "Dynamic (*)()|hx::StaticFunction0", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_p_hx__Object__Dynamic = {"_p_f_p_hx__Object__Dynamic", "Dynamic (*)(hx::Object *)|hx::MemberFunction0", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_p_hx__Object_r_q_const__Array__Dynamic____Dynamic = {"_p_f_p_hx__Object_r_q_const__Array__Dynamic____Dynamic", "Dynamic (*)(hx::Object *,Array< Dynamic > const &)|hx::MemberFunctionVar", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_p_hx__Object_r_q_const__Dynamic__Dynamic = {"_p_f_p_hx__Object_r_q_const__Dynamic__Dynamic", "Dynamic (*)(hx::Object *,Dynamic const &)|hx::MemberFunction1", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic = {"_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic", "hx::MemberFunction2|Dynamic (*)(hx::Object *,Dynamic const &,Dynamic const &)", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic = {"_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic", "hx::MemberFunction3|Dynamic (*)(hx::Object *,Dynamic const &,Dynamic const &,Dynamic const &)", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic = {"_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic", "hx::MemberFunction4|Dynamic (*)(hx::Object *,Dynamic const &,Dynamic const &,Dynamic const &,Dynamic const &)", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic = {"_p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic", "Dynamic (*)(hx::Object *,Dynamic const &,Dynamic const &,Dynamic const &,Dynamic const &,Dynamic const &)|hx::MemberFunction5", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_r_q_const__Array__Dynamic____Dynamic = {"_p_f_r_q_const__Array__Dynamic____Dynamic", "Dynamic (*)(Array< Dynamic > const &)|hx::StaticFunctionVar", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_r_q_const__Dynamic__Dynamic = {"_p_f_r_q_const__Dynamic__Dynamic", "Dynamic (*)(Dynamic const &)|hx::StaticFunction1", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic = {"_p_f_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic", "Dynamic (*)(Dynamic const &,Dynamic const &)|hx::StaticFunction2", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic = {"_p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic", "Dynamic (*)(Dynamic const &,Dynamic const &,Dynamic const &)|hx::StaticFunction3", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic = {"_p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic", "Dynamic (*)(Dynamic const &,Dynamic const &,Dynamic const &,Dynamic const &)|hx::StaticFunction4", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic = {"_p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic", "Dynamic (*)(Dynamic const &,Dynamic const &,Dynamic const &,Dynamic const &,Dynamic const &)|hx::StaticFunction5", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__DynamicArray = {"_p_hx__DynamicArray", "hx::DynamicArray *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__MarkContext = {"_p_hx__MarkContext", "hx::MarkContext *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__NullT_String_t = {"_p_hx__NullT_String_t", "hx::Null< ::String > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__Object = {"_p_hx__Object", "hx::Object *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_IMap_obj_t = {"_p_hx__ObjectPtrT_IMap_obj_t", "hx::ObjectPtr< IMap_obj > *|IMap *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Alignment_obj_t = {"_p_hx__ObjectPtrT_coopy__Alignment_obj_t", "hx::ObjectPtr< coopy::Alignment_obj > *|::coopy::Alignment *|coopy::Alignment *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Bag_obj_t = {"_p_hx__ObjectPtrT_coopy__Bag_obj_t", "::hx::ObjectPtr< ::coopy::Bag_obj > *|hx::ObjectPtr< coopy::Bag_obj > *|::coopy::Bag *|coopy::Bag *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t = {"_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t", "hx::ObjectPtr< coopy::CompareFlags_obj > *|::coopy::CompareFlags *|coopy::CompareFlags *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Alignment_obj_t = {"_p_hx__ObjectPtrT_coopy__Alignment_obj_t", "hx::ObjectPtr< coopy::Alignment_obj > *|coopy::Alignment *|::coopy::Alignment *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Bag_obj_t = {"_p_hx__ObjectPtrT_coopy__Bag_obj_t", "hx::ObjectPtr< coopy::Bag_obj > *|::coopy::Bag *|coopy::Bag *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t = {"_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t", "hx::ObjectPtr< coopy::CompareFlags_obj > *|coopy::CompareFlags *|::coopy::CompareFlags *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__CompareTable_obj_t = {"_p_hx__ObjectPtrT_coopy__CompareTable_obj_t", "coopy::CompareTable *|::coopy::CompareTable *|hx::ObjectPtr< coopy::CompareTable_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Coopy_obj_t = {"_p_hx__ObjectPtrT_coopy__Coopy_obj_t", "coopy::Coopy *|hx::ObjectPtr< coopy::Coopy_obj > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Datum_obj_t = {"_p_hx__ObjectPtrT_coopy__Datum_obj_t", "::hx::ObjectPtr< ::coopy::Datum_obj > *|hx::ObjectPtr< coopy::Datum_obj > *|::coopy::Datum *|coopy::Datum *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__IndexPair_obj_t = {"_p_hx__ObjectPtrT_coopy__IndexPair_obj_t", "hx::ObjectPtr< coopy::IndexPair_obj > *|coopy::IndexPair *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Ordering_obj_t = {"_p_hx__ObjectPtrT_coopy__Ordering_obj_t", "::coopy::Ordering *|coopy::Ordering *|hx::ObjectPtr< coopy::Ordering_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Report_obj_t = {"_p_hx__ObjectPtrT_coopy__Report_obj_t", "hx::ObjectPtr< coopy::Report_obj > *|::coopy::Report *|coopy::Report *", 0, 0, (void*)0, 0};
@@ -21870,7 +22777,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_ArrayT_String_t,
   &_swigt__p_ArrayT_hx__ObjectPtrT_coopy__IndexPair_obj_t_t,
   &_swigt__p_ArrayT_int_t,
-  &_swigt__p_Class,
   &_swigt__p_Coopyhx,
   &_swigt__p_Dynamic,
   &_swigt__p_OBJ_,
@@ -21878,30 +22784,19 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_Void,
   &_swigt__p_char,
   &_swigt__p_coopy__Alignment_obj,
-  &_swigt__p_coopy__Bag_obj,
+  &_swigt__p_coopy__CompareFlagsFactory,
   &_swigt__p_coopy__CompareFlags_obj,
   &_swigt__p_coopy__CompareTable_obj,
   &_swigt__p_coopy__Coopy_obj,
-  &_swigt__p_coopy__Datum_obj,
+  &_swigt__p_coopy__SimpleCellFactory,
   &_swigt__p_coopy__SimpleCell_obj,
+  &_swigt__p_coopy__SimpleTableFactory,
   &_swigt__p_coopy__SimpleTable_obj,
+  &_swigt__p_coopy__TableDiffFactory,
   &_swigt__p_coopy__TableDiff_obj,
+  &_swigt__p_coopy__Table_obj,
   &_swigt__p_coopy__View_obj,
   &_swigt__p_cpp__CppInt32__,
-  &_swigt__p_f___Dynamic,
-  &_swigt__p_f_p_hx__Object__Dynamic,
-  &_swigt__p_f_p_hx__Object_r_q_const__Array__Dynamic____Dynamic,
-  &_swigt__p_f_p_hx__Object_r_q_const__Dynamic__Dynamic,
-  &_swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  &_swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  &_swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  &_swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  &_swigt__p_f_r_q_const__Array__Dynamic____Dynamic,
-  &_swigt__p_f_r_q_const__Dynamic__Dynamic,
-  &_swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  &_swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  &_swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  &_swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
   &_swigt__p_hx__DynamicArray,
   &_swigt__p_hx__MarkContext,
   &_swigt__p_hx__NullT_String_t,
@@ -21912,7 +22807,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__CompareTable_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__Coopy_obj_t,
-  &_swigt__p_hx__ObjectPtrT_coopy__Datum_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__IndexPair_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__Ordering_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__Report_obj_t,
@@ -21934,7 +22828,6 @@ static swig_type_info *swig_type_initial[] = {
 static swig_cast_info _swigc__p_ArrayT_String_t[] = {  {&_swigt__p_ArrayT_String_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ArrayT_hx__ObjectPtrT_coopy__IndexPair_obj_t_t[] = {  {&_swigt__p_ArrayT_hx__ObjectPtrT_coopy__IndexPair_obj_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ArrayT_int_t[] = {  {&_swigt__p_ArrayT_int_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_Class[] = {  {&_swigt__p_Class, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Coopyhx[] = {  {&_swigt__p_Coopyhx, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Dynamic[] = {  {&_swigt__p_Dynamic, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_OBJ_[] = {  {&_swigt__p_OBJ_, 0, 0, 0},{0, 0, 0, 0}};
@@ -21942,30 +22835,19 @@ static swig_cast_info _swigc__p_String[] = {  {&_swigt__p_String, 0, 0, 0},{0, 0
 static swig_cast_info _swigc__p_Void[] = {  {&_swigt__p_Void, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__Alignment_obj[] = {  {&_swigt__p_coopy__Alignment_obj, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_coopy__Bag_obj[] = {  {&_swigt__p_coopy__Bag_obj, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_coopy__CompareFlagsFactory[] = {  {&_swigt__p_coopy__CompareFlagsFactory, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__CompareFlags_obj[] = {  {&_swigt__p_coopy__CompareFlags_obj, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__CompareTable_obj[] = {  {&_swigt__p_coopy__CompareTable_obj, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__Coopy_obj[] = {  {&_swigt__p_coopy__Coopy_obj, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_coopy__Datum_obj[] = {  {&_swigt__p_coopy__Datum_obj, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_coopy__SimpleCellFactory[] = {  {&_swigt__p_coopy__SimpleCellFactory, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__SimpleCell_obj[] = {  {&_swigt__p_coopy__SimpleCell_obj, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_coopy__SimpleTableFactory[] = {  {&_swigt__p_coopy__SimpleTableFactory, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__SimpleTable_obj[] = {  {&_swigt__p_coopy__SimpleTable_obj, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_coopy__TableDiffFactory[] = {  {&_swigt__p_coopy__TableDiffFactory, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__TableDiff_obj[] = {  {&_swigt__p_coopy__TableDiff_obj, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_coopy__Table_obj[] = {  {&_swigt__p_coopy__Table_obj, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__View_obj[] = {  {&_swigt__p_coopy__View_obj, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_cpp__CppInt32__[] = {  {&_swigt__p_cpp__CppInt32__, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f___Dynamic[] = {  {&_swigt__p_f___Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_p_hx__Object__Dynamic[] = {  {&_swigt__p_f_p_hx__Object__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_p_hx__Object_r_q_const__Array__Dynamic____Dynamic[] = {  {&_swigt__p_f_p_hx__Object_r_q_const__Array__Dynamic____Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_p_hx__Object_r_q_const__Dynamic__Dynamic[] = {  {&_swigt__p_f_p_hx__Object_r_q_const__Dynamic__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic[] = {  {&_swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic[] = {  {&_swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic[] = {  {&_swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic[] = {  {&_swigt__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_r_q_const__Array__Dynamic____Dynamic[] = {  {&_swigt__p_f_r_q_const__Array__Dynamic____Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_r_q_const__Dynamic__Dynamic[] = {  {&_swigt__p_f_r_q_const__Dynamic__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic[] = {  {&_swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic[] = {  {&_swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic[] = {  {&_swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic[] = {  {&_swigt__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__DynamicArray[] = {  {&_swigt__p_hx__DynamicArray, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__MarkContext[] = {  {&_swigt__p_hx__MarkContext, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__NullT_String_t[] = {  {&_swigt__p_hx__NullT_String_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -21973,10 +22855,9 @@ static swig_cast_info _swigc__p_hx__Object[] = {  {&_swigt__p_coopy__Coopy_obj, 
 static swig_cast_info _swigc__p_hx__ObjectPtrT_IMap_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_IMap_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Alignment_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Alignment_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Bag_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Bag_obj_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0, 0, 0},  {&_swigt__p_coopy__CompareFlagsFactory, _p_coopy__CompareFlagsFactoryTo_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__CompareTable_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__CompareTable_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Coopy_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Coopy_obj_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Datum_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Datum_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__IndexPair_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__IndexPair_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Ordering_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Ordering_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Report_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Report_obj_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -21987,7 +22868,7 @@ static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__TableDiff_obj_t[] = {  {&_
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Table_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Table_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__View_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__View_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_hx__ObjectPtrT_hx__Object_t[] = {  {&_swigt__p_Dynamic, _p_DynamicTo_p_hx__ObjectPtrT_hx__Object_t, 0, 0},  {&_swigt__p_hx__ObjectPtrT_hx__Object_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__ObjectPtrT_hx__Object_t[] = {  {&_swigt__p_hx__ObjectPtrT_hx__Object_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__VisitContext[] = {  {&_swigt__p_hx__VisitContext, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_null[] = {  {&_swigt__p_null, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_super[] = {  {&_swigt__p_super, 0, 0, 0},{0, 0, 0, 0}};
@@ -21998,7 +22879,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_ArrayT_String_t,
   _swigc__p_ArrayT_hx__ObjectPtrT_coopy__IndexPair_obj_t_t,
   _swigc__p_ArrayT_int_t,
-  _swigc__p_Class,
   _swigc__p_Coopyhx,
   _swigc__p_Dynamic,
   _swigc__p_OBJ_,
@@ -22006,30 +22886,19 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_Void,
   _swigc__p_char,
   _swigc__p_coopy__Alignment_obj,
-  _swigc__p_coopy__Bag_obj,
+  _swigc__p_coopy__CompareFlagsFactory,
   _swigc__p_coopy__CompareFlags_obj,
   _swigc__p_coopy__CompareTable_obj,
   _swigc__p_coopy__Coopy_obj,
-  _swigc__p_coopy__Datum_obj,
+  _swigc__p_coopy__SimpleCellFactory,
   _swigc__p_coopy__SimpleCell_obj,
+  _swigc__p_coopy__SimpleTableFactory,
   _swigc__p_coopy__SimpleTable_obj,
+  _swigc__p_coopy__TableDiffFactory,
   _swigc__p_coopy__TableDiff_obj,
+  _swigc__p_coopy__Table_obj,
   _swigc__p_coopy__View_obj,
   _swigc__p_cpp__CppInt32__,
-  _swigc__p_f___Dynamic,
-  _swigc__p_f_p_hx__Object__Dynamic,
-  _swigc__p_f_p_hx__Object_r_q_const__Array__Dynamic____Dynamic,
-  _swigc__p_f_p_hx__Object_r_q_const__Dynamic__Dynamic,
-  _swigc__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  _swigc__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  _swigc__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  _swigc__p_f_p_hx__Object_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  _swigc__p_f_r_q_const__Array__Dynamic____Dynamic,
-  _swigc__p_f_r_q_const__Dynamic__Dynamic,
-  _swigc__p_f_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  _swigc__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  _swigc__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
-  _swigc__p_f_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic_r_q_const__Dynamic__Dynamic,
   _swigc__p_hx__DynamicArray,
   _swigc__p_hx__MarkContext,
   _swigc__p_hx__NullT_String_t,
@@ -22040,7 +22909,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__CompareTable_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__Coopy_obj_t,
-  _swigc__p_hx__ObjectPtrT_coopy__Datum_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__IndexPair_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__Ordering_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__Report_obj_t,
@@ -22318,17 +23186,171 @@ SWIGEXPORT void Init_coopyhx(void) {
   
   SwigClassCoopyhx.klass = rb_define_class_under(mCoopyhx, "Coopyhx", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_Coopyhx, (void *) &SwigClassCoopyhx);
-  rb_define_alloc_func(SwigClassCoopyhx.klass, _wrap_Coopyhx_allocate);
-  rb_define_method(SwigClassCoopyhx.klass, "initialize", VALUEFUNC(_wrap_new_Coopyhx), -1);
+  rb_undef_alloc_func(SwigClassCoopyhx.klass);
   rb_define_singleton_method(SwigClassCoopyhx.klass, "boot", VALUEFUNC(_wrap_Coopyhx_boot), -1);
   SwigClassCoopyhx.mark = 0;
   SwigClassCoopyhx.destroy = (void (*)(void *)) free_Coopyhx;
   SwigClassCoopyhx.trackObjects = 0;
   
+  SwigClassSimpleCell.klass = rb_define_class_under(mCoopyhx, "SimpleCell", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__SimpleCellFactory, (void *) &SwigClassSimpleCell);
+  rb_define_alloc_func(SwigClassSimpleCell.klass, _wrap_SimpleCell_allocate);
+  rb_define_method(SwigClassSimpleCell.klass, "initialize", VALUEFUNC(_wrap_new_SimpleCell), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "__deref__", VALUEFUNC(_wrap_SimpleCell___deref__), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "__construct", VALUEFUNC(_wrap_SimpleCell___construct), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "__new", VALUEFUNC(_wrap_SimpleCell___new), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "__CreateEmpty", VALUEFUNC(_wrap_SimpleCell___CreateEmpty), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "__Create", VALUEFUNC(_wrap_SimpleCell___Create), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "__boot", VALUEFUNC(_wrap_SimpleCell___boot), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "__register", VALUEFUNC(_wrap_SimpleCell___register), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "__Mark", VALUEFUNC(_wrap_SimpleCell___Mark), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "__Visit", VALUEFUNC(_wrap_SimpleCell___Visit), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "__ToString", VALUEFUNC(_wrap_SimpleCell___ToString), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "toString", VALUEFUNC(_wrap_SimpleCell_toString), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "toString_dyn", VALUEFUNC(_wrap_SimpleCell_toString_dyn), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "datum=", VALUEFUNC(_wrap_SimpleCell_datum_set), -1);
+  rb_define_method(SwigClassSimpleCell.klass, "datum", VALUEFUNC(_wrap_SimpleCell_datum_get), -1);
+  SwigClassSimpleCell.mark = 0;
+  SwigClassSimpleCell.destroy = (void (*)(void *)) free_coopy_SimpleCellFactory;
+  SwigClassSimpleCell.trackObjects = 0;
+  
+  SwigClassSimpleTable.klass = rb_define_class_under(mCoopyhx, "SimpleTable", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__SimpleTableFactory, (void *) &SwigClassSimpleTable);
+  rb_define_alloc_func(SwigClassSimpleTable.klass, _wrap_SimpleTable_allocate);
+  rb_define_method(SwigClassSimpleTable.klass, "initialize", VALUEFUNC(_wrap_new_SimpleTable), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__deref__", VALUEFUNC(_wrap_SimpleTable___deref__), -1);
+  rb_define_singleton_method(SwigClassSimpleTable.klass, "tableToString", VALUEFUNC(_wrap_SimpleTable_tableToString), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__construct", VALUEFUNC(_wrap_SimpleTable___construct), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__new", VALUEFUNC(_wrap_SimpleTable___new), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__CreateEmpty", VALUEFUNC(_wrap_SimpleTable___CreateEmpty), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__Create", VALUEFUNC(_wrap_SimpleTable___Create), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__boot", VALUEFUNC(_wrap_SimpleTable___boot), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__register", VALUEFUNC(_wrap_SimpleTable___register), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__Mark", VALUEFUNC(_wrap_SimpleTable___Mark), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__Visit", VALUEFUNC(_wrap_SimpleTable___Visit), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "asTable", VALUEFUNC(_wrap_SimpleTable_asTable), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__ToInterface", VALUEFUNC(_wrap_SimpleTable___ToInterface), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "__ToString", VALUEFUNC(_wrap_SimpleTable___ToString), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "trimBlank", VALUEFUNC(_wrap_SimpleTable_trimBlank), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "trimBlank_dyn", VALUEFUNC(_wrap_SimpleTable_trimBlank_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "insertOrDeleteColumns", VALUEFUNC(_wrap_SimpleTable_insertOrDeleteColumns), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "insertOrDeleteColumns_dyn", VALUEFUNC(_wrap_SimpleTable_insertOrDeleteColumns_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "insertOrDeleteRows", VALUEFUNC(_wrap_SimpleTable_insertOrDeleteRows), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "insertOrDeleteRows_dyn", VALUEFUNC(_wrap_SimpleTable_insertOrDeleteRows_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "clear", VALUEFUNC(_wrap_SimpleTable_clear), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "clear_dyn", VALUEFUNC(_wrap_SimpleTable_clear_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "resize", VALUEFUNC(_wrap_SimpleTable_resize), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "resize_dyn", VALUEFUNC(_wrap_SimpleTable_resize_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "isResizable", VALUEFUNC(_wrap_SimpleTable_isResizable), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "isResizable_dyn", VALUEFUNC(_wrap_SimpleTable_isResizable_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "getCellView", VALUEFUNC(_wrap_SimpleTable_getCellView), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "getCellView_dyn", VALUEFUNC(_wrap_SimpleTable_getCellView_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "to_s", VALUEFUNC(_wrap_SimpleTable___str__), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "toString_dyn", VALUEFUNC(_wrap_SimpleTable_toString_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "setCell", VALUEFUNC(_wrap_SimpleTable_setCell), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "setCell_dyn", VALUEFUNC(_wrap_SimpleTable_setCell_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "getCell", VALUEFUNC(_wrap_SimpleTable_getCell), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "getCell_dyn", VALUEFUNC(_wrap_SimpleTable_getCell_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "get_size", VALUEFUNC(_wrap_SimpleTable_get_size), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "get_size_dyn", VALUEFUNC(_wrap_SimpleTable_get_size_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "get_height", VALUEFUNC(_wrap_SimpleTable_get_height), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "get_height_dyn", VALUEFUNC(_wrap_SimpleTable_get_height_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "get_width", VALUEFUNC(_wrap_SimpleTable_get_width), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "get_width_dyn", VALUEFUNC(_wrap_SimpleTable_get_width_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "getTable", VALUEFUNC(_wrap_SimpleTable_getTable), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "getTable_dyn", VALUEFUNC(_wrap_SimpleTable_getTable_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "h=", VALUEFUNC(_wrap_SimpleTable_h_set), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "h", VALUEFUNC(_wrap_SimpleTable_h_get), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "w=", VALUEFUNC(_wrap_SimpleTable_w_set), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "w", VALUEFUNC(_wrap_SimpleTable_w_get), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "data=", VALUEFUNC(_wrap_SimpleTable_data_set), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "data", VALUEFUNC(_wrap_SimpleTable_data_get), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "tableToString_dyn", VALUEFUNC(_wrap_SimpleTable_tableToString_dyn), -1);
+  rb_define_method(SwigClassSimpleTable.klass, "toString", VALUEFUNC(_wrap_SimpleTable_toString), -1);
+  SwigClassSimpleTable.mark = 0;
+  SwigClassSimpleTable.destroy = (void (*)(void *)) free_coopy_SimpleTableFactory;
+  SwigClassSimpleTable.trackObjects = 0;
+  
+  SwigClassCompareFlags.klass = rb_define_class_under(mCoopyhx, "CompareFlags", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__CompareFlagsFactory, (void *) &SwigClassCompareFlags);
+  rb_define_alloc_func(SwigClassCompareFlags.klass, _wrap_CompareFlags_allocate);
+  rb_define_method(SwigClassCompareFlags.klass, "initialize", VALUEFUNC(_wrap_new_CompareFlags), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "__deref__", VALUEFUNC(_wrap_CompareFlags___deref__), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "__construct", VALUEFUNC(_wrap_CompareFlags___construct), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "__new", VALUEFUNC(_wrap_CompareFlags___new), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "__CreateEmpty", VALUEFUNC(_wrap_CompareFlags___CreateEmpty), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "__Create", VALUEFUNC(_wrap_CompareFlags___Create), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "__boot", VALUEFUNC(_wrap_CompareFlags___boot), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "__register", VALUEFUNC(_wrap_CompareFlags___register), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "__Mark", VALUEFUNC(_wrap_CompareFlags___Mark), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "__Visit", VALUEFUNC(_wrap_CompareFlags___Visit), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "__ToString", VALUEFUNC(_wrap_CompareFlags___ToString), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "unchanged_context=", VALUEFUNC(_wrap_CompareFlags_unchanged_context_set), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "unchanged_context", VALUEFUNC(_wrap_CompareFlags_unchanged_context_get), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "show_unchanged=", VALUEFUNC(_wrap_CompareFlags_show_unchanged_set), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "show_unchanged", VALUEFUNC(_wrap_CompareFlags_show_unchanged_get), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "always_show_header=", VALUEFUNC(_wrap_CompareFlags_always_show_header_set), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "always_show_header", VALUEFUNC(_wrap_CompareFlags_always_show_header_get), -1);
+  rb_define_method(SwigClassCompareFlags.klass, "toString", VALUEFUNC(_wrap_CompareFlags_toString), -1);
+  SwigClassCompareFlags.mark = 0;
+  SwigClassCompareFlags.destroy = (void (*)(void *)) free_coopy_CompareFlagsFactory;
+  SwigClassCompareFlags.trackObjects = 0;
+  
+  SwigClassTableDiff.klass = rb_define_class_under(mCoopyhx, "TableDiff", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__TableDiffFactory, (void *) &SwigClassTableDiff);
+  rb_define_alloc_func(SwigClassTableDiff.klass, _wrap_TableDiff_allocate);
+  rb_define_method(SwigClassTableDiff.klass, "initialize", VALUEFUNC(_wrap_new_TableDiff), -1);
+  rb_define_method(SwigClassTableDiff.klass, "__deref__", VALUEFUNC(_wrap_TableDiff___deref__), -1);
+  rb_define_method(SwigClassTableDiff.klass, "__construct", VALUEFUNC(_wrap_TableDiff___construct), -1);
+  rb_define_method(SwigClassTableDiff.klass, "__new", VALUEFUNC(_wrap_TableDiff___new), -1);
+  rb_define_method(SwigClassTableDiff.klass, "__CreateEmpty", VALUEFUNC(_wrap_TableDiff___CreateEmpty), -1);
+  rb_define_method(SwigClassTableDiff.klass, "__Create", VALUEFUNC(_wrap_TableDiff___Create), -1);
+  rb_define_method(SwigClassTableDiff.klass, "__boot", VALUEFUNC(_wrap_TableDiff___boot), -1);
+  rb_define_method(SwigClassTableDiff.klass, "__register", VALUEFUNC(_wrap_TableDiff___register), -1);
+  rb_define_method(SwigClassTableDiff.klass, "__Mark", VALUEFUNC(_wrap_TableDiff___Mark), -1);
+  rb_define_method(SwigClassTableDiff.klass, "__Visit", VALUEFUNC(_wrap_TableDiff___Visit), -1);
+  rb_define_method(SwigClassTableDiff.klass, "__ToString", VALUEFUNC(_wrap_TableDiff___ToString), -1);
+  rb_define_method(SwigClassTableDiff.klass, "test", VALUEFUNC(_wrap_TableDiff_test), -1);
+  rb_define_method(SwigClassTableDiff.klass, "test_dyn", VALUEFUNC(_wrap_TableDiff_test_dyn), -1);
+  rb_define_method(SwigClassTableDiff.klass, "hilite", VALUEFUNC(_wrap_TableDiff_hilite), -1);
+  rb_define_method(SwigClassTableDiff.klass, "hilite_dyn", VALUEFUNC(_wrap_TableDiff_hilite_dyn), -1);
+  rb_define_method(SwigClassTableDiff.klass, "quoteForDiff", VALUEFUNC(_wrap_TableDiff_quoteForDiff), -1);
+  rb_define_method(SwigClassTableDiff.klass, "quoteForDiff_dyn", VALUEFUNC(_wrap_TableDiff_quoteForDiff_dyn), -1);
+  rb_define_method(SwigClassTableDiff.klass, "getSeparator", VALUEFUNC(_wrap_TableDiff_getSeparator), -1);
+  rb_define_method(SwigClassTableDiff.klass, "getSeparator_dyn", VALUEFUNC(_wrap_TableDiff_getSeparator_dyn), -1);
+  rb_define_method(SwigClassTableDiff.klass, "flags=", VALUEFUNC(_wrap_TableDiff_flags_set), -1);
+  rb_define_method(SwigClassTableDiff.klass, "flags", VALUEFUNC(_wrap_TableDiff_flags_get), -1);
+  rb_define_method(SwigClassTableDiff.klass, "align=", VALUEFUNC(_wrap_TableDiff_align_set), -1);
+  rb_define_method(SwigClassTableDiff.klass, "align", VALUEFUNC(_wrap_TableDiff_align_get), -1);
+  rb_define_method(SwigClassTableDiff.klass, "toString", VALUEFUNC(_wrap_TableDiff_toString), -1);
+  SwigClassTableDiff.mark = 0;
+  SwigClassTableDiff.destroy = (void (*)(void *)) free_coopy_TableDiffFactory;
+  SwigClassTableDiff.trackObjects = 0;
+  
+  SwigClassObject.klass = rb_define_class_under(mCoopyhx, "Object", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_hx__Object, (void *) &SwigClassObject);
+  rb_undef_alloc_func(SwigClassObject.klass);
+  rb_define_method(SwigClassObject.klass, "toString", VALUEFUNC(_wrap_Object_toString), -1);
+  SwigClassObject.mark = 0;
+  SwigClassObject.destroy = (void (*)(void *)) free_hx_Object;
+  SwigClassObject.trackObjects = 0;
+  
+  SwigClassDynamic.klass = rb_define_class_under(mCoopyhx, "Dynamic", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_Dynamic, (void *) &SwigClassDynamic);
+  rb_define_alloc_func(SwigClassDynamic.klass, _wrap_Dynamic_allocate);
+  rb_define_method(SwigClassDynamic.klass, "initialize", VALUEFUNC(_wrap_new_Dynamic), -1);
+  rb_define_method(SwigClassDynamic.klass, "__deref__", VALUEFUNC(_wrap_Dynamic___deref__), -1);
+  rb_define_method(SwigClassDynamic.klass, "asDouble", VALUEFUNC(_wrap_Dynamic_asDouble), -1);
+  rb_define_method(SwigClassDynamic.klass, "asInt", VALUEFUNC(_wrap_Dynamic_asInt), -1);
+  rb_define_method(SwigClassDynamic.klass, "to_s", VALUEFUNC(_wrap_Dynamic___str__), -1);
+  rb_define_method(SwigClassDynamic.klass, "toString", VALUEFUNC(_wrap_Dynamic_toString), -1);
+  SwigClassDynamic.mark = 0;
+  SwigClassDynamic.destroy = (void (*)(void *)) free_Dynamic;
+  SwigClassDynamic.trackObjects = 0;
+  
   SwigClassObjectPtrSimpleTable_obj.klass = rb_define_class_under(mCoopyhx, "ObjectPtrSimpleTable_obj", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, (void *) &SwigClassObjectPtrSimpleTable_obj);
-  rb_define_alloc_func(SwigClassObjectPtrSimpleTable_obj.klass, _wrap_ObjectPtrSimpleTable_obj_allocate);
-  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "initialize", VALUEFUNC(_wrap_new_ObjectPtrSimpleTable_obj), -1);
+  rb_undef_alloc_func(SwigClassObjectPtrSimpleTable_obj.klass);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj___deref__), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_GetPtr), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "__construct", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj___construct), -1);
@@ -22339,8 +23361,6 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "__register", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj___register), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "__Mark", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj___Mark), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "__Visit", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj___Visit), -1);
-  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "asDatum", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_asDatum), -1);
-  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "asBag", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_asBag), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "asTable", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_asTable), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "__ToInterface", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj___ToInterface), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "__ToString", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj___ToString), -1);
@@ -22356,14 +23376,10 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "resize_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_resize_dyn), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "isResizable", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_isResizable), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "isResizable_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_isResizable_dyn), -1);
-  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "getItemView", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_getItemView), -1);
-  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "getItemView_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_getItemView_dyn), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "getCellView", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_getCellView), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "getCellView_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_getCellView_dyn), -1);
-  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "toString", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_toString), -1);
+  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "to_s", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj___str__), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "toString_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_toString_dyn), -1);
-  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "getItem", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_getItem), -1);
-  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "getItem_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_getItem_dyn), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "setCell", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_setCell), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "setCell_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_setCell_dyn), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "getCell", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_getCell), -1);
@@ -22376,8 +23392,6 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "get_width_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_get_width_dyn), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "getTable", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_getTable), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "getTable_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_getTable_dyn), -1);
-  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "bag=", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_bag_set), -1);
-  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "bag", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_bag_get), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "h=", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_h_set), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "h", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_h_get), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "w=", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_w_set), -1);
@@ -22386,14 +23400,42 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "data", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_data_get), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "tableToString", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_tableToString), -1);
   rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "tableToString_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_tableToString_dyn), -1);
+  rb_define_method(SwigClassObjectPtrSimpleTable_obj.klass, "toString", VALUEFUNC(_wrap_ObjectPtrSimpleTable_obj_toString), -1);
   SwigClassObjectPtrSimpleTable_obj.mark = 0;
   SwigClassObjectPtrSimpleTable_obj.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_coopy_SimpleTable_obj_Sg_;
   SwigClassObjectPtrSimpleTable_obj.trackObjects = 0;
   
+  SwigClassObjectPtrTable_obj.klass = rb_define_class_under(mCoopyhx, "ObjectPtrTable_obj", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, (void *) &SwigClassObjectPtrTable_obj);
+  rb_undef_alloc_func(SwigClassObjectPtrTable_obj.klass);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrTable_obj___deref__), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrTable_obj_GetPtr), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "__boot", VALUEFUNC(_wrap_ObjectPtrTable_obj___boot), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "trimBlank", VALUEFUNC(_wrap_ObjectPtrTable_obj_trimBlank), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "trimBlank_dyn", VALUEFUNC(_wrap_ObjectPtrTable_obj_trimBlank_dyn), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "insertOrDeleteColumns", VALUEFUNC(_wrap_ObjectPtrTable_obj_insertOrDeleteColumns), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "insertOrDeleteColumns_dyn", VALUEFUNC(_wrap_ObjectPtrTable_obj_insertOrDeleteColumns_dyn), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "insertOrDeleteRows", VALUEFUNC(_wrap_ObjectPtrTable_obj_insertOrDeleteRows), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "insertOrDeleteRows_dyn", VALUEFUNC(_wrap_ObjectPtrTable_obj_insertOrDeleteRows_dyn), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "clear", VALUEFUNC(_wrap_ObjectPtrTable_obj_clear), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "clear_dyn", VALUEFUNC(_wrap_ObjectPtrTable_obj_clear_dyn), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "resize", VALUEFUNC(_wrap_ObjectPtrTable_obj_resize), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "resize_dyn", VALUEFUNC(_wrap_ObjectPtrTable_obj_resize_dyn), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "isResizable", VALUEFUNC(_wrap_ObjectPtrTable_obj_isResizable), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "isResizable_dyn", VALUEFUNC(_wrap_ObjectPtrTable_obj_isResizable_dyn), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "getCellView", VALUEFUNC(_wrap_ObjectPtrTable_obj_getCellView), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "getCellView_dyn", VALUEFUNC(_wrap_ObjectPtrTable_obj_getCellView_dyn), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "setCell", VALUEFUNC(_wrap_ObjectPtrTable_obj_setCell), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "setCell_dyn", VALUEFUNC(_wrap_ObjectPtrTable_obj_setCell_dyn), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "getCell", VALUEFUNC(_wrap_ObjectPtrTable_obj_getCell), -1);
+  rb_define_method(SwigClassObjectPtrTable_obj.klass, "getCell_dyn", VALUEFUNC(_wrap_ObjectPtrTable_obj_getCell_dyn), -1);
+  SwigClassObjectPtrTable_obj.mark = 0;
+  SwigClassObjectPtrTable_obj.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_coopy_Table_obj_Sg_;
+  SwigClassObjectPtrTable_obj.trackObjects = 0;
+  
   SwigClassObjectPtrSimpleCell_obj.klass = rb_define_class_under(mCoopyhx, "ObjectPtrSimpleCell_obj", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleCell_obj_t, (void *) &SwigClassObjectPtrSimpleCell_obj);
-  rb_define_alloc_func(SwigClassObjectPtrSimpleCell_obj.klass, _wrap_ObjectPtrSimpleCell_obj_allocate);
-  rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "initialize", VALUEFUNC(_wrap_new_ObjectPtrSimpleCell_obj), -1);
+  rb_undef_alloc_func(SwigClassObjectPtrSimpleCell_obj.klass);
   rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj___deref__), -1);
   rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj_GetPtr), -1);
   rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "__construct", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj___construct), -1);
@@ -22404,8 +23446,6 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "__register", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj___register), -1);
   rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "__Mark", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj___Mark), -1);
   rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "__Visit", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj___Visit), -1);
-  rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "asDatum", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj_asDatum), -1);
-  rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "__ToInterface", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj___ToInterface), -1);
   rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "__ToString", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj___ToString), -1);
   rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "toString", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj_toString), -1);
   rb_define_method(SwigClassObjectPtrSimpleCell_obj.klass, "toString_dyn", VALUEFUNC(_wrap_ObjectPtrSimpleCell_obj_toString_dyn), -1);
@@ -22415,23 +23455,9 @@ SWIGEXPORT void Init_coopyhx(void) {
   SwigClassObjectPtrSimpleCell_obj.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_coopy_SimpleCell_obj_Sg_;
   SwigClassObjectPtrSimpleCell_obj.trackObjects = 0;
   
-  SwigClassObjectPtrDatum_obj.klass = rb_define_class_under(mCoopyhx, "ObjectPtrDatum_obj", rb_cObject);
-  SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_coopy__Datum_obj_t, (void *) &SwigClassObjectPtrDatum_obj);
-  rb_define_alloc_func(SwigClassObjectPtrDatum_obj.klass, _wrap_ObjectPtrDatum_obj_allocate);
-  rb_define_method(SwigClassObjectPtrDatum_obj.klass, "initialize", VALUEFUNC(_wrap_new_ObjectPtrDatum_obj), -1);
-  rb_define_method(SwigClassObjectPtrDatum_obj.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrDatum_obj___deref__), -1);
-  rb_define_method(SwigClassObjectPtrDatum_obj.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrDatum_obj_GetPtr), -1);
-  rb_define_method(SwigClassObjectPtrDatum_obj.klass, "__boot", VALUEFUNC(_wrap_ObjectPtrDatum_obj___boot), -1);
-  rb_define_method(SwigClassObjectPtrDatum_obj.klass, "toString", VALUEFUNC(_wrap_ObjectPtrDatum_obj_toString), -1);
-  rb_define_method(SwigClassObjectPtrDatum_obj.klass, "toString_dyn", VALUEFUNC(_wrap_ObjectPtrDatum_obj_toString_dyn), -1);
-  SwigClassObjectPtrDatum_obj.mark = 0;
-  SwigClassObjectPtrDatum_obj.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_coopy_Datum_obj_Sg_;
-  SwigClassObjectPtrDatum_obj.trackObjects = 0;
-  
   SwigClassObjectPtrCompareTable_obj.klass = rb_define_class_under(mCoopyhx, "ObjectPtrCompareTable_obj", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareTable_obj_t, (void *) &SwigClassObjectPtrCompareTable_obj);
-  rb_define_alloc_func(SwigClassObjectPtrCompareTable_obj.klass, _wrap_ObjectPtrCompareTable_obj_allocate);
-  rb_define_method(SwigClassObjectPtrCompareTable_obj.klass, "initialize", VALUEFUNC(_wrap_new_ObjectPtrCompareTable_obj), -1);
+  rb_undef_alloc_func(SwigClassObjectPtrCompareTable_obj.klass);
   rb_define_method(SwigClassObjectPtrCompareTable_obj.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrCompareTable_obj___deref__), -1);
   rb_define_method(SwigClassObjectPtrCompareTable_obj.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrCompareTable_obj_GetPtr), -1);
   rb_define_method(SwigClassObjectPtrCompareTable_obj.klass, "__construct", VALUEFUNC(_wrap_ObjectPtrCompareTable_obj___construct), -1);
@@ -22473,14 +23499,14 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassObjectPtrCompareTable_obj.klass, "indexes", VALUEFUNC(_wrap_ObjectPtrCompareTable_obj_indexes_get), -1);
   rb_define_method(SwigClassObjectPtrCompareTable_obj.klass, "comp=", VALUEFUNC(_wrap_ObjectPtrCompareTable_obj_comp_set), -1);
   rb_define_method(SwigClassObjectPtrCompareTable_obj.klass, "comp", VALUEFUNC(_wrap_ObjectPtrCompareTable_obj_comp_get), -1);
+  rb_define_method(SwigClassObjectPtrCompareTable_obj.klass, "toString", VALUEFUNC(_wrap_ObjectPtrCompareTable_obj_toString), -1);
   SwigClassObjectPtrCompareTable_obj.mark = 0;
   SwigClassObjectPtrCompareTable_obj.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_coopy_CompareTable_obj_Sg_;
   SwigClassObjectPtrCompareTable_obj.trackObjects = 0;
   
   SwigClassObjectPtrAlignment_obj.klass = rb_define_class_under(mCoopyhx, "ObjectPtrAlignment_obj", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t, (void *) &SwigClassObjectPtrAlignment_obj);
-  rb_define_alloc_func(SwigClassObjectPtrAlignment_obj.klass, _wrap_ObjectPtrAlignment_obj_allocate);
-  rb_define_method(SwigClassObjectPtrAlignment_obj.klass, "initialize", VALUEFUNC(_wrap_new_ObjectPtrAlignment_obj), -1);
+  rb_undef_alloc_func(SwigClassObjectPtrAlignment_obj.klass);
   rb_define_method(SwigClassObjectPtrAlignment_obj.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrAlignment_obj___deref__), -1);
   rb_define_method(SwigClassObjectPtrAlignment_obj.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrAlignment_obj_GetPtr), -1);
   rb_define_method(SwigClassObjectPtrAlignment_obj.klass, "__construct", VALUEFUNC(_wrap_ObjectPtrAlignment_obj___construct), -1);
@@ -22556,8 +23582,7 @@ SWIGEXPORT void Init_coopyhx(void) {
   
   SwigClassObjectPtrTableDiff_obj.klass = rb_define_class_under(mCoopyhx, "ObjectPtrTableDiff_obj", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_coopy__TableDiff_obj_t, (void *) &SwigClassObjectPtrTableDiff_obj);
-  rb_define_alloc_func(SwigClassObjectPtrTableDiff_obj.klass, _wrap_ObjectPtrTableDiff_obj_allocate);
-  rb_define_method(SwigClassObjectPtrTableDiff_obj.klass, "initialize", VALUEFUNC(_wrap_new_ObjectPtrTableDiff_obj), -1);
+  rb_undef_alloc_func(SwigClassObjectPtrTableDiff_obj.klass);
   rb_define_method(SwigClassObjectPtrTableDiff_obj.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrTableDiff_obj___deref__), -1);
   rb_define_method(SwigClassObjectPtrTableDiff_obj.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrTableDiff_obj_GetPtr), -1);
   rb_define_method(SwigClassObjectPtrTableDiff_obj.klass, "__construct", VALUEFUNC(_wrap_ObjectPtrTableDiff_obj___construct), -1);
@@ -22581,109 +23606,44 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassObjectPtrTableDiff_obj.klass, "flags", VALUEFUNC(_wrap_ObjectPtrTableDiff_obj_flags_get), -1);
   rb_define_method(SwigClassObjectPtrTableDiff_obj.klass, "align=", VALUEFUNC(_wrap_ObjectPtrTableDiff_obj_align_set), -1);
   rb_define_method(SwigClassObjectPtrTableDiff_obj.klass, "align", VALUEFUNC(_wrap_ObjectPtrTableDiff_obj_align_get), -1);
+  rb_define_method(SwigClassObjectPtrTableDiff_obj.klass, "toString", VALUEFUNC(_wrap_ObjectPtrTableDiff_obj_toString), -1);
   SwigClassObjectPtrTableDiff_obj.mark = 0;
   SwigClassObjectPtrTableDiff_obj.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_coopy_TableDiff_obj_Sg_;
   SwigClassObjectPtrTableDiff_obj.trackObjects = 0;
   
+  SwigClassObjectPtrView_obj.klass = rb_define_class_under(mCoopyhx, "ObjectPtrView_obj", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, (void *) &SwigClassObjectPtrView_obj);
+  rb_undef_alloc_func(SwigClassObjectPtrView_obj.klass);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrView_obj___deref__), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrView_obj_GetPtr), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "__boot", VALUEFUNC(_wrap_ObjectPtrView_obj___boot), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "toDatum", VALUEFUNC(_wrap_ObjectPtrView_obj_toDatum), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "toDatum_dyn", VALUEFUNC(_wrap_ObjectPtrView_obj_toDatum_dyn), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "equals", VALUEFUNC(_wrap_ObjectPtrView_obj_equals), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "equals_dyn", VALUEFUNC(_wrap_ObjectPtrView_obj_equals_dyn), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "hasStructure", VALUEFUNC(_wrap_ObjectPtrView_obj_hasStructure), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "hasStructure_dyn", VALUEFUNC(_wrap_ObjectPtrView_obj_hasStructure_dyn), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "getTable", VALUEFUNC(_wrap_ObjectPtrView_obj_getTable), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "getTable_dyn", VALUEFUNC(_wrap_ObjectPtrView_obj_getTable_dyn), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "getBag", VALUEFUNC(_wrap_ObjectPtrView_obj_getBag), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "getBag_dyn", VALUEFUNC(_wrap_ObjectPtrView_obj_getBag_dyn), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "toString", VALUEFUNC(_wrap_ObjectPtrView_obj_toString), -1);
+  rb_define_method(SwigClassObjectPtrView_obj.klass, "toString_dyn", VALUEFUNC(_wrap_ObjectPtrView_obj_toString_dyn), -1);
+  SwigClassObjectPtrView_obj.mark = 0;
+  SwigClassObjectPtrView_obj.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_coopy_View_obj_Sg_;
+  SwigClassObjectPtrView_obj.trackObjects = 0;
+  
   SwigClassObjectPtrObject.klass = rb_define_class_under(mCoopyhx, "ObjectPtrObject", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_hx__Object_t, (void *) &SwigClassObjectPtrObject);
-  rb_define_alloc_func(SwigClassObjectPtrObject.klass, _wrap_ObjectPtrObject_allocate);
-  rb_define_method(SwigClassObjectPtrObject.klass, "initialize", VALUEFUNC(_wrap_new_ObjectPtrObject), -1);
+  rb_undef_alloc_func(SwigClassObjectPtrObject.klass);
   rb_define_method(SwigClassObjectPtrObject.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrObject___deref__), -1);
   rb_define_method(SwigClassObjectPtrObject.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrObject_GetPtr), -1);
+  rb_define_method(SwigClassObjectPtrObject.klass, "toString", VALUEFUNC(_wrap_ObjectPtrObject_toString), -1);
   SwigClassObjectPtrObject.mark = 0;
   SwigClassObjectPtrObject.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_hx_Object_Sg_;
   SwigClassObjectPtrObject.trackObjects = 0;
   
-  SwigClassDynamic.klass = rb_define_class_under(mCoopyhx, "Dynamic", ((swig_class *) SWIGTYPE_p_hx__ObjectPtrT_hx__Object_t->clientdata)->klass);
-  SWIG_TypeClientData(SWIGTYPE_p_Dynamic, (void *) &SwigClassDynamic);
-  rb_define_alloc_func(SwigClassDynamic.klass, _wrap_Dynamic_allocate);
-  rb_define_method(SwigClassDynamic.klass, "initialize", VALUEFUNC(_wrap_new_Dynamic), -1);
-  rb_define_method(SwigClassDynamic.klass, "Set", VALUEFUNC(_wrap_Dynamic_Set), -1);
-  rb_define_method(SwigClassDynamic.klass, "__get", VALUEFUNC(_wrap_Dynamic___get), -1);
-  rb_define_method(SwigClassDynamic.klass, "Default", VALUEFUNC(_wrap_Dynamic_Default), -1);
-  rb_define_singleton_method(SwigClassDynamic.klass, "__boot", VALUEFUNC(_wrap_Dynamic___boot), -1);
-  rb_define_method(SwigClassDynamic.klass, "IsNumeric", VALUEFUNC(_wrap_Dynamic_IsNumeric), -1);
-  rb_define_method(SwigClassDynamic.klass, "Compare", VALUEFUNC(_wrap_Dynamic_Compare), -1);
-  rb_define_method(SwigClassDynamic.klass, "==", VALUEFUNC(_wrap_Dynamic___eq__), -1);
-  rb_define_method(SwigClassDynamic.klass, "<", VALUEFUNC(_wrap_Dynamic___lt__), -1);
-  rb_define_method(SwigClassDynamic.klass, "<=", VALUEFUNC(_wrap_Dynamic___le__), -1);
-  rb_define_method(SwigClassDynamic.klass, ">=", VALUEFUNC(_wrap_Dynamic___ge__), -1);
-  rb_define_method(SwigClassDynamic.klass, ">", VALUEFUNC(_wrap_Dynamic___gt__), -1);
-  rb_define_method(SwigClassDynamic.klass, "+", VALUEFUNC(_wrap_Dynamic___add__), -1);
-  rb_define_method(SwigClassDynamic.klass, "%", VALUEFUNC(_wrap_Dynamic___mod__), -1);
-  rb_define_method(SwigClassDynamic.klass, "-@", VALUEFUNC(_wrap_Dynamic___neg__), -1);
-  rb_define_method(SwigClassDynamic.klass, "-", VALUEFUNC(_wrap_Dynamic___sub__), -1);
-  rb_define_method(SwigClassDynamic.klass, "*", VALUEFUNC(_wrap_Dynamic___mul__), -1);
-  rb_define_method(SwigClassDynamic.klass, "/", VALUEFUNC(_wrap_Dynamic___div__), -1);
-  rb_define_singleton_method(SwigClassDynamic.klass, "ThrowBadFunctionError", VALUEFUNC(_wrap_Dynamic_ThrowBadFunctionError), -1);
-  rb_define_method(SwigClassDynamic.klass, "CheckFPtr", VALUEFUNC(_wrap_Dynamic_CheckFPtr), -1);
-  SwigClassDynamic.mark = 0;
-  SwigClassDynamic.destroy = (void (*)(void *)) free_Dynamic;
-  SwigClassDynamic.trackObjects = 0;
-  rb_define_module_function(mCoopyhx, "CreateMemberFunction0", VALUEFUNC(_wrap_CreateMemberFunction0), -1);
-  rb_define_module_function(mCoopyhx, "CreateMemberFunction1", VALUEFUNC(_wrap_CreateMemberFunction1), -1);
-  rb_define_module_function(mCoopyhx, "CreateMemberFunction2", VALUEFUNC(_wrap_CreateMemberFunction2), -1);
-  rb_define_module_function(mCoopyhx, "CreateMemberFunction3", VALUEFUNC(_wrap_CreateMemberFunction3), -1);
-  rb_define_module_function(mCoopyhx, "CreateMemberFunction4", VALUEFUNC(_wrap_CreateMemberFunction4), -1);
-  rb_define_module_function(mCoopyhx, "CreateMemberFunction5", VALUEFUNC(_wrap_CreateMemberFunction5), -1);
-  rb_define_module_function(mCoopyhx, "CreateMemberFunctionVar", VALUEFUNC(_wrap_CreateMemberFunctionVar), -1);
-  rb_define_module_function(mCoopyhx, "CreateStaticFunction0", VALUEFUNC(_wrap_CreateStaticFunction0), -1);
-  rb_define_module_function(mCoopyhx, "CreateStaticFunction1", VALUEFUNC(_wrap_CreateStaticFunction1), -1);
-  rb_define_module_function(mCoopyhx, "CreateStaticFunction2", VALUEFUNC(_wrap_CreateStaticFunction2), -1);
-  rb_define_module_function(mCoopyhx, "CreateStaticFunction3", VALUEFUNC(_wrap_CreateStaticFunction3), -1);
-  rb_define_module_function(mCoopyhx, "CreateStaticFunction4", VALUEFUNC(_wrap_CreateStaticFunction4), -1);
-  rb_define_module_function(mCoopyhx, "CreateStaticFunction5", VALUEFUNC(_wrap_CreateStaticFunction5), -1);
-  rb_define_module_function(mCoopyhx, "CreateStaticFunctionVar", VALUEFUNC(_wrap_CreateStaticFunctionVar), -1);
-  rb_define_module_function(mCoopyhx, "GetIntClass", VALUEFUNC(_wrap_GetIntClass), -1);
-  rb_define_module_function(mCoopyhx, "GetFloatClass", VALUEFUNC(_wrap_GetFloatClass), -1);
-  rb_define_module_function(mCoopyhx, "GetBoolClass", VALUEFUNC(_wrap_GetBoolClass), -1);
-  rb_define_module_function(mCoopyhx, "GetVoidClass", VALUEFUNC(_wrap_GetVoidClass), -1);
-  rb_define_module_function(mCoopyhx, "GetStringClass", VALUEFUNC(_wrap_GetStringClass), -1);
-  
-  SwigClassDatum_obj.klass = rb_define_class_under(mCoopyhx, "Datum_obj", rb_cObject);
-  SWIG_TypeClientData(SWIGTYPE_p_coopy__Datum_obj, (void *) &SwigClassDatum_obj);
-  rb_undef_alloc_func(SwigClassDatum_obj.klass);
-  rb_define_singleton_method(SwigClassDatum_obj.klass, "__boot", VALUEFUNC(_wrap_Datum_obj___boot), -1);
-  rb_define_method(SwigClassDatum_obj.klass, "toString", VALUEFUNC(_wrap_Datum_obj_toString), -1);
-  rb_define_method(SwigClassDatum_obj.klass, "toString_dyn", VALUEFUNC(_wrap_Datum_obj_toString_dyn), -1);
-  SwigClassDatum_obj.mark = 0;
-  SwigClassDatum_obj.destroy = (void (*)(void *)) free_coopy_Datum_obj;
-  SwigClassDatum_obj.trackObjects = 0;
-  
-  SwigClassBag_obj.klass = rb_define_class_under(mCoopyhx, "Bag_obj", rb_cObject);
-  SWIG_TypeClientData(SWIGTYPE_p_coopy__Bag_obj, (void *) &SwigClassBag_obj);
-  rb_undef_alloc_func(SwigClassBag_obj.klass);
-  rb_define_singleton_method(SwigClassBag_obj.klass, "__boot", VALUEFUNC(_wrap_Bag_obj___boot), -1);
-  rb_define_method(SwigClassBag_obj.klass, "getItemView", VALUEFUNC(_wrap_Bag_obj_getItemView), -1);
-  rb_define_method(SwigClassBag_obj.klass, "getItemView_dyn", VALUEFUNC(_wrap_Bag_obj_getItemView_dyn), -1);
-  rb_define_method(SwigClassBag_obj.klass, "getItem", VALUEFUNC(_wrap_Bag_obj_getItem), -1);
-  rb_define_method(SwigClassBag_obj.klass, "getItem_dyn", VALUEFUNC(_wrap_Bag_obj_getItem_dyn), -1);
-  SwigClassBag_obj.mark = 0;
-  SwigClassBag_obj.destroy = (void (*)(void *)) free_coopy_Bag_obj;
-  SwigClassBag_obj.trackObjects = 0;
-  
-  SwigClassView_obj.klass = rb_define_class_under(mCoopyhx, "View_obj", rb_cObject);
-  SWIG_TypeClientData(SWIGTYPE_p_coopy__View_obj, (void *) &SwigClassView_obj);
-  rb_undef_alloc_func(SwigClassView_obj.klass);
-  rb_define_singleton_method(SwigClassView_obj.klass, "__boot", VALUEFUNC(_wrap_View_obj___boot), -1);
-  rb_define_method(SwigClassView_obj.klass, "toDatum", VALUEFUNC(_wrap_View_obj_toDatum), -1);
-  rb_define_method(SwigClassView_obj.klass, "toDatum_dyn", VALUEFUNC(_wrap_View_obj_toDatum_dyn), -1);
-  rb_define_method(SwigClassView_obj.klass, "equals", VALUEFUNC(_wrap_View_obj_equals), -1);
-  rb_define_method(SwigClassView_obj.klass, "equals_dyn", VALUEFUNC(_wrap_View_obj_equals_dyn), -1);
-  rb_define_method(SwigClassView_obj.klass, "hasStructure", VALUEFUNC(_wrap_View_obj_hasStructure), -1);
-  rb_define_method(SwigClassView_obj.klass, "hasStructure_dyn", VALUEFUNC(_wrap_View_obj_hasStructure_dyn), -1);
-  rb_define_method(SwigClassView_obj.klass, "getTable", VALUEFUNC(_wrap_View_obj_getTable), -1);
-  rb_define_method(SwigClassView_obj.klass, "getTable_dyn", VALUEFUNC(_wrap_View_obj_getTable_dyn), -1);
-  rb_define_method(SwigClassView_obj.klass, "getBag", VALUEFUNC(_wrap_View_obj_getBag), -1);
-  rb_define_method(SwigClassView_obj.klass, "getBag_dyn", VALUEFUNC(_wrap_View_obj_getBag_dyn), -1);
-  rb_define_method(SwigClassView_obj.klass, "toString", VALUEFUNC(_wrap_View_obj_toString), -1);
-  rb_define_method(SwigClassView_obj.klass, "toString_dyn", VALUEFUNC(_wrap_View_obj_toString_dyn), -1);
-  SwigClassView_obj.mark = 0;
-  SwigClassView_obj.destroy = (void (*)(void *)) free_coopy_View_obj;
-  SwigClassView_obj.trackObjects = 0;
-  
-  SwigClassSimpleCell_obj.klass = rb_define_class_under(mCoopyhx, "SimpleCell_obj", rb_cObject);
+  SwigClassSimpleCell_obj.klass = rb_define_class_under(mCoopyhx, "SimpleCell_obj", ((swig_class *) SWIGTYPE_p_hx__Object->clientdata)->klass);
   SWIG_TypeClientData(SWIGTYPE_p_coopy__SimpleCell_obj, (void *) &SwigClassSimpleCell_obj);
   rb_define_alloc_func(SwigClassSimpleCell_obj.klass, _wrap_SimpleCell_obj_allocate);
   rb_define_method(SwigClassSimpleCell_obj.klass, "initialize", VALUEFUNC(_wrap_new_SimpleCell_obj), -1);
@@ -22695,8 +23655,6 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_singleton_method(SwigClassSimpleCell_obj.klass, "__register", VALUEFUNC(_wrap_SimpleCell_obj___register), -1);
   rb_define_method(SwigClassSimpleCell_obj.klass, "__Mark", VALUEFUNC(_wrap_SimpleCell_obj___Mark), -1);
   rb_define_method(SwigClassSimpleCell_obj.klass, "__Visit", VALUEFUNC(_wrap_SimpleCell_obj___Visit), -1);
-  rb_define_method(SwigClassSimpleCell_obj.klass, "asDatum", VALUEFUNC(_wrap_SimpleCell_obj_asDatum), -1);
-  rb_define_method(SwigClassSimpleCell_obj.klass, "__ToInterface", VALUEFUNC(_wrap_SimpleCell_obj___ToInterface), -1);
   rb_define_method(SwigClassSimpleCell_obj.klass, "__ToString", VALUEFUNC(_wrap_SimpleCell_obj___ToString), -1);
   rb_define_method(SwigClassSimpleCell_obj.klass, "toString", VALUEFUNC(_wrap_SimpleCell_obj_toString), -1);
   rb_define_method(SwigClassSimpleCell_obj.klass, "toString_dyn", VALUEFUNC(_wrap_SimpleCell_obj_toString_dyn), -1);
@@ -22706,7 +23664,7 @@ SWIGEXPORT void Init_coopyhx(void) {
   SwigClassSimpleCell_obj.destroy = (void (*)(void *)) free_coopy_SimpleCell_obj;
   SwigClassSimpleCell_obj.trackObjects = 0;
   
-  SwigClassSimpleTable_obj.klass = rb_define_class_under(mCoopyhx, "SimpleTable_obj", rb_cObject);
+  SwigClassSimpleTable_obj.klass = rb_define_class_under(mCoopyhx, "SimpleTable_obj", ((swig_class *) SWIGTYPE_p_hx__Object->clientdata)->klass);
   SWIG_TypeClientData(SWIGTYPE_p_coopy__SimpleTable_obj, (void *) &SwigClassSimpleTable_obj);
   rb_define_alloc_func(SwigClassSimpleTable_obj.klass, _wrap_SimpleTable_obj_allocate);
   rb_define_method(SwigClassSimpleTable_obj.klass, "initialize", VALUEFUNC(_wrap_new_SimpleTable_obj), -1);
@@ -22718,8 +23676,6 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_singleton_method(SwigClassSimpleTable_obj.klass, "__register", VALUEFUNC(_wrap_SimpleTable_obj___register), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "__Mark", VALUEFUNC(_wrap_SimpleTable_obj___Mark), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "__Visit", VALUEFUNC(_wrap_SimpleTable_obj___Visit), -1);
-  rb_define_method(SwigClassSimpleTable_obj.klass, "asDatum", VALUEFUNC(_wrap_SimpleTable_obj_asDatum), -1);
-  rb_define_method(SwigClassSimpleTable_obj.klass, "asBag", VALUEFUNC(_wrap_SimpleTable_obj_asBag), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "asTable", VALUEFUNC(_wrap_SimpleTable_obj_asTable), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "__ToInterface", VALUEFUNC(_wrap_SimpleTable_obj___ToInterface), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "__ToString", VALUEFUNC(_wrap_SimpleTable_obj___ToString), -1);
@@ -22735,15 +23691,10 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassSimpleTable_obj.klass, "resize_dyn", VALUEFUNC(_wrap_SimpleTable_obj_resize_dyn), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "isResizable", VALUEFUNC(_wrap_SimpleTable_obj_isResizable), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "isResizable_dyn", VALUEFUNC(_wrap_SimpleTable_obj_isResizable_dyn), -1);
-  rb_define_method(SwigClassSimpleTable_obj.klass, "getItemView", VALUEFUNC(_wrap_SimpleTable_obj_getItemView), -1);
-  rb_define_method(SwigClassSimpleTable_obj.klass, "getItemView_dyn", VALUEFUNC(_wrap_SimpleTable_obj_getItemView_dyn), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "getCellView", VALUEFUNC(_wrap_SimpleTable_obj_getCellView), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "getCellView_dyn", VALUEFUNC(_wrap_SimpleTable_obj_getCellView_dyn), -1);
-  rb_define_method(SwigClassSimpleTable_obj.klass, "toString", VALUEFUNC(_wrap_SimpleTable_obj_toString), -1);
+  rb_define_method(SwigClassSimpleTable_obj.klass, "to_s", VALUEFUNC(_wrap_SimpleTable_obj___str__), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "toString_dyn", VALUEFUNC(_wrap_SimpleTable_obj_toString_dyn), -1);
-  rb_define_method(SwigClassSimpleTable_obj.klass, "getItem", VALUEFUNC(_wrap_SimpleTable_obj_getItem), -1);
-  rb_define_method(SwigClassSimpleTable_obj.klass, "getItem_dyn", VALUEFUNC(_wrap_SimpleTable_obj_getItem_dyn), -1);
-  rb_define_method(SwigClassSimpleTable_obj.klass, "setCell", VALUEFUNC(_wrap_SimpleTable_obj_setCell), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "setCell_dyn", VALUEFUNC(_wrap_SimpleTable_obj_setCell_dyn), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "getCell", VALUEFUNC(_wrap_SimpleTable_obj_getCell), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "getCell_dyn", VALUEFUNC(_wrap_SimpleTable_obj_getCell_dyn), -1);
@@ -22755,8 +23706,6 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassSimpleTable_obj.klass, "get_width_dyn", VALUEFUNC(_wrap_SimpleTable_obj_get_width_dyn), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "getTable", VALUEFUNC(_wrap_SimpleTable_obj_getTable), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "getTable_dyn", VALUEFUNC(_wrap_SimpleTable_obj_getTable_dyn), -1);
-  rb_define_method(SwigClassSimpleTable_obj.klass, "bag=", VALUEFUNC(_wrap_SimpleTable_obj_bag_set), -1);
-  rb_define_method(SwigClassSimpleTable_obj.klass, "bag", VALUEFUNC(_wrap_SimpleTable_obj_bag_get), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "h=", VALUEFUNC(_wrap_SimpleTable_obj_h_set), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "h", VALUEFUNC(_wrap_SimpleTable_obj_h_get), -1);
   rb_define_method(SwigClassSimpleTable_obj.klass, "w=", VALUEFUNC(_wrap_SimpleTable_obj_w_set), -1);
@@ -22765,65 +23714,43 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassSimpleTable_obj.klass, "data", VALUEFUNC(_wrap_SimpleTable_obj_data_get), -1);
   rb_define_singleton_method(SwigClassSimpleTable_obj.klass, "tableToString", VALUEFUNC(_wrap_SimpleTable_obj_tableToString), -1);
   rb_define_singleton_method(SwigClassSimpleTable_obj.klass, "tableToString_dyn", VALUEFUNC(_wrap_SimpleTable_obj_tableToString_dyn), -1);
+  rb_define_method(SwigClassSimpleTable_obj.klass, "setCell", VALUEFUNC(_wrap_SimpleTable_obj_setCell), -1);
   SwigClassSimpleTable_obj.mark = 0;
   SwigClassSimpleTable_obj.destroy = (void (*)(void *)) free_coopy_SimpleTable_obj;
   SwigClassSimpleTable_obj.trackObjects = 0;
   
-  SwigClassCoopy_obj.klass = rb_define_class_under(mCoopyhx, "Coopy_obj", rb_cObject);
-  SWIG_TypeClientData(SWIGTYPE_p_coopy__Coopy_obj, (void *) &SwigClassCoopy_obj);
-  rb_define_alloc_func(SwigClassCoopy_obj.klass, _wrap_Coopy_obj_allocate);
-  rb_define_method(SwigClassCoopy_obj.klass, "initialize", VALUEFUNC(_wrap_new_Coopy_obj), -1);
-  rb_define_method(SwigClassCoopy_obj.klass, "__construct", VALUEFUNC(_wrap_Coopy_obj___construct), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "__new", VALUEFUNC(_wrap_Coopy_obj___new), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "__CreateEmpty", VALUEFUNC(_wrap_Coopy_obj___CreateEmpty), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "__Create", VALUEFUNC(_wrap_Coopy_obj___Create), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "__boot", VALUEFUNC(_wrap_Coopy_obj___boot), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "__register", VALUEFUNC(_wrap_Coopy_obj___register), -1);
-  rb_define_method(SwigClassCoopy_obj.klass, "__Mark", VALUEFUNC(_wrap_Coopy_obj___Mark), -1);
-  rb_define_method(SwigClassCoopy_obj.klass, "__Visit", VALUEFUNC(_wrap_Coopy_obj___Visit), -1);
-  rb_define_method(SwigClassCoopy_obj.klass, "__ToString", VALUEFUNC(_wrap_Coopy_obj___ToString), -1);
-  rb_define_method(SwigClassCoopy_obj.klass, "format_preference=", VALUEFUNC(_wrap_Coopy_obj_format_preference_set), -1);
-  rb_define_method(SwigClassCoopy_obj.klass, "format_preference", VALUEFUNC(_wrap_Coopy_obj_format_preference_get), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "compareTables", VALUEFUNC(_wrap_Coopy_obj_compareTables), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "compareTables_dyn", VALUEFUNC(_wrap_Coopy_obj_compareTables_dyn), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "compareTables3", VALUEFUNC(_wrap_Coopy_obj_compareTables3), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "compareTables3_dyn", VALUEFUNC(_wrap_Coopy_obj_compareTables3_dyn), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "randomTests", VALUEFUNC(_wrap_Coopy_obj_randomTests), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "randomTests_dyn", VALUEFUNC(_wrap_Coopy_obj_randomTests_dyn), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "main", VALUEFUNC(_wrap_Coopy_obj_main), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "main_dyn", VALUEFUNC(_wrap_Coopy_obj_main_dyn), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "show", VALUEFUNC(_wrap_Coopy_obj_show), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "show_dyn", VALUEFUNC(_wrap_Coopy_obj_show_dyn), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "jsonify", VALUEFUNC(_wrap_Coopy_obj_jsonify), -1);
-  rb_define_singleton_method(SwigClassCoopy_obj.klass, "jsonify_dyn", VALUEFUNC(_wrap_Coopy_obj_jsonify_dyn), -1);
-  SwigClassCoopy_obj.mark = 0;
-  SwigClassCoopy_obj.destroy = (void (*)(void *)) free_coopy_Coopy_obj;
-  SwigClassCoopy_obj.trackObjects = 0;
+  SwigClassCoopy.klass = rb_define_class_under(mCoopyhx, "Coopy", ((swig_class *) SWIGTYPE_p_hx__Object->clientdata)->klass);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__Coopy_obj, (void *) &SwigClassCoopy);
+  rb_define_alloc_func(SwigClassCoopy.klass, _wrap_Coopy_allocate);
+  rb_define_method(SwigClassCoopy.klass, "initialize", VALUEFUNC(_wrap_new_Coopy), -1);
+  rb_define_method(SwigClassCoopy.klass, "__construct", VALUEFUNC(_wrap_Coopy___construct), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "__new", VALUEFUNC(_wrap_Coopy___new), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "__CreateEmpty", VALUEFUNC(_wrap_Coopy___CreateEmpty), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "__Create", VALUEFUNC(_wrap_Coopy___Create), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "__boot", VALUEFUNC(_wrap_Coopy___boot), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "__register", VALUEFUNC(_wrap_Coopy___register), -1);
+  rb_define_method(SwigClassCoopy.klass, "__Mark", VALUEFUNC(_wrap_Coopy___Mark), -1);
+  rb_define_method(SwigClassCoopy.klass, "__Visit", VALUEFUNC(_wrap_Coopy___Visit), -1);
+  rb_define_method(SwigClassCoopy.klass, "__ToString", VALUEFUNC(_wrap_Coopy___ToString), -1);
+  rb_define_method(SwigClassCoopy.klass, "format_preference=", VALUEFUNC(_wrap_Coopy_format_preference_set), -1);
+  rb_define_method(SwigClassCoopy.klass, "format_preference", VALUEFUNC(_wrap_Coopy_format_preference_get), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "compareTables", VALUEFUNC(_wrap_Coopy_compareTables), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "compareTables_dyn", VALUEFUNC(_wrap_Coopy_compareTables_dyn), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "compareTables3", VALUEFUNC(_wrap_Coopy_compareTables3), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "compareTables3_dyn", VALUEFUNC(_wrap_Coopy_compareTables3_dyn), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "randomTests", VALUEFUNC(_wrap_Coopy_randomTests), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "randomTests_dyn", VALUEFUNC(_wrap_Coopy_randomTests_dyn), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "main", VALUEFUNC(_wrap_Coopy_main), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "main_dyn", VALUEFUNC(_wrap_Coopy_main_dyn), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "show", VALUEFUNC(_wrap_Coopy_show), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "show_dyn", VALUEFUNC(_wrap_Coopy_show_dyn), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "jsonify", VALUEFUNC(_wrap_Coopy_jsonify), -1);
+  rb_define_singleton_method(SwigClassCoopy.klass, "jsonify_dyn", VALUEFUNC(_wrap_Coopy_jsonify_dyn), -1);
+  SwigClassCoopy.mark = 0;
+  SwigClassCoopy.destroy = (void (*)(void *)) free_coopy_Coopy_obj;
+  SwigClassCoopy.trackObjects = 0;
   
-  SwigClassCompareFlags_obj.klass = rb_define_class_under(mCoopyhx, "CompareFlags_obj", rb_cObject);
-  SWIG_TypeClientData(SWIGTYPE_p_coopy__CompareFlags_obj, (void *) &SwigClassCompareFlags_obj);
-  rb_define_alloc_func(SwigClassCompareFlags_obj.klass, _wrap_CompareFlags_obj_allocate);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "initialize", VALUEFUNC(_wrap_new_CompareFlags_obj), -1);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "__construct", VALUEFUNC(_wrap_CompareFlags_obj___construct), -1);
-  rb_define_singleton_method(SwigClassCompareFlags_obj.klass, "__new", VALUEFUNC(_wrap_CompareFlags_obj___new), -1);
-  rb_define_singleton_method(SwigClassCompareFlags_obj.klass, "__CreateEmpty", VALUEFUNC(_wrap_CompareFlags_obj___CreateEmpty), -1);
-  rb_define_singleton_method(SwigClassCompareFlags_obj.klass, "__Create", VALUEFUNC(_wrap_CompareFlags_obj___Create), -1);
-  rb_define_singleton_method(SwigClassCompareFlags_obj.klass, "__boot", VALUEFUNC(_wrap_CompareFlags_obj___boot), -1);
-  rb_define_singleton_method(SwigClassCompareFlags_obj.klass, "__register", VALUEFUNC(_wrap_CompareFlags_obj___register), -1);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "__Mark", VALUEFUNC(_wrap_CompareFlags_obj___Mark), -1);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "__Visit", VALUEFUNC(_wrap_CompareFlags_obj___Visit), -1);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "__ToString", VALUEFUNC(_wrap_CompareFlags_obj___ToString), -1);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "unchanged_context=", VALUEFUNC(_wrap_CompareFlags_obj_unchanged_context_set), -1);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "unchanged_context", VALUEFUNC(_wrap_CompareFlags_obj_unchanged_context_get), -1);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "show_unchanged=", VALUEFUNC(_wrap_CompareFlags_obj_show_unchanged_set), -1);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "show_unchanged", VALUEFUNC(_wrap_CompareFlags_obj_show_unchanged_get), -1);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "always_show_header=", VALUEFUNC(_wrap_CompareFlags_obj_always_show_header_set), -1);
-  rb_define_method(SwigClassCompareFlags_obj.klass, "always_show_header", VALUEFUNC(_wrap_CompareFlags_obj_always_show_header_get), -1);
-  SwigClassCompareFlags_obj.mark = 0;
-  SwigClassCompareFlags_obj.destroy = (void (*)(void *)) free_coopy_CompareFlags_obj;
-  SwigClassCompareFlags_obj.trackObjects = 0;
-  
-  SwigClassCompareTable_obj.klass = rb_define_class_under(mCoopyhx, "CompareTable_obj", rb_cObject);
+  SwigClassCompareTable_obj.klass = rb_define_class_under(mCoopyhx, "CompareTable_obj", ((swig_class *) SWIGTYPE_p_hx__Object->clientdata)->klass);
   SWIG_TypeClientData(SWIGTYPE_p_coopy__CompareTable_obj, (void *) &SwigClassCompareTable_obj);
   rb_define_alloc_func(SwigClassCompareTable_obj.klass, _wrap_CompareTable_obj_allocate);
   rb_define_method(SwigClassCompareTable_obj.klass, "initialize", VALUEFUNC(_wrap_new_CompareTable_obj), -1);
@@ -22870,36 +23797,7 @@ SWIGEXPORT void Init_coopyhx(void) {
   SwigClassCompareTable_obj.destroy = (void (*)(void *)) free_coopy_CompareTable_obj;
   SwigClassCompareTable_obj.trackObjects = 0;
   
-  SwigClassTableDiff_obj.klass = rb_define_class_under(mCoopyhx, "TableDiff_obj", rb_cObject);
-  SWIG_TypeClientData(SWIGTYPE_p_coopy__TableDiff_obj, (void *) &SwigClassTableDiff_obj);
-  rb_define_alloc_func(SwigClassTableDiff_obj.klass, _wrap_TableDiff_obj_allocate);
-  rb_define_method(SwigClassTableDiff_obj.klass, "initialize", VALUEFUNC(_wrap_new_TableDiff_obj), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "__construct", VALUEFUNC(_wrap_TableDiff_obj___construct), -1);
-  rb_define_singleton_method(SwigClassTableDiff_obj.klass, "__new", VALUEFUNC(_wrap_TableDiff_obj___new), -1);
-  rb_define_singleton_method(SwigClassTableDiff_obj.klass, "__CreateEmpty", VALUEFUNC(_wrap_TableDiff_obj___CreateEmpty), -1);
-  rb_define_singleton_method(SwigClassTableDiff_obj.klass, "__Create", VALUEFUNC(_wrap_TableDiff_obj___Create), -1);
-  rb_define_singleton_method(SwigClassTableDiff_obj.klass, "__boot", VALUEFUNC(_wrap_TableDiff_obj___boot), -1);
-  rb_define_singleton_method(SwigClassTableDiff_obj.klass, "__register", VALUEFUNC(_wrap_TableDiff_obj___register), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "__Mark", VALUEFUNC(_wrap_TableDiff_obj___Mark), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "__Visit", VALUEFUNC(_wrap_TableDiff_obj___Visit), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "__ToString", VALUEFUNC(_wrap_TableDiff_obj___ToString), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "test", VALUEFUNC(_wrap_TableDiff_obj_test), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "test_dyn", VALUEFUNC(_wrap_TableDiff_obj_test_dyn), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "hilite", VALUEFUNC(_wrap_TableDiff_obj_hilite), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "hilite_dyn", VALUEFUNC(_wrap_TableDiff_obj_hilite_dyn), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "quoteForDiff", VALUEFUNC(_wrap_TableDiff_obj_quoteForDiff), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "quoteForDiff_dyn", VALUEFUNC(_wrap_TableDiff_obj_quoteForDiff_dyn), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "getSeparator", VALUEFUNC(_wrap_TableDiff_obj_getSeparator), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "getSeparator_dyn", VALUEFUNC(_wrap_TableDiff_obj_getSeparator_dyn), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "flags=", VALUEFUNC(_wrap_TableDiff_obj_flags_set), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "flags", VALUEFUNC(_wrap_TableDiff_obj_flags_get), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "align=", VALUEFUNC(_wrap_TableDiff_obj_align_set), -1);
-  rb_define_method(SwigClassTableDiff_obj.klass, "align", VALUEFUNC(_wrap_TableDiff_obj_align_get), -1);
-  SwigClassTableDiff_obj.mark = 0;
-  SwigClassTableDiff_obj.destroy = (void (*)(void *)) free_coopy_TableDiff_obj;
-  SwigClassTableDiff_obj.trackObjects = 0;
-  
-  SwigClassAlignment_obj.klass = rb_define_class_under(mCoopyhx, "Alignment_obj", rb_cObject);
+  SwigClassAlignment_obj.klass = rb_define_class_under(mCoopyhx, "Alignment_obj", ((swig_class *) SWIGTYPE_p_hx__Object->clientdata)->klass);
   SWIG_TypeClientData(SWIGTYPE_p_coopy__Alignment_obj, (void *) &SwigClassAlignment_obj);
   rb_define_alloc_func(SwigClassAlignment_obj.klass, _wrap_Alignment_obj_allocate);
   rb_define_method(SwigClassAlignment_obj.klass, "initialize", VALUEFUNC(_wrap_new_Alignment_obj), -1);
@@ -22974,6 +23872,104 @@ SWIGEXPORT void Init_coopyhx(void) {
   SwigClassAlignment_obj.destroy = (void (*)(void *)) free_coopy_Alignment_obj;
   SwigClassAlignment_obj.trackObjects = 0;
   
+  SwigClassCompareFlags_obj.klass = rb_define_class_under(mCoopyhx, "CompareFlags_obj", ((swig_class *) SWIGTYPE_p_hx__Object->clientdata)->klass);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__CompareFlags_obj, (void *) &SwigClassCompareFlags_obj);
+  rb_define_alloc_func(SwigClassCompareFlags_obj.klass, _wrap_CompareFlags_obj_allocate);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "initialize", VALUEFUNC(_wrap_new_CompareFlags_obj), -1);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "__construct", VALUEFUNC(_wrap_CompareFlags_obj___construct), -1);
+  rb_define_singleton_method(SwigClassCompareFlags_obj.klass, "__new", VALUEFUNC(_wrap_CompareFlags_obj___new), -1);
+  rb_define_singleton_method(SwigClassCompareFlags_obj.klass, "__CreateEmpty", VALUEFUNC(_wrap_CompareFlags_obj___CreateEmpty), -1);
+  rb_define_singleton_method(SwigClassCompareFlags_obj.klass, "__Create", VALUEFUNC(_wrap_CompareFlags_obj___Create), -1);
+  rb_define_singleton_method(SwigClassCompareFlags_obj.klass, "__boot", VALUEFUNC(_wrap_CompareFlags_obj___boot), -1);
+  rb_define_singleton_method(SwigClassCompareFlags_obj.klass, "__register", VALUEFUNC(_wrap_CompareFlags_obj___register), -1);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "__Mark", VALUEFUNC(_wrap_CompareFlags_obj___Mark), -1);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "__Visit", VALUEFUNC(_wrap_CompareFlags_obj___Visit), -1);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "__ToString", VALUEFUNC(_wrap_CompareFlags_obj___ToString), -1);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "unchanged_context=", VALUEFUNC(_wrap_CompareFlags_obj_unchanged_context_set), -1);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "unchanged_context", VALUEFUNC(_wrap_CompareFlags_obj_unchanged_context_get), -1);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "show_unchanged=", VALUEFUNC(_wrap_CompareFlags_obj_show_unchanged_set), -1);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "show_unchanged", VALUEFUNC(_wrap_CompareFlags_obj_show_unchanged_get), -1);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "always_show_header=", VALUEFUNC(_wrap_CompareFlags_obj_always_show_header_set), -1);
+  rb_define_method(SwigClassCompareFlags_obj.klass, "always_show_header", VALUEFUNC(_wrap_CompareFlags_obj_always_show_header_get), -1);
+  SwigClassCompareFlags_obj.mark = 0;
+  SwigClassCompareFlags_obj.destroy = (void (*)(void *)) free_coopy_CompareFlags_obj;
+  SwigClassCompareFlags_obj.trackObjects = 0;
+  
+  SwigClassTableDiff_obj.klass = rb_define_class_under(mCoopyhx, "TableDiff_obj", ((swig_class *) SWIGTYPE_p_hx__Object->clientdata)->klass);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__TableDiff_obj, (void *) &SwigClassTableDiff_obj);
+  rb_define_alloc_func(SwigClassTableDiff_obj.klass, _wrap_TableDiff_obj_allocate);
+  rb_define_method(SwigClassTableDiff_obj.klass, "initialize", VALUEFUNC(_wrap_new_TableDiff_obj), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "__construct", VALUEFUNC(_wrap_TableDiff_obj___construct), -1);
+  rb_define_singleton_method(SwigClassTableDiff_obj.klass, "__new", VALUEFUNC(_wrap_TableDiff_obj___new), -1);
+  rb_define_singleton_method(SwigClassTableDiff_obj.klass, "__CreateEmpty", VALUEFUNC(_wrap_TableDiff_obj___CreateEmpty), -1);
+  rb_define_singleton_method(SwigClassTableDiff_obj.klass, "__Create", VALUEFUNC(_wrap_TableDiff_obj___Create), -1);
+  rb_define_singleton_method(SwigClassTableDiff_obj.klass, "__boot", VALUEFUNC(_wrap_TableDiff_obj___boot), -1);
+  rb_define_singleton_method(SwigClassTableDiff_obj.klass, "__register", VALUEFUNC(_wrap_TableDiff_obj___register), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "__Mark", VALUEFUNC(_wrap_TableDiff_obj___Mark), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "__Visit", VALUEFUNC(_wrap_TableDiff_obj___Visit), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "__ToString", VALUEFUNC(_wrap_TableDiff_obj___ToString), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "test", VALUEFUNC(_wrap_TableDiff_obj_test), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "test_dyn", VALUEFUNC(_wrap_TableDiff_obj_test_dyn), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "hilite", VALUEFUNC(_wrap_TableDiff_obj_hilite), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "hilite_dyn", VALUEFUNC(_wrap_TableDiff_obj_hilite_dyn), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "quoteForDiff", VALUEFUNC(_wrap_TableDiff_obj_quoteForDiff), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "quoteForDiff_dyn", VALUEFUNC(_wrap_TableDiff_obj_quoteForDiff_dyn), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "getSeparator", VALUEFUNC(_wrap_TableDiff_obj_getSeparator), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "getSeparator_dyn", VALUEFUNC(_wrap_TableDiff_obj_getSeparator_dyn), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "flags=", VALUEFUNC(_wrap_TableDiff_obj_flags_set), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "flags", VALUEFUNC(_wrap_TableDiff_obj_flags_get), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "align=", VALUEFUNC(_wrap_TableDiff_obj_align_set), -1);
+  rb_define_method(SwigClassTableDiff_obj.klass, "align", VALUEFUNC(_wrap_TableDiff_obj_align_get), -1);
+  SwigClassTableDiff_obj.mark = 0;
+  SwigClassTableDiff_obj.destroy = (void (*)(void *)) free_coopy_TableDiff_obj;
+  SwigClassTableDiff_obj.trackObjects = 0;
+  
+  SwigClassTable_obj.klass = rb_define_class_under(mCoopyhx, "Table_obj", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__Table_obj, (void *) &SwigClassTable_obj);
+  rb_undef_alloc_func(SwigClassTable_obj.klass);
+  rb_define_singleton_method(SwigClassTable_obj.klass, "__boot", VALUEFUNC(_wrap_Table_obj___boot), -1);
+  rb_define_method(SwigClassTable_obj.klass, "trimBlank", VALUEFUNC(_wrap_Table_obj_trimBlank), -1);
+  rb_define_method(SwigClassTable_obj.klass, "trimBlank_dyn", VALUEFUNC(_wrap_Table_obj_trimBlank_dyn), -1);
+  rb_define_method(SwigClassTable_obj.klass, "insertOrDeleteColumns", VALUEFUNC(_wrap_Table_obj_insertOrDeleteColumns), -1);
+  rb_define_method(SwigClassTable_obj.klass, "insertOrDeleteColumns_dyn", VALUEFUNC(_wrap_Table_obj_insertOrDeleteColumns_dyn), -1);
+  rb_define_method(SwigClassTable_obj.klass, "insertOrDeleteRows", VALUEFUNC(_wrap_Table_obj_insertOrDeleteRows), -1);
+  rb_define_method(SwigClassTable_obj.klass, "insertOrDeleteRows_dyn", VALUEFUNC(_wrap_Table_obj_insertOrDeleteRows_dyn), -1);
+  rb_define_method(SwigClassTable_obj.klass, "clear", VALUEFUNC(_wrap_Table_obj_clear), -1);
+  rb_define_method(SwigClassTable_obj.klass, "clear_dyn", VALUEFUNC(_wrap_Table_obj_clear_dyn), -1);
+  rb_define_method(SwigClassTable_obj.klass, "resize", VALUEFUNC(_wrap_Table_obj_resize), -1);
+  rb_define_method(SwigClassTable_obj.klass, "resize_dyn", VALUEFUNC(_wrap_Table_obj_resize_dyn), -1);
+  rb_define_method(SwigClassTable_obj.klass, "isResizable", VALUEFUNC(_wrap_Table_obj_isResizable), -1);
+  rb_define_method(SwigClassTable_obj.klass, "isResizable_dyn", VALUEFUNC(_wrap_Table_obj_isResizable_dyn), -1);
+  rb_define_method(SwigClassTable_obj.klass, "getCellView", VALUEFUNC(_wrap_Table_obj_getCellView), -1);
+  rb_define_method(SwigClassTable_obj.klass, "getCellView_dyn", VALUEFUNC(_wrap_Table_obj_getCellView_dyn), -1);
+  rb_define_method(SwigClassTable_obj.klass, "setCell", VALUEFUNC(_wrap_Table_obj_setCell), -1);
+  rb_define_method(SwigClassTable_obj.klass, "setCell_dyn", VALUEFUNC(_wrap_Table_obj_setCell_dyn), -1);
+  rb_define_method(SwigClassTable_obj.klass, "getCell", VALUEFUNC(_wrap_Table_obj_getCell), -1);
+  rb_define_method(SwigClassTable_obj.klass, "getCell_dyn", VALUEFUNC(_wrap_Table_obj_getCell_dyn), -1);
+  SwigClassTable_obj.mark = 0;
+  SwigClassTable_obj.destroy = (void (*)(void *)) free_coopy_Table_obj;
+  SwigClassTable_obj.trackObjects = 0;
+  
+  SwigClassView_obj.klass = rb_define_class_under(mCoopyhx, "View_obj", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__View_obj, (void *) &SwigClassView_obj);
+  rb_undef_alloc_func(SwigClassView_obj.klass);
+  rb_define_singleton_method(SwigClassView_obj.klass, "__boot", VALUEFUNC(_wrap_View_obj___boot), -1);
+  rb_define_method(SwigClassView_obj.klass, "toDatum", VALUEFUNC(_wrap_View_obj_toDatum), -1);
+  rb_define_method(SwigClassView_obj.klass, "toDatum_dyn", VALUEFUNC(_wrap_View_obj_toDatum_dyn), -1);
+  rb_define_method(SwigClassView_obj.klass, "equals", VALUEFUNC(_wrap_View_obj_equals), -1);
+  rb_define_method(SwigClassView_obj.klass, "equals_dyn", VALUEFUNC(_wrap_View_obj_equals_dyn), -1);
+  rb_define_method(SwigClassView_obj.klass, "hasStructure", VALUEFUNC(_wrap_View_obj_hasStructure), -1);
+  rb_define_method(SwigClassView_obj.klass, "hasStructure_dyn", VALUEFUNC(_wrap_View_obj_hasStructure_dyn), -1);
+  rb_define_method(SwigClassView_obj.klass, "getTable", VALUEFUNC(_wrap_View_obj_getTable), -1);
+  rb_define_method(SwigClassView_obj.klass, "getTable_dyn", VALUEFUNC(_wrap_View_obj_getTable_dyn), -1);
+  rb_define_method(SwigClassView_obj.klass, "getBag", VALUEFUNC(_wrap_View_obj_getBag), -1);
+  rb_define_method(SwigClassView_obj.klass, "getBag_dyn", VALUEFUNC(_wrap_View_obj_getBag_dyn), -1);
+  rb_define_method(SwigClassView_obj.klass, "toString", VALUEFUNC(_wrap_View_obj_toString), -1);
+  rb_define_method(SwigClassView_obj.klass, "toString_dyn", VALUEFUNC(_wrap_View_obj_toString_dyn), -1);
+  SwigClassView_obj.mark = 0;
+  SwigClassView_obj.destroy = (void (*)(void *)) free_coopy_View_obj;
+  SwigClassView_obj.trackObjects = 0;
+  
   SwigClassString.klass = rb_define_class_under(mCoopyhx, "String", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_String, (void *) &SwigClassString);
   rb_define_alloc_func(SwigClassString.klass, _wrap_String_allocate);
@@ -22981,7 +23977,6 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_singleton_method(SwigClassString.klass, "__boot", VALUEFUNC(_wrap_String___boot), -1);
   rb_define_method(SwigClassString.klass, "__ToObject", VALUEFUNC(_wrap_String___ToObject), -1);
   rb_define_method(SwigClassString.klass, "Default", VALUEFUNC(_wrap_String_Default), -1);
-  rb_define_method(SwigClassString.klass, "toString", VALUEFUNC(_wrap_String_toString), -1);
   rb_define_method(SwigClassString.klass, "__URLEncode", VALUEFUNC(_wrap_String___URLEncode), -1);
   rb_define_method(SwigClassString.klass, "__URLDecode", VALUEFUNC(_wrap_String___URLDecode), -1);
   rb_define_method(SwigClassString.klass, "dup", VALUEFUNC(_wrap_String_dup), -1);
@@ -22995,7 +23990,7 @@ SWIGEXPORT void Init_coopyhx(void) {
   rb_define_method(SwigClassString.klass, "substr", VALUEFUNC(_wrap_String_substr), -1);
   rb_define_method(SwigClassString.klass, "substring", VALUEFUNC(_wrap_String_substring), -1);
   rb_define_method(SwigClassString.klass, "c_str", VALUEFUNC(_wrap_String_c_str), -1);
-  rb_define_method(SwigClassString.klass, "__CStr", VALUEFUNC(_wrap_String___CStr), -1);
+  rb_define_method(SwigClassString.klass, "to_s", VALUEFUNC(_wrap_String___str__), -1);
   rb_define_method(SwigClassString.klass, "__WCStr", VALUEFUNC(_wrap_String___WCStr), -1);
   rb_define_singleton_method(SwigClassString.klass, "fromCharCode", VALUEFUNC(_wrap_String_fromCharCode), -1);
   rb_define_method(SwigClassString.klass, "getChar", VALUEFUNC(_wrap_String_getChar), -1);

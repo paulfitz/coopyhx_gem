@@ -1,8 +1,5 @@
 #include <hxcpp.h>
 
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_SimpleCell
 #include <coopy/SimpleCell.h>
 #endif
@@ -31,11 +28,6 @@ Dynamic SimpleCell_obj::__Create(hx::DynamicArray inArgs)
 {  hx::ObjectPtr< SimpleCell_obj > result = new SimpleCell_obj();
 	result->__construct(inArgs[0]);
 	return result;}
-
-hx::Object *SimpleCell_obj::__ToInterface(const type_info &inType) {
-	if (inType==typeid( ::coopy::Datum_obj)) return operator ::coopy::Datum_obj *();
-	return super::__ToInterface(inType);
-}
 
 ::String SimpleCell_obj::toString( ){
 	HX_STACK_PUSH("SimpleCell::toString","coopy/SimpleCell.hx",11);

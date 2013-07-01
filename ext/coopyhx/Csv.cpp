@@ -3,9 +3,6 @@
 #ifndef INCLUDED_coopy_Csv
 #include <coopy/Csv.h>
 #endif
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_Table
 #include <coopy/Table.h>
 #endif
@@ -222,7 +219,7 @@ Array< Array< ::String > > Csv_obj::parseTable( ::String txt){
 
 HX_DEFINE_DYNAMIC_FUNC1(Csv_obj,parseTable,return )
 
-::String Csv_obj::renderCell( ::coopy::View v,::coopy::Datum d){
+::String Csv_obj::renderCell( ::coopy::View v,Dynamic d){
 	HX_STACK_PUSH("Csv::renderCell","coopy/Csv.hx",34);
 	HX_STACK_THIS(this);
 	HX_STACK_ARG(v,"v");

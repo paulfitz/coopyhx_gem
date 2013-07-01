@@ -7,7 +7,6 @@
 
 HX_DECLARE_CLASS1(coopy,Alignment)
 HX_DECLARE_CLASS1(coopy,CompareFlags)
-HX_DECLARE_CLASS1(coopy,Datum)
 HX_DECLARE_CLASS1(coopy,Report)
 HX_DECLARE_CLASS1(coopy,Table)
 HX_DECLARE_CLASS1(coopy,TableDiff)
@@ -41,7 +40,7 @@ class HXCPP_CLASS_ATTRIBUTES  TableDiff_obj : public hx::Object{
 		virtual bool hilite( ::coopy::Table output);
 		Dynamic hilite_dyn();
 
-		virtual ::String quoteForDiff( ::coopy::View v,::coopy::Datum d);
+		virtual ::String quoteForDiff( ::coopy::View v,Dynamic d);
 		Dynamic quoteForDiff_dyn();
 
 		virtual ::String getSeparator( ::coopy::Table t,::coopy::Table t2,::String root);

@@ -5,7 +5,6 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_CLASS1(coopy,Datum)
 HX_DECLARE_CLASS1(coopy,Table)
 HX_DECLARE_CLASS1(coopy,View)
 namespace coopy{
@@ -31,9 +30,9 @@ virtual bool isResizable( )=0;
 		Dynamic isResizable_dyn();
 virtual ::coopy::View getCellView( )=0;
 		Dynamic getCellView_dyn();
-virtual Void setCell( int x,int y,::coopy::Datum c)=0;
+virtual Void setCell( int x,int y,Dynamic c)=0;
 		Dynamic setCell_dyn();
-virtual ::coopy::Datum getCell( int x,int y)=0;
+virtual Dynamic getCell( int x,int y)=0;
 		Dynamic getCell_dyn();
 };
 
@@ -52,9 +51,9 @@ virtual bool isResizable( ) { return mDelegate->isResizable();}  \
 virtual Dynamic isResizable_dyn() { return mDelegate->isResizable_dyn();}  \
 virtual ::coopy::View getCellView( ) { return mDelegate->getCellView();}  \
 virtual Dynamic getCellView_dyn() { return mDelegate->getCellView_dyn();}  \
-virtual Void setCell( int x,int y,::coopy::Datum c) { return mDelegate->setCell(x,y,c);}  \
+virtual Void setCell( int x,int y,Dynamic c) { return mDelegate->setCell(x,y,c);}  \
 virtual Dynamic setCell_dyn() { return mDelegate->setCell_dyn();}  \
-virtual ::coopy::Datum getCell( int x,int y) { return mDelegate->getCell(x,y);}  \
+virtual Dynamic getCell( int x,int y) { return mDelegate->getCell(x,y);}  \
 virtual Dynamic getCell_dyn() { return mDelegate->getCell_dyn();}  \
 
 

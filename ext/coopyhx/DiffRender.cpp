@@ -1,8 +1,5 @@
 #include <hxcpp.h>
 
-#ifndef INCLUDED_coopy_Datum
-#include <coopy/Datum.h>
-#endif
 #ifndef INCLUDED_coopy_DiffRender
 #include <coopy/DiffRender.h>
 #endif
