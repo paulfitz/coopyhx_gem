@@ -1816,46 +1816,58 @@ int SWIG_Ruby_arity( VALUE proc, int minimal )
 #define SWIGTYPE_p_coopy__CompareFlags_obj swig_types[11]
 #define SWIGTYPE_p_coopy__CompareTable_obj swig_types[12]
 #define SWIGTYPE_p_coopy__Coopy_obj swig_types[13]
-#define SWIGTYPE_p_coopy__SimpleCellFactory swig_types[14]
-#define SWIGTYPE_p_coopy__SimpleCell_obj swig_types[15]
-#define SWIGTYPE_p_coopy__SimpleTableFactory swig_types[16]
-#define SWIGTYPE_p_coopy__SimpleTable_obj swig_types[17]
-#define SWIGTYPE_p_coopy__TableDiffFactory swig_types[18]
-#define SWIGTYPE_p_coopy__TableDiff_obj swig_types[19]
-#define SWIGTYPE_p_coopy__Table_obj swig_types[20]
-#define SWIGTYPE_p_coopy__View_obj swig_types[21]
-#define SWIGTYPE_p_cpp__CppInt32__ swig_types[22]
-#define SWIGTYPE_p_hx__DynamicArray swig_types[23]
-#define SWIGTYPE_p_hx__MarkContext swig_types[24]
-#define SWIGTYPE_p_hx__NullT_String_t swig_types[25]
-#define SWIGTYPE_p_hx__Object swig_types[26]
-#define SWIGTYPE_p_hx__ObjectPtrT_IMap_obj_t swig_types[27]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t swig_types[28]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t swig_types[29]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t swig_types[30]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareTable_obj_t swig_types[31]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Coopy_obj_t swig_types[32]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__IndexPair_obj_t swig_types[33]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Mover_obj_t swig_types[34]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Ordering_obj_t swig_types[35]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleCell_obj_t swig_types[36]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t swig_types[37]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t swig_types[38]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableDiff_obj_t swig_types[39]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableIO_obj_t swig_types[40]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t swig_types[41]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Unit_obj_t swig_types[42]
-#define SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t swig_types[43]
-#define SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t swig_types[44]
-#define SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t swig_types[45]
-#define SWIGTYPE_p_hx__ObjectPtrT_hx__Object_t swig_types[46]
-#define SWIGTYPE_p_hx__VisitContext swig_types[47]
-#define SWIGTYPE_p_hx__type_info swig_types[48]
-#define SWIGTYPE_p_null swig_types[49]
-#define SWIGTYPE_p_super swig_types[50]
-#define SWIGTYPE_p_wchar_t swig_types[51]
-static swig_type_info *swig_types[53];
-static swig_module_info swig_module = {swig_types, 52, 0, 0, 0, 0};
+#define SWIGTYPE_p_coopy__DiffRenderFactory swig_types[14]
+#define SWIGTYPE_p_coopy__DiffRender_obj swig_types[15]
+#define SWIGTYPE_p_coopy__HighlightPatchFactory swig_types[16]
+#define SWIGTYPE_p_coopy__HighlightPatch_obj swig_types[17]
+#define SWIGTYPE_p_coopy__SimpleCellFactory swig_types[18]
+#define SWIGTYPE_p_coopy__SimpleCell_obj swig_types[19]
+#define SWIGTYPE_p_coopy__SimpleTableFactory swig_types[20]
+#define SWIGTYPE_p_coopy__SimpleTable_obj swig_types[21]
+#define SWIGTYPE_p_coopy__TableDiffFactory swig_types[22]
+#define SWIGTYPE_p_coopy__TableDiff_obj swig_types[23]
+#define SWIGTYPE_p_coopy__Table_obj swig_types[24]
+#define SWIGTYPE_p_coopy__View_obj swig_types[25]
+#define SWIGTYPE_p_cpp__CppInt32__ swig_types[26]
+#define SWIGTYPE_p_hx__DynamicArray swig_types[27]
+#define SWIGTYPE_p_hx__MarkContext swig_types[28]
+#define SWIGTYPE_p_hx__NullT_String_t swig_types[29]
+#define SWIGTYPE_p_hx__NullT_int_t swig_types[30]
+#define SWIGTYPE_p_hx__Object swig_types[31]
+#define SWIGTYPE_p_hx__ObjectPtrT_IMap_obj_t swig_types[32]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Alignment_obj_t swig_types[33]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Bag_obj_t swig_types[34]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t swig_types[35]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t swig_types[36]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__CompareTable_obj_t swig_types[37]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Coopy_obj_t swig_types[38]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Csv_obj_t swig_types[39]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t swig_types[40]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t swig_types[41]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t swig_types[42]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__IndexPair_obj_t swig_types[43]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Mover_obj_t swig_types[44]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Ordering_obj_t swig_types[45]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Row_obj_t swig_types[46]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleCell_obj_t swig_types[47]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t swig_types[48]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t swig_types[49]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableDiff_obj_t swig_types[50]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableIO_obj_t swig_types[51]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__TableText_obj_t swig_types[52]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t swig_types[53]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__Unit_obj_t swig_types[54]
+#define SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t swig_types[55]
+#define SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t swig_types[56]
+#define SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t swig_types[57]
+#define SWIGTYPE_p_hx__ObjectPtrT_hx__Object_t swig_types[58]
+#define SWIGTYPE_p_hx__VisitContext swig_types[59]
+#define SWIGTYPE_p_hx__type_info swig_types[60]
+#define SWIGTYPE_p_null swig_types[61]
+#define SWIGTYPE_p_super swig_types[62]
+#define SWIGTYPE_p_wchar_t swig_types[63]
+static swig_type_info *swig_types[65];
+static swig_module_info swig_module = {swig_types, 64, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -1882,11 +1894,11 @@ static VALUE mCoopyhx;
 
 
 
-  // stop haxe playing silly buggers with limits.h
+// stop haxe playing around with limits.h
 #define HX_UNDEFINE_H
 
 #include <hxcpp.h>
-// haxe plays silly buggers with NULL
+// haxe plays around with NULL
 #ifndef NULL
 #define NULL 0
 #endif
@@ -6201,6 +6213,4740 @@ _wrap_TableDiff_toString(int argc, VALUE *argv, VALUE self) {
     SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::TableDiffFactory *","toString", 1, self )); 
   }
   arg1 = reinterpret_cast< coopy::TableDiffFactory * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassDiffRender;
+
+#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
+SWIGINTERN VALUE
+_wrap_DiffRender_allocate(VALUE self) {
+#else
+  SWIGINTERN VALUE
+  _wrap_DiffRender_allocate(int argc, VALUE *argv, VALUE self) {
+#endif
+    
+    
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__DiffRenderFactory);
+#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
+    rb_obj_call_init(vresult, argc, argv);
+#endif
+    return vresult;
+  }
+  
+
+SWIGINTERN VALUE
+_wrap_new_DiffRender(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *result = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = (coopy::DiffRenderFactory *)new coopy::DiffRenderFactory();
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender___deref__(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::DiffRender_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (coopy::DiffRender_obj *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_DiffRenderFactory(coopy::DiffRenderFactory *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_DiffRender___construct(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->__construct();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender___new(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  hx::ObjectPtr< coopy::DiffRender_obj > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","__new", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->__new();
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::DiffRender_obj >(static_cast< const hx::ObjectPtr< coopy::DiffRender_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","__CreateEmpty", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender___Create(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  hx::DynamicArray arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","__Create", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::DynamicArray","__Create", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","__Create", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::DynamicArray * >(argp2));
+    }
+  }
+  result = (*arg1)->__Create(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender___boot(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","__boot", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  (*arg1)->__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender___register(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","__register", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  (*arg1)->__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender___Mark(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (*arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender___Visit(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (*arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender___ToString(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_text_to_insert_set(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  Array< ::String > *arg2 = (Array< ::String > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","text_to_insert", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::String > *","text_to_insert", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::String > * >(argp2);
+  if (arg1) (*arg1)->text_to_insert = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_text_to_insert_get(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::String > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","text_to_insert", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (Array< ::String > *)& ((*arg1)->text_to_insert);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_td_open_set(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  ::String *arg2 = (::String *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","td_open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_String, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String *","td_open", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::String * >(argp2);
+  if (arg1) (*arg1)->td_open = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_td_open_get(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","td_open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (::String *)& ((*arg1)->td_open);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_String, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_td_close_set(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  ::String *arg2 = (::String *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","td_close", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_String, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String *","td_close", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::String * >(argp2);
+  if (arg1) (*arg1)->td_close = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_td_close_get(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","td_close", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (::String *)& ((*arg1)->td_close);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_String, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_open_set(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","open", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (*arg1)->open = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_open_get(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (bool) ((*arg1)->open);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_pretty_arrows_set(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","pretty_arrows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","pretty_arrows", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (*arg1)->pretty_arrows = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_pretty_arrows_get(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","pretty_arrows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (bool) ((*arg1)->pretty_arrows);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_usePrettyArrows(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","usePrettyArrows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","usePrettyArrows", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  result = (*arg1)->usePrettyArrows(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_usePrettyArrows_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","usePrettyArrows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->usePrettyArrows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+
+/*
+  Document-method: Coopyhx::DiffRender_obj.insert
+
+  call-seq:
+    insert(str) -> Void
+
+Insert one or more new elements in the DiffRender_obj.
+*/
+SWIGINTERN VALUE
+_wrap_DiffRender_insert(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","insert", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","insert", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","insert", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (*arg1)->insert(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_insert_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","insert_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->insert_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_beginTable(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","beginTable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->beginTable();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_beginTable_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","beginTable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->beginTable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_beginRow(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","beginRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","beginRow", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","beginRow", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (*arg1)->beginRow(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_beginRow_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","beginRow_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->beginRow_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_insertCell(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  ::String arg2 ;
+  ::String arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","insertCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","insertCell", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","insertCell", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::String","insertCell", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","insertCell", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::String * >(argp3));
+    }
+  }
+  result = (*arg1)->insertCell(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_insertCell_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","insertCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->insertCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_endRow(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","endRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->endRow();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_endRow_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","endRow_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->endRow_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_endTable(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","endTable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->endTable();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_endTable_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","endTable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->endTable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_html(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","html", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->html();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_html_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","html_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->html_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_toString(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_toString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","toString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->toString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_render(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  ::coopy::Table arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","render", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","render", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","render", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  result = (*arg1)->render(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_render_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","render_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->render_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_sampleCss(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","sampleCss", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->sampleCss();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_sampleCss_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","sampleCss_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->sampleCss_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_completeHtml(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","completeHtml", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->completeHtml();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_completeHtml_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","completeHtml_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->completeHtml_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_examineCell(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  ::String arg4 ;
+  ::String arg5 ;
+  ::String arg6 ;
+  ::String arg7 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CellInfo_obj > > arg8 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  void *argp5 ;
+  int res5 = 0 ;
+  void *argp6 ;
+  int res6 = 0 ;
+  void *argp7 ;
+  int res7 = 0 ;
+  void *argp8 ;
+  int res8 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 7) || (argc > 7)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 7)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","examineCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","examineCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","examineCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "::String","examineCell", 4, argv[2] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","examineCell", 4, argv[2]));
+    } else {
+      arg4 = *(reinterpret_cast< ::String * >(argp4));
+    }
+  }
+  {
+    res5 = SWIG_ConvertPtr(argv[3], &argp5, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res5)) {
+      SWIG_exception_fail(SWIG_ArgError(res5), Ruby_Format_TypeError( "", "::String","examineCell", 5, argv[3] )); 
+    }  
+    if (!argp5) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","examineCell", 5, argv[3]));
+    } else {
+      arg5 = *(reinterpret_cast< ::String * >(argp5));
+    }
+  }
+  {
+    res6 = SWIG_ConvertPtr(argv[4], &argp6, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res6)) {
+      SWIG_exception_fail(SWIG_ArgError(res6), Ruby_Format_TypeError( "", "::String","examineCell", 6, argv[4] )); 
+    }  
+    if (!argp6) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","examineCell", 6, argv[4]));
+    } else {
+      arg6 = *(reinterpret_cast< ::String * >(argp6));
+    }
+  }
+  {
+    res7 = SWIG_ConvertPtr(argv[5], &argp7, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res7)) {
+      SWIG_exception_fail(SWIG_ArgError(res7), Ruby_Format_TypeError( "", "::String","examineCell", 7, argv[5] )); 
+    }  
+    if (!argp7) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","examineCell", 7, argv[5]));
+    } else {
+      arg7 = *(reinterpret_cast< ::String * >(argp7));
+    }
+  }
+  {
+    res8 = SWIG_ConvertPtr(argv[6], &argp8, SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t,  0 );
+    if (!SWIG_IsOK(res8)) {
+      SWIG_exception_fail(SWIG_ArgError(res8), Ruby_Format_TypeError( "", "::coopy::CellInfo","examineCell", 8, argv[6] )); 
+    }  
+    if (!argp8) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::CellInfo","examineCell", 8, argv[6]));
+    } else {
+      arg8 = *(reinterpret_cast< ::coopy::CellInfo * >(argp8));
+    }
+  }
+  result = (*arg1)->examineCell(arg2,arg3,arg4,arg5,arg6,arg7,arg8);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_examineCell_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","examineCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->examineCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_markSpaces(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  ::String arg2 ;
+  ::String arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","markSpaces", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","markSpaces", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","markSpaces", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::String","markSpaces", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","markSpaces", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::String * >(argp3));
+    }
+  }
+  result = (*arg1)->markSpaces(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_markSpaces_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","markSpaces_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->markSpaces_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_renderCell(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::TableText_obj > > arg2 ;
+  int arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CellInfo_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","renderCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__TableText_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::TableText","renderCell", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::TableText","renderCell", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::TableText * >(argp2));
+    }
+  }
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","renderCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  ecode4 = SWIG_AsVal_int(argv[2], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), Ruby_Format_TypeError( "", "int","renderCell", 4, argv[2] ));
+  } 
+  arg4 = static_cast< int >(val4);
+  result = (*arg1)->renderCell(arg2,arg3,arg4);
+  vresult = SWIG_NewPointerObj((new ::coopy::CellInfo(static_cast< const ::coopy::CellInfo& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_renderCell_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRenderFactory *arg1 = (coopy::DiffRenderFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRenderFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRenderFactory *","renderCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRenderFactory * >(argp1);
+  result = (*arg1)->renderCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassHighlightPatch;
+
+#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
+SWIGINTERN VALUE
+_wrap_HighlightPatch_allocate(VALUE self) {
+#else
+  SWIGINTERN VALUE
+  _wrap_HighlightPatch_allocate(int argc, VALUE *argv, VALUE self) {
+#endif
+    
+    
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__HighlightPatchFactory);
+#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
+    rb_obj_call_init(vresult, argc, argv);
+#endif
+    return vresult;
+  }
+  
+
+SWIGINTERN VALUE
+_wrap_new_HighlightPatch(int argc, VALUE *argv, VALUE self) {
+  coopy::Table arg1 ;
+  coopy::Table arg2 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  coopy::HighlightPatchFactory *result = 0 ;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::Table","HighlightPatchFactory", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "coopy::Table","HighlightPatchFactory", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< coopy::Table * >(argp1));
+    }
+  }
+  {
+    res2 = SWIG_ConvertPtr(argv[1], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "coopy::Table","HighlightPatchFactory", 2, argv[1] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "coopy::Table","HighlightPatchFactory", 2, argv[1]));
+    } else {
+      arg2 = *(reinterpret_cast< coopy::Table * >(argp2));
+    }
+  }
+  result = (coopy::HighlightPatchFactory *)new coopy::HighlightPatchFactory(arg1,arg2);
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___deref__(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::HighlightPatch_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (coopy::HighlightPatch_obj *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_HighlightPatchFactory(coopy::HighlightPatchFactory *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___construct(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","__construct", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","__construct", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Table","__construct", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","__construct", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::Table * >(argp3));
+    }
+  }
+  result = (*arg1)->__construct(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___new(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  hx::ObjectPtr< coopy::HighlightPatch_obj > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","__new", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","__new", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","__new", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Table","__new", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","__new", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::Table * >(argp3));
+    }
+  }
+  result = (*arg1)->__new(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::HighlightPatch_obj >(static_cast< const hx::ObjectPtr< coopy::HighlightPatch_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","__CreateEmpty", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___Create(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  hx::DynamicArray arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","__Create", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::DynamicArray","__Create", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","__Create", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::DynamicArray * >(argp2));
+    }
+  }
+  result = (*arg1)->__Create(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___boot(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","__boot", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  (*arg1)->__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___register(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","__register", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  (*arg1)->__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___Mark(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (*arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___Visit(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (*arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_asRow(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  SwigValueWrapper< ::hx::ObjectPtr< ::coopy::Row_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","asRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->asRow();
+  vresult = SWIG_NewPointerObj((new ::hx::ObjectPtr< ::coopy::Row_obj >(static_cast< const ::hx::ObjectPtr< ::coopy::Row_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Row_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___ToInterface(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  hx::type_info *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  hx::Object *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","__ToInterface", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__type_info,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::type_info const &","__ToInterface", 2, argv[0] )); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::type_info const &","__ToInterface", 2, argv[0])); 
+  }
+  arg2 = reinterpret_cast< hx::type_info * >(argp2);
+  result = (hx::Object *)(*arg1)->__ToInterface((hx::type_info const &)*arg2);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__Object, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch___ToString(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_source_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::coopy::Table *arg2 = (::coopy::Table *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","source", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table *","source", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Table * >(argp2);
+  if (arg1) (*arg1)->source = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_source_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Table *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","source", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::coopy::Table *)& ((*arg1)->source);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_patch_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::coopy::Table *arg2 = (::coopy::Table *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","patch", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table *","patch", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Table * >(argp2);
+  if (arg1) (*arg1)->patch = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_patch_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Table *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","patch", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::coopy::Table *)& ((*arg1)->patch);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_view_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::coopy::View *arg2 = (::coopy::View *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","view", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::View *","view", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::View * >(argp2);
+  if (arg1) (*arg1)->view = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_view_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::View *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","view", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::coopy::View *)& ((*arg1)->view);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_csv_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::coopy::Csv *arg2 = (::coopy::Csv *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","csv", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Csv_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Csv *","csv", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Csv * >(argp2);
+  if (arg1) (*arg1)->csv = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_csv_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Csv *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","csv", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::coopy::Csv *)& ((*arg1)->csv);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Csv_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_header_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","header", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","header", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->header = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_header_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","header", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->header);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_headerPre_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","headerPre", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerPre", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (*arg1)->headerPre = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_headerPre_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","headerPre", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((*arg1)->headerPre);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_headerPost_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","headerPost", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerPost", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (*arg1)->headerPost = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_headerPost_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","headerPost", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((*arg1)->headerPost);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_headerRename_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","headerRename", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerRename", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (*arg1)->headerRename = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_headerRename_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","headerRename", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((*arg1)->headerRename);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_headerMove_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","headerMove", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerMove", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (*arg1)->headerMove = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_headerMove_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","headerMove", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((*arg1)->headerMove);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_modifier_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","modifier", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","modifier", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->modifier = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_modifier_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","modifier", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->modifier);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_currentRow_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","currentRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","currentRow", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->currentRow = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_currentRow_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","currentRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (int) ((*arg1)->currentRow);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_payloadCol_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","payloadCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","payloadCol", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->payloadCol = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_payloadCol_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","payloadCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (int) ((*arg1)->payloadCol);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_payloadTop_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","payloadTop", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","payloadTop", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->payloadTop = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_payloadTop_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","payloadTop", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (int) ((*arg1)->payloadTop);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_mods_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  Array< ::Dynamic > *arg2 = (Array< ::Dynamic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","mods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic > *","mods", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::Dynamic > * >(argp2);
+  if (arg1) (*arg1)->mods = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_mods_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::Dynamic > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","mods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (Array< ::Dynamic > *)& ((*arg1)->mods);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_cmods_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  Array< ::Dynamic > *arg2 = (Array< ::Dynamic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","cmods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic > *","cmods", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::Dynamic > * >(argp2);
+  if (arg1) (*arg1)->cmods = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_cmods_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::Dynamic > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","cmods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (Array< ::Dynamic > *)& ((*arg1)->cmods);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_rowInfo_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::coopy::CellInfo *arg2 = (::coopy::CellInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","rowInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CellInfo *","rowInfo", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::CellInfo * >(argp2);
+  if (arg1) (*arg1)->rowInfo = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_rowInfo_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::CellInfo *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","rowInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::coopy::CellInfo *)& ((*arg1)->rowInfo);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_cellInfo_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::coopy::CellInfo *arg2 = (::coopy::CellInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","cellInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CellInfo *","cellInfo", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::CellInfo * >(argp2);
+  if (arg1) (*arg1)->cellInfo = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_cellInfo_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::CellInfo *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","cellInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::coopy::CellInfo *)& ((*arg1)->cellInfo);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_rcOffset_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","rcOffset", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","rcOffset", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->rcOffset = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_rcOffset_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","rcOffset", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (int) ((*arg1)->rcOffset);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_indexes_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  Array< ::Dynamic > *arg2 = (Array< ::Dynamic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","indexes", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic > *","indexes", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::Dynamic > * >(argp2);
+  if (arg1) (*arg1)->indexes = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_indexes_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::Dynamic > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","indexes", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (Array< ::Dynamic > *)& ((*arg1)->indexes);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_sourceInPatchCol_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","sourceInPatchCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","sourceInPatchCol", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->sourceInPatchCol = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_sourceInPatchCol_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","sourceInPatchCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->sourceInPatchCol);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_patchInSourceCol_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","patchInSourceCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","patchInSourceCol", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->patchInSourceCol = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_patchInSourceCol_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","patchInSourceCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->patchInSourceCol);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_patchInSourceRow_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","patchInSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","patchInSourceRow", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->patchInSourceRow = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_patchInSourceRow_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","patchInSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->patchInSourceRow);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_lastSourceRow_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","lastSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","lastSourceRow", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->lastSourceRow = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_lastSourceRow_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","lastSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (int) ((*arg1)->lastSourceRow);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_actions_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  Array< ::String > *arg2 = (Array< ::String > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","actions", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::String > *","actions", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::String > * >(argp2);
+  if (arg1) (*arg1)->actions = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_actions_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::String > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","actions", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (Array< ::String > *)& ((*arg1)->actions);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_rowPermutation_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","rowPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","rowPermutation", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","rowPermutation", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (*arg1)->rowPermutation = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_rowPermutation_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","rowPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result =  ((*arg1)->rowPermutation);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_rowPermutationRev_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","rowPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","rowPermutationRev", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","rowPermutationRev", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (*arg1)->rowPermutationRev = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_rowPermutationRev_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","rowPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result =  ((*arg1)->rowPermutationRev);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_colPermutation_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","colPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","colPermutation", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","colPermutation", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (*arg1)->colPermutation = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_colPermutation_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","colPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result =  ((*arg1)->colPermutation);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_colPermutationRev_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","colPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","colPermutationRev", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","colPermutationRev", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (*arg1)->colPermutationRev = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_colPermutationRev_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","colPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result =  ((*arg1)->colPermutationRev);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_haveDroppedColumns_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","haveDroppedColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","haveDroppedColumns", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (*arg1)->haveDroppedColumns = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_haveDroppedColumns_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","haveDroppedColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (bool) ((*arg1)->haveDroppedColumns);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_reset(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","reset", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->reset();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_reset_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","reset_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->reset_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_apply(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","apply", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (bool)(*arg1)->apply();
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_apply_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","apply_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->apply_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_needSourceColumns(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","needSourceColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->needSourceColumns();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_needSourceColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","needSourceColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->needSourceColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_needSourceIndex(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","needSourceIndex", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->needSourceIndex();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_needSourceIndex_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","needSourceIndex_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->needSourceIndex_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_applyRow(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","applyRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","applyRow", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (*arg1)->applyRow(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_applyRow_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","applyRow_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->applyRow_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_getDatum(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","getDatum", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getDatum", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (*arg1)->getDatum(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_getDatum_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","getDatum_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->getDatum_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_getString(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","getString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getString", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (*arg1)->getString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_getString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","getString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->getString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_applyMeta(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","applyMeta", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->applyMeta();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_applyMeta_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","applyMeta_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->applyMeta_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_applyHeader(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","applyHeader", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->applyHeader();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_applyHeader_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","applyHeader_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->applyHeader_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_lookUp(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  hx::Null< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","lookUp", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__NullT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::Null< int >","lookUp", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::Null< int >","lookUp", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::Null< int > * >(argp2));
+    }
+  }
+  result = (int)(*arg1)->lookUp(arg2);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_lookUp_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","lookUp_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->lookUp_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_applyAction(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","applyAction", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","applyAction", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","applyAction", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (*arg1)->applyAction(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_applyAction_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","applyAction_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->applyAction_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_checkAct(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","checkAct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->checkAct();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_checkAct_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","checkAct_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->checkAct_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_getPreString(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","getPreString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","getPreString", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","getPreString", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (*arg1)->getPreString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_getPreString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","getPreString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->getPreString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_getRowString(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","getRowString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getRowString", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (*arg1)->getRowString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_getRowString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","getRowString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->getRowString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_sortMods(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::HighlightPatchUnit_obj > > arg2 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::HighlightPatchUnit_obj > > arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","sortMods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::HighlightPatchUnit","sortMods", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::HighlightPatchUnit","sortMods", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::HighlightPatchUnit * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::HighlightPatchUnit","sortMods", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::HighlightPatchUnit","sortMods", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::HighlightPatchUnit * >(argp3));
+    }
+  }
+  result = (int)(*arg1)->sortMods(arg2,arg3);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_sortMods_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","sortMods_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->sortMods_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_processMods(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  SwigValueWrapper< Array< ::Dynamic > > arg2 ;
+  Array< int > arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","processMods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_Dynamic_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic >","processMods", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< ::Dynamic >","processMods", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< ::Dynamic > * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Array< int >","processMods", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","processMods", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< Array< int > * >(argp3));
+    }
+  }
+  ecode4 = SWIG_AsVal_int(argv[2], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), Ruby_Format_TypeError( "", "int","processMods", 4, argv[2] ));
+  } 
+  arg4 = static_cast< int >(val4);
+  result = (int)(*arg1)->processMods(arg2,arg3,arg4);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_processMods_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","processMods_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->processMods_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_computeOrdering(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  SwigValueWrapper< Array< ::Dynamic > > arg2 ;
+  Array< int > arg3 ;
+  Array< int > arg4 ;
+  int arg5 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 4) || (argc > 4)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 4)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","computeOrdering", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_Dynamic_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic >","computeOrdering", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< ::Dynamic >","computeOrdering", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< ::Dynamic > * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Array< int >","computeOrdering", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","computeOrdering", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< Array< int > * >(argp3));
+    }
+  }
+  {
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "Array< int >","computeOrdering", 4, argv[2] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","computeOrdering", 4, argv[2]));
+    } else {
+      arg4 = *(reinterpret_cast< Array< int > * >(argp4));
+    }
+  }
+  ecode5 = SWIG_AsVal_int(argv[3], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), Ruby_Format_TypeError( "", "int","computeOrdering", 5, argv[3] ));
+  } 
+  arg5 = static_cast< int >(val5);
+  result = (*arg1)->computeOrdering(arg2,arg3,arg4,arg5);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_computeOrdering_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","computeOrdering_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->computeOrdering_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_permuteRows(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","permuteRows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->permuteRows();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_permuteRows_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","permuteRows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->permuteRows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_finishRows(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","finishRows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->finishRows();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_finishRows_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","finishRows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->finishRows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_permuteColumns(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","permuteColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->permuteColumns();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_permuteColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","permuteColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->permuteColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_finishColumns(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","finishColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->finishColumns();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_finishColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","finishColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
+  result = (*arg1)->finishColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_toString(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatchFactory *arg1 = (coopy::HighlightPatchFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatchFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatchFactory *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatchFactory * >(argp1);
   result = (*arg1)->toString();
   vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
   return vresult;
@@ -14056,6 +18802,4687 @@ _wrap_ObjectPtrView_obj_toDatum_dyn(int argc, VALUE *argv, VALUE self) {
   arg1 = reinterpret_cast< hx::ObjectPtr< coopy::View_obj > * >(argp1);
   result = (*arg1)->toDatum_dyn();
   vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassObjectPtrDiffRender_obj;
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj___deref__(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::DiffRender_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (coopy::DiffRender_obj *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_GetPtr(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::DiffRender_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > const *","GetPtr", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (coopy::DiffRender_obj *)((hx::ObjectPtr< coopy::DiffRender_obj > const *)arg1)->GetPtr();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_hx_ObjectPtr_Sl_coopy_DiffRender_obj_Sg_(hx::ObjectPtr< coopy::DiffRender_obj > *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj___construct(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->__construct();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj___new(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  hx::ObjectPtr< coopy::DiffRender_obj > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","__new", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->__new();
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::DiffRender_obj >(static_cast< const hx::ObjectPtr< coopy::DiffRender_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","__CreateEmpty", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj___Create(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  hx::DynamicArray arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","__Create", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::DynamicArray","__Create", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","__Create", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::DynamicArray * >(argp2));
+    }
+  }
+  result = (*arg1)->__Create(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj___boot(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","__boot", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  (*arg1)->__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj___register(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","__register", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  (*arg1)->__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj___Mark(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (*arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj___Visit(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (*arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj___ToString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_text_to_insert_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  Array< ::String > *arg2 = (Array< ::String > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","text_to_insert", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::String > *","text_to_insert", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::String > * >(argp2);
+  if (arg1) (*arg1)->text_to_insert = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_text_to_insert_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::String > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","text_to_insert", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (Array< ::String > *)& ((*arg1)->text_to_insert);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_td_open_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  ::String *arg2 = (::String *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","td_open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_String, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String *","td_open", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::String * >(argp2);
+  if (arg1) (*arg1)->td_open = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_td_open_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","td_open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (::String *)& ((*arg1)->td_open);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_String, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_td_close_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  ::String *arg2 = (::String *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","td_close", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_String, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String *","td_close", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::String * >(argp2);
+  if (arg1) (*arg1)->td_close = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_td_close_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","td_close", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (::String *)& ((*arg1)->td_close);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_String, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_open_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","open", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (*arg1)->open = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_open_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (bool) ((*arg1)->open);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_pretty_arrows_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","pretty_arrows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","pretty_arrows", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (*arg1)->pretty_arrows = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_pretty_arrows_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","pretty_arrows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (bool) ((*arg1)->pretty_arrows);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_usePrettyArrows(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","usePrettyArrows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","usePrettyArrows", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  result = (*arg1)->usePrettyArrows(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_usePrettyArrows_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","usePrettyArrows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->usePrettyArrows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_insert(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","insert", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","insert", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","insert", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (*arg1)->insert(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_insert_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","insert_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->insert_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_beginTable(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","beginTable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->beginTable();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_beginTable_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","beginTable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->beginTable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_beginRow(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","beginRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","beginRow", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","beginRow", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (*arg1)->beginRow(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_beginRow_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","beginRow_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->beginRow_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_insertCell(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  ::String arg2 ;
+  ::String arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","insertCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","insertCell", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","insertCell", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::String","insertCell", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","insertCell", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::String * >(argp3));
+    }
+  }
+  result = (*arg1)->insertCell(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_insertCell_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","insertCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->insertCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_endRow(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","endRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->endRow();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_endRow_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","endRow_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->endRow_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_endTable(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","endTable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->endTable();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_endTable_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","endTable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->endTable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_html(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","html", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->html();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_html_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","html_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->html_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_toString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_toString_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","toString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->toString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_render(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  ::coopy::Table arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","render", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","render", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","render", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  result = (*arg1)->render(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_render_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","render_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->render_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_sampleCss(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","sampleCss", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->sampleCss();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_sampleCss_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","sampleCss_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->sampleCss_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_completeHtml(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","completeHtml", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->completeHtml();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_completeHtml_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","completeHtml_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->completeHtml_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_examineCell(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  ::String arg4 ;
+  ::String arg5 ;
+  ::String arg6 ;
+  ::String arg7 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CellInfo_obj > > arg8 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  void *argp5 ;
+  int res5 = 0 ;
+  void *argp6 ;
+  int res6 = 0 ;
+  void *argp7 ;
+  int res7 = 0 ;
+  void *argp8 ;
+  int res8 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 7) || (argc > 7)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 7)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","examineCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","examineCell", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","examineCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "::String","examineCell", 4, argv[2] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","examineCell", 4, argv[2]));
+    } else {
+      arg4 = *(reinterpret_cast< ::String * >(argp4));
+    }
+  }
+  {
+    res5 = SWIG_ConvertPtr(argv[3], &argp5, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res5)) {
+      SWIG_exception_fail(SWIG_ArgError(res5), Ruby_Format_TypeError( "", "::String","examineCell", 5, argv[3] )); 
+    }  
+    if (!argp5) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","examineCell", 5, argv[3]));
+    } else {
+      arg5 = *(reinterpret_cast< ::String * >(argp5));
+    }
+  }
+  {
+    res6 = SWIG_ConvertPtr(argv[4], &argp6, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res6)) {
+      SWIG_exception_fail(SWIG_ArgError(res6), Ruby_Format_TypeError( "", "::String","examineCell", 6, argv[4] )); 
+    }  
+    if (!argp6) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","examineCell", 6, argv[4]));
+    } else {
+      arg6 = *(reinterpret_cast< ::String * >(argp6));
+    }
+  }
+  {
+    res7 = SWIG_ConvertPtr(argv[5], &argp7, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res7)) {
+      SWIG_exception_fail(SWIG_ArgError(res7), Ruby_Format_TypeError( "", "::String","examineCell", 7, argv[5] )); 
+    }  
+    if (!argp7) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","examineCell", 7, argv[5]));
+    } else {
+      arg7 = *(reinterpret_cast< ::String * >(argp7));
+    }
+  }
+  {
+    res8 = SWIG_ConvertPtr(argv[6], &argp8, SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t,  0 );
+    if (!SWIG_IsOK(res8)) {
+      SWIG_exception_fail(SWIG_ArgError(res8), Ruby_Format_TypeError( "", "::coopy::CellInfo","examineCell", 8, argv[6] )); 
+    }  
+    if (!argp8) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::CellInfo","examineCell", 8, argv[6]));
+    } else {
+      arg8 = *(reinterpret_cast< ::coopy::CellInfo * >(argp8));
+    }
+  }
+  result = (*arg1)->examineCell(arg2,arg3,arg4,arg5,arg6,arg7,arg8);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_examineCell_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","examineCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->examineCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_markSpaces(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  ::String arg2 ;
+  ::String arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","markSpaces", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","markSpaces", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","markSpaces", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::String","markSpaces", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","markSpaces", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::String * >(argp3));
+    }
+  }
+  result = (*arg1)->markSpaces(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_markSpaces_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","markSpaces_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->markSpaces_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_renderCell(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::TableText_obj > > arg2 ;
+  int arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CellInfo_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","renderCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__TableText_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::TableText","renderCell", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::TableText","renderCell", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::TableText * >(argp2));
+    }
+  }
+  ecode3 = SWIG_AsVal_int(argv[1], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","renderCell", 3, argv[1] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  ecode4 = SWIG_AsVal_int(argv[2], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), Ruby_Format_TypeError( "", "int","renderCell", 4, argv[2] ));
+  } 
+  arg4 = static_cast< int >(val4);
+  result = (*arg1)->renderCell(arg2,arg3,arg4);
+  vresult = SWIG_NewPointerObj((new ::coopy::CellInfo(static_cast< const ::coopy::CellInfo& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrDiffRender_obj_renderCell_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > *arg1 = (hx::ObjectPtr< coopy::DiffRender_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::DiffRender_obj > *","renderCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::DiffRender_obj > * >(argp1);
+  result = (*arg1)->renderCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassObjectPtrHighlightPatch_obj;
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___deref__(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::HighlightPatch_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","operator ->", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (coopy::HighlightPatch_obj *)(arg1)->operator ->();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_GetPtr(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  coopy::HighlightPatch_obj *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > const *","GetPtr", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (coopy::HighlightPatch_obj *)((hx::ObjectPtr< coopy::HighlightPatch_obj > const *)arg1)->GetPtr();
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_hx_ObjectPtr_Sl_coopy_HighlightPatch_obj_Sg_(hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___construct(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","__construct", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","__construct", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Table","__construct", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","__construct", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::Table * >(argp3));
+    }
+  }
+  result = (*arg1)->__construct(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___new(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  hx::ObjectPtr< coopy::HighlightPatch_obj > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","__new", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","__new", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","__new", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Table","__new", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","__new", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::Table * >(argp3));
+    }
+  }
+  result = (*arg1)->__new(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::HighlightPatch_obj >(static_cast< const hx::ObjectPtr< coopy::HighlightPatch_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","__CreateEmpty", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___Create(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  hx::DynamicArray arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","__Create", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::DynamicArray","__Create", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","__Create", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::DynamicArray * >(argp2));
+    }
+  }
+  result = (*arg1)->__Create(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___boot(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","__boot", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  (*arg1)->__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___register(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","__register", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  (*arg1)->__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___Mark(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (*arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___Visit(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (*arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_asRow(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  SwigValueWrapper< ::hx::ObjectPtr< ::coopy::Row_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","asRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->asRow();
+  vresult = SWIG_NewPointerObj((new ::hx::ObjectPtr< ::coopy::Row_obj >(static_cast< const ::hx::ObjectPtr< ::coopy::Row_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Row_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___ToInterface(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  hx::type_info *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  hx::Object *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","__ToInterface", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__type_info,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::type_info const &","__ToInterface", 2, argv[0] )); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::type_info const &","__ToInterface", 2, argv[0])); 
+  }
+  arg2 = reinterpret_cast< hx::type_info * >(argp2);
+  result = (hx::Object *)(*arg1)->__ToInterface((hx::type_info const &)*arg2);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__Object, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj___ToString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_source_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::coopy::Table *arg2 = (::coopy::Table *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","source", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table *","source", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Table * >(argp2);
+  if (arg1) (*arg1)->source = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_source_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Table *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","source", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::coopy::Table *)& ((*arg1)->source);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_patch_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::coopy::Table *arg2 = (::coopy::Table *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","patch", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table *","patch", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Table * >(argp2);
+  if (arg1) (*arg1)->patch = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_patch_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Table *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","patch", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::coopy::Table *)& ((*arg1)->patch);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_view_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::coopy::View *arg2 = (::coopy::View *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","view", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::View *","view", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::View * >(argp2);
+  if (arg1) (*arg1)->view = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_view_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::View *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","view", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::coopy::View *)& ((*arg1)->view);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_csv_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::coopy::Csv *arg2 = (::coopy::Csv *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","csv", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Csv_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Csv *","csv", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Csv * >(argp2);
+  if (arg1) (*arg1)->csv = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_csv_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Csv *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","csv", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::coopy::Csv *)& ((*arg1)->csv);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Csv_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_header_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","header", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","header", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->header = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_header_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","header", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->header);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_headerPre_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","headerPre", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerPre", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (*arg1)->headerPre = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_headerPre_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","headerPre", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((*arg1)->headerPre);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_headerPost_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","headerPost", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerPost", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (*arg1)->headerPost = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_headerPost_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","headerPost", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((*arg1)->headerPost);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_headerRename_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","headerRename", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerRename", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (*arg1)->headerRename = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_headerRename_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","headerRename", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((*arg1)->headerRename);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_headerMove_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","headerMove", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerMove", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (*arg1)->headerMove = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_headerMove_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","headerMove", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((*arg1)->headerMove);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_modifier_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","modifier", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","modifier", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->modifier = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_modifier_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","modifier", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->modifier);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_currentRow_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","currentRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","currentRow", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->currentRow = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_currentRow_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","currentRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (int) ((*arg1)->currentRow);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_payloadCol_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","payloadCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","payloadCol", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->payloadCol = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_payloadCol_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","payloadCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (int) ((*arg1)->payloadCol);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_payloadTop_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","payloadTop", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","payloadTop", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->payloadTop = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_payloadTop_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","payloadTop", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (int) ((*arg1)->payloadTop);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_mods_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  Array< ::Dynamic > *arg2 = (Array< ::Dynamic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","mods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic > *","mods", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::Dynamic > * >(argp2);
+  if (arg1) (*arg1)->mods = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_mods_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::Dynamic > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","mods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (Array< ::Dynamic > *)& ((*arg1)->mods);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_cmods_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  Array< ::Dynamic > *arg2 = (Array< ::Dynamic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","cmods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic > *","cmods", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::Dynamic > * >(argp2);
+  if (arg1) (*arg1)->cmods = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_cmods_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::Dynamic > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","cmods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (Array< ::Dynamic > *)& ((*arg1)->cmods);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_rowInfo_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::coopy::CellInfo *arg2 = (::coopy::CellInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","rowInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CellInfo *","rowInfo", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::CellInfo * >(argp2);
+  if (arg1) (*arg1)->rowInfo = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_rowInfo_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::CellInfo *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","rowInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::coopy::CellInfo *)& ((*arg1)->rowInfo);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_cellInfo_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::coopy::CellInfo *arg2 = (::coopy::CellInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","cellInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CellInfo *","cellInfo", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::CellInfo * >(argp2);
+  if (arg1) (*arg1)->cellInfo = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_cellInfo_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::CellInfo *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","cellInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::coopy::CellInfo *)& ((*arg1)->cellInfo);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_rcOffset_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","rcOffset", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","rcOffset", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->rcOffset = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_rcOffset_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","rcOffset", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (int) ((*arg1)->rcOffset);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_indexes_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  Array< ::Dynamic > *arg2 = (Array< ::Dynamic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","indexes", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic > *","indexes", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::Dynamic > * >(argp2);
+  if (arg1) (*arg1)->indexes = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_indexes_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::Dynamic > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","indexes", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (Array< ::Dynamic > *)& ((*arg1)->indexes);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_sourceInPatchCol_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","sourceInPatchCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","sourceInPatchCol", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->sourceInPatchCol = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_sourceInPatchCol_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","sourceInPatchCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->sourceInPatchCol);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_patchInSourceCol_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","patchInSourceCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","patchInSourceCol", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->patchInSourceCol = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_patchInSourceCol_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","patchInSourceCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->patchInSourceCol);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_patchInSourceRow_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","patchInSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","patchInSourceRow", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (*arg1)->patchInSourceRow = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_patchInSourceRow_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","patchInSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((*arg1)->patchInSourceRow);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_lastSourceRow_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","lastSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","lastSourceRow", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (*arg1)->lastSourceRow = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_lastSourceRow_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","lastSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (int) ((*arg1)->lastSourceRow);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_actions_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  Array< ::String > *arg2 = (Array< ::String > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","actions", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::String > *","actions", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::String > * >(argp2);
+  if (arg1) (*arg1)->actions = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_actions_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::String > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","actions", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (Array< ::String > *)& ((*arg1)->actions);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_rowPermutation_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","rowPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","rowPermutation", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","rowPermutation", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (*arg1)->rowPermutation = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_rowPermutation_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","rowPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result =  ((*arg1)->rowPermutation);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_rowPermutationRev_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","rowPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","rowPermutationRev", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","rowPermutationRev", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (*arg1)->rowPermutationRev = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_rowPermutationRev_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","rowPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result =  ((*arg1)->rowPermutationRev);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_colPermutation_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","colPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","colPermutation", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","colPermutation", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (*arg1)->colPermutation = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_colPermutation_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","colPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result =  ((*arg1)->colPermutation);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_colPermutationRev_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","colPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","colPermutationRev", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","colPermutationRev", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (*arg1)->colPermutationRev = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_colPermutationRev_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","colPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result =  ((*arg1)->colPermutationRev);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_haveDroppedColumns_set(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","haveDroppedColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","haveDroppedColumns", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (*arg1)->haveDroppedColumns = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_haveDroppedColumns_get(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","haveDroppedColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (bool) ((*arg1)->haveDroppedColumns);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_reset(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","reset", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->reset();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_reset_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","reset_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->reset_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_apply(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","apply", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (bool)(*arg1)->apply();
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_apply_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","apply_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->apply_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_needSourceColumns(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","needSourceColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->needSourceColumns();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_needSourceColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","needSourceColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->needSourceColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_needSourceIndex(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","needSourceIndex", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->needSourceIndex();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_needSourceIndex_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","needSourceIndex_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->needSourceIndex_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_applyRow(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","applyRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","applyRow", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (*arg1)->applyRow(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_applyRow_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","applyRow_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->applyRow_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_getDatum(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","getDatum", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getDatum", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (*arg1)->getDatum(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_getDatum_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","getDatum_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->getDatum_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_getString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","getString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getString", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (*arg1)->getString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_getString_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","getString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->getString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_applyMeta(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","applyMeta", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->applyMeta();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_applyMeta_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","applyMeta_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->applyMeta_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_applyHeader(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","applyHeader", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->applyHeader();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_applyHeader_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","applyHeader_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->applyHeader_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_lookUp(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  hx::Null< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","lookUp", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__NullT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::Null< int >","lookUp", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::Null< int >","lookUp", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::Null< int > * >(argp2));
+    }
+  }
+  result = (int)(*arg1)->lookUp(arg2);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_lookUp_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","lookUp_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->lookUp_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_applyAction(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","applyAction", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","applyAction", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","applyAction", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (*arg1)->applyAction(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_applyAction_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","applyAction_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->applyAction_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_checkAct(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","checkAct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->checkAct();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_checkAct_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","checkAct_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->checkAct_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_getPreString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","getPreString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","getPreString", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","getPreString", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (*arg1)->getPreString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_getPreString_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","getPreString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->getPreString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_getRowString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","getRowString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getRowString", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (*arg1)->getRowString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_getRowString_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","getRowString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->getRowString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_sortMods(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::HighlightPatchUnit_obj > > arg2 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::HighlightPatchUnit_obj > > arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","sortMods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::HighlightPatchUnit","sortMods", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::HighlightPatchUnit","sortMods", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::HighlightPatchUnit * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::HighlightPatchUnit","sortMods", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::HighlightPatchUnit","sortMods", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::HighlightPatchUnit * >(argp3));
+    }
+  }
+  result = (int)(*arg1)->sortMods(arg2,arg3);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_sortMods_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","sortMods_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->sortMods_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_processMods(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  SwigValueWrapper< Array< ::Dynamic > > arg2 ;
+  Array< int > arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","processMods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_Dynamic_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic >","processMods", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< ::Dynamic >","processMods", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< ::Dynamic > * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Array< int >","processMods", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","processMods", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< Array< int > * >(argp3));
+    }
+  }
+  ecode4 = SWIG_AsVal_int(argv[2], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), Ruby_Format_TypeError( "", "int","processMods", 4, argv[2] ));
+  } 
+  arg4 = static_cast< int >(val4);
+  result = (int)(*arg1)->processMods(arg2,arg3,arg4);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_processMods_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","processMods_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->processMods_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_computeOrdering(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  SwigValueWrapper< Array< ::Dynamic > > arg2 ;
+  Array< int > arg3 ;
+  Array< int > arg4 ;
+  int arg5 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 4) || (argc > 4)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 4)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","computeOrdering", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_Dynamic_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic >","computeOrdering", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< ::Dynamic >","computeOrdering", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< ::Dynamic > * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Array< int >","computeOrdering", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","computeOrdering", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< Array< int > * >(argp3));
+    }
+  }
+  {
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "Array< int >","computeOrdering", 4, argv[2] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","computeOrdering", 4, argv[2]));
+    } else {
+      arg4 = *(reinterpret_cast< Array< int > * >(argp4));
+    }
+  }
+  ecode5 = SWIG_AsVal_int(argv[3], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), Ruby_Format_TypeError( "", "int","computeOrdering", 5, argv[3] ));
+  } 
+  arg5 = static_cast< int >(val5);
+  result = (*arg1)->computeOrdering(arg2,arg3,arg4,arg5);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_computeOrdering_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","computeOrdering_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->computeOrdering_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_permuteRows(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","permuteRows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->permuteRows();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_permuteRows_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","permuteRows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->permuteRows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_finishRows(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","finishRows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->finishRows();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_finishRows_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","finishRows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->finishRows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_permuteColumns(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","permuteColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->permuteColumns();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_permuteColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","permuteColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->permuteColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_finishColumns(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","finishColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->finishColumns();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_finishColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","finishColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->finishColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_ObjectPtrHighlightPatch_obj_toString(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::HighlightPatch_obj > *arg1 = (hx::ObjectPtr< coopy::HighlightPatch_obj > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::ObjectPtr< coopy::HighlightPatch_obj > *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< hx::ObjectPtr< coopy::HighlightPatch_obj > * >(argp1);
+  result = (*arg1)->toString();
+  vresult = SWIG_NewPointerObj((new String(static_cast< const String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
   return vresult;
 fail:
   return Qnil;
@@ -22474,6 +31901,4499 @@ free_coopy_View_obj(coopy::View_obj *arg1) {
     delete arg1;
 }
 
+static swig_class SwigClassHighlightPatch_obj;
+
+#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_allocate(VALUE self) {
+#else
+  SWIGINTERN VALUE
+  _wrap_HighlightPatch_obj_allocate(int argc, VALUE *argv, VALUE self) {
+#endif
+    
+    
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__HighlightPatch_obj);
+#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
+    rb_obj_call_init(vresult, argc, argv);
+#endif
+    return vresult;
+  }
+  
+
+SWIGINTERN VALUE
+_wrap_new_HighlightPatch_obj(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *result = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = (coopy::HighlightPatch_obj *)new coopy::HighlightPatch_obj();
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj___construct(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::coopy::Table arg2 ;
+  ::coopy::Table arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","__construct", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","__construct", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::Table","__construct", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","__construct", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::Table * >(argp3));
+    }
+  }
+  result = (arg1)->__construct(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj___new(int argc, VALUE *argv, VALUE self) {
+  ::coopy::Table arg1 ;
+  ::coopy::Table arg2 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  hx::ObjectPtr< coopy::HighlightPatch_obj > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "::coopy::Table","coopy::HighlightPatch_obj::__new", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","coopy::HighlightPatch_obj::__new", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< ::coopy::Table * >(argp1));
+    }
+  }
+  {
+    res2 = SWIG_ConvertPtr(argv[1], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","coopy::HighlightPatch_obj::__new", 2, argv[1] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","coopy::HighlightPatch_obj::__new", 2, argv[1]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  result = coopy::HighlightPatch_obj::__new(arg1,arg2);
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::HighlightPatch_obj >(static_cast< const hx::ObjectPtr< coopy::HighlightPatch_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = coopy::HighlightPatch_obj::__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj___Create(int argc, VALUE *argv, VALUE self) {
+  hx::DynamicArray arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::DynamicArray","coopy::HighlightPatch_obj::__Create", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","coopy::HighlightPatch_obj::__Create", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< hx::DynamicArray * >(argp1));
+    }
+  }
+  result = coopy::HighlightPatch_obj::__Create(arg1);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_HighlightPatch_obj(coopy::HighlightPatch_obj *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj___boot(int argc, VALUE *argv, VALUE self) {
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  coopy::HighlightPatch_obj::__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj___register(int argc, VALUE *argv, VALUE self) {
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  coopy::HighlightPatch_obj::__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj___Mark(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj___Visit(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_asRow(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  SwigValueWrapper< ::hx::ObjectPtr< ::coopy::Row_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","asRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->asRow();
+  vresult = SWIG_NewPointerObj((new ::hx::ObjectPtr< ::coopy::Row_obj >(static_cast< const ::hx::ObjectPtr< ::coopy::Row_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__Row_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj___ToInterface(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  hx::type_info *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  hx::Object *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","__ToInterface", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__type_info,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::type_info const &","__ToInterface", 2, argv[0] )); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::type_info const &","__ToInterface", 2, argv[0])); 
+  }
+  arg2 = reinterpret_cast< hx::type_info * >(argp2);
+  result = (hx::Object *)(arg1)->__ToInterface((hx::type_info const &)*arg2);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__Object, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj___ToString(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = ((coopy::HighlightPatch_obj const *)arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_source_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::coopy::Table *arg2 = (::coopy::Table *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","source", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table *","source", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Table * >(argp2);
+  if (arg1) (arg1)->source = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_source_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Table *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","source", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::coopy::Table *)& ((arg1)->source);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_patch_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::coopy::Table *arg2 = (::coopy::Table *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","patch", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table *","patch", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Table * >(argp2);
+  if (arg1) (arg1)->patch = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_patch_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Table *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","patch", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::coopy::Table *)& ((arg1)->patch);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_view_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::coopy::View *arg2 = (::coopy::View *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","view", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::View *","view", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::View * >(argp2);
+  if (arg1) (arg1)->view = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_view_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::View *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","view", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::coopy::View *)& ((arg1)->view);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__View_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_csv_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::coopy::Csv *arg2 = (::coopy::Csv *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","csv", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__Csv_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Csv *","csv", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::Csv * >(argp2);
+  if (arg1) (arg1)->csv = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_csv_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::Csv *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","csv", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::coopy::Csv *)& ((arg1)->csv);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__Csv_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_header_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","header", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","header", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (arg1)->header = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_header_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","header", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((arg1)->header);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_headerPre_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","headerPre", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerPre", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (arg1)->headerPre = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_headerPre_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","headerPre", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((arg1)->headerPre);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_headerPost_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","headerPost", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerPost", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (arg1)->headerPost = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_headerPost_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","headerPost", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((arg1)->headerPost);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_headerRename_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","headerRename", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerRename", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (arg1)->headerRename = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_headerRename_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","headerRename", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((arg1)->headerRename);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_headerMove_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::haxe::ds::StringMap *arg2 = (::haxe::ds::StringMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","headerMove", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::StringMap *","headerMove", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::StringMap * >(argp2);
+  if (arg1) (arg1)->headerMove = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_headerMove_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::StringMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","headerMove", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::haxe::ds::StringMap *)& ((arg1)->headerMove);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__StringMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_modifier_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","modifier", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","modifier", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (arg1)->modifier = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_modifier_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","modifier", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((arg1)->modifier);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_currentRow_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","currentRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","currentRow", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (arg1)->currentRow = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_currentRow_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","currentRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (int) ((arg1)->currentRow);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_payloadCol_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","payloadCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","payloadCol", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (arg1)->payloadCol = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_payloadCol_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","payloadCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (int) ((arg1)->payloadCol);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_payloadTop_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","payloadTop", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","payloadTop", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (arg1)->payloadTop = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_payloadTop_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","payloadTop", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (int) ((arg1)->payloadTop);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_mods_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  Array< ::Dynamic > *arg2 = (Array< ::Dynamic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","mods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic > *","mods", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::Dynamic > * >(argp2);
+  if (arg1) (arg1)->mods = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_mods_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::Dynamic > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","mods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (Array< ::Dynamic > *)& ((arg1)->mods);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_cmods_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  Array< ::Dynamic > *arg2 = (Array< ::Dynamic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","cmods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic > *","cmods", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::Dynamic > * >(argp2);
+  if (arg1) (arg1)->cmods = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_cmods_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::Dynamic > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","cmods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (Array< ::Dynamic > *)& ((arg1)->cmods);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_rowInfo_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::coopy::CellInfo *arg2 = (::coopy::CellInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","rowInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CellInfo *","rowInfo", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::CellInfo * >(argp2);
+  if (arg1) (arg1)->rowInfo = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_rowInfo_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::CellInfo *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","rowInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::coopy::CellInfo *)& ((arg1)->rowInfo);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_cellInfo_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::coopy::CellInfo *arg2 = (::coopy::CellInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","cellInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::CellInfo *","cellInfo", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::coopy::CellInfo * >(argp2);
+  if (arg1) (arg1)->cellInfo = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_cellInfo_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::coopy::CellInfo *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","cellInfo", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::coopy::CellInfo *)& ((arg1)->cellInfo);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_rcOffset_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","rcOffset", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","rcOffset", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (arg1)->rcOffset = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_rcOffset_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","rcOffset", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (int) ((arg1)->rcOffset);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_indexes_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  Array< ::Dynamic > *arg2 = (Array< ::Dynamic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","indexes", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic > *","indexes", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::Dynamic > * >(argp2);
+  if (arg1) (arg1)->indexes = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_indexes_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::Dynamic > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","indexes", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (Array< ::Dynamic > *)& ((arg1)->indexes);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_Dynamic_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_sourceInPatchCol_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","sourceInPatchCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","sourceInPatchCol", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (arg1)->sourceInPatchCol = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_sourceInPatchCol_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","sourceInPatchCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((arg1)->sourceInPatchCol);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_patchInSourceCol_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","patchInSourceCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","patchInSourceCol", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (arg1)->patchInSourceCol = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_patchInSourceCol_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","patchInSourceCol", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((arg1)->patchInSourceCol);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_patchInSourceRow_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::haxe::ds::IntMap *arg2 = (::haxe::ds::IntMap *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","patchInSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::haxe::ds::IntMap *","patchInSourceRow", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::haxe::ds::IntMap * >(argp2);
+  if (arg1) (arg1)->patchInSourceRow = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_patchInSourceRow_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::haxe::ds::IntMap *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","patchInSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (::haxe::ds::IntMap *)& ((arg1)->patchInSourceRow);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_hx__ObjectPtrT_haxe__ds__IntMap_obj_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_lastSourceRow_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","lastSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","lastSourceRow", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (arg1)->lastSourceRow = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_lastSourceRow_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","lastSourceRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (int) ((arg1)->lastSourceRow);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_actions_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  Array< ::String > *arg2 = (Array< ::String > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","actions", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::String > *","actions", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::String > * >(argp2);
+  if (arg1) (arg1)->actions = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_actions_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::String > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","actions", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (Array< ::String > *)& ((arg1)->actions);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_rowPermutation_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","rowPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","rowPermutation", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","rowPermutation", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (arg1)->rowPermutation = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_rowPermutation_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","rowPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result =  ((arg1)->rowPermutation);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_rowPermutationRev_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","rowPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","rowPermutationRev", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","rowPermutationRev", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (arg1)->rowPermutationRev = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_rowPermutationRev_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","rowPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result =  ((arg1)->rowPermutationRev);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_colPermutation_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","colPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","colPermutation", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","colPermutation", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (arg1)->colPermutation = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_colPermutation_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","colPermutation", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result =  ((arg1)->colPermutation);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_colPermutationRev_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  Array< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","colPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< int >","colPermutationRev", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","colPermutationRev", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< int > * >(argp2));
+    }
+  }
+  if (arg1) (arg1)->colPermutationRev = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_colPermutationRev_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< int > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","colPermutationRev", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result =  ((arg1)->colPermutationRev);
+  vresult = SWIG_NewPointerObj((new Array< int >(static_cast< const Array< int >& >(result))), SWIGTYPE_p_ArrayT_int_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_haveDroppedColumns_set(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","haveDroppedColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","haveDroppedColumns", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (arg1)->haveDroppedColumns = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_haveDroppedColumns_get(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","haveDroppedColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (bool) ((arg1)->haveDroppedColumns);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_reset(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","reset", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->reset();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_reset_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","reset_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->reset_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_apply(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","apply", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (bool)(arg1)->apply();
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_apply_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","apply_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->apply_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_needSourceColumns(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","needSourceColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->needSourceColumns();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_needSourceColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","needSourceColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->needSourceColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_needSourceIndex(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","needSourceIndex", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->needSourceIndex();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_needSourceIndex_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","needSourceIndex_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->needSourceIndex_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_applyRow(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","applyRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","applyRow", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (arg1)->applyRow(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_applyRow_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","applyRow_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->applyRow_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_getDatum(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","getDatum", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getDatum", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (arg1)->getDatum(arg2);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_getDatum_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","getDatum_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->getDatum_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_getString(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","getString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getString", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (arg1)->getString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_getString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","getString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->getString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_applyMeta(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","applyMeta", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->applyMeta();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_applyMeta_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","applyMeta_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->applyMeta_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_applyHeader(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","applyHeader", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->applyHeader();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_applyHeader_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","applyHeader_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->applyHeader_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_lookUp(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  hx::Null< int > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","lookUp", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__NullT_int_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::Null< int >","lookUp", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::Null< int >","lookUp", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< hx::Null< int > * >(argp2));
+    }
+  }
+  result = (int)(arg1)->lookUp(arg2);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_lookUp_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","lookUp_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->lookUp_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_applyAction(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","applyAction", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","applyAction", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","applyAction", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (arg1)->applyAction(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_applyAction_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","applyAction_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->applyAction_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_checkAct(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","checkAct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->checkAct();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_checkAct_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","checkAct_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->checkAct_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_getPreString(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","getPreString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","getPreString", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","getPreString", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (arg1)->getPreString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_getPreString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","getPreString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->getPreString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_getRowString(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","getRowString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  ecode2 = SWIG_AsVal_int(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","getRowString", 2, argv[0] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (arg1)->getRowString(arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_getRowString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","getRowString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->getRowString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_sortMods(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::HighlightPatchUnit_obj > > arg2 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::HighlightPatchUnit_obj > > arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","sortMods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::HighlightPatchUnit","sortMods", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::HighlightPatchUnit","sortMods", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::HighlightPatchUnit * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::coopy::HighlightPatchUnit","sortMods", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::HighlightPatchUnit","sortMods", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::coopy::HighlightPatchUnit * >(argp3));
+    }
+  }
+  result = (int)(arg1)->sortMods(arg2,arg3);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_sortMods_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","sortMods_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->sortMods_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_processMods(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  SwigValueWrapper< Array< ::Dynamic > > arg2 ;
+  Array< int > arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  int result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","processMods", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_Dynamic_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic >","processMods", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< ::Dynamic >","processMods", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< ::Dynamic > * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Array< int >","processMods", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","processMods", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< Array< int > * >(argp3));
+    }
+  }
+  ecode4 = SWIG_AsVal_int(argv[2], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), Ruby_Format_TypeError( "", "int","processMods", 4, argv[2] ));
+  } 
+  arg4 = static_cast< int >(val4);
+  result = (int)(arg1)->processMods(arg2,arg3,arg4);
+  vresult = SWIG_From_int(static_cast< int >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_processMods_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","processMods_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->processMods_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_computeOrdering(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  SwigValueWrapper< Array< ::Dynamic > > arg2 ;
+  Array< int > arg3 ;
+  Array< int > arg4 ;
+  int arg5 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 4) || (argc > 4)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 4)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","computeOrdering", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_ArrayT_Dynamic_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::Dynamic >","computeOrdering", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< ::Dynamic >","computeOrdering", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< Array< ::Dynamic > * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "Array< int >","computeOrdering", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","computeOrdering", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< Array< int > * >(argp3));
+    }
+  }
+  {
+    res4 = SWIG_ConvertPtr(argv[2], &argp4, SWIGTYPE_p_ArrayT_int_t,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "Array< int >","computeOrdering", 4, argv[2] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "Array< int >","computeOrdering", 4, argv[2]));
+    } else {
+      arg4 = *(reinterpret_cast< Array< int > * >(argp4));
+    }
+  }
+  ecode5 = SWIG_AsVal_int(argv[3], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), Ruby_Format_TypeError( "", "int","computeOrdering", 5, argv[3] ));
+  } 
+  arg5 = static_cast< int >(val5);
+  result = (arg1)->computeOrdering(arg2,arg3,arg4,arg5);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_computeOrdering_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","computeOrdering_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->computeOrdering_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_permuteRows(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","permuteRows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->permuteRows();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_permuteRows_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","permuteRows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->permuteRows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_finishRows(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","finishRows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->finishRows();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_finishRows_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","finishRows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->finishRows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_permuteColumns(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","permuteColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->permuteColumns();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_permuteColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","permuteColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->permuteColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_finishColumns(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","finishColumns", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->finishColumns();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_HighlightPatch_obj_finishColumns_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::HighlightPatch_obj *arg1 = (coopy::HighlightPatch_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__HighlightPatch_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::HighlightPatch_obj *","finishColumns_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::HighlightPatch_obj * >(argp1);
+  result = (arg1)->finishColumns_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+static swig_class SwigClassDiffRender_obj;
+
+#ifdef HAVE_RB_DEFINE_ALLOC_FUNC
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_allocate(VALUE self) {
+#else
+  SWIGINTERN VALUE
+  _wrap_DiffRender_obj_allocate(int argc, VALUE *argv, VALUE self) {
+#endif
+    
+    
+    VALUE vresult = SWIG_NewClassInstance(self, SWIGTYPE_p_coopy__DiffRender_obj);
+#ifndef HAVE_RB_DEFINE_ALLOC_FUNC
+    rb_obj_call_init(vresult, argc, argv);
+#endif
+    return vresult;
+  }
+  
+
+SWIGINTERN VALUE
+_wrap_new_DiffRender_obj(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *result = 0 ;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = (coopy::DiffRender_obj *)new coopy::DiffRender_obj();
+  DATA_PTR(self) = result;
+  return self;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj___construct(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","__construct", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->__construct();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj___new(int argc, VALUE *argv, VALUE self) {
+  hx::ObjectPtr< coopy::DiffRender_obj > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = coopy::DiffRender_obj::__new();
+  vresult = SWIG_NewPointerObj((new hx::ObjectPtr< coopy::DiffRender_obj >(static_cast< const hx::ObjectPtr< coopy::DiffRender_obj >& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj___CreateEmpty(int argc, VALUE *argv, VALUE self) {
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = coopy::DiffRender_obj::__CreateEmpty();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj___Create(int argc, VALUE *argv, VALUE self) {
+  hx::DynamicArray arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__DynamicArray,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "hx::DynamicArray","coopy::DiffRender_obj::__Create", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "hx::DynamicArray","coopy::DiffRender_obj::__Create", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< hx::DynamicArray * >(argp1));
+    }
+  }
+  result = coopy::DiffRender_obj::__Create(arg1);
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN void
+free_coopy_DiffRender_obj(coopy::DiffRender_obj *arg1) {
+    delete arg1;
+}
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj___boot(int argc, VALUE *argv, VALUE self) {
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  coopy::DiffRender_obj::__boot();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj___register(int argc, VALUE *argv, VALUE self) {
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  coopy::DiffRender_obj::__register();
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj___Mark(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  hx::MarkContext *arg2 = (hx::MarkContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","__Mark", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__MarkContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::MarkContext *","__Mark", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::MarkContext * >(argp2);
+  (arg1)->__Mark(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj___Visit(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  hx::VisitContext *arg2 = (hx::VisitContext *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","__Visit", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_hx__VisitContext, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "hx::VisitContext *","__Visit", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< hx::VisitContext * >(argp2);
+  (arg1)->__Visit(arg2);
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj___ToString(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj const *","__ToString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = ((coopy::DiffRender_obj const *)arg1)->__ToString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_text_to_insert_set(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  Array< ::String > *arg2 = (Array< ::String > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","text_to_insert", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "Array< ::String > *","text_to_insert", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< Array< ::String > * >(argp2);
+  if (arg1) (arg1)->text_to_insert = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_text_to_insert_get(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Array< ::String > *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","text_to_insert", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (Array< ::String > *)& ((arg1)->text_to_insert);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ArrayT_String_t, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_td_open_set(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  ::String *arg2 = (::String *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","td_open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_String, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String *","td_open", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::String * >(argp2);
+  if (arg1) (arg1)->td_open = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_td_open_get(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","td_open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (::String *)& ((arg1)->td_open);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_String, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_td_close_set(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  ::String *arg2 = (::String *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","td_close", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  res2 = SWIG_ConvertPtr(argv[0], &argp2,SWIGTYPE_p_String, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String *","td_close", 2, argv[0] )); 
+  }
+  arg2 = reinterpret_cast< ::String * >(argp2);
+  if (arg1) (arg1)->td_close = *arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_td_close_get(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String *result = 0 ;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","td_close", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (::String *)& ((arg1)->td_close);
+  vresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_String, 0 |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_open_set(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","open", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (arg1)->open = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_open_get(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","open", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (bool) ((arg1)->open);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_pretty_arrows_set(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","pretty_arrows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","pretty_arrows", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  if (arg1) (arg1)->pretty_arrows = arg2;
+  return Qnil;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_pretty_arrows_get(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","pretty_arrows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (bool) ((arg1)->pretty_arrows);
+  vresult = SWIG_From_bool(static_cast< bool >(result));
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_usePrettyArrows(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","usePrettyArrows", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  ecode2 = SWIG_AsVal_bool(argv[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "bool","usePrettyArrows", 2, argv[0] ));
+  } 
+  arg2 = static_cast< bool >(val2);
+  result = (arg1)->usePrettyArrows(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_usePrettyArrows_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","usePrettyArrows_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->usePrettyArrows_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_insert(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","insert", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","insert", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","insert", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (arg1)->insert(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_insert_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","insert_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->insert_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_beginTable(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","beginTable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->beginTable();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_beginTable_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","beginTable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->beginTable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_beginRow(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  ::String arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","beginRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","beginRow", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","beginRow", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = (arg1)->beginRow(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_beginRow_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","beginRow_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->beginRow_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_insertCell(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  ::String arg2 ;
+  ::String arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","insertCell", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","insertCell", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","insertCell", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(argv[1], &argp3, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::String","insertCell", 3, argv[1] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","insertCell", 3, argv[1]));
+    } else {
+      arg3 = *(reinterpret_cast< ::String * >(argp3));
+    }
+  }
+  result = (arg1)->insertCell(arg2,arg3);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_insertCell_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","insertCell_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->insertCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_endRow(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","endRow", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->endRow();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_endRow_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","endRow_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->endRow_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_endTable(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","endTable", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->endTable();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_endTable_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","endTable_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->endTable_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_html(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","html", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->html();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_html_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","html_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->html_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_toString(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","toString", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->toString();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_toString_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","toString_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->toString_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_render(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  ::coopy::Table arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 1) || (argc > 1)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 1)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","render", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(argv[0], &argp2, SWIGTYPE_p_hx__ObjectPtrT_coopy__Table_obj_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::coopy::Table","render", 2, argv[0] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::Table","render", 2, argv[0]));
+    } else {
+      arg2 = *(reinterpret_cast< ::coopy::Table * >(argp2));
+    }
+  }
+  result = (arg1)->render(arg2);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_render_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","render_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->render_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_sampleCss(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","sampleCss", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->sampleCss();
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_sampleCss_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","sampleCss_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->sampleCss_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_completeHtml(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","completeHtml", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->completeHtml();
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_completeHtml_dyn(int argc, VALUE *argv, VALUE self) {
+  coopy::DiffRender_obj *arg1 = (coopy::DiffRender_obj *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_coopy__DiffRender_obj, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "coopy::DiffRender_obj *","completeHtml_dyn", 1, self )); 
+  }
+  arg1 = reinterpret_cast< coopy::DiffRender_obj * >(argp1);
+  result = (arg1)->completeHtml_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_examineCell(int argc, VALUE *argv, VALUE self) {
+  int arg1 ;
+  int arg2 ;
+  ::String arg3 ;
+  ::String arg4 ;
+  ::String arg5 ;
+  ::String arg6 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CellInfo_obj > > arg7 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  void *argp5 ;
+  int res5 = 0 ;
+  void *argp6 ;
+  int res6 = 0 ;
+  void *argp7 ;
+  int res7 = 0 ;
+  Void result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 7) || (argc > 7)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 7)",argc); SWIG_fail;
+  }
+  ecode1 = SWIG_AsVal_int(argv[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), Ruby_Format_TypeError( "", "int","coopy::DiffRender_obj::examineCell", 1, argv[0] ));
+  } 
+  arg1 = static_cast< int >(val1);
+  ecode2 = SWIG_AsVal_int(argv[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","coopy::DiffRender_obj::examineCell", 2, argv[1] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    res3 = SWIG_ConvertPtr(argv[2], &argp3, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), Ruby_Format_TypeError( "", "::String","coopy::DiffRender_obj::examineCell", 3, argv[2] )); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","coopy::DiffRender_obj::examineCell", 3, argv[2]));
+    } else {
+      arg3 = *(reinterpret_cast< ::String * >(argp3));
+    }
+  }
+  {
+    res4 = SWIG_ConvertPtr(argv[3], &argp4, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), Ruby_Format_TypeError( "", "::String","coopy::DiffRender_obj::examineCell", 4, argv[3] )); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","coopy::DiffRender_obj::examineCell", 4, argv[3]));
+    } else {
+      arg4 = *(reinterpret_cast< ::String * >(argp4));
+    }
+  }
+  {
+    res5 = SWIG_ConvertPtr(argv[4], &argp5, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res5)) {
+      SWIG_exception_fail(SWIG_ArgError(res5), Ruby_Format_TypeError( "", "::String","coopy::DiffRender_obj::examineCell", 5, argv[4] )); 
+    }  
+    if (!argp5) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","coopy::DiffRender_obj::examineCell", 5, argv[4]));
+    } else {
+      arg5 = *(reinterpret_cast< ::String * >(argp5));
+    }
+  }
+  {
+    res6 = SWIG_ConvertPtr(argv[5], &argp6, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res6)) {
+      SWIG_exception_fail(SWIG_ArgError(res6), Ruby_Format_TypeError( "", "::String","coopy::DiffRender_obj::examineCell", 6, argv[5] )); 
+    }  
+    if (!argp6) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","coopy::DiffRender_obj::examineCell", 6, argv[5]));
+    } else {
+      arg6 = *(reinterpret_cast< ::String * >(argp6));
+    }
+  }
+  {
+    res7 = SWIG_ConvertPtr(argv[6], &argp7, SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t,  0 );
+    if (!SWIG_IsOK(res7)) {
+      SWIG_exception_fail(SWIG_ArgError(res7), Ruby_Format_TypeError( "", "::coopy::CellInfo","coopy::DiffRender_obj::examineCell", 7, argv[6] )); 
+    }  
+    if (!argp7) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::CellInfo","coopy::DiffRender_obj::examineCell", 7, argv[6]));
+    } else {
+      arg7 = *(reinterpret_cast< ::coopy::CellInfo * >(argp7));
+    }
+  }
+  result = coopy::DiffRender_obj::examineCell(arg1,arg2,arg3,arg4,arg5,arg6,arg7);
+  vresult = SWIG_NewPointerObj((new Void(static_cast< const Void& >(result))), SWIGTYPE_p_Void, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_examineCell_dyn(int argc, VALUE *argv, VALUE self) {
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = coopy::DiffRender_obj::examineCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_markSpaces(int argc, VALUE *argv, VALUE self) {
+  ::String arg1 ;
+  ::String arg2 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  ::String result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 2) || (argc > 2)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 2)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "::String","coopy::DiffRender_obj::markSpaces", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","coopy::DiffRender_obj::markSpaces", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< ::String * >(argp1));
+    }
+  }
+  {
+    res2 = SWIG_ConvertPtr(argv[1], &argp2, SWIGTYPE_p_String,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), Ruby_Format_TypeError( "", "::String","coopy::DiffRender_obj::markSpaces", 2, argv[1] )); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::String","coopy::DiffRender_obj::markSpaces", 2, argv[1]));
+    } else {
+      arg2 = *(reinterpret_cast< ::String * >(argp2));
+    }
+  }
+  result = coopy::DiffRender_obj::markSpaces(arg1,arg2);
+  vresult = SWIG_NewPointerObj((new ::String(static_cast< const ::String& >(result))), SWIGTYPE_p_String, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_markSpaces_dyn(int argc, VALUE *argv, VALUE self) {
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = coopy::DiffRender_obj::markSpaces_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_renderCell(int argc, VALUE *argv, VALUE self) {
+  SwigValueWrapper< hx::ObjectPtr< coopy::TableText_obj > > arg1 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  SwigValueWrapper< hx::ObjectPtr< coopy::CellInfo_obj > > result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 3) || (argc > 3)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 3)",argc); SWIG_fail;
+  }
+  {
+    res1 = SWIG_ConvertPtr(argv[0], &argp1, SWIGTYPE_p_hx__ObjectPtrT_coopy__TableText_obj_t,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "::coopy::TableText","coopy::DiffRender_obj::renderCell", 1, argv[0] )); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, Ruby_Format_TypeError("invalid null reference ", "::coopy::TableText","coopy::DiffRender_obj::renderCell", 1, argv[0]));
+    } else {
+      arg1 = *(reinterpret_cast< ::coopy::TableText * >(argp1));
+    }
+  }
+  ecode2 = SWIG_AsVal_int(argv[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","coopy::DiffRender_obj::renderCell", 2, argv[1] ));
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(argv[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), Ruby_Format_TypeError( "", "int","coopy::DiffRender_obj::renderCell", 3, argv[2] ));
+  } 
+  arg3 = static_cast< int >(val3);
+  result = coopy::DiffRender_obj::renderCell(arg1,arg2,arg3);
+  vresult = SWIG_NewPointerObj((new ::coopy::CellInfo(static_cast< const ::coopy::CellInfo& >(result))), SWIGTYPE_p_hx__ObjectPtrT_coopy__CellInfo_obj_t, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
+SWIGINTERN VALUE
+_wrap_DiffRender_obj_renderCell_dyn(int argc, VALUE *argv, VALUE self) {
+  Dynamic result;
+  VALUE vresult = Qnil;
+  
+  if ((argc < 0) || (argc > 0)) {
+    rb_raise(rb_eArgError, "wrong # of arguments(%d for 0)",argc); SWIG_fail;
+  }
+  result = coopy::DiffRender_obj::renderCell_dyn();
+  vresult = SWIG_NewPointerObj((new Dynamic(static_cast< const Dynamic& >(result))), SWIGTYPE_p_Dynamic, SWIG_POINTER_OWN |  0 );
+  return vresult;
+fail:
+  return Qnil;
+}
+
+
 static swig_class SwigClassString;
 
 SWIGINTERN VALUE
@@ -24782,6 +38702,9 @@ static void *_p_coopy__Coopy_objTo_p_hx__Object(void *x, int *SWIGUNUSEDPARM(new
 static void *_p_coopy__CompareFlags_objTo_p_hx__Object(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((hx::Object *)  ((coopy::CompareFlags_obj *) x));
 }
+static void *_p_coopy__DiffRender_objTo_p_hx__Object(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((hx::Object *)  ((coopy::DiffRender_obj *) x));
+}
 static void *_p_coopy__TableDiff_objTo_p_hx__Object(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((hx::Object *)  ((coopy::TableDiff_obj *) x));
 }
@@ -24797,8 +38720,11 @@ static void *_p_coopy__CompareTable_objTo_p_hx__Object(void *x, int *SWIGUNUSEDP
 static void *_p_coopy__Alignment_objTo_p_hx__Object(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((hx::Object *)  ((coopy::Alignment_obj *) x));
 }
+static void *_p_coopy__HighlightPatch_objTo_p_hx__Object(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((hx::Object *)  ((coopy::HighlightPatch_obj *) x));
+}
 static swig_type_info _swigt__p_ArrayT_Dynamic_t = {"_p_ArrayT_Dynamic_t", "Array< ::Dynamic > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_ArrayT_String_t = {"_p_ArrayT_String_t", "Array< String > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_ArrayT_String_t = {"_p_ArrayT_String_t", "Array< ::String > *|Array< String > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ArrayT_int_t = {"_p_ArrayT_int_t", "Array< int > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Coopyhx = {"_p_Coopyhx", "Coopyhx *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Dynamic = {"_p_Dynamic", "Dynamic *", 0, 0, (void*)0, 0};
@@ -24811,6 +38737,10 @@ static swig_type_info _swigt__p_coopy__CompareFlagsFactory = {"_p_coopy__Compare
 static swig_type_info _swigt__p_coopy__CompareFlags_obj = {"_p_coopy__CompareFlags_obj", "coopy::CompareFlags_obj *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__CompareTable_obj = {"_p_coopy__CompareTable_obj", "coopy::CompareTable_obj *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__Coopy_obj = {"_p_coopy__Coopy_obj", "coopy::Coopy_obj *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_coopy__DiffRenderFactory = {"_p_coopy__DiffRenderFactory", "coopy::DiffRenderFactory *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_coopy__DiffRender_obj = {"_p_coopy__DiffRender_obj", "coopy::DiffRender_obj *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_coopy__HighlightPatchFactory = {"_p_coopy__HighlightPatchFactory", "coopy::HighlightPatchFactory *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_coopy__HighlightPatch_obj = {"_p_coopy__HighlightPatch_obj", "coopy::HighlightPatch_obj *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__SimpleCellFactory = {"_p_coopy__SimpleCellFactory", "coopy::SimpleCellFactory *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__SimpleCell_obj = {"_p_coopy__SimpleCell_obj", "coopy::SimpleCell_obj *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_coopy__SimpleTableFactory = {"_p_coopy__SimpleTableFactory", "coopy::SimpleTableFactory *", 0, 0, (void*)0, 0};
@@ -24823,21 +38753,29 @@ static swig_type_info _swigt__p_cpp__CppInt32__ = {"_p_cpp__CppInt32__", "cpp::C
 static swig_type_info _swigt__p_hx__DynamicArray = {"_p_hx__DynamicArray", "hx::DynamicArray *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__MarkContext = {"_p_hx__MarkContext", "hx::MarkContext *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__NullT_String_t = {"_p_hx__NullT_String_t", "hx::Null< ::String > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__NullT_int_t = {"_p_hx__NullT_int_t", "hx::Null< int > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__Object = {"_p_hx__Object", "hx::Object *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_IMap_obj_t = {"_p_hx__ObjectPtrT_IMap_obj_t", "hx::ObjectPtr< IMap_obj > *|IMap *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Alignment_obj_t = {"_p_hx__ObjectPtrT_coopy__Alignment_obj_t", "hx::ObjectPtr< coopy::Alignment_obj > *|coopy::Alignment *|::coopy::Alignment *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Bag_obj_t = {"_p_hx__ObjectPtrT_coopy__Bag_obj_t", "hx::ObjectPtr< coopy::Bag_obj > *|::coopy::Bag *|coopy::Bag *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__CellInfo_obj_t = {"_p_hx__ObjectPtrT_coopy__CellInfo_obj_t", "::coopy::CellInfo *|coopy::CellInfo *|hx::ObjectPtr< coopy::CellInfo_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t = {"_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t", "hx::ObjectPtr< coopy::CompareFlags_obj > *|coopy::CompareFlags *|::coopy::CompareFlags *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__CompareTable_obj_t = {"_p_hx__ObjectPtrT_coopy__CompareTable_obj_t", "coopy::CompareTable *|::coopy::CompareTable *|hx::ObjectPtr< coopy::CompareTable_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Coopy_obj_t = {"_p_hx__ObjectPtrT_coopy__Coopy_obj_t", "coopy::Coopy *|hx::ObjectPtr< coopy::Coopy_obj > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Csv_obj_t = {"_p_hx__ObjectPtrT_coopy__Csv_obj_t", "::coopy::Csv *|coopy::Csv *|hx::ObjectPtr< coopy::Csv_obj > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__DiffRender_obj_t = {"_p_hx__ObjectPtrT_coopy__DiffRender_obj_t", "coopy::DiffRender *|hx::ObjectPtr< coopy::DiffRender_obj > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t = {"_p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t", "::coopy::HighlightPatchUnit *|coopy::HighlightPatchUnit *|hx::ObjectPtr< coopy::HighlightPatchUnit_obj > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t = {"_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t", "hx::ObjectPtr< coopy::HighlightPatch_obj > *|coopy::HighlightPatch *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__IndexPair_obj_t = {"_p_hx__ObjectPtrT_coopy__IndexPair_obj_t", "hx::ObjectPtr< coopy::IndexPair_obj > *|coopy::IndexPair *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Mover_obj_t = {"_p_hx__ObjectPtrT_coopy__Mover_obj_t", "coopy::Mover *|::coopy::Mover *|hx::ObjectPtr< coopy::Mover_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Ordering_obj_t = {"_p_hx__ObjectPtrT_coopy__Ordering_obj_t", "::coopy::Ordering *|coopy::Ordering *|hx::ObjectPtr< coopy::Ordering_obj > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Row_obj_t = {"_p_hx__ObjectPtrT_coopy__Row_obj_t", "coopy::Row *|hx::ObjectPtr< coopy::Row_obj > *|::hx::ObjectPtr< ::coopy::Row_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__SimpleCell_obj_t = {"_p_hx__ObjectPtrT_coopy__SimpleCell_obj_t", "coopy::SimpleCell *|hx::ObjectPtr< coopy::SimpleCell_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__SimpleTable_obj_t = {"_p_hx__ObjectPtrT_coopy__SimpleTable_obj_t", "coopy::SimpleTable *|hx::ObjectPtr< coopy::SimpleTable_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t = {"_p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t", "hx::ObjectPtr< coopy::TableComparisonState_obj > *|::coopy::TableComparisonState *|coopy::TableComparisonState *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__TableDiff_obj_t = {"_p_hx__ObjectPtrT_coopy__TableDiff_obj_t", "coopy::TableDiff *|hx::ObjectPtr< coopy::TableDiff_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__TableIO_obj_t = {"_p_hx__ObjectPtrT_coopy__TableIO_obj_t", "coopy::TableIO *|::coopy::TableIO *|hx::ObjectPtr< coopy::TableIO_obj > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__TableText_obj_t = {"_p_hx__ObjectPtrT_coopy__TableText_obj_t", "::coopy::TableText *|coopy::TableText *|hx::ObjectPtr< coopy::TableText_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Table_obj_t = {"_p_hx__ObjectPtrT_coopy__Table_obj_t", "::coopy::Table *|coopy::Table *|hx::ObjectPtr< coopy::Table_obj > *|::hx::ObjectPtr< ::coopy::Table_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__Unit_obj_t = {"_p_hx__ObjectPtrT_coopy__Unit_obj_t", "::coopy::Unit *|coopy::Unit *|hx::ObjectPtr< coopy::Unit_obj > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_hx__ObjectPtrT_coopy__View_obj_t = {"_p_hx__ObjectPtrT_coopy__View_obj_t", "::coopy::View *|coopy::View *|hx::ObjectPtr< coopy::View_obj > *", 0, 0, (void*)0, 0};
@@ -24865,6 +38803,10 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_coopy__CompareFlags_obj,
   &_swigt__p_coopy__CompareTable_obj,
   &_swigt__p_coopy__Coopy_obj,
+  &_swigt__p_coopy__DiffRenderFactory,
+  &_swigt__p_coopy__DiffRender_obj,
+  &_swigt__p_coopy__HighlightPatchFactory,
+  &_swigt__p_coopy__HighlightPatch_obj,
   &_swigt__p_coopy__SimpleCellFactory,
   &_swigt__p_coopy__SimpleCell_obj,
   &_swigt__p_coopy__SimpleTableFactory,
@@ -24877,21 +38819,29 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_hx__DynamicArray,
   &_swigt__p_hx__MarkContext,
   &_swigt__p_hx__NullT_String_t,
+  &_swigt__p_hx__NullT_int_t,
   &_swigt__p_hx__Object,
   &_swigt__p_hx__ObjectPtrT_IMap_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__Alignment_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__Bag_obj_t,
+  &_swigt__p_hx__ObjectPtrT_coopy__CellInfo_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__CompareTable_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__Coopy_obj_t,
+  &_swigt__p_hx__ObjectPtrT_coopy__Csv_obj_t,
+  &_swigt__p_hx__ObjectPtrT_coopy__DiffRender_obj_t,
+  &_swigt__p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t,
+  &_swigt__p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__IndexPair_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__Mover_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__Ordering_obj_t,
+  &_swigt__p_hx__ObjectPtrT_coopy__Row_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__SimpleCell_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__SimpleTable_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__TableDiff_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__TableIO_obj_t,
+  &_swigt__p_hx__ObjectPtrT_coopy__TableText_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__Table_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__Unit_obj_t,
   &_swigt__p_hx__ObjectPtrT_coopy__View_obj_t,
@@ -24919,6 +38869,10 @@ static swig_cast_info _swigc__p_coopy__CompareFlagsFactory[] = {  {&_swigt__p_co
 static swig_cast_info _swigc__p_coopy__CompareFlags_obj[] = {  {&_swigt__p_coopy__CompareFlags_obj, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__CompareTable_obj[] = {  {&_swigt__p_coopy__CompareTable_obj, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__Coopy_obj[] = {  {&_swigt__p_coopy__Coopy_obj, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_coopy__DiffRenderFactory[] = {  {&_swigt__p_coopy__DiffRenderFactory, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_coopy__DiffRender_obj[] = {  {&_swigt__p_coopy__DiffRender_obj, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_coopy__HighlightPatchFactory[] = {  {&_swigt__p_coopy__HighlightPatchFactory, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_coopy__HighlightPatch_obj[] = {  {&_swigt__p_coopy__HighlightPatch_obj, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__SimpleCellFactory[] = {  {&_swigt__p_coopy__SimpleCellFactory, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__SimpleCell_obj[] = {  {&_swigt__p_coopy__SimpleCell_obj, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_coopy__SimpleTableFactory[] = {  {&_swigt__p_coopy__SimpleTableFactory, 0, 0, 0},{0, 0, 0, 0}};
@@ -24931,21 +38885,29 @@ static swig_cast_info _swigc__p_cpp__CppInt32__[] = {  {&_swigt__p_cpp__CppInt32
 static swig_cast_info _swigc__p_hx__DynamicArray[] = {  {&_swigt__p_hx__DynamicArray, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__MarkContext[] = {  {&_swigt__p_hx__MarkContext, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__NullT_String_t[] = {  {&_swigt__p_hx__NullT_String_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_hx__Object[] = {  {&_swigt__p_coopy__Coopy_obj, _p_coopy__Coopy_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__CompareFlags_obj, _p_coopy__CompareFlags_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__TableDiff_obj, _p_coopy__TableDiff_objTo_p_hx__Object, 0, 0},  {&_swigt__p_hx__Object, 0, 0, 0},  {&_swigt__p_coopy__SimpleCell_obj, _p_coopy__SimpleCell_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__SimpleTable_obj, _p_coopy__SimpleTable_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__CompareTable_obj, _p_coopy__CompareTable_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__Alignment_obj, _p_coopy__Alignment_objTo_p_hx__Object, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__NullT_int_t[] = {  {&_swigt__p_hx__NullT_int_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__Object[] = {  {&_swigt__p_coopy__Coopy_obj, _p_coopy__Coopy_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__CompareFlags_obj, _p_coopy__CompareFlags_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__DiffRender_obj, _p_coopy__DiffRender_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__TableDiff_obj, _p_coopy__TableDiff_objTo_p_hx__Object, 0, 0},  {&_swigt__p_hx__Object, 0, 0, 0},  {&_swigt__p_coopy__SimpleCell_obj, _p_coopy__SimpleCell_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__SimpleTable_obj, _p_coopy__SimpleTable_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__CompareTable_obj, _p_coopy__CompareTable_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__Alignment_obj, _p_coopy__Alignment_objTo_p_hx__Object, 0, 0},  {&_swigt__p_coopy__HighlightPatch_obj, _p_coopy__HighlightPatch_objTo_p_hx__Object, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_IMap_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_IMap_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Alignment_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Alignment_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Bag_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Bag_obj_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__CellInfo_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__CellInfo_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0, 0, 0},  {&_swigt__p_coopy__CompareFlagsFactory, _p_coopy__CompareFlagsFactoryTo_p_hx__ObjectPtrT_coopy__CompareFlags_obj_t, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__CompareTable_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__CompareTable_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Coopy_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Coopy_obj_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Csv_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Csv_obj_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__DiffRender_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__DiffRender_obj_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__IndexPair_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__IndexPair_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Mover_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Mover_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Ordering_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Ordering_obj_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Row_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Row_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__SimpleCell_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__SimpleCell_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__SimpleTable_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__SimpleTable_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__TableDiff_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__TableDiff_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__TableIO_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__TableIO_obj_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__TableText_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__TableText_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Table_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Table_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__Unit_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__Unit_obj_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_hx__ObjectPtrT_coopy__View_obj_t[] = {  {&_swigt__p_hx__ObjectPtrT_coopy__View_obj_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -24973,6 +38935,10 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_coopy__CompareFlags_obj,
   _swigc__p_coopy__CompareTable_obj,
   _swigc__p_coopy__Coopy_obj,
+  _swigc__p_coopy__DiffRenderFactory,
+  _swigc__p_coopy__DiffRender_obj,
+  _swigc__p_coopy__HighlightPatchFactory,
+  _swigc__p_coopy__HighlightPatch_obj,
   _swigc__p_coopy__SimpleCellFactory,
   _swigc__p_coopy__SimpleCell_obj,
   _swigc__p_coopy__SimpleTableFactory,
@@ -24985,21 +38951,29 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_hx__DynamicArray,
   _swigc__p_hx__MarkContext,
   _swigc__p_hx__NullT_String_t,
+  _swigc__p_hx__NullT_int_t,
   _swigc__p_hx__Object,
   _swigc__p_hx__ObjectPtrT_IMap_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__Alignment_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__Bag_obj_t,
+  _swigc__p_hx__ObjectPtrT_coopy__CellInfo_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__CompareFlags_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__CompareTable_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__Coopy_obj_t,
+  _swigc__p_hx__ObjectPtrT_coopy__Csv_obj_t,
+  _swigc__p_hx__ObjectPtrT_coopy__DiffRender_obj_t,
+  _swigc__p_hx__ObjectPtrT_coopy__HighlightPatchUnit_obj_t,
+  _swigc__p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__IndexPair_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__Mover_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__Ordering_obj_t,
+  _swigc__p_hx__ObjectPtrT_coopy__Row_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__SimpleCell_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__SimpleTable_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__TableComparisonState_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__TableDiff_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__TableIO_obj_t,
+  _swigc__p_hx__ObjectPtrT_coopy__TableText_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__Table_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__Unit_obj_t,
   _swigc__p_hx__ObjectPtrT_coopy__View_obj_t,
@@ -25439,6 +39413,185 @@ SWIGEXPORT void Init_coopyhx(void) {
   SwigClassTableDiff.destroy = (void (*)(void *)) free_coopy_TableDiffFactory;
   SwigClassTableDiff.trackObjects = 0;
   
+  SwigClassDiffRender.klass = rb_define_class_under(mCoopyhx, "DiffRender", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__DiffRenderFactory, (void *) &SwigClassDiffRender);
+  rb_define_alloc_func(SwigClassDiffRender.klass, _wrap_DiffRender_allocate);
+  rb_define_method(SwigClassDiffRender.klass, "initialize", VALUEFUNC(_wrap_new_DiffRender), -1);
+  rb_define_method(SwigClassDiffRender.klass, "__deref__", VALUEFUNC(_wrap_DiffRender___deref__), -1);
+  rb_define_method(SwigClassDiffRender.klass, "__construct", VALUEFUNC(_wrap_DiffRender___construct), -1);
+  rb_define_method(SwigClassDiffRender.klass, "__new", VALUEFUNC(_wrap_DiffRender___new), -1);
+  rb_define_method(SwigClassDiffRender.klass, "__CreateEmpty", VALUEFUNC(_wrap_DiffRender___CreateEmpty), -1);
+  rb_define_method(SwigClassDiffRender.klass, "__Create", VALUEFUNC(_wrap_DiffRender___Create), -1);
+  rb_define_method(SwigClassDiffRender.klass, "__boot", VALUEFUNC(_wrap_DiffRender___boot), -1);
+  rb_define_method(SwigClassDiffRender.klass, "__register", VALUEFUNC(_wrap_DiffRender___register), -1);
+  rb_define_method(SwigClassDiffRender.klass, "__Mark", VALUEFUNC(_wrap_DiffRender___Mark), -1);
+  rb_define_method(SwigClassDiffRender.klass, "__Visit", VALUEFUNC(_wrap_DiffRender___Visit), -1);
+  rb_define_method(SwigClassDiffRender.klass, "__ToString", VALUEFUNC(_wrap_DiffRender___ToString), -1);
+  rb_define_method(SwigClassDiffRender.klass, "text_to_insert=", VALUEFUNC(_wrap_DiffRender_text_to_insert_set), -1);
+  rb_define_method(SwigClassDiffRender.klass, "text_to_insert", VALUEFUNC(_wrap_DiffRender_text_to_insert_get), -1);
+  rb_define_method(SwigClassDiffRender.klass, "td_open=", VALUEFUNC(_wrap_DiffRender_td_open_set), -1);
+  rb_define_method(SwigClassDiffRender.klass, "td_open", VALUEFUNC(_wrap_DiffRender_td_open_get), -1);
+  rb_define_method(SwigClassDiffRender.klass, "td_close=", VALUEFUNC(_wrap_DiffRender_td_close_set), -1);
+  rb_define_method(SwigClassDiffRender.klass, "td_close", VALUEFUNC(_wrap_DiffRender_td_close_get), -1);
+  rb_define_method(SwigClassDiffRender.klass, "open=", VALUEFUNC(_wrap_DiffRender_open_set), -1);
+  rb_define_method(SwigClassDiffRender.klass, "open", VALUEFUNC(_wrap_DiffRender_open_get), -1);
+  rb_define_method(SwigClassDiffRender.klass, "pretty_arrows=", VALUEFUNC(_wrap_DiffRender_pretty_arrows_set), -1);
+  rb_define_method(SwigClassDiffRender.klass, "pretty_arrows", VALUEFUNC(_wrap_DiffRender_pretty_arrows_get), -1);
+  rb_define_method(SwigClassDiffRender.klass, "usePrettyArrows", VALUEFUNC(_wrap_DiffRender_usePrettyArrows), -1);
+  rb_define_method(SwigClassDiffRender.klass, "usePrettyArrows_dyn", VALUEFUNC(_wrap_DiffRender_usePrettyArrows_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "insert", VALUEFUNC(_wrap_DiffRender_insert), -1);
+  rb_define_method(SwigClassDiffRender.klass, "insert_dyn", VALUEFUNC(_wrap_DiffRender_insert_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "beginTable", VALUEFUNC(_wrap_DiffRender_beginTable), -1);
+  rb_define_method(SwigClassDiffRender.klass, "beginTable_dyn", VALUEFUNC(_wrap_DiffRender_beginTable_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "beginRow", VALUEFUNC(_wrap_DiffRender_beginRow), -1);
+  rb_define_method(SwigClassDiffRender.klass, "beginRow_dyn", VALUEFUNC(_wrap_DiffRender_beginRow_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "insertCell", VALUEFUNC(_wrap_DiffRender_insertCell), -1);
+  rb_define_method(SwigClassDiffRender.klass, "insertCell_dyn", VALUEFUNC(_wrap_DiffRender_insertCell_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "endRow", VALUEFUNC(_wrap_DiffRender_endRow), -1);
+  rb_define_method(SwigClassDiffRender.klass, "endRow_dyn", VALUEFUNC(_wrap_DiffRender_endRow_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "endTable", VALUEFUNC(_wrap_DiffRender_endTable), -1);
+  rb_define_method(SwigClassDiffRender.klass, "endTable_dyn", VALUEFUNC(_wrap_DiffRender_endTable_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "html", VALUEFUNC(_wrap_DiffRender_html), -1);
+  rb_define_method(SwigClassDiffRender.klass, "html_dyn", VALUEFUNC(_wrap_DiffRender_html_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "toString", VALUEFUNC(_wrap_DiffRender_toString), -1);
+  rb_define_method(SwigClassDiffRender.klass, "toString_dyn", VALUEFUNC(_wrap_DiffRender_toString_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "render", VALUEFUNC(_wrap_DiffRender_render), -1);
+  rb_define_method(SwigClassDiffRender.klass, "render_dyn", VALUEFUNC(_wrap_DiffRender_render_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "sampleCss", VALUEFUNC(_wrap_DiffRender_sampleCss), -1);
+  rb_define_method(SwigClassDiffRender.klass, "sampleCss_dyn", VALUEFUNC(_wrap_DiffRender_sampleCss_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "completeHtml", VALUEFUNC(_wrap_DiffRender_completeHtml), -1);
+  rb_define_method(SwigClassDiffRender.klass, "completeHtml_dyn", VALUEFUNC(_wrap_DiffRender_completeHtml_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "examineCell", VALUEFUNC(_wrap_DiffRender_examineCell), -1);
+  rb_define_method(SwigClassDiffRender.klass, "examineCell_dyn", VALUEFUNC(_wrap_DiffRender_examineCell_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "markSpaces", VALUEFUNC(_wrap_DiffRender_markSpaces), -1);
+  rb_define_method(SwigClassDiffRender.klass, "markSpaces_dyn", VALUEFUNC(_wrap_DiffRender_markSpaces_dyn), -1);
+  rb_define_method(SwigClassDiffRender.klass, "renderCell", VALUEFUNC(_wrap_DiffRender_renderCell), -1);
+  rb_define_method(SwigClassDiffRender.klass, "renderCell_dyn", VALUEFUNC(_wrap_DiffRender_renderCell_dyn), -1);
+  SwigClassDiffRender.mark = 0;
+  SwigClassDiffRender.destroy = (void (*)(void *)) free_coopy_DiffRenderFactory;
+  SwigClassDiffRender.trackObjects = 0;
+  
+  SwigClassHighlightPatch.klass = rb_define_class_under(mCoopyhx, "HighlightPatch", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__HighlightPatchFactory, (void *) &SwigClassHighlightPatch);
+  rb_define_alloc_func(SwigClassHighlightPatch.klass, _wrap_HighlightPatch_allocate);
+  rb_define_method(SwigClassHighlightPatch.klass, "initialize", VALUEFUNC(_wrap_new_HighlightPatch), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__deref__", VALUEFUNC(_wrap_HighlightPatch___deref__), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__construct", VALUEFUNC(_wrap_HighlightPatch___construct), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__new", VALUEFUNC(_wrap_HighlightPatch___new), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__CreateEmpty", VALUEFUNC(_wrap_HighlightPatch___CreateEmpty), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__Create", VALUEFUNC(_wrap_HighlightPatch___Create), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__boot", VALUEFUNC(_wrap_HighlightPatch___boot), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__register", VALUEFUNC(_wrap_HighlightPatch___register), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__Mark", VALUEFUNC(_wrap_HighlightPatch___Mark), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__Visit", VALUEFUNC(_wrap_HighlightPatch___Visit), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "asRow", VALUEFUNC(_wrap_HighlightPatch_asRow), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__ToInterface", VALUEFUNC(_wrap_HighlightPatch___ToInterface), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "__ToString", VALUEFUNC(_wrap_HighlightPatch___ToString), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "source=", VALUEFUNC(_wrap_HighlightPatch_source_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "source", VALUEFUNC(_wrap_HighlightPatch_source_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "patch=", VALUEFUNC(_wrap_HighlightPatch_patch_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "patch", VALUEFUNC(_wrap_HighlightPatch_patch_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "view=", VALUEFUNC(_wrap_HighlightPatch_view_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "view", VALUEFUNC(_wrap_HighlightPatch_view_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "csv=", VALUEFUNC(_wrap_HighlightPatch_csv_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "csv", VALUEFUNC(_wrap_HighlightPatch_csv_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "header=", VALUEFUNC(_wrap_HighlightPatch_header_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "header", VALUEFUNC(_wrap_HighlightPatch_header_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "headerPre=", VALUEFUNC(_wrap_HighlightPatch_headerPre_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "headerPre", VALUEFUNC(_wrap_HighlightPatch_headerPre_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "headerPost=", VALUEFUNC(_wrap_HighlightPatch_headerPost_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "headerPost", VALUEFUNC(_wrap_HighlightPatch_headerPost_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "headerRename=", VALUEFUNC(_wrap_HighlightPatch_headerRename_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "headerRename", VALUEFUNC(_wrap_HighlightPatch_headerRename_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "headerMove=", VALUEFUNC(_wrap_HighlightPatch_headerMove_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "headerMove", VALUEFUNC(_wrap_HighlightPatch_headerMove_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "modifier=", VALUEFUNC(_wrap_HighlightPatch_modifier_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "modifier", VALUEFUNC(_wrap_HighlightPatch_modifier_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "currentRow=", VALUEFUNC(_wrap_HighlightPatch_currentRow_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "currentRow", VALUEFUNC(_wrap_HighlightPatch_currentRow_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "payloadCol=", VALUEFUNC(_wrap_HighlightPatch_payloadCol_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "payloadCol", VALUEFUNC(_wrap_HighlightPatch_payloadCol_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "payloadTop=", VALUEFUNC(_wrap_HighlightPatch_payloadTop_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "payloadTop", VALUEFUNC(_wrap_HighlightPatch_payloadTop_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "mods=", VALUEFUNC(_wrap_HighlightPatch_mods_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "mods", VALUEFUNC(_wrap_HighlightPatch_mods_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "cmods=", VALUEFUNC(_wrap_HighlightPatch_cmods_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "cmods", VALUEFUNC(_wrap_HighlightPatch_cmods_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "rowInfo=", VALUEFUNC(_wrap_HighlightPatch_rowInfo_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "rowInfo", VALUEFUNC(_wrap_HighlightPatch_rowInfo_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "cellInfo=", VALUEFUNC(_wrap_HighlightPatch_cellInfo_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "cellInfo", VALUEFUNC(_wrap_HighlightPatch_cellInfo_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "rcOffset=", VALUEFUNC(_wrap_HighlightPatch_rcOffset_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "rcOffset", VALUEFUNC(_wrap_HighlightPatch_rcOffset_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "indexes=", VALUEFUNC(_wrap_HighlightPatch_indexes_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "indexes", VALUEFUNC(_wrap_HighlightPatch_indexes_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "sourceInPatchCol=", VALUEFUNC(_wrap_HighlightPatch_sourceInPatchCol_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "sourceInPatchCol", VALUEFUNC(_wrap_HighlightPatch_sourceInPatchCol_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "patchInSourceCol=", VALUEFUNC(_wrap_HighlightPatch_patchInSourceCol_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "patchInSourceCol", VALUEFUNC(_wrap_HighlightPatch_patchInSourceCol_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "patchInSourceRow=", VALUEFUNC(_wrap_HighlightPatch_patchInSourceRow_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "patchInSourceRow", VALUEFUNC(_wrap_HighlightPatch_patchInSourceRow_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "lastSourceRow=", VALUEFUNC(_wrap_HighlightPatch_lastSourceRow_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "lastSourceRow", VALUEFUNC(_wrap_HighlightPatch_lastSourceRow_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "actions=", VALUEFUNC(_wrap_HighlightPatch_actions_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "actions", VALUEFUNC(_wrap_HighlightPatch_actions_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "rowPermutation=", VALUEFUNC(_wrap_HighlightPatch_rowPermutation_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "rowPermutation", VALUEFUNC(_wrap_HighlightPatch_rowPermutation_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "rowPermutationRev=", VALUEFUNC(_wrap_HighlightPatch_rowPermutationRev_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "rowPermutationRev", VALUEFUNC(_wrap_HighlightPatch_rowPermutationRev_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "colPermutation=", VALUEFUNC(_wrap_HighlightPatch_colPermutation_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "colPermutation", VALUEFUNC(_wrap_HighlightPatch_colPermutation_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "colPermutationRev=", VALUEFUNC(_wrap_HighlightPatch_colPermutationRev_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "colPermutationRev", VALUEFUNC(_wrap_HighlightPatch_colPermutationRev_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "haveDroppedColumns=", VALUEFUNC(_wrap_HighlightPatch_haveDroppedColumns_set), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "haveDroppedColumns", VALUEFUNC(_wrap_HighlightPatch_haveDroppedColumns_get), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "reset", VALUEFUNC(_wrap_HighlightPatch_reset), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "reset_dyn", VALUEFUNC(_wrap_HighlightPatch_reset_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "apply", VALUEFUNC(_wrap_HighlightPatch_apply), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "apply_dyn", VALUEFUNC(_wrap_HighlightPatch_apply_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "needSourceColumns", VALUEFUNC(_wrap_HighlightPatch_needSourceColumns), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "needSourceColumns_dyn", VALUEFUNC(_wrap_HighlightPatch_needSourceColumns_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "needSourceIndex", VALUEFUNC(_wrap_HighlightPatch_needSourceIndex), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "needSourceIndex_dyn", VALUEFUNC(_wrap_HighlightPatch_needSourceIndex_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "applyRow", VALUEFUNC(_wrap_HighlightPatch_applyRow), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "applyRow_dyn", VALUEFUNC(_wrap_HighlightPatch_applyRow_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "getDatum", VALUEFUNC(_wrap_HighlightPatch_getDatum), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "getDatum_dyn", VALUEFUNC(_wrap_HighlightPatch_getDatum_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "getString", VALUEFUNC(_wrap_HighlightPatch_getString), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "getString_dyn", VALUEFUNC(_wrap_HighlightPatch_getString_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "applyMeta", VALUEFUNC(_wrap_HighlightPatch_applyMeta), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "applyMeta_dyn", VALUEFUNC(_wrap_HighlightPatch_applyMeta_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "applyHeader", VALUEFUNC(_wrap_HighlightPatch_applyHeader), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "applyHeader_dyn", VALUEFUNC(_wrap_HighlightPatch_applyHeader_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "lookUp", VALUEFUNC(_wrap_HighlightPatch_lookUp), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "lookUp_dyn", VALUEFUNC(_wrap_HighlightPatch_lookUp_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "applyAction", VALUEFUNC(_wrap_HighlightPatch_applyAction), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "applyAction_dyn", VALUEFUNC(_wrap_HighlightPatch_applyAction_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "checkAct", VALUEFUNC(_wrap_HighlightPatch_checkAct), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "checkAct_dyn", VALUEFUNC(_wrap_HighlightPatch_checkAct_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "getPreString", VALUEFUNC(_wrap_HighlightPatch_getPreString), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "getPreString_dyn", VALUEFUNC(_wrap_HighlightPatch_getPreString_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "getRowString", VALUEFUNC(_wrap_HighlightPatch_getRowString), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "getRowString_dyn", VALUEFUNC(_wrap_HighlightPatch_getRowString_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "sortMods", VALUEFUNC(_wrap_HighlightPatch_sortMods), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "sortMods_dyn", VALUEFUNC(_wrap_HighlightPatch_sortMods_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "processMods", VALUEFUNC(_wrap_HighlightPatch_processMods), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "processMods_dyn", VALUEFUNC(_wrap_HighlightPatch_processMods_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "computeOrdering", VALUEFUNC(_wrap_HighlightPatch_computeOrdering), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "computeOrdering_dyn", VALUEFUNC(_wrap_HighlightPatch_computeOrdering_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "permuteRows", VALUEFUNC(_wrap_HighlightPatch_permuteRows), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "permuteRows_dyn", VALUEFUNC(_wrap_HighlightPatch_permuteRows_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "finishRows", VALUEFUNC(_wrap_HighlightPatch_finishRows), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "finishRows_dyn", VALUEFUNC(_wrap_HighlightPatch_finishRows_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "permuteColumns", VALUEFUNC(_wrap_HighlightPatch_permuteColumns), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "permuteColumns_dyn", VALUEFUNC(_wrap_HighlightPatch_permuteColumns_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "finishColumns", VALUEFUNC(_wrap_HighlightPatch_finishColumns), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "finishColumns_dyn", VALUEFUNC(_wrap_HighlightPatch_finishColumns_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch.klass, "toString", VALUEFUNC(_wrap_HighlightPatch_toString), -1);
+  SwigClassHighlightPatch.mark = 0;
+  SwigClassHighlightPatch.destroy = (void (*)(void *)) free_coopy_HighlightPatchFactory;
+  SwigClassHighlightPatch.trackObjects = 0;
+  
   SwigClassObject.klass = rb_define_class_under(mCoopyhx, "Object", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_hx__Object, (void *) &SwigClassObject);
   rb_undef_alloc_func(SwigClassObject.klass);
@@ -25756,6 +39909,185 @@ SWIGEXPORT void Init_coopyhx(void) {
   SwigClassObjectPtrView_obj.mark = 0;
   SwigClassObjectPtrView_obj.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_coopy_View_obj_Sg_;
   SwigClassObjectPtrView_obj.trackObjects = 0;
+  
+  SwigClassObjectPtrDiffRender_obj.klass = rb_define_class_under(mCoopyhx, "ObjectPtrDiffRender_obj", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_coopy__DiffRender_obj_t, (void *) &SwigClassObjectPtrDiffRender_obj);
+  rb_undef_alloc_func(SwigClassObjectPtrDiffRender_obj.klass);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj___deref__), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_GetPtr), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "__construct", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj___construct), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "__new", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj___new), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "__CreateEmpty", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj___CreateEmpty), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "__Create", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj___Create), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "__boot", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj___boot), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "__register", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj___register), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "__Mark", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj___Mark), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "__Visit", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj___Visit), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "__ToString", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj___ToString), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "text_to_insert=", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_text_to_insert_set), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "text_to_insert", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_text_to_insert_get), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "td_open=", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_td_open_set), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "td_open", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_td_open_get), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "td_close=", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_td_close_set), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "td_close", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_td_close_get), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "open=", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_open_set), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "open", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_open_get), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "pretty_arrows=", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_pretty_arrows_set), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "pretty_arrows", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_pretty_arrows_get), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "usePrettyArrows", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_usePrettyArrows), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "usePrettyArrows_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_usePrettyArrows_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "insert", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_insert), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "insert_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_insert_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "beginTable", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_beginTable), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "beginTable_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_beginTable_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "beginRow", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_beginRow), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "beginRow_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_beginRow_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "insertCell", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_insertCell), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "insertCell_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_insertCell_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "endRow", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_endRow), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "endRow_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_endRow_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "endTable", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_endTable), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "endTable_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_endTable_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "html", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_html), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "html_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_html_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "toString", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_toString), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "toString_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_toString_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "render", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_render), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "render_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_render_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "sampleCss", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_sampleCss), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "sampleCss_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_sampleCss_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "completeHtml", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_completeHtml), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "completeHtml_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_completeHtml_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "examineCell", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_examineCell), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "examineCell_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_examineCell_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "markSpaces", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_markSpaces), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "markSpaces_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_markSpaces_dyn), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "renderCell", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_renderCell), -1);
+  rb_define_method(SwigClassObjectPtrDiffRender_obj.klass, "renderCell_dyn", VALUEFUNC(_wrap_ObjectPtrDiffRender_obj_renderCell_dyn), -1);
+  SwigClassObjectPtrDiffRender_obj.mark = 0;
+  SwigClassObjectPtrDiffRender_obj.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_coopy_DiffRender_obj_Sg_;
+  SwigClassObjectPtrDiffRender_obj.trackObjects = 0;
+  
+  SwigClassObjectPtrHighlightPatch_obj.klass = rb_define_class_under(mCoopyhx, "ObjectPtrHighlightPatch_obj", rb_cObject);
+  SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_coopy__HighlightPatch_obj_t, (void *) &SwigClassObjectPtrHighlightPatch_obj);
+  rb_undef_alloc_func(SwigClassObjectPtrHighlightPatch_obj.klass);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__deref__", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___deref__), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "GetPtr", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_GetPtr), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__construct", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___construct), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__new", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___new), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__CreateEmpty", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___CreateEmpty), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__Create", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___Create), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__boot", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___boot), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__register", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___register), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__Mark", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___Mark), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__Visit", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___Visit), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "asRow", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_asRow), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__ToInterface", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___ToInterface), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "__ToString", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj___ToString), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "source=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_source_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "source", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_source_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "patch=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_patch_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "patch", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_patch_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "view=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_view_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "view", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_view_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "csv=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_csv_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "csv", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_csv_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "header=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_header_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "header", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_header_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "headerPre=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_headerPre_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "headerPre", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_headerPre_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "headerPost=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_headerPost_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "headerPost", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_headerPost_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "headerRename=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_headerRename_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "headerRename", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_headerRename_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "headerMove=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_headerMove_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "headerMove", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_headerMove_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "modifier=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_modifier_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "modifier", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_modifier_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "currentRow=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_currentRow_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "currentRow", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_currentRow_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "payloadCol=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_payloadCol_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "payloadCol", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_payloadCol_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "payloadTop=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_payloadTop_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "payloadTop", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_payloadTop_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "mods=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_mods_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "mods", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_mods_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "cmods=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_cmods_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "cmods", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_cmods_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "rowInfo=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_rowInfo_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "rowInfo", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_rowInfo_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "cellInfo=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_cellInfo_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "cellInfo", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_cellInfo_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "rcOffset=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_rcOffset_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "rcOffset", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_rcOffset_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "indexes=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_indexes_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "indexes", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_indexes_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "sourceInPatchCol=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_sourceInPatchCol_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "sourceInPatchCol", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_sourceInPatchCol_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "patchInSourceCol=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_patchInSourceCol_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "patchInSourceCol", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_patchInSourceCol_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "patchInSourceRow=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_patchInSourceRow_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "patchInSourceRow", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_patchInSourceRow_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "lastSourceRow=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_lastSourceRow_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "lastSourceRow", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_lastSourceRow_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "actions=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_actions_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "actions", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_actions_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "rowPermutation=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_rowPermutation_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "rowPermutation", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_rowPermutation_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "rowPermutationRev=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_rowPermutationRev_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "rowPermutationRev", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_rowPermutationRev_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "colPermutation=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_colPermutation_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "colPermutation", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_colPermutation_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "colPermutationRev=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_colPermutationRev_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "colPermutationRev", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_colPermutationRev_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "haveDroppedColumns=", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_haveDroppedColumns_set), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "haveDroppedColumns", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_haveDroppedColumns_get), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "reset", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_reset), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "reset_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_reset_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "apply", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_apply), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "apply_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_apply_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "needSourceColumns", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_needSourceColumns), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "needSourceColumns_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_needSourceColumns_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "needSourceIndex", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_needSourceIndex), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "needSourceIndex_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_needSourceIndex_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "applyRow", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_applyRow), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "applyRow_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_applyRow_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "getDatum", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_getDatum), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "getDatum_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_getDatum_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "getString", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_getString), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "getString_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_getString_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "applyMeta", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_applyMeta), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "applyMeta_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_applyMeta_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "applyHeader", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_applyHeader), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "applyHeader_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_applyHeader_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "lookUp", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_lookUp), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "lookUp_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_lookUp_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "applyAction", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_applyAction), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "applyAction_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_applyAction_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "checkAct", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_checkAct), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "checkAct_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_checkAct_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "getPreString", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_getPreString), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "getPreString_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_getPreString_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "getRowString", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_getRowString), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "getRowString_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_getRowString_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "sortMods", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_sortMods), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "sortMods_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_sortMods_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "processMods", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_processMods), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "processMods_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_processMods_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "computeOrdering", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_computeOrdering), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "computeOrdering_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_computeOrdering_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "permuteRows", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_permuteRows), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "permuteRows_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_permuteRows_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "finishRows", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_finishRows), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "finishRows_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_finishRows_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "permuteColumns", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_permuteColumns), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "permuteColumns_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_permuteColumns_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "finishColumns", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_finishColumns), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "finishColumns_dyn", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_finishColumns_dyn), -1);
+  rb_define_method(SwigClassObjectPtrHighlightPatch_obj.klass, "toString", VALUEFUNC(_wrap_ObjectPtrHighlightPatch_obj_toString), -1);
+  SwigClassObjectPtrHighlightPatch_obj.mark = 0;
+  SwigClassObjectPtrHighlightPatch_obj.destroy = (void (*)(void *)) free_hx_ObjectPtr_Sl_coopy_HighlightPatch_obj_Sg_;
+  SwigClassObjectPtrHighlightPatch_obj.trackObjects = 0;
   
   SwigClassObjectPtrObject.klass = rb_define_class_under(mCoopyhx, "ObjectPtrObject", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_hx__ObjectPtrT_hx__Object_t, (void *) &SwigClassObjectPtrObject);
@@ -26127,6 +40459,182 @@ SWIGEXPORT void Init_coopyhx(void) {
   SwigClassView_obj.mark = 0;
   SwigClassView_obj.destroy = (void (*)(void *)) free_coopy_View_obj;
   SwigClassView_obj.trackObjects = 0;
+  
+  SwigClassHighlightPatch_obj.klass = rb_define_class_under(mCoopyhx, "HighlightPatch_obj", ((swig_class *) SWIGTYPE_p_hx__Object->clientdata)->klass);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__HighlightPatch_obj, (void *) &SwigClassHighlightPatch_obj);
+  rb_define_alloc_func(SwigClassHighlightPatch_obj.klass, _wrap_HighlightPatch_obj_allocate);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "initialize", VALUEFUNC(_wrap_new_HighlightPatch_obj), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "__construct", VALUEFUNC(_wrap_HighlightPatch_obj___construct), -1);
+  rb_define_singleton_method(SwigClassHighlightPatch_obj.klass, "__new", VALUEFUNC(_wrap_HighlightPatch_obj___new), -1);
+  rb_define_singleton_method(SwigClassHighlightPatch_obj.klass, "__CreateEmpty", VALUEFUNC(_wrap_HighlightPatch_obj___CreateEmpty), -1);
+  rb_define_singleton_method(SwigClassHighlightPatch_obj.klass, "__Create", VALUEFUNC(_wrap_HighlightPatch_obj___Create), -1);
+  rb_define_singleton_method(SwigClassHighlightPatch_obj.klass, "__boot", VALUEFUNC(_wrap_HighlightPatch_obj___boot), -1);
+  rb_define_singleton_method(SwigClassHighlightPatch_obj.klass, "__register", VALUEFUNC(_wrap_HighlightPatch_obj___register), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "__Mark", VALUEFUNC(_wrap_HighlightPatch_obj___Mark), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "__Visit", VALUEFUNC(_wrap_HighlightPatch_obj___Visit), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "asRow", VALUEFUNC(_wrap_HighlightPatch_obj_asRow), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "__ToInterface", VALUEFUNC(_wrap_HighlightPatch_obj___ToInterface), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "__ToString", VALUEFUNC(_wrap_HighlightPatch_obj___ToString), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "source=", VALUEFUNC(_wrap_HighlightPatch_obj_source_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "source", VALUEFUNC(_wrap_HighlightPatch_obj_source_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "patch=", VALUEFUNC(_wrap_HighlightPatch_obj_patch_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "patch", VALUEFUNC(_wrap_HighlightPatch_obj_patch_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "view=", VALUEFUNC(_wrap_HighlightPatch_obj_view_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "view", VALUEFUNC(_wrap_HighlightPatch_obj_view_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "csv=", VALUEFUNC(_wrap_HighlightPatch_obj_csv_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "csv", VALUEFUNC(_wrap_HighlightPatch_obj_csv_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "header=", VALUEFUNC(_wrap_HighlightPatch_obj_header_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "header", VALUEFUNC(_wrap_HighlightPatch_obj_header_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "headerPre=", VALUEFUNC(_wrap_HighlightPatch_obj_headerPre_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "headerPre", VALUEFUNC(_wrap_HighlightPatch_obj_headerPre_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "headerPost=", VALUEFUNC(_wrap_HighlightPatch_obj_headerPost_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "headerPost", VALUEFUNC(_wrap_HighlightPatch_obj_headerPost_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "headerRename=", VALUEFUNC(_wrap_HighlightPatch_obj_headerRename_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "headerRename", VALUEFUNC(_wrap_HighlightPatch_obj_headerRename_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "headerMove=", VALUEFUNC(_wrap_HighlightPatch_obj_headerMove_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "headerMove", VALUEFUNC(_wrap_HighlightPatch_obj_headerMove_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "modifier=", VALUEFUNC(_wrap_HighlightPatch_obj_modifier_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "modifier", VALUEFUNC(_wrap_HighlightPatch_obj_modifier_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "currentRow=", VALUEFUNC(_wrap_HighlightPatch_obj_currentRow_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "currentRow", VALUEFUNC(_wrap_HighlightPatch_obj_currentRow_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "payloadCol=", VALUEFUNC(_wrap_HighlightPatch_obj_payloadCol_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "payloadCol", VALUEFUNC(_wrap_HighlightPatch_obj_payloadCol_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "payloadTop=", VALUEFUNC(_wrap_HighlightPatch_obj_payloadTop_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "payloadTop", VALUEFUNC(_wrap_HighlightPatch_obj_payloadTop_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "mods=", VALUEFUNC(_wrap_HighlightPatch_obj_mods_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "mods", VALUEFUNC(_wrap_HighlightPatch_obj_mods_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "cmods=", VALUEFUNC(_wrap_HighlightPatch_obj_cmods_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "cmods", VALUEFUNC(_wrap_HighlightPatch_obj_cmods_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "rowInfo=", VALUEFUNC(_wrap_HighlightPatch_obj_rowInfo_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "rowInfo", VALUEFUNC(_wrap_HighlightPatch_obj_rowInfo_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "cellInfo=", VALUEFUNC(_wrap_HighlightPatch_obj_cellInfo_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "cellInfo", VALUEFUNC(_wrap_HighlightPatch_obj_cellInfo_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "rcOffset=", VALUEFUNC(_wrap_HighlightPatch_obj_rcOffset_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "rcOffset", VALUEFUNC(_wrap_HighlightPatch_obj_rcOffset_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "indexes=", VALUEFUNC(_wrap_HighlightPatch_obj_indexes_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "indexes", VALUEFUNC(_wrap_HighlightPatch_obj_indexes_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "sourceInPatchCol=", VALUEFUNC(_wrap_HighlightPatch_obj_sourceInPatchCol_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "sourceInPatchCol", VALUEFUNC(_wrap_HighlightPatch_obj_sourceInPatchCol_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "patchInSourceCol=", VALUEFUNC(_wrap_HighlightPatch_obj_patchInSourceCol_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "patchInSourceCol", VALUEFUNC(_wrap_HighlightPatch_obj_patchInSourceCol_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "patchInSourceRow=", VALUEFUNC(_wrap_HighlightPatch_obj_patchInSourceRow_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "patchInSourceRow", VALUEFUNC(_wrap_HighlightPatch_obj_patchInSourceRow_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "lastSourceRow=", VALUEFUNC(_wrap_HighlightPatch_obj_lastSourceRow_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "lastSourceRow", VALUEFUNC(_wrap_HighlightPatch_obj_lastSourceRow_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "actions=", VALUEFUNC(_wrap_HighlightPatch_obj_actions_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "actions", VALUEFUNC(_wrap_HighlightPatch_obj_actions_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "rowPermutation=", VALUEFUNC(_wrap_HighlightPatch_obj_rowPermutation_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "rowPermutation", VALUEFUNC(_wrap_HighlightPatch_obj_rowPermutation_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "rowPermutationRev=", VALUEFUNC(_wrap_HighlightPatch_obj_rowPermutationRev_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "rowPermutationRev", VALUEFUNC(_wrap_HighlightPatch_obj_rowPermutationRev_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "colPermutation=", VALUEFUNC(_wrap_HighlightPatch_obj_colPermutation_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "colPermutation", VALUEFUNC(_wrap_HighlightPatch_obj_colPermutation_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "colPermutationRev=", VALUEFUNC(_wrap_HighlightPatch_obj_colPermutationRev_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "colPermutationRev", VALUEFUNC(_wrap_HighlightPatch_obj_colPermutationRev_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "haveDroppedColumns=", VALUEFUNC(_wrap_HighlightPatch_obj_haveDroppedColumns_set), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "haveDroppedColumns", VALUEFUNC(_wrap_HighlightPatch_obj_haveDroppedColumns_get), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "reset", VALUEFUNC(_wrap_HighlightPatch_obj_reset), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "reset_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_reset_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "apply", VALUEFUNC(_wrap_HighlightPatch_obj_apply), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "apply_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_apply_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "needSourceColumns", VALUEFUNC(_wrap_HighlightPatch_obj_needSourceColumns), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "needSourceColumns_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_needSourceColumns_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "needSourceIndex", VALUEFUNC(_wrap_HighlightPatch_obj_needSourceIndex), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "needSourceIndex_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_needSourceIndex_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "applyRow", VALUEFUNC(_wrap_HighlightPatch_obj_applyRow), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "applyRow_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_applyRow_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "getDatum", VALUEFUNC(_wrap_HighlightPatch_obj_getDatum), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "getDatum_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_getDatum_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "getString", VALUEFUNC(_wrap_HighlightPatch_obj_getString), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "getString_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_getString_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "applyMeta", VALUEFUNC(_wrap_HighlightPatch_obj_applyMeta), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "applyMeta_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_applyMeta_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "applyHeader", VALUEFUNC(_wrap_HighlightPatch_obj_applyHeader), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "applyHeader_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_applyHeader_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "lookUp", VALUEFUNC(_wrap_HighlightPatch_obj_lookUp), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "lookUp_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_lookUp_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "applyAction", VALUEFUNC(_wrap_HighlightPatch_obj_applyAction), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "applyAction_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_applyAction_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "checkAct", VALUEFUNC(_wrap_HighlightPatch_obj_checkAct), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "checkAct_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_checkAct_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "getPreString", VALUEFUNC(_wrap_HighlightPatch_obj_getPreString), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "getPreString_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_getPreString_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "getRowString", VALUEFUNC(_wrap_HighlightPatch_obj_getRowString), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "getRowString_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_getRowString_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "sortMods", VALUEFUNC(_wrap_HighlightPatch_obj_sortMods), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "sortMods_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_sortMods_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "processMods", VALUEFUNC(_wrap_HighlightPatch_obj_processMods), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "processMods_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_processMods_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "computeOrdering", VALUEFUNC(_wrap_HighlightPatch_obj_computeOrdering), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "computeOrdering_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_computeOrdering_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "permuteRows", VALUEFUNC(_wrap_HighlightPatch_obj_permuteRows), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "permuteRows_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_permuteRows_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "finishRows", VALUEFUNC(_wrap_HighlightPatch_obj_finishRows), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "finishRows_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_finishRows_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "permuteColumns", VALUEFUNC(_wrap_HighlightPatch_obj_permuteColumns), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "permuteColumns_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_permuteColumns_dyn), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "finishColumns", VALUEFUNC(_wrap_HighlightPatch_obj_finishColumns), -1);
+  rb_define_method(SwigClassHighlightPatch_obj.klass, "finishColumns_dyn", VALUEFUNC(_wrap_HighlightPatch_obj_finishColumns_dyn), -1);
+  SwigClassHighlightPatch_obj.mark = 0;
+  SwigClassHighlightPatch_obj.destroy = (void (*)(void *)) free_coopy_HighlightPatch_obj;
+  SwigClassHighlightPatch_obj.trackObjects = 0;
+  
+  SwigClassDiffRender_obj.klass = rb_define_class_under(mCoopyhx, "DiffRender_obj", ((swig_class *) SWIGTYPE_p_hx__Object->clientdata)->klass);
+  SWIG_TypeClientData(SWIGTYPE_p_coopy__DiffRender_obj, (void *) &SwigClassDiffRender_obj);
+  rb_define_alloc_func(SwigClassDiffRender_obj.klass, _wrap_DiffRender_obj_allocate);
+  rb_define_method(SwigClassDiffRender_obj.klass, "initialize", VALUEFUNC(_wrap_new_DiffRender_obj), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "__construct", VALUEFUNC(_wrap_DiffRender_obj___construct), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "__new", VALUEFUNC(_wrap_DiffRender_obj___new), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "__CreateEmpty", VALUEFUNC(_wrap_DiffRender_obj___CreateEmpty), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "__Create", VALUEFUNC(_wrap_DiffRender_obj___Create), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "__boot", VALUEFUNC(_wrap_DiffRender_obj___boot), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "__register", VALUEFUNC(_wrap_DiffRender_obj___register), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "__Mark", VALUEFUNC(_wrap_DiffRender_obj___Mark), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "__Visit", VALUEFUNC(_wrap_DiffRender_obj___Visit), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "__ToString", VALUEFUNC(_wrap_DiffRender_obj___ToString), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "text_to_insert=", VALUEFUNC(_wrap_DiffRender_obj_text_to_insert_set), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "text_to_insert", VALUEFUNC(_wrap_DiffRender_obj_text_to_insert_get), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "td_open=", VALUEFUNC(_wrap_DiffRender_obj_td_open_set), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "td_open", VALUEFUNC(_wrap_DiffRender_obj_td_open_get), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "td_close=", VALUEFUNC(_wrap_DiffRender_obj_td_close_set), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "td_close", VALUEFUNC(_wrap_DiffRender_obj_td_close_get), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "open=", VALUEFUNC(_wrap_DiffRender_obj_open_set), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "open", VALUEFUNC(_wrap_DiffRender_obj_open_get), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "pretty_arrows=", VALUEFUNC(_wrap_DiffRender_obj_pretty_arrows_set), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "pretty_arrows", VALUEFUNC(_wrap_DiffRender_obj_pretty_arrows_get), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "usePrettyArrows", VALUEFUNC(_wrap_DiffRender_obj_usePrettyArrows), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "usePrettyArrows_dyn", VALUEFUNC(_wrap_DiffRender_obj_usePrettyArrows_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "insert", VALUEFUNC(_wrap_DiffRender_obj_insert), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "insert_dyn", VALUEFUNC(_wrap_DiffRender_obj_insert_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "beginTable", VALUEFUNC(_wrap_DiffRender_obj_beginTable), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "beginTable_dyn", VALUEFUNC(_wrap_DiffRender_obj_beginTable_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "beginRow", VALUEFUNC(_wrap_DiffRender_obj_beginRow), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "beginRow_dyn", VALUEFUNC(_wrap_DiffRender_obj_beginRow_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "insertCell", VALUEFUNC(_wrap_DiffRender_obj_insertCell), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "insertCell_dyn", VALUEFUNC(_wrap_DiffRender_obj_insertCell_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "endRow", VALUEFUNC(_wrap_DiffRender_obj_endRow), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "endRow_dyn", VALUEFUNC(_wrap_DiffRender_obj_endRow_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "endTable", VALUEFUNC(_wrap_DiffRender_obj_endTable), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "endTable_dyn", VALUEFUNC(_wrap_DiffRender_obj_endTable_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "html", VALUEFUNC(_wrap_DiffRender_obj_html), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "html_dyn", VALUEFUNC(_wrap_DiffRender_obj_html_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "toString", VALUEFUNC(_wrap_DiffRender_obj_toString), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "toString_dyn", VALUEFUNC(_wrap_DiffRender_obj_toString_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "render", VALUEFUNC(_wrap_DiffRender_obj_render), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "render_dyn", VALUEFUNC(_wrap_DiffRender_obj_render_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "sampleCss", VALUEFUNC(_wrap_DiffRender_obj_sampleCss), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "sampleCss_dyn", VALUEFUNC(_wrap_DiffRender_obj_sampleCss_dyn), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "completeHtml", VALUEFUNC(_wrap_DiffRender_obj_completeHtml), -1);
+  rb_define_method(SwigClassDiffRender_obj.klass, "completeHtml_dyn", VALUEFUNC(_wrap_DiffRender_obj_completeHtml_dyn), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "examineCell", VALUEFUNC(_wrap_DiffRender_obj_examineCell), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "examineCell_dyn", VALUEFUNC(_wrap_DiffRender_obj_examineCell_dyn), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "markSpaces", VALUEFUNC(_wrap_DiffRender_obj_markSpaces), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "markSpaces_dyn", VALUEFUNC(_wrap_DiffRender_obj_markSpaces_dyn), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "renderCell", VALUEFUNC(_wrap_DiffRender_obj_renderCell), -1);
+  rb_define_singleton_method(SwigClassDiffRender_obj.klass, "renderCell_dyn", VALUEFUNC(_wrap_DiffRender_obj_renderCell_dyn), -1);
+  SwigClassDiffRender_obj.mark = 0;
+  SwigClassDiffRender_obj.destroy = (void (*)(void *)) free_coopy_DiffRender_obj;
+  SwigClassDiffRender_obj.trackObjects = 0;
   
   SwigClassString.klass = rb_define_class_under(mCoopyhx, "String", rb_cObject);
   SWIG_TypeClientData(SWIGTYPE_p_String, (void *) &SwigClassString);
