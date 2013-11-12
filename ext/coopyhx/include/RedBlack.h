@@ -34,12 +34,6 @@
 #define HEIGHT_LIMIT 64 /* Tallest allowable tree */
 #endif
 
-#ifdef EMSCRIPTEN
-#ifndef NULL
-#define NULL 0
-#endif
-#endif
-
 #define DO_ALLOC(x) hx::InternalNew(x,false)
 
  
@@ -50,11 +44,11 @@ struct RBTree {
    {
      RBTree *rt = (RBTree *)DO_ALLOC( sizeof(*rt) );
  
-     if ( rt == NULL )
-       return NULL;
+     if ( !rt )
+       return 0;
  
-     rt->tmp_head = NULL;
-     rt->root = NULL;
+     rt->tmp_head = 0;
+     rt->root = 0;
      rt->size = 0;
  
      return rt;
@@ -65,7 +59,7 @@ struct RBTree {
    {
      Node *it = this->root;
  
-     while ( it != NULL ) {
+     while ( it ) {
         int cmp = DoCompare(it->key,inKey);
         if (cmp==0)
            return &it->value;
@@ -77,14 +71,14 @@ struct RBTree {
  
    int Insert(const KEY &inKey, const VALUE &inValue)
    {
-      if ( this->root == NULL ) {
+      if ( !this->root ) {
         /*
           We have an empty tree; attach the
           new node directly to the root
         */
          this->root = new_node ( inKey, inValue );
 
-        if ( root == NULL )
+        if ( !root )
           return 0;
       }
       else {
@@ -96,16 +90,16 @@ struct RBTree {
   
         /* Set up our helpers */
         t = tmp_head;
-        g = p = NULL;
+        g = p = 0;
         q = t->link[1] = this->root;
   
         /* Search down the tree for a place to insert */
         for ( ; ; ) {
-          if ( q == NULL ) {
+          if ( !q ) {
             /* Insert a new node at the first null link */
             p->link[dir] = q = new_node ( inKey, inValue );
   
-            if ( q == NULL )
+            if ( !q )
             {
                tmp_head = 0;
                return 0;
@@ -144,7 +138,7 @@ struct RBTree {
           dir = DoCompare( q->key, inKey ) < 0;
   
           /* Move the helpers down */
-          if ( g != NULL )
+          if ( g )
             t = g;
   
           g = p, p = q;
@@ -167,22 +161,22 @@ struct RBTree {
  
    bool Erase ( const KEY &inKey )
    {
-      if ( root != NULL ) {
+      if ( root ) {
         tmp_head = (Node *)DO_ALLOC ( sizeof(Node) );
         Node *q, *p, *g; /* Helpers */
-        Node *f = NULL;  /* Found item */
+        Node *f = 0;  /* Found item */
         int dir = 1;
   
         /* Set up our helpers */
         q = tmp_head;
-        g = p = NULL;
+        g = p = 0;
         q->link[1] = root;
   
         /*
           Search and push a red node down
           to fix red violations as we go
         */
-        while ( q->link[dir] != NULL ) {
+        while ( q->link[dir] ) {
           int last = dir;
   
           /* Move the helpers down */
@@ -205,7 +199,7 @@ struct RBTree {
             else if ( !is_red ( q->link[!dir] ) ) {
               Node *s = p->link[!last];
   
-              if ( s != NULL ) {
+              if ( s ) {
                 if ( !is_red ( s->link[!last] ) && !is_red ( s->link[last] ) ) {
                   /* Color flip */
                   p->red = 0;
@@ -231,11 +225,11 @@ struct RBTree {
         }
   
         /* Replace and remove the saved node */
-        if ( f != NULL ) {
+        if ( f ) {
           f->key = q->key;
           f->value = q->value;
           p->link[p->link[1] == q] =
-            q->link[q->link[0] == NULL];
+            q->link[q->link[0] == 0];
           // free ( q );
         }
   
@@ -243,11 +237,11 @@ struct RBTree {
         root = tmp_head->link[1];
   
         /* Make the root black for simplified logic */
-        if ( root != NULL )
+        if ( root )
           root->red = 0;
   
         tmp_head = 0;
-        if ( f != NULL ) {
+        if ( f ) {
            --size;
            return true;
         }
@@ -332,19 +326,19 @@ protected:
    {
      Node *rn = (Node *)DO_ALLOC ( sizeof(*rn) );
  
-     if ( rn == NULL )
-       return NULL;
+     if ( !rn )
+       return 0;
  
      rn->red = 1;
      rn->key = inKey;
      rn->value = inValue;
-     rn->link[0] = rn->link[1] = NULL;
+     rn->link[0] = rn->link[1] = 0;
  
      return rn;
    }
  
  
-   int is_red ( Node *node) { return node != NULL && node->red == 1; }
+   int is_red ( Node *node) { return node && node->red == 1; }
  
    Node     *root; /* Top of the tree */
    Node     *tmp_head; /* Top of the tree */

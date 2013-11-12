@@ -31,24 +31,24 @@ class HXCPP_CLASS_ATTRIBUTES  Csv_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("Csv"); }
 
-		virtual ::String parseSingleCell( ::String txt);
-		Dynamic parseSingleCell_dyn();
-
-		virtual ::String parseCell( ::String txt);
-		Dynamic parseCell_dyn();
-
-		virtual Array< Array< ::String > > parseTable( ::String txt);
-		Dynamic parseTable_dyn();
+		int cursor;
+		bool row_ended;
+		bool has_structure;
+		virtual ::String renderTable( ::coopy::Table t);
+		Dynamic renderTable_dyn();
 
 		virtual ::String renderCell( ::coopy::View v,Dynamic d);
 		Dynamic renderCell_dyn();
 
-		virtual ::String renderTable( ::coopy::Table t);
-		Dynamic renderTable_dyn();
+		virtual Array< ::Dynamic > parseTable( ::String txt);
+		Dynamic parseTable_dyn();
 
-		bool has_structure;
-		bool row_ended;
-		int cursor;
+		virtual ::String parseCell( ::String txt);
+		Dynamic parseCell_dyn();
+
+		virtual ::String parseSingleCell( ::String txt);
+		Dynamic parseSingleCell_dyn();
+
 };
 
 } // end namespace coopy

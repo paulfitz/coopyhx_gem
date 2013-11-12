@@ -6,9 +6,9 @@
 
 Void StringBuf_obj::__construct()
 {
-HX_STACK_PUSH("StringBuf::new","/usr/lib/haxe/std/cpp/_std/StringBuf.hx",29);
+HX_STACK_FRAME("StringBuf","new",0xaaa8f4b4,"StringBuf.new","/usr/lib/haxe/std/cpp/_std/StringBuf.hx",30,0x629ed4da)
 {
-	HX_STACK_LINE(29)
+	HX_STACK_LINE(30)
 	this->b = Array_obj< ::String >::__new();
 }
 ;
@@ -30,10 +30,10 @@ Dynamic StringBuf_obj::__Create(hx::DynamicArray inArgs)
 
 Void StringBuf_obj::add( Dynamic x){
 {
-		HX_STACK_PUSH("StringBuf::add","/usr/lib/haxe/std/cpp/_std/StringBuf.hx",39);
-		HX_STACK_THIS(this);
-		HX_STACK_ARG(x,"x");
-		HX_STACK_LINE(39)
+		HX_STACK_FRAME("StringBuf","add",0xaa9f1675,"StringBuf.add","/usr/lib/haxe/std/cpp/_std/StringBuf.hx",41,0x629ed4da)
+		HX_STACK_THIS(this)
+		HX_STACK_ARG(x,"x")
+		HX_STACK_LINE(41)
 		this->b->push(x);
 	}
 return null();
@@ -89,18 +89,28 @@ void StringBuf_obj::__GetFields(Array< ::String> &outFields)
 static ::String sStaticFields[] = {
 	String(null()) };
 
+#if HXCPP_SCRIPTABLE
+static hx::StorageInfo sMemberStorageInfo[] = {
+	{hx::fsObject,(int)offsetof(StringBuf_obj,b),HX_CSTRING("b")},
+	{ hx::fsUnknown, 0, null()}
+};
+#endif
+
 static ::String sMemberFields[] = {
-	HX_CSTRING("add"),
 	HX_CSTRING("b"),
+	HX_CSTRING("add"),
 	String(null()) };
 
 static void sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(StringBuf_obj::__mClass,"__mClass");
 };
 
+#ifdef HXCPP_VISIT_ALLOCS
 static void sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(StringBuf_obj::__mClass,"__mClass");
 };
+
+#endif
 
 Class StringBuf_obj::__mClass;
 
@@ -108,7 +118,14 @@ void StringBuf_obj::__register()
 {
 	hx::Static(__mClass) = hx::RegisterClass(HX_CSTRING("StringBuf"), hx::TCanCast< StringBuf_obj> ,sStaticFields,sMemberFields,
 	&__CreateEmpty, &__Create,
-	&super::__SGetClass(), 0, sMarkStatics, sVisitStatics);
+	&super::__SGetClass(), 0, sMarkStatics
+#ifdef HXCPP_VISIT_ALLOCS
+    , sVisitStatics
+#endif
+#ifdef HXCPP_SCRIPTABLE
+    , sMemberStorageInfo
+#endif
+);
 }
 
 void StringBuf_obj::__boot()

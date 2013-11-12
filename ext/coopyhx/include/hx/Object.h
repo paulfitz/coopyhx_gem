@@ -29,7 +29,6 @@ enum ObjectType
 
 
 
-
 namespace hx
 {
 
@@ -39,10 +38,19 @@ class FieldRef;
 class IndexRef;
 typedef Array<Dynamic> DynamicArray;
 
-
 #ifdef HXCPP_SCRIPTABLE
-class ScriptHandler;
+typedef void (*StackExecute)(struct CppiaCtx *ctx);
+struct ScriptFunction
+{
+   ScriptFunction(StackExecute inExe=0,const char *inSig=0)
+      : execute(inExe), signature(inSig) { }
+   StackExecute execute;
+   const char   *signature;
+};
+struct ScriptCallable;
+
 #endif
+
 
 // --- hx::Object ------------------------------------------------------------
 //
@@ -117,9 +125,9 @@ public:
    virtual int __ArgCount() const { return -1; }
 
    #ifdef HXCPP_SCRIPTABLE
-   virtual ScriptHandler *__GetScriptHandler() { return 0; }
-   virtual unsigned char *__GetScriptData() { return 0; }
-   virtual void __Construct(Array<Dynamic> &inArgs) {  }
+   virtual void **__GetScriptVTable() { return 0; }
+   virtual hx::ScriptCallable *__GetScriptCallable() { return 0; }
+   static hx::ScriptFunction __script_construct;
    #endif
 
    inline bool __compare( hx::Object *inRHS )
@@ -193,14 +201,18 @@ public:
    inline OBJ_ *operator->()
    {
       #ifdef HXCPP_CHECK_POINTER
-      if (!mPtr) NullObjectReference();
+      if (!mPtr) NullReference("Object", true);
+      // The handler might have fixed up the null value
+      if (!mPtr) NullReference("Object", false);
       #endif
       return mPtr;
    }
    inline const OBJ_ *operator->() const
    {
       #ifdef HXCPP_CHECK_POINTER
-      if (!mPtr) NullObjectReference();
+      if (!mPtr) NullReference("Object", true);
+      // The handler might have fixed up the null value
+      if (!mPtr) NullReference("Object", false);
       #endif
       return mPtr;
    }

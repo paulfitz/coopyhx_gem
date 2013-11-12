@@ -29,6 +29,10 @@ typedef  int64_t  __int64;
 
 #endif
 
+#ifdef HXCPP_SCRIPTABLE
+#include <hx/Scriptable.h>
+#endif
+
 
 // --- hxObject -----------------------------------------
 
@@ -78,10 +82,37 @@ bool AlwaysCast(Object *inPtr) { return inPtr!=0; }
 
 
 
+#ifdef HXCPP_SCRIPTABLE
+
+class Object__scriptable : public hx::Object {
+   typedef Object__scriptable __ME;
+   void __construct() { }
+   typedef hx::Object super;
+   typedef hx::Object __superString;
+   HX_DEFINE_SCRIPTABLE(HX_ARR_LIST0);
+	HX_DEFINE_SCRIPTABLE_DYNAMIC;
+};
+
+hx::ScriptFunction Object::__script_construct;
+
+static void __s_toString(hx::CppiaCtx *ctx) {
+   ctx->returnString((ctx->getThis())->toString());
+}
+static hx::ScriptNamedFunction __scriptableFunctions[] = {
+  hx::ScriptNamedFunction("toString",__s_toString,"s"),
+  hx::ScriptNamedFunction(0,0,0) };
+
+#endif
+
 void Object::__boot()
 {
    Static(Object__mClass) = hx::RegisterClass(HX_CSTRING("Dynamic"),AlwaysCast,sNone,sNone,0,0, 0, 0 );
+
+   #ifdef HXCPP_SCRIPTABLE
+   hx::ScriptableRegisterClass( HX_CSTRING("hx.Object"), (int)sizeof(hx::Object__scriptable), __scriptableFunctions, Object__scriptable::__script_create, Object::__script_construct );
+   #endif
 }
+
 
 Class &Object::__SGetClass() { return Object__mClass; }
 

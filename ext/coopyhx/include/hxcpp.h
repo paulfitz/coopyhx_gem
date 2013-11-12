@@ -20,7 +20,7 @@ typedef  int64_t  __int64;
 #endif
 #endif
 
-#ifdef EMSCRIPTEN
+#if defined(EMSCRIPTEN) || defined(IPHONE)
 #include <unistd.h>
 #include <cstdlib>
 #endif
@@ -87,33 +87,29 @@ typedef char HX_CHAR;
 #ifdef BIG_ENDIAN
 #undef BIG_ENDIAN
 
-  #ifndef HX_LITTLE_ENDIAN
-  #define HX_LITTLE_ENDIAN 0
+  #ifndef HXCPP_BIG_ENDIAN
+  #define HXCPP_BIG_ENDIAN
   #endif
 #endif
 
 #ifdef __BIG_ENDIAN__
-  #ifndef HX_LITTLE_ENDIAN
-  #define HX_LITTLE_ENDIAN 0
+  #ifndef HXCPP_BIG_ENDIAN
+  #define HXCPP_BIG_ENDIAN
   #endif
 #endif
 
 #ifdef LITTLE_ENDIAN
 #undef LITTLE_ENDIAN
 
-  #ifndef HX_LITTLE_ENDIAN
-  #define HX_LITTLE_ENDIAN 1
+  #ifdef HXCPP_BIG_ENDIAN
+  #undef HXCPP_BIG_ENDIAN
   #endif
 #endif
 
 #ifdef __LITTLE_ENDIAN__
-  #ifndef HX_LITTLE_ENDIAN
-  #define HX_LITTLE_ENDIAN 1
+  #ifdef HXCPP_BIG_ENDIAN
+  #undef HXCPP_BIG_ENDIAN
   #endif
-#endif
-
-#ifndef HX_LITTLE_ENDIAN
-#define HX_LITTLE_ENDIAN 1
 #endif
 
 
@@ -157,7 +153,7 @@ class String;
 // Use an external routine to throw to avoid sjlj overhead on iphone.
 namespace hx { HXCPP_EXTERN_CLASS_ATTRIBUTES Dynamic Throw(Dynamic inDynamic); }
 namespace hx { extern void CriticalError(const String &inError); }
-namespace hx { extern void NullObjectReference(); }
+namespace hx { extern void NullReference(const char *type, bool allowFixup); }
 namespace hx { extern String sNone[]; }
 void __hxcpp_check_overflow(int inVal);
 

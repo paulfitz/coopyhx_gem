@@ -32,17 +32,17 @@ class HXCPP_CLASS_ATTRIBUTES  Compare_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("Compare"); }
 
-		virtual bool comparePrimitive( ::coopy::Workspace ws);
-		Dynamic comparePrimitive_dyn();
-
-		virtual bool compareTable( ::coopy::Workspace ws);
-		Dynamic compareTable_dyn();
+		virtual bool compare( ::coopy::ViewedDatum parent,::coopy::ViewedDatum local,::coopy::ViewedDatum remote,::coopy::Report report);
+		Dynamic compare_dyn();
 
 		virtual bool compareStructured( ::coopy::Workspace ws);
 		Dynamic compareStructured_dyn();
 
-		virtual bool compare( ::coopy::ViewedDatum parent,::coopy::ViewedDatum local,::coopy::ViewedDatum remote,::coopy::Report report);
-		Dynamic compare_dyn();
+		virtual bool compareTable( ::coopy::Workspace ws);
+		Dynamic compareTable_dyn();
+
+		virtual bool comparePrimitive( ::coopy::Workspace ws);
+		Dynamic comparePrimitive_dyn();
 
 };
 

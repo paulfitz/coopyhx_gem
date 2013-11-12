@@ -30,48 +30,48 @@ class HXCPP_CLASS_ATTRIBUTES  Viterbi_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("Viterbi"); }
 
-		virtual Float getCost( );
-		Dynamic getCost_dyn();
-
-		virtual int get( int i);
-		Dynamic get_dyn();
-
-		virtual int length( );
-		Dynamic length_dyn();
-
-		virtual ::String toString( );
-		Dynamic toString_dyn();
-
-		virtual Void calculatePath( );
-		Dynamic calculatePath_dyn();
-
-		virtual Void beginTransitions( );
-		Dynamic beginTransitions_dyn();
-
-		virtual Void endTransitions( );
-		Dynamic endTransitions_dyn();
-
-		virtual Void addTransition( int s0,int s1,Float c);
-		Dynamic addTransition_dyn();
-
-		virtual Void assertMode( int next);
-		Dynamic assertMode_dyn();
+		int K;
+		int T;
+		int index;
+		int mode;
+		bool path_valid;
+		Float best_cost;
+		::coopy::SparseSheet cost;
+		::coopy::SparseSheet src;
+		::coopy::SparseSheet path;
+		virtual Void reset( );
+		Dynamic reset_dyn();
 
 		virtual Void setSize( int states,int sequence_length);
 		Dynamic setSize_dyn();
 
-		virtual Void reset( );
-		Dynamic reset_dyn();
+		virtual Void assertMode( int next);
+		Dynamic assertMode_dyn();
 
-		::coopy::SparseSheet path;
-		::coopy::SparseSheet src;
-		::coopy::SparseSheet cost;
-		Float best_cost;
-		bool path_valid;
-		int mode;
-		int index;
-		int T;
-		int K;
+		virtual Void addTransition( int s0,int s1,Float c);
+		Dynamic addTransition_dyn();
+
+		virtual Void endTransitions( );
+		Dynamic endTransitions_dyn();
+
+		virtual Void beginTransitions( );
+		Dynamic beginTransitions_dyn();
+
+		virtual Void calculatePath( );
+		Dynamic calculatePath_dyn();
+
+		virtual ::String toString( );
+		Dynamic toString_dyn();
+
+		virtual int length( );
+		Dynamic length_dyn();
+
+		virtual int get( int i);
+		Dynamic get_dyn();
+
+		virtual Float getCost( );
+		Dynamic getCost_dyn();
+
 };
 
 } // end namespace coopy

@@ -30,18 +30,18 @@ class HXCPP_CLASS_ATTRIBUTES  TableComparisonState_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("TableComparisonState"); }
 
+		::coopy::Table p;
+		::coopy::Table a;
+		::coopy::Table b;
+		bool completed;
+		bool run_to_completion;
+		bool is_equal;
+		bool is_equal_known;
+		bool has_same_columns;
+		bool has_same_columns_known;
 		virtual Void reset( );
 		Dynamic reset_dyn();
 
-		bool has_same_columns_known;
-		bool has_same_columns;
-		bool is_equal_known;
-		bool is_equal;
-		bool run_to_completion;
-		bool completed;
-		::coopy::Table b;
-		::coopy::Table a;
-		::coopy::Table p;
 };
 
 } // end namespace coopy

@@ -21,6 +21,11 @@ enum { gFillWithJunk = 0 } ;
 #include <set>
 #include <stdio.h>
 
+#include "QuickVec.h"
+
+#ifndef __has_builtin
+#define __has_builtin(x) 0
+#endif
 
 static bool sgAllocInit = 0;
 static bool sgInternalEnable = false;
@@ -63,6 +68,7 @@ static int sgTimeToNextTableUpdate = 0;
 
 
 MyMutex  *gThreadStateChangeLock=0;
+MyMutex  *gSpecialObjectLock=0;
 
 class LocalAllocator;
 enum LocalAllocState { lasNew, lasRunning, lasStopped, lasWaiting, lasTerminal };
@@ -81,144 +87,7 @@ void ExitGCFreeZoneLocked();
 
 //#define DEBUG_ALLOC_PTR ((char *)0xb68354)
 
-template<typename T>
-struct QuickVec
-{
-   QuickVec() : mPtr(0), mAlloc(0), mSize(0) { } 
-   inline void push(T inT)
-   {
-      if (mSize+1>=mAlloc)
-      {
-         mAlloc = 10 + (mSize*3/2);
-         mPtr = (T *)realloc(mPtr,sizeof(T)*mAlloc);
-      }
-      mPtr[mSize++]=inT;
-   }
-   void setSize(int inSize)
-   {
-      if (inSize>mAlloc)
-      {
-         mAlloc = inSize;
-         mPtr = (T *)realloc(mPtr,sizeof(T)*mAlloc);
-      }
-      mSize = inSize;
-   }
-   inline T pop()
-   {
-      return mPtr[--mSize];
-   }
-   inline void qerase(int inPos)
-   {
-      --mSize;
-      mPtr[inPos] = mPtr[mSize];
-   }
-   inline void erase(int inPos)
-   {
-      --mSize;
-      if (mSize>inPos)
-         memmove(mPtr+inPos, mPtr+inPos+1, (mSize-inPos)*sizeof(T));
-   }
-   void zero() { memset(mPtr,0,mSize*sizeof(T) ); }
 
-   inline void qerase_val(T inVal)
-   {
-      for(int i=0;i<mSize;i++)
-         if (mPtr[i]==inVal)
-         {
-            --mSize;
-            mPtr[i] = mPtr[mSize];
-            return;
-         }
-   }
-
-   inline bool some_left() { return mSize; }
-   inline bool empty() const { return !mSize; }
-   inline void clear() { mSize = 0; }
-   inline int next()
-   {
-      if (mSize+1>=mAlloc)
-      {
-         mAlloc = 10 + (mSize*3/2);
-         mPtr = (T *)realloc(mPtr,sizeof(T)*mAlloc);
-      }
-      return mSize++;
-   }
-   inline int size() const { return mSize; }
-   inline T &operator[](int inIndex) { return mPtr[inIndex]; }
-
-   int mAlloc;
-   int mSize;
-   T *mPtr;
-};
-
-
-template<typename T>
-class QuickDeque
-{
-    struct Slab
-    {
-       T mElems[1024];
-    };
-
-    QuickVec<Slab *> mSpare;
-    QuickVec<Slab *> mActive;
-
-    int  mHeadPos;
-    int  mTailPos;
-    Slab *mHead;
-    Slab *mTail;
-
-public:
-
-   QuickDeque()
-   {
-      mHead = mTail = 0;
-      mHeadPos = 1024;
-      mTailPos = 1024;
-   }
-   ~QuickDeque()
-   {
-      for(int i=0;i<mSpare.size();i++)
-         delete mSpare[i];
-      for(int i=0;i<mActive.size();i++)
-         delete mActive[i];
-      delete mHead;
-      if (mTail!=mHead)
-         delete mTail;
-   }
-   inline void push(T inObj)
-   {
-      if (mHeadPos<1024)
-      {
-         mHead->mElems[mHeadPos++] = inObj;
-         return;
-      }
-      if (mHead != mTail)
-         mActive.push(mHead);
-      mHead = mSpare.empty() ? new Slab : mSpare.pop();
-      mHead->mElems[0] = inObj;
-      mHeadPos = 1;
-   }
-   inline bool some_left() { return mHead!=mTail || mHeadPos!=mTailPos; }
-   inline T pop()
-   {
-      if (mTailPos<1024)
-         return mTail->mElems[mTailPos++];
-      if (mTail)
-         mSpare.push(mTail);
-      if (mActive.empty())
-      {
-         mTail = mHead;
-      }
-      else
-      {
-         mTail = mActive[0];
-         mActive.erase(0);
-      }
-      mTailPos = 1;
-      return mTail->mElems[0];
-   }
-};
 
 /*
 class IDAllocator
@@ -260,7 +129,7 @@ struct GroupInfo
    int  used;
 };
  
-QuickVec<GroupInfo> gAllocGroups;
+hx::QuickVec<GroupInfo> gAllocGroups;
 
 #endif
 
@@ -333,7 +202,7 @@ OBJ = ENDIAN_OBJ_NEXT_BYTE = start is measured from the header pointer
 
 */
 
-#if HX_LITTLE_ENDIAN
+#ifndef HXCPP_BIG_ENDIAN
 #define ENDIAN_MARK_ID_BYTE        -1
 #define ENDIAN_OBJ_NEXT_BYTE       2
 #else
@@ -392,7 +261,7 @@ struct BlockDataInfo
    bool mPinned;
 };
 
-QuickVec<BlockDataInfo> *gBlockInfo = 0;
+hx::QuickVec<BlockDataInfo> *gBlockInfo = 0;
 
 union BlockData
 {
@@ -430,7 +299,7 @@ union BlockData
    int nextBlockId()
    {
       if (gBlockInfo==0)
-         gBlockInfo = new QuickVec<BlockDataInfo>;
+         gBlockInfo = new hx::QuickVec<BlockDataInfo>;
       for(int i=0;i<gBlockInfo->size();i++)
          if ( !(*gBlockInfo)[i].mPtr )
            return i;
@@ -507,7 +376,11 @@ union BlockData
             if (row_flag!=0)
             {
                GCLOG("Block verification failed on row %d\n",r);
+               #if __has_builtin(__builtin_trap)
+               __builtin_trap();
+               #else
                *(int *)0=0;
+               #endif
             }
          }
       }
@@ -825,7 +698,7 @@ public:
     int mPos;
     MarkInfo *mInfo;
     // Last in, first out
-    QuickVec<hx::Object *> mDeque;
+    hx::QuickVec<hx::Object *> mDeque;
     // First in, first out
     //QuickDeque<hx::Object *> mDeque;
 };
@@ -915,7 +788,7 @@ void GCRemoveRoot(hx::Object **inRoot)
 #endif
 
 class WeakRef;
-typedef QuickVec<WeakRef *> WeakRefs;
+typedef hx::QuickVec<WeakRef *> WeakRefs;
 
 FILE_SCOPE MyMutex *sFinalizerLock = 0;
 FILE_SCOPE WeakRefs sWeakRefs;
@@ -942,23 +815,23 @@ public:
 
 
 
-typedef QuickVec<InternalFinalizer *> FinalizerList;
+typedef hx::QuickVec<InternalFinalizer *> FinalizerList;
 
 FILE_SCOPE FinalizerList *sgFinalizers = 0;
 
 typedef std::map<hx::Object *,hx::finalizer> FinalizerMap;
 FILE_SCOPE FinalizerMap sFinalizerMap;
 
-QuickVec<int> sFreeObjectIds;
+hx::QuickVec<int> sFreeObjectIds;
 typedef std::map<hx::Object *,int> ObjectIdMap;
-typedef QuickVec<hx::Object *> IdObjectMap;
+typedef hx::QuickVec<hx::Object *> IdObjectMap;
 FILE_SCOPE ObjectIdMap sObjectIdMap;
 FILE_SCOPE IdObjectMap sIdObjectMap;
 
 typedef std::set<hx::Object *> MakeZombieSet;
 FILE_SCOPE MakeZombieSet sMakeZombieSet;
 
-typedef QuickVec<hx::Object *> ZombieList;
+typedef hx::QuickVec<hx::Object *> ZombieList;
 FILE_SCOPE ZombieList sZombieList;
 
 
@@ -969,7 +842,7 @@ InternalFinalizer::InternalFinalizer(hx::Object *inObj)
    mObject = inObj;
    mFinalizer = 0;
 
-   AutoLock lock(*gThreadStateChangeLock);
+   AutoLock lock(*gSpecialObjectLock);
    sgFinalizers->push(this);
 }
 
@@ -1074,6 +947,22 @@ void RunFinalizers()
          // what about the reference?
          hx::Object *r = ref->mRef.mPtr;
          unsigned char mark = ((unsigned char *)r)[ENDIAN_MARK_ID_BYTE];
+
+         // Special case of member closure - check if the 'this' pointer is still alive
+         if ( mark!=gByteMarkID && r->__GetType()==vtFunction)
+         {
+            hx::Object *thiz = (hx::Object *)r->__GetHandle();
+            if (thiz)
+            {
+               mark = ((unsigned char *)thiz)[ENDIAN_MARK_ID_BYTE];
+               if (mark==gByteMarkID)
+               {
+                  // The object is still alive, so mark the closure and continue
+                  MarkAlloc(r,0);
+               }
+            }
+         }
+
          if ( mark!=gByteMarkID )
          {
             ref->mRef.mPtr = 0;
@@ -1088,7 +977,7 @@ void RunFinalizers()
 // Callback finalizer on non-abstract type;
 void  GCSetFinalizer( hx::Object *obj, hx::finalizer f )
 {
-   AutoLock lock(*gThreadStateChangeLock);
+   AutoLock lock(*gSpecialObjectLock);
    if (f==0)
    {
       FinalizerMap::iterator i = sFinalizerMap.find(obj);
@@ -1101,13 +990,13 @@ void  GCSetFinalizer( hx::Object *obj, hx::finalizer f )
 
 void GCDoNotKill(hx::Object *inObj)
 {
-   AutoLock lock(*gThreadStateChangeLock);
+   AutoLock lock(*gSpecialObjectLock);
    sMakeZombieSet.insert(inObj);
 }
 
 hx::Object *GCGetNextZombie()
 {
-   AutoLock lock(*gThreadStateChangeLock);
+   AutoLock lock(*gSpecialObjectLock);
    if (sZombieList.empty())
       return 0;
    hx::Object *result = sZombieList.pop();
@@ -1149,9 +1038,9 @@ hx::Object *__hxcpp_weak_ref_get(Dynamic inRef)
 // --- GlobalAllocator -------------------------------------------------------
 
 typedef std::set<BlockData *> PointerSet;
-typedef QuickVec<BlockData *> BlockList;
+typedef hx::QuickVec<BlockData *> BlockList;
 
-typedef QuickVec<unsigned int *> LargeList;
+typedef hx::QuickVec<unsigned int *> LargeList;
 
 enum MemType { memUnmanaged, memBlock, memLarge };
 
@@ -1191,7 +1080,10 @@ public:
    void AddLocal(LocalAllocator *inAlloc)
    {
       if (!gThreadStateChangeLock)
+      {
          gThreadStateChangeLock = new MyMutex();
+         gSpecialObjectLock = new MyMutex();
+      }
       // Until we add ourselves, the colled will not wait
       //  on us - ie, we are assumed ot be in a GC free zone.
       AutoLock lock(*gThreadStateChangeLock);
@@ -1713,7 +1605,7 @@ public:
  
    void *GetIDObject(int inIndex)
    {
-      AutoLock lock(*gThreadStateChangeLock);
+      AutoLock lock(*gSpecialObjectLock);
       if (inIndex<0 || inIndex>hx::sIdObjectMap.size())
          return 0;
       return hx::sIdObjectMap[inIndex];
@@ -1721,7 +1613,7 @@ public:
 
    int GetObjectID(void * inPtr)
    {
-      AutoLock lock(*gThreadStateChangeLock);
+      AutoLock lock(*gSpecialObjectLock);
       hx::ObjectIdMap::iterator i = hx::sObjectIdMap.find( (hx::Object *)inPtr );
       if (i!=hx::sObjectIdMap.end())
          return i->second;
@@ -1811,7 +1703,7 @@ public:
 
    int Collect(bool inMajor, bool inForceCompact)
    {
-      HX_STACK_PUSH("GC::collect",__FILE__,__LINE__)
+      HX_STACK_FRAME("GC", "collect", 0, "GC::collect", __FILE__, __LINE__,0)
       #ifdef ANDROID
       //__android_log_print(ANDROID_LOG_ERROR, "hxcpp", "Collect...");
       #endif
@@ -2028,7 +1920,7 @@ public:
    LargeList mLargeList;
    PointerSet mActiveBlocks;
    MyMutex    mLargeListLock;
-   QuickVec<LocalAllocator *> mLocalAllocs;
+   hx::QuickVec<LocalAllocator *> mLocalAllocs;
 };
 
 GlobalAllocator *sGlobalAlloc = 0;
@@ -2395,7 +2287,11 @@ LocalAllocator *GetLocalAllocMT()
       );
       #endif
 
+      #if __has_builtin(__builtin_trap)
+      __builtin_trap();
+      #else
       *(int *)0=0;
+      #endif
    }
    return result;
 }
@@ -2507,7 +2403,7 @@ void SetTopOfStack(int *inTop,bool inForce)
 
 void *InternalNew(int inSize,bool inIsObject)
 {
-   HX_STACK_PUSH("GC::new",__FILE__,__LINE__)
+   HX_STACK_FRAME("GC", "new", 0, "GC::new", __FILE__, __LINE__, 0)
 
    if (inSize>=IMMIX_LARGE_OBJ_SIZE)
    {
@@ -2542,7 +2438,7 @@ void *InternalRealloc(void *inData,int inSize)
    if (inData==0)
       return hx::InternalNew(inSize,false);
 
-   HX_STACK_PUSH("GC::realloc",__FILE__,__LINE__)
+   HX_STACK_FRAME("GC", "realloc", 0, "GC::relloc", __FILE__ , __LINE__, 0)
 
    unsigned int header = ((unsigned int *)(inData))[-1];
 

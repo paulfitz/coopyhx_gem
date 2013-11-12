@@ -33,16 +33,16 @@ class HXCPP_CLASS_ATTRIBUTES  Workspace_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("Workspace"); }
 
-		::coopy::TableComparisonState l2r;
-		::coopy::TableComparisonState p2r;
-		::coopy::TableComparisonState p2l;
-		::coopy::Table tremote;
-		::coopy::Table tlocal;
-		::coopy::Table tparent;
-		::coopy::Report report;
-		::coopy::ViewedDatum remote;
-		::coopy::ViewedDatum local;
 		::coopy::ViewedDatum parent;
+		::coopy::ViewedDatum local;
+		::coopy::ViewedDatum remote;
+		::coopy::Report report;
+		::coopy::Table tparent;
+		::coopy::Table tlocal;
+		::coopy::Table tremote;
+		::coopy::TableComparisonState p2l;
+		::coopy::TableComparisonState p2r;
+		::coopy::TableComparisonState l2r;
 };
 
 } // end namespace coopy

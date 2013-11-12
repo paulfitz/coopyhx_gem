@@ -29,15 +29,19 @@ class HXCPP_CLASS_ATTRIBUTES  HighlightPatchUnit_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("HighlightPatchUnit"); }
 
+		bool add;
+		bool rem;
+		bool update;
+		::String code;
+		int sourceRow;
+		int sourceRowOffset;
+		int sourcePrevRow;
+		int sourceNextRow;
+		int destRow;
+		int patchRow;
 		virtual ::String toString( );
 		Dynamic toString_dyn();
 
-		int patchRow;
-		int sourceRow2;
-		int sourceRow;
-		bool pad;
-		bool rem;
-		bool add;
 };
 
 } // end namespace coopy

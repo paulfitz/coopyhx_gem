@@ -7,6 +7,7 @@
 
 #include <coopy/Row.h>
 HX_DECLARE_CLASS0(IMap)
+HX_DECLARE_CLASS1(coopy,CellInfo)
 HX_DECLARE_CLASS1(coopy,Csv)
 HX_DECLARE_CLASS1(coopy,HighlightPatch)
 HX_DECLARE_CLASS1(coopy,HighlightPatchUnit)
@@ -44,88 +45,101 @@ class HXCPP_CLASS_ATTRIBUTES  HighlightPatch_obj : public hx::Object{
 		inline operator ::coopy::Row_obj *()
 			{ return new ::coopy::Row_delegate_< HighlightPatch_obj >(this); }
 #endif //SWIGFIX
-		hx::Object *__ToInterface(const type_info &inType);
+		hx::Object *__ToInterface(const hx::type_info &inType);
 		::String __ToString() const { return HX_CSTRING("HighlightPatch"); }
 
-		virtual Void finishColumns( );
-		Dynamic finishColumns_dyn();
-
-		virtual Void finishRows( );
-		Dynamic finishRows_dyn();
-
-		virtual int processMods( Array< ::coopy::HighlightPatchUnit > rmods,Array< int > fate,int len);
-		Dynamic processMods_dyn();
-
-		virtual ::String getRowString( int c);
-		Dynamic getRowString_dyn();
-
-		virtual ::String getPreString( ::String txt);
-		Dynamic getPreString_dyn();
-
-		virtual Void checkAct( );
-		Dynamic checkAct_dyn();
-
-		virtual Void applyPad( );
-		Dynamic applyPad_dyn();
-
-		virtual Void applyDelete( );
-		Dynamic applyDelete_dyn();
-
-		virtual int lookUp( );
-		Dynamic lookUp_dyn();
-
-		virtual Void applyInsert( );
-		Dynamic applyInsert_dyn();
-
-		virtual Void applyUpdate( );
-		Dynamic applyUpdate_dyn();
-
-		virtual Void applyHeader( );
-		Dynamic applyHeader_dyn();
-
-		virtual Void applyMeta( );
-		Dynamic applyMeta_dyn();
-
-		virtual ::String getString( int c);
-		Dynamic getString_dyn();
-
-		virtual Dynamic getDatum( int c);
-		Dynamic getDatum_dyn();
-
-		virtual Void applyRow( int r);
-		Dynamic applyRow_dyn();
-
-		virtual Void needSourceIndex( );
-		Dynamic needSourceIndex_dyn();
-
-		virtual Void needSourceColumns( );
-		Dynamic needSourceColumns_dyn();
+		::coopy::Table source;
+		::coopy::Table patch;
+		::coopy::View view;
+		::coopy::Csv csv;
+		::haxe::ds::IntMap header;
+		::haxe::ds::StringMap headerPre;
+		::haxe::ds::StringMap headerPost;
+		::haxe::ds::StringMap headerRename;
+		::haxe::ds::StringMap headerMove;
+		::haxe::ds::IntMap modifier;
+		int currentRow;
+		int payloadCol;
+		int payloadTop;
+		Array< ::Dynamic > mods;
+		Array< ::Dynamic > cmods;
+		::coopy::CellInfo rowInfo;
+		::coopy::CellInfo cellInfo;
+		int rcOffset;
+		Array< ::Dynamic > indexes;
+		::haxe::ds::IntMap sourceInPatchCol;
+		::haxe::ds::IntMap patchInSourceCol;
+		::haxe::ds::IntMap patchInSourceRow;
+		int lastSourceRow;
+		Array< ::String > actions;
+		Array< int > rowPermutation;
+		Array< int > rowPermutationRev;
+		Array< int > colPermutation;
+		Array< int > colPermutationRev;
+		bool haveDroppedColumns;
+		virtual Void reset( );
+		Dynamic reset_dyn();
 
 		virtual bool apply( );
 		Dynamic apply_dyn();
 
-		::coopy::Csv csv;
-		bool actIsConflicted;
-		bool actIsUpdate;
-		::String actBaseCache;
-		::String actCache;
-		bool haveSourceColumns;
-		Array< ::coopy::HighlightPatchUnit > cmods;
-		Array< ::coopy::HighlightPatchUnit > mods;
-		::haxe::ds::IntMap patchInSource;
-		::haxe::ds::IntMap sourceInPatch;
-		Array< ::coopy::IndexPair > indexes;
-		::haxe::ds::IntMap modifier;
-		::haxe::ds::StringMap headerRename;
-		::haxe::ds::StringMap headerPost;
-		::haxe::ds::StringMap headerPre;
-		::haxe::ds::IntMap header;
-		::coopy::View view;
-		int payloadTop;
-		int payloadCol;
-		int currentRow;
-		::coopy::Table patch;
-		::coopy::Table source;
+		virtual Void needSourceColumns( );
+		Dynamic needSourceColumns_dyn();
+
+		virtual Void needSourceIndex( );
+		Dynamic needSourceIndex_dyn();
+
+		virtual Void applyRow( int r);
+		Dynamic applyRow_dyn();
+
+		virtual Dynamic getDatum( int c);
+		Dynamic getDatum_dyn();
+
+		virtual ::String getString( int c);
+		Dynamic getString_dyn();
+
+		virtual Void applyMeta( );
+		Dynamic applyMeta_dyn();
+
+		virtual Void applyHeader( );
+		Dynamic applyHeader_dyn();
+
+		virtual int lookUp( hx::Null< int >  del);
+		Dynamic lookUp_dyn();
+
+		virtual Void applyAction( ::String code);
+		Dynamic applyAction_dyn();
+
+		virtual Void checkAct( );
+		Dynamic checkAct_dyn();
+
+		virtual ::String getPreString( ::String txt);
+		Dynamic getPreString_dyn();
+
+		virtual ::String getRowString( int c);
+		Dynamic getRowString_dyn();
+
+		virtual int sortMods( ::coopy::HighlightPatchUnit a,::coopy::HighlightPatchUnit b);
+		Dynamic sortMods_dyn();
+
+		virtual int processMods( Array< ::Dynamic > rmods,Array< int > fate,int len);
+		Dynamic processMods_dyn();
+
+		virtual Void computeOrdering( Array< ::Dynamic > mods,Array< int > permutation,Array< int > permutationRev,int dim);
+		Dynamic computeOrdering_dyn();
+
+		virtual Void permuteRows( );
+		Dynamic permuteRows_dyn();
+
+		virtual Void finishRows( );
+		Dynamic finishRows_dyn();
+
+		virtual Void permuteColumns( );
+		Dynamic permuteColumns_dyn();
+
+		virtual Void finishColumns( );
+		Dynamic finishColumns_dyn();
+
 };
 
 } // end namespace coopy

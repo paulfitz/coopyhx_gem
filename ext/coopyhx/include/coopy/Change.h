@@ -31,14 +31,14 @@ class HXCPP_CLASS_ATTRIBUTES  Change_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("Change"); }
 
+		::String change;
+		::coopy::ViewedDatum parent;
+		::coopy::ViewedDatum local;
+		::coopy::ViewedDatum remote;
+		::coopy::ChangeType mode;
 		virtual ::String toString( );
 		Dynamic toString_dyn();
 
-		::coopy::ChangeType mode;
-		::coopy::ViewedDatum remote;
-		::coopy::ViewedDatum local;
-		::coopy::ViewedDatum parent;
-		::String change;
 };
 
 } // end namespace coopy

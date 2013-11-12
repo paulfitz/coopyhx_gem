@@ -33,33 +33,33 @@ class HXCPP_CLASS_ATTRIBUTES  IndexPair_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("IndexPair"); }
 
-		virtual Float getQuality( );
-		Dynamic getQuality_dyn();
-
-		virtual int getTopFreq( );
-		Dynamic getTopFreq_dyn();
-
-		virtual ::coopy::CrossMatch queryLocal( int row);
-		Dynamic queryLocal_dyn();
-
-		virtual ::coopy::CrossMatch queryByContent( ::coopy::Row row);
-		Dynamic queryByContent_dyn();
-
-		virtual ::coopy::CrossMatch queryByKey( ::String ka);
-		Dynamic queryByKey_dyn();
-
-		virtual Void indexTables( ::coopy::Table a,::coopy::Table b);
-		Dynamic indexTables_dyn();
+		::coopy::Index ia;
+		::coopy::Index ib;
+		Float quality;
+		virtual Void addColumn( int i);
+		Dynamic addColumn_dyn();
 
 		virtual Void addColumns( int ca,int cb);
 		Dynamic addColumns_dyn();
 
-		virtual Void addColumn( int i);
-		Dynamic addColumn_dyn();
+		virtual Void indexTables( ::coopy::Table a,::coopy::Table b);
+		Dynamic indexTables_dyn();
 
-		Float quality;
-		::coopy::Index ib;
-		::coopy::Index ia;
+		virtual ::coopy::CrossMatch queryByKey( ::String ka);
+		Dynamic queryByKey_dyn();
+
+		virtual ::coopy::CrossMatch queryByContent( ::coopy::Row row);
+		Dynamic queryByContent_dyn();
+
+		virtual ::coopy::CrossMatch queryLocal( int row);
+		Dynamic queryLocal_dyn();
+
+		virtual int getTopFreq( );
+		Dynamic getTopFreq_dyn();
+
+		virtual Float getQuality( );
+		Dynamic getQuality_dyn();
+
 };
 
 } // end namespace coopy

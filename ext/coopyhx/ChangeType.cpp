@@ -70,6 +70,7 @@ static void sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(ChangeType_obj::SAME_CHANGE,"SAME_CHANGE");
 };
 
+#ifdef HXCPP_VISIT_ALLOCS
 static void sVisitStatic(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(ChangeType_obj::__mClass,"__mClass");
 	HX_VISIT_MEMBER_NAME(ChangeType_obj::BOTH_CHANGE,"BOTH_CHANGE");
@@ -79,6 +80,7 @@ static void sVisitStatic(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(ChangeType_obj::REMOTE_CHANGE,"REMOTE_CHANGE");
 	HX_VISIT_MEMBER_NAME(ChangeType_obj::SAME_CHANGE,"SAME_CHANGE");
 };
+#endif
 
 static ::String sMemberFields[] = { ::String(null()) };
 Class ChangeType_obj::__mClass;
@@ -90,7 +92,14 @@ void ChangeType_obj::__register()
 
 hx::Static(__mClass) = hx::RegisterClass(HX_CSTRING("coopy.ChangeType"), hx::TCanCast< ChangeType_obj >,sStaticFields,sMemberFields,
 	&__Create_ChangeType_obj, &__Create,
-	&super::__SGetClass(), &CreateChangeType_obj, sMarkStatics, sVisitStatic);
+	&super::__SGetClass(), &CreateChangeType_obj, sMarkStatics
+#ifdef HXCPP_VISIT_ALLOCS
+    , sVisitStatic
+#endif
+#ifdef HXCPP_SCRIPTABLE
+    , 0
+#endif
+);
 }
 
 void ChangeType_obj::__boot()

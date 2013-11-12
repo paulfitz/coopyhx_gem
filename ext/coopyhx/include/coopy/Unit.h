@@ -14,10 +14,10 @@ class HXCPP_CLASS_ATTRIBUTES  Unit_obj : public hx::Object{
 		typedef hx::Object super;
 		typedef Unit_obj OBJ_;
 		Unit_obj();
-		Void __construct(int l,int r,hx::Null< int >  __o_p);
+		Void __construct(hx::Null< int >  __o_l,hx::Null< int >  __o_r,hx::Null< int >  __o_p);
 
 	public:
-		static hx::ObjectPtr< Unit_obj > __new(int l,int r,hx::Null< int >  __o_p);
+		static hx::ObjectPtr< Unit_obj > __new(hx::Null< int >  __o_l,hx::Null< int >  __o_r,hx::Null< int >  __o_p);
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(hx::DynamicArray inArgs);
 		~Unit_obj();
@@ -29,15 +29,18 @@ class HXCPP_CLASS_ATTRIBUTES  Unit_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("Unit"); }
 
-		virtual ::String toString( );
-		Dynamic toString_dyn();
-
+		int l;
+		int r;
+		int p;
 		virtual int lp( );
 		Dynamic lp_dyn();
 
-		int p;
-		int r;
-		int l;
+		virtual ::String toString( );
+		Dynamic toString_dyn();
+
+		virtual bool fromString( ::String txt);
+		Dynamic fromString_dyn();
+
 		static ::String describe( int i);
 		static Dynamic describe_dyn();
 

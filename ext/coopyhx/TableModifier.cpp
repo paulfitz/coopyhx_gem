@@ -10,9 +10,11 @@ namespace coopy{
 
 Void TableModifier_obj::__construct(::coopy::Table t)
 {
-HX_STACK_PUSH("TableModifier::new","coopy/TableModifier.hx",9);
+HX_STACK_FRAME("coopy.TableModifier","new",0x9db2ecf5,"coopy.TableModifier.new","coopy/TableModifier.hx",10,0xfd587a1c)
+
+HX_STACK_ARG(t,"t")
 {
-	HX_STACK_LINE(9)
+	HX_STACK_LINE(10)
 	this->t = t;
 }
 ;
@@ -33,15 +35,16 @@ Dynamic TableModifier_obj::__Create(hx::DynamicArray inArgs)
 	return result;}
 
 bool TableModifier_obj::removeColumn( int at){
-	HX_STACK_PUSH("TableModifier::removeColumn","coopy/TableModifier.hx",13);
-	HX_STACK_THIS(this);
-	HX_STACK_ARG(at,"at");
+	HX_STACK_FRAME("coopy.TableModifier","removeColumn",0x84ee1305,"coopy.TableModifier.removeColumn","coopy/TableModifier.hx",13,0xfd587a1c)
+	HX_STACK_THIS(this)
+	HX_STACK_ARG(at,"at")
 	HX_STACK_LINE(14)
 	Array< int > fate = Array_obj< int >::__new();		HX_STACK_VAR(fate,"fate");
 	HX_STACK_LINE(15)
 	{
 		HX_STACK_LINE(15)
 		int _g1 = (int)0;		HX_STACK_VAR(_g1,"_g1");
+		HX_STACK_LINE(15)
 		int _g = this->t->__Field(HX_CSTRING("get_width"),true)();		HX_STACK_VAR(_g,"_g");
 		HX_STACK_LINE(15)
 		while(((_g1 < _g))){
@@ -49,17 +52,17 @@ bool TableModifier_obj::removeColumn( int at){
 			int i = (_g1)++;		HX_STACK_VAR(i,"i");
 			HX_STACK_LINE(16)
 			if (((i < at))){
-				HX_STACK_LINE(16)
+				HX_STACK_LINE(17)
 				fate->push(i);
 			}
 			else{
 				HX_STACK_LINE(18)
 				if (((i > at))){
-					HX_STACK_LINE(18)
+					HX_STACK_LINE(19)
 					fate->push((i - (int)1));
 				}
 				else{
-					HX_STACK_LINE(20)
+					HX_STACK_LINE(21)
 					fate->push((int)-1);
 				}
 			}
@@ -119,18 +122,28 @@ void TableModifier_obj::__GetFields(Array< ::String> &outFields)
 static ::String sStaticFields[] = {
 	String(null()) };
 
+#if HXCPP_SCRIPTABLE
+static hx::StorageInfo sMemberStorageInfo[] = {
+	{hx::fsObject,(int)offsetof(TableModifier_obj,t),HX_CSTRING("t")},
+	{ hx::fsUnknown, 0, null()}
+};
+#endif
+
 static ::String sMemberFields[] = {
-	HX_CSTRING("removeColumn"),
 	HX_CSTRING("t"),
+	HX_CSTRING("removeColumn"),
 	String(null()) };
 
 static void sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(TableModifier_obj::__mClass,"__mClass");
 };
 
+#ifdef HXCPP_VISIT_ALLOCS
 static void sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(TableModifier_obj::__mClass,"__mClass");
 };
+
+#endif
 
 Class TableModifier_obj::__mClass;
 
@@ -138,7 +151,14 @@ void TableModifier_obj::__register()
 {
 	hx::Static(__mClass) = hx::RegisterClass(HX_CSTRING("coopy.TableModifier"), hx::TCanCast< TableModifier_obj> ,sStaticFields,sMemberFields,
 	&__CreateEmpty, &__Create,
-	&super::__SGetClass(), 0, sMarkStatics, sVisitStatics);
+	&super::__SGetClass(), 0, sMarkStatics
+#ifdef HXCPP_VISIT_ALLOCS
+    , sVisitStatics
+#endif
+#ifdef HXCPP_SCRIPTABLE
+    , sMemberStorageInfo
+#endif
+);
 }
 
 void TableModifier_obj::__boot()

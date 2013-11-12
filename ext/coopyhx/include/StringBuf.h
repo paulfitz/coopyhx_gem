@@ -28,10 +28,10 @@ class HXCPP_CLASS_ATTRIBUTES  StringBuf_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("StringBuf"); }
 
+		Array< ::String > b;
 		virtual Void add( Dynamic x);
 		Dynamic add_dyn();
 
-		Array< ::String > b;
 };
 
 

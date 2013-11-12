@@ -26,8 +26,8 @@ Dynamic Lambda_obj::__Create(hx::DynamicArray inArgs)
 	return result;}
 
 Dynamic Lambda_obj::array( Dynamic it){
-	HX_STACK_PUSH("Lambda::array","/usr/lib/haxe/std/Lambda.hx",42);
-	HX_STACK_ARG(it,"it");
+	HX_STACK_FRAME("Lambda","array",0x9c8b0512,"Lambda.array","/usr/lib/haxe/std/Lambda.hx",42,0xc6d51bb6)
+	HX_STACK_ARG(it,"it")
 	HX_STACK_LINE(43)
 	Dynamic a = Dynamic( Array_obj<Dynamic>::__new() );		HX_STACK_VAR(a,"a");
 	HX_STACK_LINE(44)
@@ -43,9 +43,9 @@ Dynamic Lambda_obj::array( Dynamic it){
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lambda_obj,array,return )
 
 ::List Lambda_obj::map( Dynamic it,Dynamic f){
-	HX_STACK_PUSH("Lambda::map","/usr/lib/haxe/std/Lambda.hx",68);
-	HX_STACK_ARG(it,"it");
-	HX_STACK_ARG(f,"f");
+	HX_STACK_FRAME("Lambda","map",0x3d8fa1d5,"Lambda.map","/usr/lib/haxe/std/Lambda.hx",68,0xc6d51bb6)
+	HX_STACK_ARG(it,"it")
+	HX_STACK_ARG(f,"f")
 	HX_STACK_LINE(69)
 	::List l = ::List_obj::__new();		HX_STACK_VAR(l,"l");
 	HX_STACK_LINE(70)
@@ -102,6 +102,10 @@ static ::String sStaticFields[] = {
 	HX_CSTRING("map"),
 	String(null()) };
 
+#if HXCPP_SCRIPTABLE
+static hx::StorageInfo *sMemberStorageInfo = 0;
+#endif
+
 static ::String sMemberFields[] = {
 	String(null()) };
 
@@ -109,9 +113,12 @@ static void sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(Lambda_obj::__mClass,"__mClass");
 };
 
+#ifdef HXCPP_VISIT_ALLOCS
 static void sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(Lambda_obj::__mClass,"__mClass");
 };
+
+#endif
 
 Class Lambda_obj::__mClass;
 
@@ -119,7 +126,14 @@ void Lambda_obj::__register()
 {
 	hx::Static(__mClass) = hx::RegisterClass(HX_CSTRING("Lambda"), hx::TCanCast< Lambda_obj> ,sStaticFields,sMemberFields,
 	&__CreateEmpty, &__Create,
-	&super::__SGetClass(), 0, sMarkStatics, sVisitStatics);
+	&super::__SGetClass(), 0, sMarkStatics
+#ifdef HXCPP_VISIT_ALLOCS
+    , sVisitStatics
+#endif
+#ifdef HXCPP_SCRIPTABLE
+    , sMemberStorageInfo
+#endif
+);
 }
 
 void Lambda_obj::__boot()

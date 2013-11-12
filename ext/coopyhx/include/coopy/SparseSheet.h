@@ -31,22 +31,22 @@ class HXCPP_CLASS_ATTRIBUTES  SparseSheet_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("SparseSheet"); }
 
-		virtual Void set( int x,int y,Dynamic val);
-		Dynamic set_dyn();
-
-		virtual Dynamic get( int x,int y);
-		Dynamic get_dyn();
+		int h;
+		int w;
+		::haxe::ds::IntMap row;
+		Dynamic zero;
+		virtual Void resize( int w,int h,Dynamic zero);
+		Dynamic resize_dyn();
 
 		virtual Void nonDestructiveResize( int w,int h,Dynamic zero);
 		Dynamic nonDestructiveResize_dyn();
 
-		virtual Void resize( int w,int h,Dynamic zero);
-		Dynamic resize_dyn();
+		virtual Dynamic get( int x,int y);
+		Dynamic get_dyn();
 
-		Dynamic zero;
-		::haxe::ds::IntMap row;
-		int w;
-		int h;
+		virtual Void set( int x,int y,Dynamic val);
+		Dynamic set_dyn();
+
 };
 
 } // end namespace coopy

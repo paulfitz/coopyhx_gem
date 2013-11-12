@@ -29,10 +29,10 @@ Dynamic Log_obj::__Create(hx::DynamicArray inArgs)
 HX_BEGIN_DEFAULT_FUNC(__default_trace,Log_obj)
 Void run(Dynamic v,Dynamic infos){
 {
-		HX_STACK_PUSH("Log::trace","/usr/lib/haxe/std/haxe/Log.hx",45);
-		HX_STACK_ARG(v,"v");
-		HX_STACK_ARG(infos,"infos");
-		HX_STACK_LINE(45)
+		HX_STACK_FRAME("haxe.Log","trace",0x5d6e40b3,"haxe.Log.trace","/usr/lib/haxe/std/haxe/Log.hx",73,0x3a211262)
+		HX_STACK_ARG(v,"v")
+		HX_STACK_ARG(infos,"infos")
+		HX_STACK_LINE(73)
 		if (((bool((infos != null())) && bool((infos->__Field(HX_CSTRING("customParams"),true) != null()))))){
 			HX_STACK_LINE(74)
 			::String extra = HX_CSTRING("");		HX_STACK_VAR(extra,"extra");
@@ -40,6 +40,7 @@ Void run(Dynamic v,Dynamic infos){
 			{
 				HX_STACK_LINE(75)
 				int _g = (int)0;		HX_STACK_VAR(_g,"_g");
+				HX_STACK_LINE(75)
 				Dynamic _g1 = infos->__Field(HX_CSTRING("customParams"),true);		HX_STACK_VAR(_g1,"_g1");
 				HX_STACK_LINE(75)
 				while(((_g < _g1->__Field(HX_CSTRING("length"),true)))){
@@ -108,6 +109,10 @@ static ::String sStaticFields[] = {
 	HX_CSTRING("trace"),
 	String(null()) };
 
+#if HXCPP_SCRIPTABLE
+static hx::StorageInfo *sMemberStorageInfo = 0;
+#endif
+
 static ::String sMemberFields[] = {
 	String(null()) };
 
@@ -116,10 +121,13 @@ static void sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(Log_obj::trace,"trace");
 };
 
+#ifdef HXCPP_VISIT_ALLOCS
 static void sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(Log_obj::__mClass,"__mClass");
 	HX_VISIT_MEMBER_NAME(Log_obj::trace,"trace");
 };
+
+#endif
 
 Class Log_obj::__mClass;
 
@@ -127,7 +135,14 @@ void Log_obj::__register()
 {
 	hx::Static(__mClass) = hx::RegisterClass(HX_CSTRING("haxe.Log"), hx::TCanCast< Log_obj> ,sStaticFields,sMemberFields,
 	&__CreateEmpty, &__Create,
-	&super::__SGetClass(), 0, sMarkStatics, sVisitStatics);
+	&super::__SGetClass(), 0, sMarkStatics
+#ifdef HXCPP_VISIT_ALLOCS
+    , sVisitStatics
+#endif
+#ifdef HXCPP_SCRIPTABLE
+    , sMemberStorageInfo
+#endif
+);
 }
 
 void Log_obj::__boot()

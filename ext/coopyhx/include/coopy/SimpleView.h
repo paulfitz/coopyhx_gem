@@ -38,26 +38,26 @@ class HXCPP_CLASS_ATTRIBUTES  SimpleView_obj : public hx::Object{
 		inline operator ::coopy::View_obj *()
 			{ return new ::coopy::View_delegate_< SimpleView_obj >(this); }
 #endif //SWIGFIX
-		hx::Object *__ToInterface(const type_info &inType);
+		hx::Object *__ToInterface(const hx::type_info &inType);
 		::String __ToString() const { return HX_CSTRING("SimpleView"); }
 
-		virtual Dynamic toDatum( ::String str);
-		Dynamic toDatum_dyn();
-
-		virtual bool equals( Dynamic d1,Dynamic d2);
-		Dynamic equals_dyn();
-
-		virtual bool hasStructure( Dynamic d);
-		Dynamic hasStructure_dyn();
-
-		virtual ::coopy::Table getTable( Dynamic d);
-		Dynamic getTable_dyn();
+		virtual ::String toString( Dynamic d);
+		Dynamic toString_dyn();
 
 		virtual ::coopy::Bag getBag( Dynamic d);
 		Dynamic getBag_dyn();
 
-		virtual ::String toString( Dynamic d);
-		Dynamic toString_dyn();
+		virtual ::coopy::Table getTable( Dynamic d);
+		Dynamic getTable_dyn();
+
+		virtual bool hasStructure( Dynamic d);
+		Dynamic hasStructure_dyn();
+
+		virtual bool equals( Dynamic d1,Dynamic d2);
+		Dynamic equals_dyn();
+
+		virtual Dynamic toDatum( ::String str);
+		Dynamic toDatum_dyn();
 
 };
 

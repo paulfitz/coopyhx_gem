@@ -32,20 +32,20 @@ class HXCPP_CLASS_ATTRIBUTES  ViewedDatum_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("ViewedDatum"); }
 
-		virtual bool hasStructure( );
-		Dynamic hasStructure_dyn();
-
-		virtual ::coopy::Table getTable( );
-		Dynamic getTable_dyn();
+		Dynamic datum;
+		::coopy::View view;
+		virtual ::String toString( );
+		Dynamic toString_dyn();
 
 		virtual ::coopy::Bag getBag( );
 		Dynamic getBag_dyn();
 
-		virtual ::String toString( );
-		Dynamic toString_dyn();
+		virtual ::coopy::Table getTable( );
+		Dynamic getTable_dyn();
 
-		::coopy::View view;
-		Dynamic datum;
+		virtual bool hasStructure( );
+		Dynamic hasStructure_dyn();
+
 		static ::coopy::ViewedDatum getSimpleView( Dynamic datum);
 		static Dynamic getSimpleView_dyn();
 

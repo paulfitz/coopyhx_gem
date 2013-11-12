@@ -33,47 +33,47 @@ class HXCPP_CLASS_ATTRIBUTES  CompareTable_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("CompareTable"); }
 
-		virtual Array< ::coopy::IndexPair > getIndexes( );
-		Dynamic getIndexes_dyn();
-
-		virtual Void storeIndexes( );
-		Dynamic storeIndexes_dyn();
-
-		virtual bool compareCore( );
-		Dynamic compareCore_dyn();
-
-		virtual bool isEqual2( ::coopy::Table a,::coopy::Table b);
-		Dynamic isEqual2_dyn();
-
-		virtual bool testIsEqual( );
-		Dynamic testIsEqual_dyn();
-
-		virtual bool hasSameColumns2( ::coopy::Table a,::coopy::Table b);
-		Dynamic hasSameColumns2_dyn();
-
-		virtual bool testHasSameColumns( );
-		Dynamic testHasSameColumns_dyn();
-
-		virtual Void alignColumns( ::coopy::Alignment align,::coopy::Table a,::coopy::Table b);
-		Dynamic alignColumns_dyn();
-
-		virtual Void alignCore2( ::coopy::Alignment align,::coopy::Table a,::coopy::Table b);
-		Dynamic alignCore2_dyn();
-
-		virtual Void alignCore( ::coopy::Alignment align);
-		Dynamic alignCore_dyn();
-
-		virtual ::coopy::TableComparisonState getComparisonState( );
-		Dynamic getComparisonState_dyn();
+		::coopy::TableComparisonState comp;
+		Array< ::Dynamic > indexes;
+		virtual bool attach( ::coopy::TableComparisonState comp);
+		Dynamic attach_dyn();
 
 		virtual ::coopy::Alignment align( );
 		Dynamic align_dyn();
 
-		virtual bool attach( ::coopy::TableComparisonState comp);
-		Dynamic attach_dyn();
+		virtual ::coopy::TableComparisonState getComparisonState( );
+		Dynamic getComparisonState_dyn();
 
-		Array< ::coopy::IndexPair > indexes;
-		::coopy::TableComparisonState comp;
+		virtual Void alignCore( ::coopy::Alignment align);
+		Dynamic alignCore_dyn();
+
+		virtual Void alignCore2( ::coopy::Alignment align,::coopy::Table a,::coopy::Table b);
+		Dynamic alignCore2_dyn();
+
+		virtual Void alignColumns( ::coopy::Alignment align,::coopy::Table a,::coopy::Table b);
+		Dynamic alignColumns_dyn();
+
+		virtual bool testHasSameColumns( );
+		Dynamic testHasSameColumns_dyn();
+
+		virtual bool hasSameColumns2( ::coopy::Table a,::coopy::Table b);
+		Dynamic hasSameColumns2_dyn();
+
+		virtual bool testIsEqual( );
+		Dynamic testIsEqual_dyn();
+
+		virtual bool isEqual2( ::coopy::Table a,::coopy::Table b);
+		Dynamic isEqual2_dyn();
+
+		virtual bool compareCore( );
+		Dynamic compareCore_dyn();
+
+		virtual Void storeIndexes( );
+		Dynamic storeIndexes_dyn();
+
+		virtual Array< ::Dynamic > getIndexes( );
+		Dynamic getIndexes_dyn();
+
 };
 
 } // end namespace coopy

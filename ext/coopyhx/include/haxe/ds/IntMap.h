@@ -32,28 +32,28 @@ class HXCPP_CLASS_ATTRIBUTES  IntMap_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		inline operator ::IMap_obj *()
 			{ return new ::IMap_delegate_< IntMap_obj >(this); }
-		hx::Object *__ToInterface(const type_info &inType);
+		hx::Object *__ToInterface(const hx::type_info &inType);
 		::String __ToString() const { return HX_CSTRING("IntMap"); }
 
-		virtual ::String toString( );
-		Dynamic toString_dyn();
-
-		virtual Dynamic keys( );
-		Dynamic keys_dyn();
-
-		virtual bool remove( int key);
-		Dynamic remove_dyn();
-
-		virtual bool exists( int key);
-		Dynamic exists_dyn();
+		Dynamic h;
+		virtual Void set( int key,Dynamic value);
+		Dynamic set_dyn();
 
 		virtual Dynamic get( int key);
 		Dynamic get_dyn();
 
-		virtual Void set( int key,Dynamic value);
-		Dynamic set_dyn();
+		virtual bool exists( int key);
+		Dynamic exists_dyn();
 
-		Dynamic h;
+		virtual bool remove( int key);
+		Dynamic remove_dyn();
+
+		virtual Dynamic keys( );
+		Dynamic keys_dyn();
+
+		virtual ::String toString( );
+		Dynamic toString_dyn();
+
 };
 
 } // end namespace haxe

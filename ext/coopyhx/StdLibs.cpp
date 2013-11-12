@@ -136,17 +136,17 @@ void __hxcpp_stdlibs_boot()
    if (GetConsoleWindow() != NULL)
    {
       if (_fileno(stdout) == -1 || _get_osfhandle(fileno(stdout)) == -1)
-	     freopen("CONOUT$", "w", stdout);
+         freopen("CONOUT$", "w", stdout);
       if (_fileno(stderr) == -1 || _get_osfhandle(fileno(stderr)) == -1)
-	     freopen("CONOUT$", "w", stderr);
+         freopen("CONOUT$", "w", stderr);
       if (_fileno(stdin) == -1 || _get_osfhandle(fileno(stdin)) == -1)
-	     freopen("CONIN$", "r", stdin);
+         freopen("CONIN$", "r", stdin);
    }
    #endif
-
-   setbuf(stdin, NULL);
-   setbuf(stdout, NULL);
-   setbuf(stderr, NULL);
+   
+   setbuf(stdin, 0);
+   setbuf(stdout, 0);
+   setbuf(stderr, 0);
 }
 
 void __trace(Dynamic inObj, Dynamic inData)
@@ -195,7 +195,7 @@ double  __time_stamp()
    return (double)clock() / ( (double)CLOCKS_PER_SEC);
 #else
    struct timeval tv;
-   if( gettimeofday(&tv,NULL) )
+   if( gettimeofday(&tv,0) )
       throw Dynamic("Could not get time");
    double t =  ( tv.tv_sec + ((double)tv.tv_usec) / 1000000.0 );
    if (t0==0) t0 = t;

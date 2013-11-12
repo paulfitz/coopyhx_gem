@@ -17,33 +17,33 @@ class HXCPP_CLASS_ATTRIBUTES  View_obj : public hx::Interface{
 		typedef View_obj OBJ_;
 		HX_DO_INTERFACE_RTTI;
 		static void __boot();
-virtual Dynamic toDatum( ::String str)=0;
-		Dynamic toDatum_dyn();
-virtual bool equals( Dynamic d1,Dynamic d2)=0;
-		Dynamic equals_dyn();
-virtual bool hasStructure( Dynamic d)=0;
-		Dynamic hasStructure_dyn();
-virtual ::coopy::Table getTable( Dynamic d)=0;
-		Dynamic getTable_dyn();
-virtual ::coopy::Bag getBag( Dynamic d)=0;
-		Dynamic getBag_dyn();
 virtual ::String toString( Dynamic d)=0;
 		Dynamic toString_dyn();
+virtual ::coopy::Bag getBag( Dynamic d)=0;
+		Dynamic getBag_dyn();
+virtual ::coopy::Table getTable( Dynamic d)=0;
+		Dynamic getTable_dyn();
+virtual bool hasStructure( Dynamic d)=0;
+		Dynamic hasStructure_dyn();
+virtual bool equals( Dynamic d1,Dynamic d2)=0;
+		Dynamic equals_dyn();
+virtual Dynamic toDatum( ::String str)=0;
+		Dynamic toDatum_dyn();
 };
 
 #define DELEGATE_coopy_View \
-virtual Dynamic toDatum( ::String str) { return mDelegate->toDatum(str);}  \
-virtual Dynamic toDatum_dyn() { return mDelegate->toDatum_dyn();}  \
-virtual bool equals( Dynamic d1,Dynamic d2) { return mDelegate->equals(d1,d2);}  \
-virtual Dynamic equals_dyn() { return mDelegate->equals_dyn();}  \
-virtual bool hasStructure( Dynamic d) { return mDelegate->hasStructure(d);}  \
-virtual Dynamic hasStructure_dyn() { return mDelegate->hasStructure_dyn();}  \
-virtual ::coopy::Table getTable( Dynamic d) { return mDelegate->getTable(d);}  \
-virtual Dynamic getTable_dyn() { return mDelegate->getTable_dyn();}  \
-virtual ::coopy::Bag getBag( Dynamic d) { return mDelegate->getBag(d);}  \
-virtual Dynamic getBag_dyn() { return mDelegate->getBag_dyn();}  \
 virtual ::String toString( Dynamic d) { return mDelegate->toString(d);}  \
 virtual Dynamic toString_dyn() { return mDelegate->toString_dyn();}  \
+virtual ::coopy::Bag getBag( Dynamic d) { return mDelegate->getBag(d);}  \
+virtual Dynamic getBag_dyn() { return mDelegate->getBag_dyn();}  \
+virtual ::coopy::Table getTable( Dynamic d) { return mDelegate->getTable(d);}  \
+virtual Dynamic getTable_dyn() { return mDelegate->getTable_dyn();}  \
+virtual bool hasStructure( Dynamic d) { return mDelegate->hasStructure(d);}  \
+virtual Dynamic hasStructure_dyn() { return mDelegate->hasStructure_dyn();}  \
+virtual bool equals( Dynamic d1,Dynamic d2) { return mDelegate->equals(d1,d2);}  \
+virtual Dynamic equals_dyn() { return mDelegate->equals_dyn();}  \
+virtual Dynamic toDatum( ::String str) { return mDelegate->toDatum(str);}  \
+virtual Dynamic toDatum_dyn() { return mDelegate->toDatum_dyn();}  \
 
 
 template<typename IMPL>

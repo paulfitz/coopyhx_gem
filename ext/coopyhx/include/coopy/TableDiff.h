@@ -5,12 +5,14 @@
 #include <hxcpp.h>
 #endif
 
+HX_DECLARE_CLASS0(IMap)
 HX_DECLARE_CLASS1(coopy,Alignment)
 HX_DECLARE_CLASS1(coopy,CompareFlags)
-HX_DECLARE_CLASS1(coopy,Report)
 HX_DECLARE_CLASS1(coopy,Table)
 HX_DECLARE_CLASS1(coopy,TableDiff)
+HX_DECLARE_CLASS1(coopy,Unit)
 HX_DECLARE_CLASS1(coopy,View)
+HX_DECLARE_CLASS2(haxe,ds,IntMap)
 namespace coopy{
 
 
@@ -34,20 +36,28 @@ class HXCPP_CLASS_ATTRIBUTES  TableDiff_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("TableDiff"); }
 
-		virtual ::coopy::Report test( );
-		Dynamic test_dyn();
-
-		virtual bool hilite( ::coopy::Table output);
-		Dynamic hilite_dyn();
+		::coopy::Alignment align;
+		::coopy::CompareFlags flags;
+		int l_prev;
+		int r_prev;
+		virtual ::String getSeparator( ::coopy::Table t,::coopy::Table t2,::String root);
+		Dynamic getSeparator_dyn();
 
 		virtual ::String quoteForDiff( ::coopy::View v,Dynamic d);
 		Dynamic quoteForDiff_dyn();
 
-		virtual ::String getSeparator( ::coopy::Table t,::coopy::Table t2,::String root);
-		Dynamic getSeparator_dyn();
+		virtual bool isReordered( ::haxe::ds::IntMap m,int ct);
+		Dynamic isReordered_dyn();
 
-		::coopy::CompareFlags flags;
-		::coopy::Alignment align;
+		virtual Void spreadContext( Array< ::Dynamic > units,int del,Array< int > active);
+		Dynamic spreadContext_dyn();
+
+		virtual ::String reportUnit( ::coopy::Unit unit);
+		Dynamic reportUnit_dyn();
+
+		virtual bool hilite( ::coopy::Table output);
+		Dynamic hilite_dyn();
+
 };
 
 } // end namespace coopy

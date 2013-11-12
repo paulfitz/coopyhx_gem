@@ -30,13 +30,13 @@ class HXCPP_CLASS_ATTRIBUTES  Report_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("Report"); }
 
-		virtual Void clear( );
-		Dynamic clear_dyn();
-
+		Array< ::Dynamic > changes;
 		virtual ::String toString( );
 		Dynamic toString_dyn();
 
-		Array< ::coopy::Change > changes;
+		virtual Void clear( );
+		Dynamic clear_dyn();
+
 };
 
 } // end namespace coopy

@@ -30,20 +30,20 @@ class HXCPP_CLASS_ATTRIBUTES  Ordering_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("Ordering"); }
 
-		virtual Void ignoreParent( );
-		Dynamic ignoreParent_dyn();
+		Array< ::Dynamic > order;
+		bool ignore_parent;
+		virtual Void add( int l,int r,hx::Null< int >  p);
+		Dynamic add_dyn();
+
+		virtual Array< ::Dynamic > getList( );
+		Dynamic getList_dyn();
 
 		virtual ::String toString( );
 		Dynamic toString_dyn();
 
-		virtual Array< ::coopy::Unit > getList( );
-		Dynamic getList_dyn();
+		virtual Void ignoreParent( );
+		Dynamic ignoreParent_dyn();
 
-		virtual Void add( int l,int r,hx::Null< int >  p);
-		Dynamic add_dyn();
-
-		bool ignore_parent;
-		Array< ::coopy::Unit > order;
 };
 
 } // end namespace coopy

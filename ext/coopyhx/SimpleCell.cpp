@@ -7,9 +7,11 @@ namespace coopy{
 
 Void SimpleCell_obj::__construct(Dynamic x)
 {
-HX_STACK_PUSH("SimpleCell::new","coopy/SimpleCell.hx",8);
+HX_STACK_FRAME("coopy.SimpleCell","new",0x47ea1b28,"coopy.SimpleCell.new","coopy/SimpleCell.hx",9,0xe0d8d4a7)
+
+HX_STACK_ARG(x,"x")
 {
-	HX_STACK_LINE(8)
+	HX_STACK_LINE(9)
 	this->datum = x;
 }
 ;
@@ -30,9 +32,9 @@ Dynamic SimpleCell_obj::__Create(hx::DynamicArray inArgs)
 	return result;}
 
 ::String SimpleCell_obj::toString( ){
-	HX_STACK_PUSH("SimpleCell::toString","coopy/SimpleCell.hx",11);
-	HX_STACK_THIS(this);
-	HX_STACK_LINE(11)
+	HX_STACK_FRAME("coopy.SimpleCell","toString",0x112c70e4,"coopy.SimpleCell.toString","coopy/SimpleCell.hx",12,0xe0d8d4a7)
+	HX_STACK_THIS(this)
+	HX_STACK_LINE(12)
 	return this->datum;
 }
 
@@ -86,18 +88,28 @@ void SimpleCell_obj::__GetFields(Array< ::String> &outFields)
 static ::String sStaticFields[] = {
 	String(null()) };
 
+#if HXCPP_SCRIPTABLE
+static hx::StorageInfo sMemberStorageInfo[] = {
+	{hx::fsObject,(int)offsetof(SimpleCell_obj,datum),HX_CSTRING("datum")},
+	{ hx::fsUnknown, 0, null()}
+};
+#endif
+
 static ::String sMemberFields[] = {
-	HX_CSTRING("toString"),
 	HX_CSTRING("datum"),
+	HX_CSTRING("toString"),
 	String(null()) };
 
 static void sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(SimpleCell_obj::__mClass,"__mClass");
 };
 
+#ifdef HXCPP_VISIT_ALLOCS
 static void sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(SimpleCell_obj::__mClass,"__mClass");
 };
+
+#endif
 
 Class SimpleCell_obj::__mClass;
 
@@ -105,7 +117,14 @@ void SimpleCell_obj::__register()
 {
 	hx::Static(__mClass) = hx::RegisterClass(HX_CSTRING("coopy.SimpleCell"), hx::TCanCast< SimpleCell_obj> ,sStaticFields,sMemberFields,
 	&__CreateEmpty, &__Create,
-	&super::__SGetClass(), 0, sMarkStatics, sVisitStatics);
+	&super::__SGetClass(), 0, sMarkStatics
+#ifdef HXCPP_VISIT_ALLOCS
+    , sVisitStatics
+#endif
+#ifdef HXCPP_SCRIPTABLE
+    , sMemberStorageInfo
+#endif
+);
 }
 
 void SimpleCell_obj::__boot()

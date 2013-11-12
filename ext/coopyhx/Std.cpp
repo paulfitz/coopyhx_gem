@@ -23,10 +23,19 @@ Dynamic Std_obj::__Create(hx::DynamicArray inArgs)
 	return result;}
 
 ::String Std_obj::string( Dynamic s){
-	HX_STACK_PUSH("Std::string","/usr/lib/haxe/std/cpp/_std/Std.hx",31);
-	HX_STACK_ARG(s,"s");
-	HX_STACK_LINE(31)
-	return (  (((s == null()))) ? ::String(HX_CSTRING("null")) : ::String(s->toString()) );
+	HX_STACK_FRAME("Std","string",0xcf48855c,"Std.string","/usr/lib/haxe/std/cpp/_std/Std.hx",32,0x1614e339)
+	HX_STACK_ARG(s,"s")
+	HX_STACK_LINE(32)
+	if (((s == null()))){
+		HX_STACK_LINE(32)
+		return HX_CSTRING("null");
+	}
+	else{
+		HX_STACK_LINE(32)
+		return s->toString();
+	}
+	HX_STACK_LINE(32)
+	return null();
 }
 
 
@@ -70,6 +79,10 @@ static ::String sStaticFields[] = {
 	HX_CSTRING("string"),
 	String(null()) };
 
+#if HXCPP_SCRIPTABLE
+static hx::StorageInfo *sMemberStorageInfo = 0;
+#endif
+
 static ::String sMemberFields[] = {
 	String(null()) };
 
@@ -77,9 +90,12 @@ static void sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(Std_obj::__mClass,"__mClass");
 };
 
+#ifdef HXCPP_VISIT_ALLOCS
 static void sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(Std_obj::__mClass,"__mClass");
 };
+
+#endif
 
 Class Std_obj::__mClass;
 
@@ -87,7 +103,14 @@ void Std_obj::__register()
 {
 	hx::Static(__mClass) = hx::RegisterClass(HX_CSTRING("Std"), hx::TCanCast< Std_obj> ,sStaticFields,sMemberFields,
 	&__CreateEmpty, &__Create,
-	&super::__SGetClass(), 0, sMarkStatics, sVisitStatics);
+	&super::__SGetClass(), 0, sMarkStatics
+#ifdef HXCPP_VISIT_ALLOCS
+    , sVisitStatics
+#endif
+#ifdef HXCPP_SCRIPTABLE
+    , sMemberStorageInfo
+#endif
+);
 }
 
 void Std_obj::__boot()

@@ -28,15 +28,15 @@ class HXCPP_CLASS_ATTRIBUTES  List_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("List"); }
 
-		virtual Dynamic iterator( );
-		Dynamic iterator_dyn();
-
+		Dynamic h;
+		Dynamic q;
+		int length;
 		virtual Void add( Dynamic item);
 		Dynamic add_dyn();
 
-		int length;
-		Dynamic q;
-		Dynamic h;
+		virtual Dynamic iterator( );
+		Dynamic iterator_dyn();
+
 };
 
 

@@ -5,8 +5,10 @@
 #include <hxcpp.h>
 #endif
 
+HX_DECLARE_CLASS1(coopy,CellInfo)
 HX_DECLARE_CLASS1(coopy,DiffRender)
 HX_DECLARE_CLASS1(coopy,Table)
+HX_DECLARE_CLASS1(coopy,TableText)
 namespace coopy{
 
 
@@ -30,38 +32,56 @@ class HXCPP_CLASS_ATTRIBUTES  DiffRender_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("DiffRender"); }
 
-		virtual Void render( ::coopy::Table rows);
-		Dynamic render_dyn();
-
-		virtual ::String toString( );
-		Dynamic toString_dyn();
-
-		virtual ::String html( );
-		Dynamic html_dyn();
-
-		virtual Void endTable( );
-		Dynamic endTable_dyn();
-
-		virtual Void endRow( );
-		Dynamic endRow_dyn();
-
-		virtual Void insertCell( ::String txt,::String mode,::String separator);
-		Dynamic insertCell_dyn();
-
-		virtual Void beginRow( ::String mode);
-		Dynamic beginRow_dyn();
-
-		virtual Void beginTable( );
-		Dynamic beginTable_dyn();
+		Array< ::String > text_to_insert;
+		::String td_open;
+		::String td_close;
+		bool open;
+		bool pretty_arrows;
+		virtual Void usePrettyArrows( bool flag);
+		Dynamic usePrettyArrows_dyn();
 
 		virtual Void insert( ::String str);
 		Dynamic insert_dyn();
 
-		bool open;
-		::String row_color;
-		::String td_close;
-		::String td_open;
-		Array< ::String > text_to_insert;
+		virtual Void beginTable( );
+		Dynamic beginTable_dyn();
+
+		virtual Void beginRow( ::String mode);
+		Dynamic beginRow_dyn();
+
+		virtual Void insertCell( ::String txt,::String mode);
+		Dynamic insertCell_dyn();
+
+		virtual Void endRow( );
+		Dynamic endRow_dyn();
+
+		virtual Void endTable( );
+		Dynamic endTable_dyn();
+
+		virtual ::String html( );
+		Dynamic html_dyn();
+
+		virtual ::String toString( );
+		Dynamic toString_dyn();
+
+		virtual Void render( ::coopy::Table rows);
+		Dynamic render_dyn();
+
+		virtual ::String sampleCss( );
+		Dynamic sampleCss_dyn();
+
+		virtual Void completeHtml( );
+		Dynamic completeHtml_dyn();
+
+		static Void examineCell( int x,int y,::String value,::String vcol,::String vrow,::String vcorner,::coopy::CellInfo cell);
+		static Dynamic examineCell_dyn();
+
+		static ::String markSpaces( ::String sl,::String sr);
+		static Dynamic markSpaces_dyn();
+
+		static ::coopy::CellInfo renderCell( ::coopy::TableText tt,int x,int y);
+		static Dynamic renderCell_dyn();
+
 };
 
 } // end namespace coopy

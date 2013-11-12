@@ -32,25 +32,25 @@ class HXCPP_CLASS_ATTRIBUTES  StringMap_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		inline operator ::IMap_obj *()
 			{ return new ::IMap_delegate_< StringMap_obj >(this); }
-		hx::Object *__ToInterface(const type_info &inType);
+		hx::Object *__ToInterface(const hx::type_info &inType);
 		::String __ToString() const { return HX_CSTRING("StringMap"); }
 
-		virtual Dynamic iterator( );
-		Dynamic iterator_dyn();
-
-		virtual Dynamic keys( );
-		Dynamic keys_dyn();
-
-		virtual bool exists( ::String key);
-		Dynamic exists_dyn();
+		Dynamic __Internal;
+		virtual Void set( ::String key,Dynamic value);
+		Dynamic set_dyn();
 
 		virtual Dynamic get( ::String key);
 		Dynamic get_dyn();
 
-		virtual Void set( ::String key,Dynamic value);
-		Dynamic set_dyn();
+		virtual bool exists( ::String key);
+		Dynamic exists_dyn();
 
-		Dynamic __Internal;
+		virtual Dynamic keys( );
+		Dynamic keys_dyn();
+
+		virtual Dynamic iterator( );
+		Dynamic iterator_dyn();
+
 };
 
 } // end namespace haxe

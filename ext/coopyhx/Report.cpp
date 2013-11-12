@@ -10,10 +10,10 @@ namespace coopy{
 
 Void Report_obj::__construct()
 {
-HX_STACK_PUSH("Report::new","coopy/Report.hx",7);
+HX_STACK_FRAME("coopy.Report","new",0x26699be8,"coopy.Report.new","coopy/Report.hx",8,0xe532d067)
 {
-	HX_STACK_LINE(7)
-	this->changes = Array_obj< ::coopy::Change >::__new();
+	HX_STACK_LINE(8)
+	this->changes = Array_obj< ::Dynamic >::__new();
 }
 ;
 	return null();
@@ -32,28 +32,28 @@ Dynamic Report_obj::__Create(hx::DynamicArray inArgs)
 	result->__construct();
 	return result;}
 
+::String Report_obj::toString( ){
+	HX_STACK_FRAME("coopy.Report","toString",0xb9023824,"coopy.Report.toString","coopy/Report.hx",14,0xe532d067)
+	HX_STACK_THIS(this)
+	HX_STACK_LINE(14)
+	return this->changes->toString();
+}
+
+
+HX_DEFINE_DYNAMIC_FUNC0(Report_obj,toString,return )
+
 Void Report_obj::clear( ){
 {
-		HX_STACK_PUSH("Report::clear","coopy/Report.hx",17);
-		HX_STACK_THIS(this);
-		HX_STACK_LINE(17)
-		this->changes = Array_obj< ::coopy::Change >::__new();
+		HX_STACK_FRAME("coopy.Report","clear",0x78212f15,"coopy.Report.clear","coopy/Report.hx",18,0xe532d067)
+		HX_STACK_THIS(this)
+		HX_STACK_LINE(18)
+		this->changes = Array_obj< ::Dynamic >::__new();
 	}
 return null();
 }
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Report_obj,clear,(void))
-
-::String Report_obj::toString( ){
-	HX_STACK_PUSH("Report::toString","coopy/Report.hx",13);
-	HX_STACK_THIS(this);
-	HX_STACK_LINE(13)
-	return this->changes->toString();
-}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(Report_obj,toString,return )
 
 
 Report_obj::Report_obj()
@@ -91,7 +91,7 @@ Dynamic Report_obj::__SetField(const ::String &inName,const Dynamic &inValue,boo
 {
 	switch(inName.length) {
 	case 7:
-		if (HX_FIELD_EQ(inName,"changes") ) { changes=inValue.Cast< Array< ::coopy::Change > >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"changes") ) { changes=inValue.Cast< Array< ::Dynamic > >(); return inValue; }
 	}
 	return super::__SetField(inName,inValue,inCallProp);
 }
@@ -105,19 +105,29 @@ void Report_obj::__GetFields(Array< ::String> &outFields)
 static ::String sStaticFields[] = {
 	String(null()) };
 
+#if HXCPP_SCRIPTABLE
+static hx::StorageInfo sMemberStorageInfo[] = {
+	{hx::fsObject,(int)offsetof(Report_obj,changes),HX_CSTRING("changes")},
+	{ hx::fsUnknown, 0, null()}
+};
+#endif
+
 static ::String sMemberFields[] = {
-	HX_CSTRING("clear"),
-	HX_CSTRING("toString"),
 	HX_CSTRING("changes"),
+	HX_CSTRING("toString"),
+	HX_CSTRING("clear"),
 	String(null()) };
 
 static void sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(Report_obj::__mClass,"__mClass");
 };
 
+#ifdef HXCPP_VISIT_ALLOCS
 static void sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(Report_obj::__mClass,"__mClass");
 };
+
+#endif
 
 Class Report_obj::__mClass;
 
@@ -125,7 +135,14 @@ void Report_obj::__register()
 {
 	hx::Static(__mClass) = hx::RegisterClass(HX_CSTRING("coopy.Report"), hx::TCanCast< Report_obj> ,sStaticFields,sMemberFields,
 	&__CreateEmpty, &__Create,
-	&super::__SGetClass(), 0, sMarkStatics, sVisitStatics);
+	&super::__SGetClass(), 0, sMarkStatics
+#ifdef HXCPP_VISIT_ALLOCS
+    , sVisitStatics
+#endif
+#ifdef HXCPP_SCRIPTABLE
+    , sMemberStorageInfo
+#endif
+);
 }
 
 void Report_obj::__boot()

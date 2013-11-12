@@ -16,17 +16,17 @@ class HXCPP_CLASS_ATTRIBUTES  Bag_obj : public hx::Interface{
 		typedef Bag_obj OBJ_;
 		HX_DO_INTERFACE_RTTI;
 		static void __boot();
-virtual ::coopy::View getItemView( )=0;
-		Dynamic getItemView_dyn();
 virtual Dynamic getItem( int x)=0;
 		Dynamic getItem_dyn();
+virtual ::coopy::View getItemView( )=0;
+		Dynamic getItemView_dyn();
 };
 
 #define DELEGATE_coopy_Bag \
-virtual ::coopy::View getItemView( ) { return mDelegate->getItemView();}  \
-virtual Dynamic getItemView_dyn() { return mDelegate->getItemView_dyn();}  \
 virtual Dynamic getItem( int x) { return mDelegate->getItem(x);}  \
 virtual Dynamic getItem_dyn() { return mDelegate->getItem_dyn();}  \
+virtual ::coopy::View getItemView( ) { return mDelegate->getItemView();}  \
+virtual Dynamic getItemView_dyn() { return mDelegate->getItemView_dyn();}  \
 
 
 template<typename IMPL>

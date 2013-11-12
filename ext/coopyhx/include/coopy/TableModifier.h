@@ -30,10 +30,10 @@ class HXCPP_CLASS_ATTRIBUTES  TableModifier_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("TableModifier"); }
 
+		::coopy::Table t;
 		virtual bool removeColumn( int at);
 		Dynamic removeColumn_dyn();
 
-		::coopy::Table t;
 };
 
 } // end namespace coopy

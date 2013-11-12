@@ -8,7 +8,9 @@
 #include <coopy/ViewedDatum.h>
 #include <coopy/Unit.h>
 #include <coopy/TableView.h>
+#include <coopy/TableText.h>
 #include <coopy/TableModifier.h>
+#include <coopy/TableIO.h>
 #include <coopy/TableDiff.h>
 #include <coopy/TableComparisonState.h>
 #include <coopy/SparseSheet.h>
@@ -19,6 +21,7 @@
 #include <coopy/SimpleCell.h>
 #include <coopy/Report.h>
 #include <coopy/Ordering.h>
+#include <coopy/Mover.h>
 #include <coopy/IndexPair.h>
 #include <coopy/IndexItem.h>
 #include <coopy/Index.h>
@@ -34,8 +37,10 @@
 #include <coopy/Compare.h>
 #include <coopy/ChangeType.h>
 #include <coopy/Change.h>
+#include <coopy/CellInfo.h>
 #include <coopy/Bag.h>
 #include <coopy/Alignment.h>
+#include <StringTools.h>
 #include <StringBuf.h>
 #include <Std.h>
 #include <IMap.h>
@@ -53,7 +58,9 @@ hx::RegisterResources( hx::GetResources() );
 ::coopy::ViewedDatum_obj::__register();
 ::coopy::Unit_obj::__register();
 ::coopy::TableView_obj::__register();
+::coopy::TableText_obj::__register();
 ::coopy::TableModifier_obj::__register();
+::coopy::TableIO_obj::__register();
 ::coopy::TableDiff_obj::__register();
 ::coopy::TableComparisonState_obj::__register();
 ::coopy::SparseSheet_obj::__register();
@@ -64,6 +71,7 @@ hx::RegisterResources( hx::GetResources() );
 ::coopy::SimpleCell_obj::__register();
 ::coopy::Report_obj::__register();
 ::coopy::Ordering_obj::__register();
+::coopy::Mover_obj::__register();
 ::coopy::IndexPair_obj::__register();
 ::coopy::IndexItem_obj::__register();
 ::coopy::Index_obj::__register();
@@ -79,8 +87,10 @@ hx::RegisterResources( hx::GetResources() );
 ::coopy::Compare_obj::__register();
 ::coopy::ChangeType_obj::__register();
 ::coopy::Change_obj::__register();
+::coopy::CellInfo_obj::__register();
 ::coopy::Bag_obj::__register();
 ::coopy::Alignment_obj::__register();
+::StringTools_obj::__register();
 ::StringBuf_obj::__register();
 ::Std_obj::__register();
 ::IMap_obj::__register();
@@ -92,8 +102,10 @@ hx::RegisterResources( hx::GetResources() );
 ::IMap_obj::__boot();
 ::Std_obj::__boot();
 ::StringBuf_obj::__boot();
+::StringTools_obj::__boot();
 ::coopy::Alignment_obj::__boot();
 ::coopy::Bag_obj::__boot();
+::coopy::CellInfo_obj::__boot();
 ::coopy::Change_obj::__boot();
 ::coopy::ChangeType_obj::__boot();
 ::coopy::Compare_obj::__boot();
@@ -109,6 +121,7 @@ hx::RegisterResources( hx::GetResources() );
 ::coopy::Index_obj::__boot();
 ::coopy::IndexItem_obj::__boot();
 ::coopy::IndexPair_obj::__boot();
+::coopy::Mover_obj::__boot();
 ::coopy::Ordering_obj::__boot();
 ::coopy::Report_obj::__boot();
 ::coopy::SimpleCell_obj::__boot();
@@ -119,7 +132,9 @@ hx::RegisterResources( hx::GetResources() );
 ::coopy::SparseSheet_obj::__boot();
 ::coopy::TableComparisonState_obj::__boot();
 ::coopy::TableDiff_obj::__boot();
+::coopy::TableIO_obj::__boot();
 ::coopy::TableModifier_obj::__boot();
+::coopy::TableText_obj::__boot();
 ::coopy::TableView_obj::__boot();
 ::coopy::Unit_obj::__boot();
 ::coopy::ViewedDatum_obj::__boot();

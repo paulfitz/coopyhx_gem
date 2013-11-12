@@ -29,10 +29,10 @@ class HXCPP_CLASS_ATTRIBUTES  IndexItem_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("IndexItem"); }
 
+		Array< int > lst;
 		virtual int add( int i);
 		Dynamic add_dyn();
 
-		Array< int > lst;
 };
 
 } // end namespace coopy

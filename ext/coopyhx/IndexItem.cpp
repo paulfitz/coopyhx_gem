@@ -7,7 +7,7 @@ namespace coopy{
 
 Void IndexItem_obj::__construct()
 {
-HX_STACK_PUSH("IndexItem::new","coopy/IndexItem.hx",8);
+HX_STACK_FRAME("coopy.IndexItem","new",0xe462e5b5,"coopy.IndexItem.new","coopy/IndexItem.hx",8,0x346884dc)
 {
 }
 ;
@@ -28,9 +28,9 @@ Dynamic IndexItem_obj::__Create(hx::DynamicArray inArgs)
 	return result;}
 
 int IndexItem_obj::add( int i){
-	HX_STACK_PUSH("IndexItem::add","coopy/IndexItem.hx",11);
-	HX_STACK_THIS(this);
-	HX_STACK_ARG(i,"i");
+	HX_STACK_FRAME("coopy.IndexItem","add",0xe4590776,"coopy.IndexItem.add","coopy/IndexItem.hx",11,0x346884dc)
+	HX_STACK_THIS(this)
+	HX_STACK_ARG(i,"i")
 	HX_STACK_LINE(12)
 	if (((this->lst == null()))){
 		HX_STACK_LINE(12)
@@ -66,8 +66,8 @@ Dynamic IndexItem_obj::__Field(const ::String &inName,bool inCallProp)
 {
 	switch(inName.length) {
 	case 3:
-		if (HX_FIELD_EQ(inName,"add") ) { return add_dyn(); }
 		if (HX_FIELD_EQ(inName,"lst") ) { return lst; }
+		if (HX_FIELD_EQ(inName,"add") ) { return add_dyn(); }
 	}
 	return super::__Field(inName,inCallProp);
 }
@@ -90,18 +90,28 @@ void IndexItem_obj::__GetFields(Array< ::String> &outFields)
 static ::String sStaticFields[] = {
 	String(null()) };
 
+#if HXCPP_SCRIPTABLE
+static hx::StorageInfo sMemberStorageInfo[] = {
+	{hx::fsObject,(int)offsetof(IndexItem_obj,lst),HX_CSTRING("lst")},
+	{ hx::fsUnknown, 0, null()}
+};
+#endif
+
 static ::String sMemberFields[] = {
-	HX_CSTRING("add"),
 	HX_CSTRING("lst"),
+	HX_CSTRING("add"),
 	String(null()) };
 
 static void sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(IndexItem_obj::__mClass,"__mClass");
 };
 
+#ifdef HXCPP_VISIT_ALLOCS
 static void sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(IndexItem_obj::__mClass,"__mClass");
 };
+
+#endif
 
 Class IndexItem_obj::__mClass;
 
@@ -109,7 +119,14 @@ void IndexItem_obj::__register()
 {
 	hx::Static(__mClass) = hx::RegisterClass(HX_CSTRING("coopy.IndexItem"), hx::TCanCast< IndexItem_obj> ,sStaticFields,sMemberFields,
 	&__CreateEmpty, &__Create,
-	&super::__SGetClass(), 0, sMarkStatics, sVisitStatics);
+	&super::__SGetClass(), 0, sMarkStatics
+#ifdef HXCPP_VISIT_ALLOCS
+    , sVisitStatics
+#endif
+#ifdef HXCPP_SCRIPTABLE
+    , sMemberStorageInfo
+#endif
+);
 }
 
 void IndexItem_obj::__boot()

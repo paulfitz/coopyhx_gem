@@ -255,6 +255,7 @@ inline Array<Dynamic> TCastToArray(Dynamic inVal)
    // Special case of interfaces - they could be in the array as the actual object,
    //  or could be delegates.  Direct casting to delegates would be bad, since the are not related.
    //  Returning the pointer will invove the interface-from-object* code
+   // This has changed again - interfaces are stored in arrays directly..
    template<typename RESULT>
    inline hx::Object *ArrayElemCast(const Dynamic &d,const hx::Interface *) { return d.mPtr; } 
 
@@ -283,8 +284,23 @@ inline RESULT Dynamic::StaticCast() const
    return hx::ArrayElemCast<typename RESULT::Ptr>(*this, (typename RESULT::Ptr)0 );
 }
 
-
-
+namespace hx
+{
+inline bool IsInterfacePtr(...) { return false; }
+inline bool IsInterfacePtr(const hx::Interface *) { return true; }
+}
+  
+template<typename VALUE>
+inline void __hxcpp_unsafe_set(hx::ObjectPtr<VALUE> &outForced, const Dynamic &inD)
+{
+   if (hx::IsInterfacePtr(outForced.mPtr))
+   {
+      hx::Throw(HX_CSTRING("unsafe set of interfaces not supported yet."));
+      outForced.mPtr = (VALUE *)(inD.mPtr);
+   }
+   else
+      outForced.mPtr = (VALUE *)(inD.mPtr ? inD.mPtr->__GetRealObject() : 0);
+}
 
 
 

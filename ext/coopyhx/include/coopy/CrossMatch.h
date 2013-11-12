@@ -30,10 +30,10 @@ class HXCPP_CLASS_ATTRIBUTES  CrossMatch_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("CrossMatch"); }
 
-		::coopy::IndexItem item_b;
-		::coopy::IndexItem item_a;
-		int spot_b;
 		int spot_a;
+		int spot_b;
+		::coopy::IndexItem item_a;
+		::coopy::IndexItem item_b;
 };
 
 } // end namespace coopy

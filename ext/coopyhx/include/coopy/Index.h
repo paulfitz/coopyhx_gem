@@ -34,28 +34,28 @@ class HXCPP_CLASS_ATTRIBUTES  Index_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("Index"); }
 
-		virtual ::coopy::Table getTable( );
-		Dynamic getTable_dyn();
-
-		virtual ::String toKeyByContent( ::coopy::Row row);
-		Dynamic toKeyByContent_dyn();
-
-		virtual ::String toKey( ::coopy::Table t,int i);
-		Dynamic toKey_dyn();
+		::haxe::ds::StringMap items;
+		Array< ::String > keys;
+		int top_freq;
+		int height;
+		Array< int > cols;
+		::coopy::View v;
+		::coopy::Table indexed_table;
+		virtual Void addColumn( int i);
+		Dynamic addColumn_dyn();
 
 		virtual Void indexTable( ::coopy::Table t);
 		Dynamic indexTable_dyn();
 
-		virtual Void addColumn( int i);
-		Dynamic addColumn_dyn();
+		virtual ::String toKey( ::coopy::Table t,int i);
+		Dynamic toKey_dyn();
 
-		::coopy::Table indexed_table;
-		::coopy::View v;
-		Array< int > cols;
-		int height;
-		int top_freq;
-		Array< ::String > keys;
-		::haxe::ds::StringMap items;
+		virtual ::String toKeyByContent( ::coopy::Row row);
+		Dynamic toKeyByContent_dyn();
+
+		virtual ::coopy::Table getTable( );
+		Dynamic getTable_dyn();
+
 };
 
 } // end namespace coopy

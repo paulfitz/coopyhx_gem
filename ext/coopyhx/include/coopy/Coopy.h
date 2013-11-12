@@ -7,7 +7,9 @@
 
 HX_DECLARE_CLASS1(coopy,CompareTable)
 HX_DECLARE_CLASS1(coopy,Coopy)
+HX_DECLARE_CLASS1(coopy,Mover)
 HX_DECLARE_CLASS1(coopy,Table)
+HX_DECLARE_CLASS1(coopy,TableIO)
 namespace coopy{
 
 
@@ -32,6 +34,8 @@ class HXCPP_CLASS_ATTRIBUTES  Coopy_obj : public hx::Object{
 		::String __ToString() const { return HX_CSTRING("Coopy"); }
 
 		::String format_preference;
+		::coopy::TableIO io;
+		::coopy::Mover mv;
 		static ::coopy::CompareTable compareTables( ::coopy::Table local,::coopy::Table remote);
 		static Dynamic compareTables_dyn();
 

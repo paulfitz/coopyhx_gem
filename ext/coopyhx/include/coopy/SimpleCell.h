@@ -29,10 +29,10 @@ class HXCPP_CLASS_ATTRIBUTES  SimpleCell_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("SimpleCell"); }
 
+		Dynamic datum;
 		virtual ::String toString( );
 		Dynamic toString_dyn();
 
-		Dynamic datum;
 };
 
 } // end namespace coopy

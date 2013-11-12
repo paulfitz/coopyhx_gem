@@ -5,7 +5,9 @@
 #include <hxcpp.h>
 #endif
 
+HX_DECLARE_CLASS0(IMap)
 HX_DECLARE_CLASS1(coopy,CompareFlags)
+HX_DECLARE_CLASS2(haxe,ds,StringMap)
 namespace coopy{
 
 
@@ -29,9 +31,24 @@ class HXCPP_CLASS_ATTRIBUTES  CompareFlags_obj : public hx::Object{
 		void __Visit(HX_VISIT_PARAMS);
 		::String __ToString() const { return HX_CSTRING("CompareFlags"); }
 
-		int unchanged_context;
+		bool ordered;
 		bool show_unchanged;
+		int unchanged_context;
+		bool always_show_order;
+		bool never_show_order;
+		bool show_unchanged_columns;
+		int unchanged_column_context;
 		bool always_show_header;
+		::haxe::ds::StringMap acts;
+		virtual bool allowUpdate( );
+		Dynamic allowUpdate_dyn();
+
+		virtual bool allowInsert( );
+		Dynamic allowInsert_dyn();
+
+		virtual bool allowDelete( );
+		Dynamic allowDelete_dyn();
+
 };
 
 } // end namespace coopy
